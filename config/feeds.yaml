@@ -1,0 +1,23 @@
+rss_feeds:
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  - name: Ars Technica AI
+    url: https://arstechnica.com/ai/feed/
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+
+hacker_news:
+  enabled: true
+  top_story_limit: 100
+
+bluesky:
+  # Disabled until we confirm a curated list of valid Bluesky AI account handles.
+  # Flip to true and add handles here; the dry-run will report per-account errors without stopping.
+  enabled: false
+  per_account_limit: 30
+  accounts: []
+
+lookback_hours: 24
+fuzzy_title_threshold: 0.85
