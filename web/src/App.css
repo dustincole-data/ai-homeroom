@@ -31,11 +31,13 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   min-width: 320px;
+  overflow-x: hidden;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background:
     linear-gradient(90deg, rgba(19, 35, 63, 0.035) 1px, transparent 1px) 0 0 / 42px 42px,
@@ -622,44 +624,275 @@ h1 {
 }
 
 @media (max-width: 700px) {
+  body {
+    background-size: 34px 34px, auto, auto;
+  }
+
   main {
-    width: min(100% - 24px, 1120px);
-    padding-top: 14px;
+    width: min(100% - 16px, 1120px);
+    padding: 8px 0 36px;
   }
 
   .hero {
     min-height: auto;
-    padding: 30px 22px 44px;
-    border-radius: 24px;
+    gap: 18px;
+    margin-top: 8px;
+    padding: 24px 18px 32px;
+    border-radius: 22px;
+  }
+
+  .whiteboard {
+    background:
+      linear-gradient(90deg, transparent 0 calc(100% - 1px), rgba(52, 95, 141, 0.06) calc(100% - 1px)) 0 0 / 34px 34px,
+      linear-gradient(180deg, rgba(52, 95, 141, 0.06) 1px, transparent 1px) 0 0 / 34px 34px,
+      linear-gradient(145deg, #fffefb 0%, #f8fbff 60%, #eef4fa 100%);
+  }
+
+  .whiteboard::after {
+    left: 20px;
+    right: 20px;
+    bottom: 16px;
+    height: 5px;
+  }
+
+  .eyebrow,
+  .slip-label,
+  .label {
+    margin-bottom: 10px;
+    font-size: 0.68rem;
+    letter-spacing: 0.11em;
+  }
+
+  h1 {
+    margin-bottom: 14px;
+    font-size: clamp(3.05rem, 17vw, 4.7rem);
+    letter-spacing: -0.065em;
+  }
+
+  .dek {
+    margin-bottom: 18px;
+    font-size: 1.02rem;
+    line-height: 1.45;
+  }
+
+  .hero-actions,
+  .folder-tabs {
+    gap: 8px;
+  }
+
+  .button {
+    min-height: 42px;
+    padding: 0 14px;
+    font-size: 0.92rem;
+  }
+
+  .briefing-slip {
+    max-width: none;
+    padding: 18px;
+    border-radius: 16px;
+    transform: none;
+  }
+
+  .briefing-slip::before {
+    left: 24px;
+    width: 48px;
+    height: 16px;
+  }
+
+  .briefing-slip strong {
+    font-size: 1.18rem;
+  }
+
+  .folder-tabs {
+    margin: 14px 0 0 4px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+  }
+
+  .folder-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .folder-tabs a {
+    flex: 0 0 auto;
+    padding: 9px 11px 10px;
+    font-size: 0.82rem;
+    border-radius: 12px 12px 0 0;
   }
 
   .status-card {
     grid-template-columns: 1fr;
+    margin-bottom: 28px;
+    border-radius: 0 18px 18px 18px;
   }
 
-  .folder-tabs {
-    margin-left: 6px;
+  .status-card > div {
+    padding: 16px;
   }
 
-  .folder-tabs a {
-    padding: 10px 12px 12px;
-    font-size: 0.9rem;
+  .status-card strong {
+    font-size: 1rem;
+  }
+
+  .edition,
+  .glossary-preview,
+  .signup-handout {
+    margin-top: 34px;
   }
 
   .lesson-handout,
-  .chalkboard,
   .signup-handout {
-    padding: 22px;
-    border-radius: 22px;
+    padding: 18px;
+    border-radius: 20px;
+    background:
+      repeating-linear-gradient(180deg, transparent 0 28px, rgba(40, 76, 122, 0.09) 29px 30px),
+      #fffaf0;
+  }
+
+  .section-heading {
+    margin-bottom: 18px;
+  }
+
+  .section-heading h2,
+  .signup-handout h2 {
+    margin-bottom: 10px;
+    font-size: clamp(1.85rem, 9vw, 2.65rem);
+    line-height: 1.02;
+    letter-spacing: -0.035em;
+  }
+
+  .section-heading p:not(.eyebrow),
+  .signup-handout p,
+  .summary,
+  .why {
+    font-size: 0.96rem;
+    line-height: 1.55;
   }
 
   .featured-board {
-    border-width: 8px;
+    margin: 20px 0;
+    padding: 18px;
+    border-width: 6px;
+    border-radius: 18px;
+  }
+
+  .featured-board::before {
+    margin-bottom: 12px;
+    padding: 6px 9px;
+    font-size: 0.68rem;
+  }
+
+  .pushpin {
+    top: 14px;
+    right: 16px;
+    width: 16px;
+    height: 16px;
+    border-width: 2px;
+  }
+
+  .featured-board h3,
+  .story-card h3 {
+    margin-bottom: 12px;
+    font-size: clamp(1.42rem, 7vw, 2rem);
+    line-height: 1.06;
+  }
+
+  .story-list {
+    gap: 14px;
+  }
+
+  .story-card {
+    padding: 18px 16px 18px 32px;
+    border-radius: 18px;
+  }
+
+  .spiral-edge {
+    width: 18px;
+    background:
+      radial-gradient(circle, rgba(19, 35, 63, 0.22) 0 2px, transparent 3px) center 15px / 16px 32px repeat-y,
+      rgba(52, 95, 141, 0.04);
   }
 
   .story-topline,
   .card-footer {
     align-items: flex-start;
     flex-direction: column;
+    gap: 8px;
+  }
+
+  .story-topline {
+    margin-bottom: 12px;
+    font-size: 0.82rem;
+  }
+
+  .why {
+    margin-top: 14px;
+    padding: 11px 12px;
+    border-left-width: 4px;
+    border-radius: 0 10px 10px 0;
+  }
+
+  .card-footer {
+    margin-top: 16px;
+  }
+
+  .article-link {
+    width: 100%;
+    justify-content: center;
+    padding: 9px 11px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .term::after {
+    position: fixed;
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+    width: auto;
+    max-height: 38vh;
+    overflow: auto;
+    transform: translateY(8px);
+  }
+
+  .term:hover::after,
+  .term:focus::after {
+    transform: translateY(0);
+  }
+
+  .chalkboard {
+    padding: 18px;
+    border-width: 6px;
+    border-radius: 20px;
+  }
+
+  .glossary-preview div {
+    padding: 14px;
+    border-radius: 14px;
+  }
+
+  .signup-handout {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  h1 {
+    font-size: 2.82rem;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+  }
+
+  .section-heading h2,
+  .signup-handout h2 {
+    font-size: 1.72rem;
+  }
+
+  .featured-board h3,
+  .story-card h3 {
+    font-size: 1.32rem;
   }
 }
