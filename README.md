@@ -2,6 +2,8 @@
 
 Daily AI news explained in plain English for beginners.
 
+Live site: https://dustincole-data.github.io/ai-homeroom/
+
 This repo is being built in phases. Phase 1 is ingestion + dedup only: fetch the last 24 hours of AI stories, normalize URLs/content, group duplicates, and produce a dry-run report before any production Supabase writes.
 
 ## Phase 1 status
@@ -29,6 +31,7 @@ Not yet implemented:
 ```bash
 uv run pytest -q
 uv run python scripts/dry_run.py --output artifacts/phase1-dry-run.json
+cd web && npm ci && npm run build
 ```
 
 ## Working rule
