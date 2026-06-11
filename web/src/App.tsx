@@ -24,6 +24,50 @@ const editionDate = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
 }).format(new Date())
 
+const glossary: Record<string, string> = {
+  AI: 'AI, short for artificial intelligence, is software that can do tasks that usually require human thinking, like writing, sorting, or recognizing patterns.',
+  'AI detector': 'An AI detector is a tool that looks for clues that something was made by artificial intelligence.',
+  'AI-made songs': 'AI-made songs are tracks where software created much or all of the music, lyrics, singing, or sound.',
+  'AI safety': 'AI safety is the work of reducing the chance that AI systems cause harm or behave in unwanted ways.',
+  'AI systems': 'AI systems are apps or tools that use artificial intelligence to make decisions, write, classify, or take actions.',
+  Anthropic: 'Anthropic is the AI company that makes Claude, one of the major chatbot families.',
+  'back-office work': 'Back-office work is behind-the-scenes business work like processing forms, support tasks, or operations.',
+  chatbot: 'A chatbot is software you talk to by typing or speaking, like texting a very fast assistant.',
+  'Claude Fable': 'Claude Fable is a version or test variant of Claude, Anthropic’s AI chatbot.',
+  coding: 'Coding means writing instructions that tell software what to do.',
+  'company server': 'A company server is a computer owned or rented by a business that handles data or runs software for users.',
+  'DeepMind': 'DeepMind is Google’s AI research lab, known for building advanced AI systems.',
+  Deezer: 'Deezer is a music streaming service, similar to Spotify or Apple Music.',
+  debug: 'To debug means to find and fix what is wrong in software, like tracing where a bad pipe is leaking.',
+  DiffusionGemma: 'DiffusionGemma is Google DeepMind’s open AI model that uses a different method for generating answers quickly.',
+  engineer: 'An engineer is a worker who designs, builds, tests, or fixes technical systems.',
+  Grok: 'Grok is xAI’s chatbot, similar to ChatGPT or Claude.',
+  guardrails: 'Guardrails are rules that keep an AI from doing things its makers think are unsafe or unwanted.',
+  'hidden rules': 'Hidden rules are instructions inside software that affect what it does but are not clearly shown to users.',
+  'human judgment': 'Human judgment means using context, priorities, and common sense instead of only following a pattern.',
+  'invisible guardrails': 'Invisible guardrails are AI safety rules that affect answers without clearly telling the user what happened.',
+  'local AI': 'Local AI runs on your own device instead of depending completely on a remote server.',
+  'local devices': 'Local devices are the computers, phones, or tablets you personally use instead of machines in a data center.',
+  'lower-cost teams': 'Lower-cost teams are groups hired in places where wages or business costs are cheaper for the company.',
+  model: 'A model is the trained AI system that makes predictions or writes answers, like the “brain” behind a chatbot.',
+  'open AI model': 'An open AI model is an AI system that outside developers can download, inspect, or build on more freely than a closed product.',
+  'open model': 'An open model is an AI model that outside developers can inspect, download, or build on more freely than a closed product.',
+  operations: 'Operations are the everyday tasks that keep a business running, such as support, scheduling, billing, or process work.',
+  outsourcing: 'Outsourcing means hiring another company or team, often in another place, to do work for your business.',
+  platforms: 'Platforms are services or systems that many people or companies build on or use, like app stores, social networks, or streaming apps.',
+  privacy: 'Privacy means keeping personal data or activity from being seen, shared, or used without a good reason.',
+  'remote server': 'A remote server is a powerful computer somewhere else that your device connects to over the internet.',
+  'software engineers': 'Software engineers are people who design, build, test, and maintain software.',
+  'streaming services': 'Streaming services are apps or websites that play media from the internet instead of storing it all on your device.',
+  systems: 'Systems are connected pieces of software, hardware, people, or rules that work together.',
+  testing: 'Testing means checking software to see whether it works correctly before people rely on it.',
+  tool: 'A tool is software or hardware made to help someone do a specific job.',
+  tradeoffs: 'Tradeoffs are the choices you make when improving one thing means giving up something else.',
+  xAI: 'xAI is Elon Musk’s artificial intelligence company, which makes the Grok chatbot.',
+}
+
+const define = (term: string): Term => ({ term, definition: glossary[term] })
+
 const stories: Story[] = [
   {
     headline: 'Anthropic explains hidden Claude safety blocks',
@@ -35,14 +79,13 @@ const stories: Story[] = [
     sourceName: 'The Verge',
     sourceUrl: 'https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail',
     terms: [
-      {
-        term: 'guardrails',
-        definition: 'Guardrails are rules that keep an AI from doing things its makers think are unsafe or unwanted.',
-      },
-      {
-        term: 'model',
-        definition: 'A model is the trained AI system that makes predictions or writes answers, like the “brain” behind a chatbot.',
-      },
+      define('Anthropic'),
+      define('Claude Fable'),
+      define('invisible guardrails'),
+      define('guardrails'),
+      define('hidden rules'),
+      define('AI'),
+      define('model'),
     ],
   },
   {
@@ -55,14 +98,13 @@ const stories: Story[] = [
     sourceName: 'The Verge',
     sourceUrl: 'https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple',
     terms: [
-      {
-        term: 'AI detector',
-        definition: 'An AI detector is a tool that looks for clues that something was made by artificial intelligence.',
-      },
-      {
-        term: 'streaming service',
-        definition: 'A streaming service is an app or website that plays media from the internet instead of storing it on your device.',
-      },
+      define('Deezer'),
+      define('tool'),
+      define('AI'),
+      define('streaming services'),
+      define('platforms'),
+      define('AI-made songs'),
+      define('AI detector'),
     ],
   },
   {
@@ -75,14 +117,14 @@ const stories: Story[] = [
     sourceName: 'Normal Tech',
     sourceUrl: 'https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers',
     terms: [
-      {
-        term: 'debug',
-        definition: 'To debug means to find and fix what is wrong in software, like tracing where a bad pipe is leaking.',
-      },
-      {
-        term: 'human judgment',
-        definition: 'Human judgment means using context, priorities, and common sense instead of only following a pattern.',
-      },
+      define('AI'),
+      define('software engineers'),
+      define('coding'),
+      define('engineer'),
+      define('tradeoffs'),
+      define('debug'),
+      define('systems'),
+      define('human judgment'),
     ],
   },
   {
@@ -95,14 +137,11 @@ const stories: Story[] = [
     sourceName: 'TechCrunch',
     sourceUrl: 'https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing',
     terms: [
-      {
-        term: 'outsourcing',
-        definition: 'Outsourcing means hiring another company or team, often in another place, to do work for your business.',
-      },
-      {
-        term: 'back-office work',
-        definition: 'Back-office work is behind-the-scenes business work like processing forms, support tasks, or operations.',
-      },
+      define('AI'),
+      define('outsourcing'),
+      define('lower-cost teams'),
+      define('operations'),
+      define('back-office work'),
     ],
   },
   {
@@ -115,14 +154,13 @@ const stories: Story[] = [
     sourceName: 'TechCrunch',
     sourceUrl: 'https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims',
     terms: [
-      {
-        term: 'Grok',
-        definition: 'Grok is xAI’s chatbot, similar to ChatGPT or Claude.',
-      },
-      {
-        term: 'AI safety',
-        definition: 'AI safety is the work of reducing the chance that AI systems cause harm or behave in unwanted ways.',
-      },
+      define('xAI'),
+      define('engineer'),
+      define('Grok'),
+      define('AI'),
+      define('testing'),
+      define('AI safety'),
+      define('AI systems'),
     ],
   },
   {
@@ -135,35 +173,43 @@ const stories: Story[] = [
     sourceName: 'Ars Technica',
     sourceUrl: 'https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost',
     terms: [
-      {
-        term: 'local AI',
-        definition: 'Local AI runs on your own device instead of depending completely on a remote server.',
-      },
-      {
-        term: 'open model',
-        definition: 'An open model is an AI model that outside developers can inspect, download, or build on more freely than a closed product.',
-      },
+      define('DeepMind'),
+      define('DiffusionGemma'),
+      define('open AI model'),
+      define('local devices'),
+      define('local AI'),
+      define('model'),
+      define('company server'),
+      define('AI'),
+      define('privacy'),
     ],
   },
 ]
 
+const allTerms = Array.from(
+  new Map(stories.flatMap((story) => story.terms).map((term) => [term.term.toLowerCase(), term])).values(),
+).sort((a, b) => a.term.localeCompare(b.term))
+
 function markTerms(summary: string, terms: Term[]) {
   let pieces: (string | ReactNode)[] = [summary]
 
-  terms.forEach((term) => {
-    const regex = new RegExp(`(${escapeRegExp(term.term)})`, 'gi')
-    pieces = pieces.flatMap((piece, index) => {
-      if (typeof piece !== 'string') return [piece]
-      return piece.split(regex).map((part, partIndex) => {
-        if (part.toLowerCase() !== term.term.toLowerCase()) return part
-        return (
-          <span className="term" tabIndex={0} data-definition={term.definition} key={`${term.term}-${index}-${partIndex}`}>
-            {part}
-          </span>
-        )
+  terms
+    .slice()
+    .sort((a, b) => b.term.length - a.term.length)
+    .forEach((term) => {
+      const regex = new RegExp(`(?<![A-Za-z0-9])(${escapeRegExp(term.term)})(?![A-Za-z0-9])`, 'gi')
+      pieces = pieces.flatMap((piece, index) => {
+        if (typeof piece !== 'string') return [piece]
+        return piece.split(regex).map((part, partIndex) => {
+          if (part.toLowerCase() !== term.term.toLowerCase()) return part
+          return (
+            <span className="term" tabIndex={0} data-definition={term.definition} key={`${term.term}-${index}-${partIndex}`}>
+              {part}
+            </span>
+          )
+        })
       })
     })
-  })
 
   return pieces
 }
@@ -193,8 +239,8 @@ function App() {
           <strong>Real daily news loaded</strong>
         </div>
         <div>
-          <span className="label">Next</span>
-          <strong>Connect Supabase daily editions</strong>
+          <span className="label">Rule</span>
+          <strong>AI and computing terms get glossary notes</strong>
         </div>
       </section>
 
@@ -212,11 +258,14 @@ function App() {
             <article className="story-card" key={story.headline}>
               <div className="story-topline">
                 <span className={`badge ${story.badge}`}>{story.badge}</span>
-                <a href={story.sourceUrl}>{story.sourceName}</a>
+                <span>{story.sourceName}</span>
               </div>
               <h3>{story.headline}</h3>
               <p className="summary">{markTerms(story.summary, story.terms)}</p>
               <p className="why"><strong>Why it matters:</strong> {story.whyItMatters}</p>
+              <a className="article-link" href={story.sourceUrl} target="_blank" rel="noreferrer">
+                Link to article: {story.sourceName}
+              </a>
             </article>
           ))}
         </div>
@@ -225,10 +274,10 @@ function App() {
       <section className="glossary-preview" aria-labelledby="glossary-title">
         <div className="section-heading">
           <p className="eyebrow">Glossary preview</p>
-          <h2 id="glossary-title">Terms should stay simple</h2>
+          <h2 id="glossary-title">Every weird word gets explained</h2>
         </div>
         <dl>
-          {stories.flatMap((story) => story.terms).map((term) => (
+          {allTerms.map((term) => (
             <div key={term.term}>
               <dt>{term.term}</dt>
               <dd>{term.definition}</dd>
