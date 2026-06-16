@@ -6,14 +6,14 @@
     <atom:link href="https://dustincole-data.github.io/ai-homeroom/feed.xml" rel="self" type="application/rss+xml" />
     <description>Daily AI news explained in plain English with glossary notes for normal people.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jun 2026 19:45:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 19:59:56 GMT</lastBuildDate>
     <generator>AI Homeroom static site</generator>
     <item>
-      <title>AI Homeroom update: today's AI lesson</title>
+      <title>AI Homeroom update: RSS notifications are live</title>
       <link>https://dustincole-data.github.io/ai-homeroom/#today</link>
-      <guid isPermaLink="false">ai-homeroom-2026-06-16</guid>
-      <pubDate>Tue, 16 Jun 2026 19:45:25 GMT</pubDate>
-      <description>Six sourced AI stories rewritten in plain English, plus durable glossary terms for readers who want the weird words explained.</description>
+      <guid isPermaLink="false">ai-homeroom-rss-notifications-live</guid>
+      <pubDate>Tue, 16 Jun 2026 19:59:56 GMT</pubDate>
+      <description>AI Homeroom now has an RSS feed and a free RSS-to-email signup path for update notifications.</description>
     </item>
   </channel>
 </rss>

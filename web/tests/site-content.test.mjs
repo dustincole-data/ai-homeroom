@@ -38,6 +38,17 @@ test('site exposes an RSS feed and free RSS-to-email subscribe path', () => {
   assert.match(html, /href="\/ai-homeroom\/feed\.xml"/)
 })
 
+test('feed update script exists so daily refreshes can trigger notifications', () => {
+  const script = readFileSync(new URL('../scripts/update-feed.mjs', import.meta.url), 'utf8')
+  assert.match(script, /const SITE_URL = 'https:\/\/dustincole-data\.github\.io\/ai-homeroom\/'/)
+  assert.match(script, /writeFileSync\(feedPath, xml\)/)
+  assert.match(script, /args\.get\('title'\)/)
+  assert.match(script, /args\.get\('description'\)/)
+
+  const packageJson = readFileSync(new URL('../package.json', import.meta.url), 'utf8')
+  assert.match(packageJson, /"update-feed": "node scripts\/update-feed\.mjs"/)
+})
+
 test('permanent glossary terms live in a dedicated source file and are merged into displayed glossary', () => {
   const glossaryFile = new URL('../src/content/permanentGlossary.ts', import.meta.url)
   assert.equal(existsSync(glossaryFile), true)
