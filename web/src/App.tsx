@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 
+import { permanentGlossaryTerms } from './content/permanentGlossary'
 import './App.css'
 
 type Term = {
@@ -67,6 +68,8 @@ const glossary: Record<string, string> = {
 }
 
 const define = (term: string): Term => ({ term, definition: glossary[term] })
+
+const EMAIL_SIGNUP_ACTION = 'https://formsubmit.co/hello@dustincoledata.com'
 
 const stories: Story[] = [
   {
@@ -187,7 +190,12 @@ const stories: Story[] = [
 ]
 
 const allTerms = Array.from(
-  new Map(stories.flatMap((story) => story.terms).map((term) => [term.term.toLowerCase(), term])).values(),
+  new Map(
+    [...permanentGlossaryTerms.map((term) => ({ ...term })), ...stories.flatMap((story) => story.terms)].map((term) => [
+      term.term.toLowerCase(),
+      term,
+    ]),
+  ).values(),
 ).sort((a, b) => a.term.localeCompare(b.term))
 
 function markTerms(summary: string, terms: Term[]) {
@@ -320,13 +328,26 @@ function App() {
         </dl>
       </section>
 
-      <section id="signup" className="signup-handout" aria-label="Email signup preview">
+      <section id="signup" className="signup-handout" aria-label="Email signup form">
         <div>
           <span className="label">Take-home handout</span>
           <h2>Get the daily AI Homeroom in your inbox.</h2>
           <p>One short briefing packet: the day’s stories, why they matter, and the glossary terms normal people need.</p>
         </div>
-        <a href="mailto:hello@example.com?subject=AI%20Homeroom%20signup" className="button primary">Join the briefing</a>
+        <form className="signup-form" action={EMAIL_SIGNUP_ACTION} method="POST">
+          <label htmlFor="signup-email">Email address</label>
+          <div className="signup-row">
+            <input id="signup-email" name="email" type="email" placeholder="you@example.com" autoComplete="email" required />
+            <button className="button primary" type="submit">Subscribe to AI Homeroom</button>
+          </div>
+          <input type="hidden" name="_subject" value="New AI Homeroom subscriber" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="source" value="AI Homeroom GitHub Pages" />
+          <p className="signup-note">
+            No spam. This sends your email to the AI Homeroom list owner so you can be added to the briefing.
+          </p>
+        </form>
       </section>
     </main>
   )
