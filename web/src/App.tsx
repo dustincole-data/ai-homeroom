@@ -69,7 +69,7 @@ const glossary: Record<string, string> = {
 
 const define = (term: string): Term => ({ term, definition: glossary[term] })
 
-const EMAIL_SIGNUP_ACTION = 'https://formsubmit.co/hello@dustincoledata.com'
+const EMAIL_SIGNUP_ACTION = 'https://formsubmit.co/dustincole.ent@gmail.com'
 
 const stories: Story[] = [
   {
