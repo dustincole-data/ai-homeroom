@@ -712,13 +712,11 @@ h1 {
   }
 
   .edition,
-  .glossary-preview,
-  .signup-handout {
+  .glossary-preview {
     margin-top: 34px;
   }
 
-  .lesson-handout,
-  .signup-handout {
+  .lesson-handout {
     padding: 18px;
     border-radius: 20px;
     background:
@@ -730,8 +728,7 @@ h1 {
     margin-bottom: 18px;
   }
 
-  .section-heading h2,
-  .signup-handout h2 {
+  .section-heading h2 {
     margin-bottom: 8px;
     font-size: clamp(1.3rem, 5.8vw, 1.65rem);
     line-height: 1.12;
@@ -739,7 +736,6 @@ h1 {
   }
 
   .section-heading p:not(.eyebrow),
-  .signup-handout p,
   .summary,
   .why {
     font-size: 0.92rem;
@@ -822,20 +818,6 @@ h1 {
     text-align: center;
   }
 
-  .signup-row {
-    flex-direction: column;
-  }
-
-  .rss-subscribe-form {
-    grid-template-columns: 1fr;
-  }
-
-  .signup-row input,
-  .signup-row .button,
-  .rss-subscribe-form .button {
-    width: 100%;
-  }
-
   .term::after {
     position: fixed;
     left: 14px;
@@ -863,9 +845,6 @@ h1 {
     border-radius: 14px;
   }
 
-  .signup-handout {
-    gap: 16px;
-  }
 }
 
 @media (max-width: 390px) {
@@ -877,8 +856,7 @@ h1 {
     width: 100%;
   }
 
-  .section-heading h2,
-  .signup-handout h2 {
+  .section-heading h2 {
     font-size: 1.24rem;
   }
 
