@@ -70,6 +70,8 @@ const glossary: Record<string, string> = {
 const define = (term: string): Term => ({ term, definition: glossary[term] })
 
 const EMAIL_SIGNUP_ACTION = 'https://formsubmit.co/dustincole.ent@gmail.com'
+const RSS_FEED_URL = 'https://dustincole-data.github.io/ai-homeroom/feed.xml'
+const FEEDRABBIT_SUBSCRIBE_URL = 'https://feedrabbit.com/subscriptions/new'
 
 const stories: Story[] = [
   {
@@ -352,24 +354,37 @@ function App() {
 
       <section id="signup" className="signup-handout" aria-label="Email signup form">
         <div>
-          <span className="label">Take-home handout</span>
-          <h2>Get the daily AI Homeroom in your inbox.</h2>
-          <p>One short briefing packet: the day’s stories, why they matter, and the glossary terms normal people need.</p>
-        </div>
-        <form className="signup-form" action={EMAIL_SIGNUP_ACTION} method="POST">
-          <label htmlFor="signup-email">Email address</label>
-          <div className="signup-row">
-            <input id="signup-email" name="email" type="email" placeholder="you@example.com" autoComplete="email" required />
-            <button className="button primary" type="submit">Subscribe to AI Homeroom</button>
-          </div>
-          <input type="hidden" name="_subject" value="New AI Homeroom subscriber" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="source" value="AI Homeroom GitHub Pages" />
-          <p className="signup-note">
-            No spam. This sends your email to the AI Homeroom list owner so you can be added to the briefing.
+          <span className="label">Automatic updates</span>
+          <h2>Get notified when AI Homeroom updates.</h2>
+          <p>
+            Use the free RSS-to-email option for automatic alerts, or send your address to Dustin if you want to be added
+            manually later.
           </p>
-        </form>
+        </div>
+        <div className="subscription-options">
+          <form className="signup-form rss-subscribe-form" action={FEEDRABBIT_SUBSCRIBE_URL} method="GET">
+            <input type="hidden" name="url" value={RSS_FEED_URL} />
+            <button className="button primary" type="submit">Email me site updates</button>
+            <a className="button secondary" href={RSS_FEED_URL}>Open RSS feed</a>
+            <p className="signup-note">
+              Opens Feedrabbit with the AI Homeroom feed already filled in. Feedrabbit emails you when the feed changes.
+            </p>
+          </form>
+          <form className="signup-form" action={EMAIL_SIGNUP_ACTION} method="POST">
+            <label htmlFor="signup-email">Manual list request</label>
+            <div className="signup-row">
+              <input id="signup-email" name="email" type="email" placeholder="you@example.com" autoComplete="email" required />
+              <button className="button secondary" type="submit">Send Dustin my email</button>
+            </div>
+            <input type="hidden" name="_subject" value="New AI Homeroom subscriber" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="hidden" name="source" value="AI Homeroom GitHub Pages" />
+            <p className="signup-note">
+              Backup option: this emails your address to Dustin, but does not send automatic site update alerts by itself.
+            </p>
+          </form>
+        </div>
       </section>
     </main>
   )

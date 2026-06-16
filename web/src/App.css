@@ -613,6 +613,25 @@ h1 {
   gap: 10px;
 }
 
+.subscription-options {
+  display: grid;
+  min-width: min(460px, 100%);
+  gap: 18px;
+}
+
+.rss-subscribe-form {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+}
+
+.rss-subscribe-form .signup-note {
+  grid-column: 1 / -1;
+}
+
+.rss-subscribe-form input[type='hidden'] {
+  display: none;
+}
+
 .signup-form label {
   color: var(--navy);
   font-size: 0.78rem;
@@ -897,8 +916,13 @@ h1 {
     flex-direction: column;
   }
 
+  .rss-subscribe-form {
+    grid-template-columns: 1fr;
+  }
+
   .signup-row input,
-  .signup-row .button {
+  .signup-row .button,
+  .rss-subscribe-form .button {
     width: 100%;
   }
 

@@ -11,8 +11,31 @@ test('newsletter signup uses a real embeddable email form with accessible email 
   assert.match(source, /action=\{EMAIL_SIGNUP_ACTION\}/)
   assert.match(source, /type="email"/)
   assert.match(source, /placeholder="you@example\.com"/)
-  assert.match(source, /Subscribe to AI Homeroom/)
+  assert.match(source, /Send Dustin my email/)
+  assert.match(source, /dustincole\.ent@gmail\.com/)
   assert.doesNotMatch(source, /hello@example\.com/)
+  assert.doesNotMatch(source, /hello@dustincoledata\.com/)
+})
+
+test('site exposes an RSS feed and free RSS-to-email subscribe path', () => {
+  const app = appSource()
+  assert.match(app, /const RSS_FEED_URL = 'https:\/\/dustincole-data\.github\.io\/ai-homeroom\/feed\.xml'/)
+  assert.match(app, /const FEEDRABBIT_SUBSCRIBE_URL = 'https:\/\/feedrabbit\.com\/subscriptions\/new'/)
+  assert.match(app, /className="signup-form rss-subscribe-form"/)
+  assert.match(app, /name="url" value=\{RSS_FEED_URL\}/)
+  assert.match(app, /Email me site updates/)
+
+  const feedFile = new URL('../public/feed.xml', import.meta.url)
+  assert.equal(existsSync(feedFile), true)
+  const feed = readFileSync(feedFile, 'utf8')
+  assert.match(feed, /<rss version="2\.0"/)
+  assert.match(feed, /<title>AI Homeroom<\/title>/)
+  assert.match(feed, /<atom:link href="https:\/\/dustincole-data\.github\.io\/ai-homeroom\/feed\.xml"/)
+  assert.match(feed, /<item>/)
+
+  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8')
+  assert.match(html, /rel="alternate" type="application\/rss\+xml"/)
+  assert.match(html, /href="\/ai-homeroom\/feed\.xml"/)
 })
 
 test('permanent glossary terms live in a dedicated source file and are merged into displayed glossary', () => {
