@@ -32,6 +32,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
         working-directory: web
+      - name: Update RSS feed for this deploy
+        run: |
+          npm run update-feed -- \
+            --title "AI Homeroom site update" \
+            --description "AI Homeroom has a fresh site update with plain-English AI notes and glossary links." \
+            --guid "ai-homeroom-${GITHUB_SHA}"
+        working-directory: web
       - name: Test
         run: npm test
         working-directory: web
