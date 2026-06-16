@@ -5,35 +5,28 @@ import test from 'node:test'
 const appSource = () => readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
 const glossarySource = () => readFileSync(new URL('../src/content/permanentGlossary.ts', import.meta.url), 'utf8')
 
-test('site exposes one working RSS-to-email subscribe path without a backup/manual list option', () => {
+test('site has no signup or update-subscription UI', () => {
   const app = appSource()
-  assert.match(app, /const RSS_FEED_URL = 'https:\/\/dustincole-data\.github\.io\/ai-homeroom\/feed\.xml'/)
-  assert.match(app, /const FEEDRABBIT_SUBSCRIBE_URL = 'https:\/\/feedrabbit\.com\/subscriptions\/new'/)
-  assert.match(app, /className="signup-form rss-subscribe-form"/)
-  assert.match(app, /name="url" value=\{RSS_FEED_URL\}/)
-  assert.match(app, /Subscribe by email/)
-  assert.doesNotMatch(app, /EMAIL_SIGNUP_ACTION/)
-  assert.doesNotMatch(app, /Manual list request/)
-  assert.doesNotMatch(app, /Backup option/)
-  assert.doesNotMatch(app, /formsubmit\.co/)
-  assert.doesNotMatch(app, /dustincole\.ent@gmail\.com/)
-  assert.doesNotMatch(app, /hello@example\.com/)
-  assert.doesNotMatch(app, /hello@dustincoledata\.com/)
+  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8')
 
+  for (const source of [app, html]) {
+    assert.doesNotMatch(source, /signup/i)
+    assert.doesNotMatch(source, /subscribe/i)
+    assert.doesNotMatch(source, /Feedrabbit/i)
+    assert.doesNotMatch(source, /formsubmit\.co/i)
+    assert.doesNotMatch(source, /Daily email/i)
+    assert.doesNotMatch(source, /rel="alternate" type="application\/rss\+xml"/i)
+  }
+})
+
+test('feed update script remains available for the daily site refresh job', () => {
   const feedFile = new URL('../public/feed.xml', import.meta.url)
   assert.equal(existsSync(feedFile), true)
   const feed = readFileSync(feedFile, 'utf8')
   assert.match(feed, /<rss version="2\.0"/)
   assert.match(feed, /<title>AI Homeroom<\/title>/)
-  assert.match(feed, /<atom:link href="https:\/\/dustincole-data\.github\.io\/ai-homeroom\/feed\.xml"/)
   assert.match(feed, /<item>/)
 
-  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8')
-  assert.match(html, /rel="alternate" type="application\/rss\+xml"/)
-  assert.match(html, /href="\/ai-homeroom\/feed\.xml"/)
-})
-
-test('feed update script exists so daily refreshes can trigger notifications', () => {
   const script = readFileSync(new URL('../scripts/update-feed.mjs', import.meta.url), 'utf8')
   assert.match(script, /const SITE_URL = 'https:\/\/dustincole-data\.github\.io\/ai-homeroom\/'/)
   assert.match(script, /writeFileSync\(feedPath, xml\)/)

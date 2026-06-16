@@ -69,9 +69,6 @@ const glossary: Record<string, string> = {
 
 const define = (term: string): Term => ({ term, definition: glossary[term] })
 
-const RSS_FEED_URL = 'https://dustincole-data.github.io/ai-homeroom/feed.xml'
-const FEEDRABBIT_SUBSCRIBE_URL = 'https://feedrabbit.com/subscriptions/new'
-
 const stories: Story[] = [
   {
     headline: 'Anthropic explains hidden Claude safety blocks',
@@ -277,7 +274,6 @@ function App() {
       <nav className="folder-tabs" aria-label="Briefing categories">
         <a href="#today">Today’s lesson</a>
         <a href="#glossary">Glossary</a>
-        <a href="#signup">Daily email</a>
       </nav>
 
       <section className="status-card" aria-label="Build status">
@@ -351,22 +347,6 @@ function App() {
         </dl>
       </section>
 
-      <section id="signup" className="signup-handout" aria-label="Email signup form">
-        <div>
-          <span className="label">Automatic updates</span>
-          <h2>Get notified when AI Homeroom updates.</h2>
-          <p>
-            Subscribe once and Feedrabbit will email you automatically when the AI Homeroom feed changes.
-          </p>
-        </div>
-        <form className="signup-form rss-subscribe-form" action={FEEDRABBIT_SUBSCRIBE_URL} method="GET">
-          <input type="hidden" name="url" value={RSS_FEED_URL} />
-          <button className="button primary" type="submit">Subscribe by email</button>
-          <p className="signup-note">
-            Opens the email subscription page with AI Homeroom already filled in.
-          </p>
-        </form>
-      </section>
     </main>
   )
 }
