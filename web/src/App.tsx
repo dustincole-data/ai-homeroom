@@ -198,6 +198,23 @@ const allTerms = Array.from(
   ).values(),
 ).sort((a, b) => a.term.localeCompare(b.term))
 
+function glossaryTermId(term: string) {
+  const slug = term
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+
+  return `glossary-${slug}`
+}
+
+function storyTermsWithPermanentTerms(storyTerms: Term[]) {
+  return Array.from(
+    new Map(
+      [...storyTerms, ...permanentGlossaryTerms].map((term) => [term.term.toLowerCase(), term]),
+    ).values(),
+  )
+}
+
 function markTerms(summary: string, terms: Term[]) {
   let pieces: (string | ReactNode)[] = [summary]
 
@@ -211,9 +228,14 @@ function markTerms(summary: string, terms: Term[]) {
         return piece.split(regex).map((part, partIndex) => {
           if (part.toLowerCase() !== term.term.toLowerCase()) return part
           return (
-            <span className="term" tabIndex={0} data-definition={term.definition} key={`${term.term}-${index}-${partIndex}`}>
+            <a
+              className="term"
+              href={`#${glossaryTermId(term.term)}`}
+              data-definition={term.definition}
+              key={`${term.term}-${index}-${partIndex}`}
+            >
               {part}
-            </span>
+            </a>
           )
         })
       })
@@ -284,7 +306,7 @@ function App() {
             <span>{featuredStory.sourceName}</span>
           </div>
           <h3>{featuredStory.headline}</h3>
-          <p className="summary">{markTerms(featuredStory.summary, featuredStory.terms)}</p>
+          <p className="summary">{markTerms(featuredStory.summary, storyTermsWithPermanentTerms(featuredStory.terms))}</p>
           <p className="why"><strong>Why it matters:</strong> {featuredStory.whyItMatters}</p>
           <a className="article-link" href={featuredStory.sourceUrl} target="_blank" rel="noreferrer">
             Original source: {featuredStory.sourceName}
@@ -300,7 +322,7 @@ function App() {
                 <span>{story.sourceName}</span>
               </div>
               <h3>{story.headline}</h3>
-              <p className="summary">{markTerms(story.summary, story.terms)}</p>
+              <p className="summary">{markTerms(story.summary, storyTermsWithPermanentTerms(story.terms))}</p>
               <p className="why"><strong>Why it matters:</strong> {story.whyItMatters}</p>
               <div className="card-footer">
                 <span className="margin-note">Note {index + 2}</span>
@@ -320,7 +342,7 @@ function App() {
         </div>
         <dl>
           {allTerms.map((term) => (
-            <div key={term.term}>
+            <div id={glossaryTermId(term.term)} key={term.term}>
               <dt>{term.term}</dt>
               <dd>{term.definition}</dd>
             </div>
