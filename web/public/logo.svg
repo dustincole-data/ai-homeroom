@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AI Homeroom logo</title>
+  <desc id="desc">A warm classroom chalkboard app icon with AI letters, notebook lines, and a highlighter spark.</desc>
+  <defs>
+    <linearGradient id="paper" x1="76" x2="456" y1="50" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f7eddc"/>
+    </linearGradient>
+    <linearGradient id="board" x1="126" x2="412" y1="122" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f3d64"/>
+      <stop offset="1" stop-color="#13233f"/>
+    </linearGradient>
+    <filter id="shadow" x="40" y="42" width="432" height="440" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#252d3c" flood-opacity=".22"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#f3eadb"/>
+  <path fill="rgba(19,35,63,.08)" d="M0 82h512v18H0zM0 204h512v18H0zM0 326h512v18H0zM0 448h512v18H0z"/>
+  <g filter="url(#shadow)">
+    <rect x="82" y="58" width="348" height="380" rx="48" fill="url(#paper)" stroke="#13233f" stroke-opacity=".14" stroke-width="6"/>
+    <path stroke="#b96b5d" stroke-linecap="round" stroke-width="8" d="M126 80v336"/>
+    <path stroke="#345f8d" stroke-opacity=".18" stroke-linecap="round" stroke-width="6" d="M158 142h220M158 188h220M158 234h220M158 280h220M158 326h180"/>
+    <rect x="112" y="118" width="288" height="244" rx="34" fill="url(#board)" stroke="#7b5537" stroke-width="18"/>
+    <path fill="#ffe48a" d="M350 72c9 33 27 51 60 60-33 9-51 27-60 60-9-33-27-51-60-60 33-9 51-27 60-60Z"/>
+    <path fill="#b7d7bd" d="M127 373h245c10 0 18 8 18 18s-8 18-18 18H127c-10 0-18-8-18-18s8-18 18-18Z"/>
+    <path fill="#fffdf8" d="M187 302h-35l51-144h40l51 144h-38l-8-27h-53l-8 27Zm17-58h35l-17-56-18 56ZM315 158h38v144h-38V158Z"/>
+    <path stroke="#fffdf8" stroke-linecap="round" stroke-opacity=".55" stroke-width="9" d="M330 130h34M314 331h53"/>
+  </g>
+</svg>

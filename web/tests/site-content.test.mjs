@@ -49,6 +49,32 @@ test('feed update script exists so daily refreshes can trigger notifications', (
   assert.match(packageJson, /"update-feed": "node scripts\/update-feed\.mjs"/)
 })
 
+test('site exposes app icons and social share preview metadata', () => {
+  const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8')
+  assert.match(html, /rel="apple-touch-icon" href="\/ai-homeroom\/apple-touch-icon\.png"/)
+  assert.match(html, /rel="manifest" href="\/ai-homeroom\/site\.webmanifest"/)
+  assert.match(html, /property="og:image" content="https:\/\/dustincole-data\.github\.io\/ai-homeroom\/og-image\.png"/)
+  assert.match(html, /name="twitter:card" content="summary_large_image"/)
+  assert.match(html, /name="theme-color" content="#13233f"/)
+
+  for (const asset of [
+    '../public/favicon.svg',
+    '../public/logo.svg',
+    '../public/apple-touch-icon.png',
+    '../public/icons/icon-192.png',
+    '../public/icons/icon-512.png',
+    '../public/og-image.png',
+    '../public/site.webmanifest',
+  ]) {
+    assert.equal(existsSync(new URL(asset, import.meta.url)), true, `${asset} should exist`)
+  }
+
+  const manifest = readFileSync(new URL('../public/site.webmanifest', import.meta.url), 'utf8')
+  assert.match(manifest, /"name": "AI Homeroom"/)
+  assert.match(manifest, /"src": "\/ai-homeroom\/icons\/icon-192\.png"/)
+  assert.match(manifest, /"src": "\/ai-homeroom\/icons\/icon-512\.png"/)
+})
+
 test('permanent glossary terms live in a dedicated source file and are merged into displayed glossary', () => {
   const glossaryFile = new URL('../src/content/permanentGlossary.ts', import.meta.url)
   assert.equal(existsSync(glossaryFile), true)
