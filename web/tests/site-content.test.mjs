@@ -5,25 +5,20 @@ import test from 'node:test'
 const appSource = () => readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
 const glossarySource = () => readFileSync(new URL('../src/content/permanentGlossary.ts', import.meta.url), 'utf8')
 
-test('newsletter signup uses a real embeddable email form with accessible email input', () => {
-  const source = appSource()
-  assert.match(source, /<form[^>]+className="signup-form"/)
-  assert.match(source, /action=\{EMAIL_SIGNUP_ACTION\}/)
-  assert.match(source, /type="email"/)
-  assert.match(source, /placeholder="you@example\.com"/)
-  assert.match(source, /Send Dustin my email/)
-  assert.match(source, /dustincole\.ent@gmail\.com/)
-  assert.doesNotMatch(source, /hello@example\.com/)
-  assert.doesNotMatch(source, /hello@dustincoledata\.com/)
-})
-
-test('site exposes an RSS feed and free RSS-to-email subscribe path', () => {
+test('site exposes one working RSS-to-email subscribe path without a backup/manual list option', () => {
   const app = appSource()
   assert.match(app, /const RSS_FEED_URL = 'https:\/\/dustincole-data\.github\.io\/ai-homeroom\/feed\.xml'/)
   assert.match(app, /const FEEDRABBIT_SUBSCRIBE_URL = 'https:\/\/feedrabbit\.com\/subscriptions\/new'/)
   assert.match(app, /className="signup-form rss-subscribe-form"/)
   assert.match(app, /name="url" value=\{RSS_FEED_URL\}/)
-  assert.match(app, /Email me site updates/)
+  assert.match(app, /Subscribe by email/)
+  assert.doesNotMatch(app, /EMAIL_SIGNUP_ACTION/)
+  assert.doesNotMatch(app, /Manual list request/)
+  assert.doesNotMatch(app, /Backup option/)
+  assert.doesNotMatch(app, /formsubmit\.co/)
+  assert.doesNotMatch(app, /dustincole\.ent@gmail\.com/)
+  assert.doesNotMatch(app, /hello@example\.com/)
+  assert.doesNotMatch(app, /hello@dustincoledata\.com/)
 
   const feedFile = new URL('../public/feed.xml', import.meta.url)
   assert.equal(existsSync(feedFile), true)
