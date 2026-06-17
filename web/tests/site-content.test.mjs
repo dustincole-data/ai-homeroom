@@ -77,38 +77,113 @@ test('permanent glossary terms live in a dedicated source file and are merged in
   assert.match(source, /permanentGlossaryTerms\.map/)
 })
 
-test('permanent glossary includes the classroom article AI terms', () => {
+test('permanent glossary includes canonical versions of all current classroom AI terms', () => {
   const glossary = glossarySource()
   const requiredTerms = [
-    'Large language models',
-    'Neural networks',
-    'Transformers',
-    'Tokens',
-    'Embeddings',
+    'Artificial Intelligence (AI)',
+    'Large Language Model (LLM)',
+    'Neural Network',
+    'Transformer',
+    'Token',
+    'Embedding',
     'Inference',
-    'Training data',
-    'Fine-tuning',
-    'Hallucinations',
-    'Agents',
+    'Training Data',
+    'Fine-Tuning',
+    'Hallucination',
+    'AI Agent',
     'Multimodal AI',
-    'Prompt engineering',
-    'Context windows',
-    'Synthetic data',
-    'GPUs',
-    'Model weights',
-    'RAG',
-    'APIs',
+    'Prompt Engineering',
+    'Context Window',
+    'Synthetic Data',
+    'GPU',
+    'Model Weights',
+    'Retrieval-Augmented Generation (RAG)',
+    'API',
     'Automation',
-    'MCP',
-    'Model Context Protocol',
-    'Coding agents',
-    'Skills',
-    'Vector search',
-    'Vector database',
+    'Model Context Protocol (MCP)',
+    'Coding Agent',
+    'Skill',
+    'Vector Search',
+    'Vector Database',
+    'AI Detector',
+    'AI-Generated Music',
+    'AI Safety',
+    'Back-Office Work',
+    'Chatbot',
+    'Claude Fable',
+    'Coding',
+    'Company Server',
+    'DeepMind',
+    'Deezer',
+    'Debugging',
+    'DiffusionGemma',
+    'Engineer',
+    'Grok',
+    'Guardrails',
+    'Hidden Rules',
+    'Human Judgment',
+    'Local AI',
+    'Local Device',
+    'Lower-Cost Team',
+    'Model',
+    'Open Model',
+    'Operations',
+    'Outsourcing',
+    'Platform',
+    'Privacy',
+    'Remote Server',
+    'Software Engineer',
+    'Streaming Service',
+    'System',
+    'Testing',
+    'Tool',
+    'Tradeoff',
+    'Unsupervised Learning',
+    'Supervised Learning',
+    'Validation',
   ]
 
   for (const term of requiredTerms) {
     assert.match(glossary, new RegExp(`term: '${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}'`))
+  }
+})
+
+test('permanent glossary does not keep separate plural shorthand or too-similar duplicate terms', () => {
+  const glossary = glossarySource()
+  const terms = [...glossary.matchAll(/term: '([^']+)'/g)].map((match) => match[1])
+
+  assert.equal(new Set(terms.map((term) => term.toLowerCase())).size, terms.length)
+
+  const duplicateTerms = [
+    'AI',
+    'Artificial intelligence',
+    'AI systems',
+    'Agents',
+    'APIs',
+    'Context',
+    'Context windows',
+    'Gen AI',
+    'Large language model',
+    'Large language models',
+    'LLM',
+    'LLMs',
+    'MCP',
+    'MCPs',
+    'Model Context Protocol',
+    'Neural networks',
+    'Open-weight model',
+    'open AI model',
+    'open model',
+    'RAG',
+    'Retrieval-Augmented Generation',
+    'Skills',
+    'Tokens',
+    'Tools',
+    'Vector database',
+  ]
+
+  for (const term of duplicateTerms) {
+    assert.equal(terms.includes(term), false, `${term} should be folded into one canonical glossary entry`)
   }
 })
 

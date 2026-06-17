@@ -6,6 +6,7 @@ import './App.css'
 type Term = {
   term: string
   definition: string
+  aliases?: string[]
 }
 
 type Story = {
@@ -25,49 +26,18 @@ const editionDate = new Intl.DateTimeFormat('en-US', {
   year: 'numeric',
 }).format(new Date())
 
-const glossary: Record<string, string> = {
-  AI: 'AI, short for artificial intelligence, is software that can do tasks that usually require human thinking, like writing, sorting, or recognizing patterns.',
-  'AI detector': 'An AI detector is a tool that looks for clues that something was made by artificial intelligence.',
-  'AI-made songs': 'AI-made songs are tracks where software created much or all of the music, lyrics, singing, or sound.',
-  'AI safety': 'AI safety is the work of reducing the chance that AI systems cause harm or behave in unwanted ways.',
-  'AI systems': 'AI systems are apps or tools that use artificial intelligence to make decisions, write, classify, or take actions.',
-  Anthropic: 'Anthropic is the AI company that makes Claude, one of the major chatbot families.',
-  'back-office work': 'Back-office work is behind-the-scenes business work like processing forms, support tasks, or operations.',
-  chatbot: 'A chatbot is software you talk to by typing or speaking, like texting a very fast assistant.',
-  'Claude Fable': 'Claude Fable is a version or test variant of Claude, Anthropic’s AI chatbot.',
-  coding: 'Coding means writing instructions that tell software what to do.',
-  'company server': 'A company server is a computer owned or rented by a business that handles data or runs software for users.',
-  'DeepMind': 'DeepMind is Google’s AI research lab, known for building advanced AI systems.',
-  Deezer: 'Deezer is a music streaming service, similar to Spotify or Apple Music.',
-  debug: 'To debug means to find and fix what is wrong in software, like tracing where a bad pipe is leaking.',
-  DiffusionGemma: 'DiffusionGemma is Google DeepMind’s open AI model that uses a different method for generating answers quickly.',
-  engineer: 'An engineer is a worker who designs, builds, tests, or fixes technical systems.',
-  Grok: 'Grok is xAI’s chatbot, similar to ChatGPT or Claude.',
-  guardrails: 'Guardrails are rules that keep an AI from doing things its makers think are unsafe or unwanted.',
-  'hidden rules': 'Hidden rules are instructions inside software that affect what it does but are not clearly shown to users.',
-  'human judgment': 'Human judgment means using context, priorities, and common sense instead of only following a pattern.',
-  'invisible guardrails': 'Invisible guardrails are AI safety rules that affect answers without clearly telling the user what happened.',
-  'local AI': 'Local AI runs on your own device instead of depending completely on a remote server.',
-  'local devices': 'Local devices are the computers, phones, or tablets you personally use instead of machines in a data center.',
-  'lower-cost teams': 'Lower-cost teams are groups hired in places where wages or business costs are cheaper for the company.',
-  model: 'A model is the trained AI system that makes predictions or writes answers, like the “brain” behind a chatbot.',
-  'open AI model': 'An open AI model is an AI system that outside developers can download, inspect, or build on more freely than a closed product.',
-  'open model': 'An open model is an AI model that outside developers can inspect, download, or build on more freely than a closed product.',
-  operations: 'Operations are the everyday tasks that keep a business running, such as support, scheduling, billing, or process work.',
-  outsourcing: 'Outsourcing means hiring another company or team, often in another place, to do work for your business.',
-  platforms: 'Platforms are services or systems that many people or companies build on or use, like app stores, social networks, or streaming apps.',
-  privacy: 'Privacy means keeping personal data or activity from being seen, shared, or used without a good reason.',
-  'remote server': 'A remote server is a powerful computer somewhere else that your device connects to over the internet.',
-  'software engineers': 'Software engineers are people who design, build, test, and maintain software.',
-  'streaming services': 'Streaming services are apps or websites that play media from the internet instead of storing it all on your device.',
-  systems: 'Systems are connected pieces of software, hardware, people, or rules that work together.',
-  testing: 'Testing means checking software to see whether it works correctly before people rely on it.',
-  tool: 'A tool is software or hardware made to help someone do a specific job.',
-  tradeoffs: 'Tradeoffs are the choices you make when improving one thing means giving up something else.',
-  xAI: 'xAI is Elon Musk’s artificial intelligence company, which makes the Grok chatbot.',
-}
+const glossaryByName = new Map(
+  permanentGlossaryTerms.flatMap((term) => [
+    [term.term.toLowerCase(), term],
+    ...(term.aliases ?? []).map((alias) => [alias.toLowerCase(), term] as const),
+  ]),
+)
 
-const define = (term: string): Term => ({ term, definition: glossary[term] })
+const define = (name: string): Term => {
+  const term = glossaryByName.get(name.toLowerCase())
+  if (!term) throw new Error(`Missing glossary term: ${name}`)
+  return term
+}
 
 const stories: Story[] = [
   {
@@ -205,6 +175,13 @@ function glossaryTermId(term: string) {
   return `glossary-${slug}`
 }
 
+function glossaryAliasIds(term: Term) {
+  const canonicalId = glossaryTermId(term.term)
+  return (term.aliases ?? [])
+    .map(glossaryTermId)
+    .filter((id, index, ids) => id !== canonicalId && ids.indexOf(id) === index)
+}
+
 function storyTermsWithPermanentTerms(storyTerms: Term[]) {
   return Array.from(
     new Map(
@@ -215,29 +192,29 @@ function storyTermsWithPermanentTerms(storyTerms: Term[]) {
 
 function markTerms(summary: string, terms: Term[]) {
   let pieces: (string | ReactNode)[] = [summary]
+  const candidates = terms
+    .flatMap((term) => [term.term, ...(term.aliases ?? [])].map((matchText) => ({ term, matchText })))
+    .sort((a, b) => b.matchText.length - a.matchText.length)
 
-  terms
-    .slice()
-    .sort((a, b) => b.term.length - a.term.length)
-    .forEach((term) => {
-      const regex = new RegExp(`(?<![A-Za-z0-9])(${escapeRegExp(term.term)})(?![A-Za-z0-9])`, 'gi')
-      pieces = pieces.flatMap((piece, index) => {
-        if (typeof piece !== 'string') return [piece]
-        return piece.split(regex).map((part, partIndex) => {
-          if (part.toLowerCase() !== term.term.toLowerCase()) return part
-          return (
-            <a
-              className="term"
-              href={`#${glossaryTermId(term.term)}`}
-              data-definition={term.definition}
-              key={`${term.term}-${index}-${partIndex}`}
-            >
-              {part}
-            </a>
-          )
-        })
+  candidates.forEach(({ term, matchText }) => {
+    const regex = new RegExp(`(?<![A-Za-z0-9])(${escapeRegExp(matchText)})(?![A-Za-z0-9])`, 'gi')
+    pieces = pieces.flatMap((piece, index) => {
+      if (typeof piece !== 'string') return [piece]
+      return piece.split(regex).map((part, partIndex) => {
+        if (part.toLowerCase() !== matchText.toLowerCase()) return part
+        return (
+          <a
+            className="term"
+            href={`#${glossaryTermId(term.term)}`}
+            data-definition={term.definition}
+            key={`${term.term}-${matchText}-${index}-${partIndex}`}
+          >
+            {part}
+          </a>
+        )
       })
     })
+  })
 
   return pieces
 }
@@ -355,6 +332,9 @@ function App() {
         <dl>
           {allTerms.map((term) => (
             <div id={glossaryTermId(term.term)} key={term.term}>
+              {glossaryAliasIds(term).map((id) => (
+                <span id={id} className="glossary-anchor" aria-hidden="true" key={id} />
+              ))}
               <dt>{term.term}</dt>
               <dd>{term.definition}</dd>
             </div>
