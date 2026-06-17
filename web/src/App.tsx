@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useEffect, type ReactNode } from 'react'
 
 import { permanentGlossaryTerms } from './content/permanentGlossary'
 import './App.css'
@@ -247,6 +247,21 @@ function escapeRegExp(value: string) {
 }
 
 function App() {
+  useEffect(() => {
+    const scrollToCurrentHash = () => {
+      const hash = window.location.hash.slice(1)
+      if (!hash) return
+
+      const target = document.getElementById(decodeURIComponent(hash))
+      target?.scrollIntoView({ block: 'start' })
+    }
+
+    scrollToCurrentHash()
+    window.addEventListener('hashchange', scrollToCurrentHash)
+
+    return () => window.removeEventListener('hashchange', scrollToCurrentHash)
+  }, [])
+
   const featuredStory = stories[0]
   const remainingStories = stories.slice(1)
 

@@ -563,10 +563,17 @@ h1 {
 }
 
 .glossary-preview div {
+  scroll-margin-top: 24px;
   padding: 18px;
   border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.08);
+}
+
+.glossary-preview div:target {
+  border-color: rgba(255, 228, 138, 0.78);
+  background: rgba(255, 228, 138, 0.16);
+  box-shadow: 0 0 0 3px rgba(255, 228, 138, 0.14);
 }
 
 .glossary-preview dt {
