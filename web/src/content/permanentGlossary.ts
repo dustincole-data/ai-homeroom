@@ -196,6 +196,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'Human judgment means using context, priorities, and common sense instead of only following a pattern.',
   },
   {
+    term: 'Image Recognition',
+    aliases: ['image recognition', 'image recognition AI'],
+    definition:
+      'Image recognition is AI that looks at a picture and identifies what is in it, such as objects, faces, text, scenes, or patterns.',
+  },
+  {
     term: 'Inference',
     aliases: ['inference'],
     definition:
@@ -338,6 +344,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
     aliases: ['software engineer', 'software engineers'],
     definition:
       'A software engineer is a person who designs, builds, tests, and maintains software.',
+  },
+  {
+    term: 'Speech-to-Text',
+    aliases: ['speech to text', 'speech-to-text', 'speech recognition', 'voice recognition'],
+    definition:
+      'Speech-to-text is AI that turns spoken words from audio into written text, such as captions, transcripts, or searchable notes.',
   },
   {
     term: 'Streaming Service',
