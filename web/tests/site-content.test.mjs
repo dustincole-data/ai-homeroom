@@ -4,6 +4,7 @@ import test from 'node:test'
 
 const appSource = () => readFileSync(new URL('../src/App.tsx', import.meta.url), 'utf8')
 const glossarySource = () => readFileSync(new URL('../src/content/permanentGlossary.ts', import.meta.url), 'utf8')
+const storiesSource = () => readFileSync(new URL('../src/content/stories.ts', import.meta.url), 'utf8')
 
 test('site has no signup or update-subscription UI', () => {
   const app = appSource()
@@ -35,6 +36,26 @@ test('feed update script remains available for the daily site refresh job', () =
 
   const packageJson = readFileSync(new URL('../package.json', import.meta.url), 'utf8')
   assert.match(packageJson, /"update-feed": "node scripts\/update-feed\.mjs"/)
+})
+
+test('fresh story generator is wired into deployment and avoids stale static stories', () => {
+  const workflow = readFileSync(new URL('../../.github/workflows/pages.yml', import.meta.url), 'utf8')
+  const packageJson = readFileSync(new URL('../package.json', import.meta.url), 'utf8')
+  const generator = readFileSync(new URL('../scripts/generate-stories.mjs', import.meta.url), 'utf8')
+  const stories = storiesSource()
+
+  assert.match(packageJson, /"update-stories": "node scripts\/generate-stories\.mjs"/)
+  assert.match(workflow, /npm run update-stories/)
+  assert.match(generator, /lookbackMs = 24 \* 60 \* 60 \* 1000/)
+  assert.match(generator, /similarity\(story\.headline, candidate\.title\) >= 0\.34/)
+
+  const generatedAt = stories.match(/export const generatedAt = '([^']+)'/)?.[1]
+  assert.ok(generatedAt, 'generatedAt should be present')
+  assert.ok(Date.now() - Date.parse(generatedAt) < 48 * 60 * 60 * 1000, 'generated stories should not be stale')
+
+  const headlines = [...stories.matchAll(/"headline": "([^"]+)"/g)].map((match) => match[1])
+  assert.equal(headlines.length, 6)
+  assert.equal(new Set(headlines).size, headlines.length)
 })
 
 test('site exposes app icons and social share preview metadata', () => {

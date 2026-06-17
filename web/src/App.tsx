@@ -1,6 +1,7 @@
 import { useEffect, type ReactNode } from 'react'
 
 import { permanentGlossaryTerms } from './content/permanentGlossary'
+import { generatedAt, storySeeds } from './content/stories'
 import './App.css'
 
 type Term = {
@@ -17,6 +18,7 @@ type Story = {
   sourceName: string
   sourceUrl: string
   terms: Term[]
+  publishedAt: string
 }
 
 const editionDate = new Intl.DateTimeFormat('en-US', {
@@ -24,7 +26,7 @@ const editionDate = new Intl.DateTimeFormat('en-US', {
   month: 'long',
   day: 'numeric',
   year: 'numeric',
-}).format(new Date())
+}).format(new Date(generatedAt))
 
 const glossaryByName = new Map(
   permanentGlossaryTerms.flatMap((term) => [
@@ -39,123 +41,10 @@ const define = (name: string): Term => {
   return term
 }
 
-const stories: Story[] = [
-  {
-    headline: 'Anthropic explains hidden Claude safety blocks',
-    badge: 'new',
-    summary:
-      'Anthropic apologized after people found that Claude Fable had invisible guardrails. Guardrails are hidden rules that can stop an AI from answering certain questions. The problem was not just that the model refused answers, but that users could not clearly see why.',
-    whyItMatters:
-      'If an AI assistant blocks a normal question, people need a plain explanation instead of a mystery refusal.',
-    sourceName: 'The Verge',
-    sourceUrl: 'https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail',
-    terms: [
-      define('Anthropic'),
-      define('Claude Fable'),
-      define('invisible guardrails'),
-      define('guardrails'),
-      define('hidden rules'),
-      define('AI'),
-      define('model'),
-    ],
-  },
-  {
-    headline: 'AI music labels may be coming',
-    badge: 'new',
-    summary:
-      'Deezer launched a tool that can detect music likely made with AI. The company wants other streaming services to use it too. The goal is to help platforms separate human-made songs, AI-made songs, and music that mixes both.',
-    whyItMatters:
-      'Your music app may eventually tell you whether a song was made by a person, an AI tool, or both.',
-    sourceName: 'The Verge',
-    sourceUrl: 'https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple',
-    terms: [
-      define('Deezer'),
-      define('tool'),
-      define('AI'),
-      define('streaming services'),
-      define('platforms'),
-      define('AI-made songs'),
-      define('AI detector'),
-    ],
-  },
-  {
-    headline: 'Software engineers are not disappearing overnight',
-    badge: 'new',
-    summary:
-      'A widely discussed essay argues that AI has not replaced software engineers because coding is only part of the job. Engineers also decide what to build, check tradeoffs, debug messy systems, and talk with people. AI can help with pieces of the work, but it still needs human judgment around it.',
-    whyItMatters:
-      'For normal workers, the near-term lesson is to use AI as a helper, not assume it can own the whole job.',
-    sourceName: 'Normal Tech',
-    sourceUrl: 'https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers',
-    terms: [
-      define('AI'),
-      define('software engineers'),
-      define('coding'),
-      define('engineer'),
-      define('tradeoffs'),
-      define('debug'),
-      define('systems'),
-      define('human judgment'),
-    ],
-  },
-  {
-    headline: 'AI is changing outsourcing work',
-    badge: 'new',
-    summary:
-      'Opendoor’s India exit sparked a broader conversation about how AI may change outsourcing. Companies are looking at whether software can handle some tasks that used to go to lower-cost teams abroad. That does not mean every job vanishes, but it does mean the shape of office work can change quickly.',
-    whyItMatters:
-      'AI may affect not only tech jobs, but also support, operations, and back-office work around the world.',
-    sourceName: 'TechCrunch',
-    sourceUrl: 'https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing',
-    terms: [
-      define('AI'),
-      define('outsourcing'),
-      define('lower-cost teams'),
-      define('operations'),
-      define('back-office work'),
-    ],
-  },
-  {
-    headline: 'A Grok safety lawsuit hits xAI',
-    badge: 'new',
-    summary:
-      'A lawsuit claims xAI fired an engineer who raised alarms about safety problems with Grok. Safety concerns around AI can include harmful answers, weak testing, or pressure to ship before problems are fixed. xAI will have a chance to respond, but the case shows how tense AI safety work can get inside companies.',
-    whyItMatters:
-      'The people building AI systems may face pressure when they say a product is not ready or safe enough.',
-    sourceName: 'TechCrunch',
-    sourceUrl: 'https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims',
-    terms: [
-      define('xAI'),
-      define('engineer'),
-      define('Grok'),
-      define('AI'),
-      define('testing'),
-      define('AI safety'),
-      define('AI systems'),
-    ],
-  },
-  {
-    headline: 'Google releases a faster local AI model',
-    badge: 'new',
-    summary:
-      'Google DeepMind released DiffusionGemma, an open AI model designed to run faster on local devices. Local AI means the model can run on your own computer or phone instead of sending every request to a company server. Faster local models could make private, low-cost AI tools more practical.',
-    whyItMatters:
-      'More AI features could run directly on your device, which can help with speed, privacy, and cost.',
-    sourceName: 'Ars Technica',
-    sourceUrl: 'https://arstechnica.com/google/2026/06/googles-latest-diffusiongemma-open-ai-model-comes-with-a-4x-speed-boost',
-    terms: [
-      define('DeepMind'),
-      define('DiffusionGemma'),
-      define('open AI model'),
-      define('local devices'),
-      define('local AI'),
-      define('model'),
-      define('company server'),
-      define('AI'),
-      define('privacy'),
-    ],
-  },
-]
+const stories: Story[] = storySeeds.map((story) => ({
+  ...story,
+  terms: story.termNames.map(define),
+}))
 
 const allTerms = Array.from(
   new Map(
@@ -259,7 +148,7 @@ function App() {
         <aside className="briefing-slip" aria-label="Today’s briefing summary">
           <span className="slip-label">Morning packet</span>
           <strong>{editionDate}</strong>
-          <p>Six sourced stories. Beginner summaries. Glossary cards built in.</p>
+          <p>{stories.length} sourced stories. Beginner summaries. Glossary cards built in.</p>
         </aside>
       </section>
 
@@ -284,7 +173,7 @@ function App() {
           <p className="eyebrow">Today’s lesson</p>
           <h2 id="edition-title">{editionDate}</h2>
           <p>
-            Six actual AI stories from today’s ingestion run, rewritten in plain English with direct source links. Full automation comes after Supabase approval.
+            Fresh AI stories from the latest automated refresh, rewritten in plain English with direct source links.
           </p>
         </div>
 
