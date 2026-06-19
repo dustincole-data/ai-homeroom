@@ -236,7 +236,7 @@ async function main() {
     selected.push({
       headline: candidate.title,
       badge: 'new',
-      summary: plainSummary(candidate.title, candidate.sourceName),
+      summary: storySummary(candidate.title),
       whyItMatters: whyItMatters(candidate.title),
       sourceName: candidate.sourceName,
       sourceUrl: candidate.sourceUrl,
