@@ -41,6 +41,64 @@ function firstMatch(block, patterns) {
   return ''
 }
 
+function firstRawMatch(block, patterns) {
+  for (const pattern of patterns) {
+    const match = block.match(pattern)
+    if (match?.[1]) return match[1]
+  }
+  return ''
+}
+
+function cleanProse(value = '') {
+  return decodeXml(value)
+    .replace(/\b(Image|Photo|Illustration|Screenshot)\s*:\s*[^.]+\./gi, ' ')
+    .replace(/\bRead (more|the full story).*$/i, '')
+    .replace(/\bThe post .* appeared first on .*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+function sentenceParts(value) {
+  return cleanProse(value)
+    .split(/(?<=[.!?])\s+(?=[A-Z0-9"'“])/)
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => sentence.length >= 35)
+}
+
+function trimToLength(value, max = 380) {
+  if (value.length <= max) return value
+  const clipped = value.slice(0, max + 1)
+  const lastSpace = clipped.lastIndexOf(' ')
+  return `${clipped.slice(0, lastSpace > 220 ? lastSpace : max).replace(/[,.!?;:]+$/, '')}.`
+}
+
+function isUsefulContext(text, title) {
+  const clean = cleanProse(text)
+  if (clean.length < 90) return false
+  if (title && similarity(clean, title) > 0.72) return false
+  return /\b(says|said|plans|plan|will|would|could|because|after|using|used|build|company|users|developers|workers|government|court|law|data|model|tool|AI)\b/i.test(clean)
+}
+
+function metaContent(html, namePattern) {
+  const escaped = namePattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return firstRawMatch(html, [
+    new RegExp(`<meta[^>]+(?:name|property)=["']${escaped}["'][^>]+content=["']([^"']+)["'][^>]*>`, 'i'),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:name|property)=["']${escaped}["'][^>]*>`, 'i'),
+  ])
+}
+
+function extractArticleContext(html) {
+  const meta = metaContent(html, 'og:description') || metaContent(html, 'twitter:description') || metaContent(html, 'description')
+  if (isUsefulContext(meta, '')) return cleanProse(meta)
+
+  const paragraphs = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)]
+    .map((match) => cleanProse(match[1]))
+    .filter((paragraph) => paragraph.length >= 70 && !/cookie|subscribe|newsletter|advertisement|sign up/i.test(paragraph))
+    .slice(0, 3)
+    .join(' ')
+  return cleanProse(paragraphs)
+}
+
 function canonicalUrl(url) {
   try {
     const parsed = new URL(url)
@@ -103,8 +161,47 @@ function cleanLead(text) {
   return text.replace(/\s+/g, ' ').trim().replace(/[.?!]+$/, '')
 }
 
-function storySummary(title) {
+function stripHeadlineAndByline(title, context) {
+  const headline = cleanLead(title)
+  let clean = cleanProse(context)
+  if (clean.toLowerCase().startsWith(headline.toLowerCase())) {
+    clean = clean.slice(headline.length).replace(/^[\s.:|—-]+/, '')
+  }
+  return clean
+    .replace(/^[A-Z][A-Za-z .’'-]+ \d{1,2}:\d{2} [AP]M [A-Z]+ · [A-Za-z]+ \d{1,2}, \d{4}\s+/, '')
+    .replace(/^INTERVIEW\s+/i, '')
+    .trim()
+}
+
+function storySummary(title, context = '') {
   const lower = title.toLowerCase()
+  if (/linux maintainer greg kroah-hartman/.test(lower)) {
+    return 'Longtime Linux kernel maintainer Greg Kroah-Hartman says AI bug reports have moved from mostly useless noise to something maintainers can actually use.  The story is about a practical turning point: AI tools are now finding real software bugs in one of the most important open-source projects in the world.'
+  }
+  if (/allbirds/.test(lower) && /no employees/.test(lower)) {
+    return 'Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first.'
+  }
+  if (/barret zoph/.test(lower)) {
+    return 'Barret Zoph, OpenAI’s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati.'
+  }
+  if (/baseten/.test(lower)) {
+    return 'Baseten, a company that helps other businesses run AI models after they are trained, is reportedly close to raising $1.5 billion at a $13 billion valuation.  That would come only months after its last huge funding round.'
+  }
+  if (/snap spins off ai video team|dotmo/.test(lower)) {
+    return 'Snap is spinning out its AI video team into a separate company called Dotmo because the work is expensive.  Current Snap employees will leave to build the new company around AI video instead of keeping it inside Snapchat.'
+  }
+  if (/openai is bringing on some big guns/.test(lower)) {
+    return 'OpenAI is adding high-profile people as it prepares for an eventual IPO, including Transformer co-inventor Noam Shazeer and former Trump AI policy official Dean Ball.  The story is about OpenAI looking less like a research lab and more like a company preparing for Wall Street and Washington at the same time.'
+  }
+
+  const cleanContext = stripHeadlineAndByline(title, context)
+  if (isUsefulContext(cleanContext, title)) {
+    const sentences = sentenceParts(cleanContext).filter((sentence) => similarity(sentence, title) <= 0.68)
+    const picked = sentences.slice(0, 2).join(' ')
+    if (isUsefulContext(picked, title)) return trimToLength(picked)
+    return trimToLength(cleanContext)
+  }
+
   if (/palantir/.test(lower) && /france/.test(lower)) {
     return "France plans to replace Palantir's AI data tools with a domestic vendor, a move that keeps more government data and analytics control inside the country."
   }
@@ -123,11 +220,26 @@ function storySummary(title) {
   if (/pentagon/.test(lower) && /reports/.test(lower)) {
     return 'The Pentagon says it is using AI to draft reports Congress requires, bringing machine-written paperwork into a process that used to rely on human staff.'
   }
-  return `${cleanLead(title)}.`
+  return `${cleanLead(title)}. The article needs a better source excerpt before it should appear in the daily briefing.`
 }
 
-function whyItMatters(title) {
-  const lower = title.toLowerCase()
+function whyItMatters(title, context = '') {
+  const lower = `${title} ${context}`.toLowerCase()
+  if (/linux|kernel|maintainer|bug|bugs|patch/.test(lower) && /ai/.test(lower)) {
+    return 'This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.'
+  }
+  if (/allbirds|no employees/.test(lower) && /ai/.test(lower)) {
+    return 'This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what “building a company” even means.'
+  }
+  if (/barret zoph|enterprise ai sales|openai.*departed|thinking machines/.test(lower)) {
+    return 'Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.'
+  }
+  if (/baseten|inference|funding|valuation|mega-round/.test(lower)) {
+    return 'Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.'
+  }
+  if (/snap|dotmo|video|costs|spinning off/.test(lower)) {
+    return 'AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.'
+  }
   if (/palantir/.test(lower) && /france/.test(lower)) {
     return 'This is a data-sovereignty move.  Governments want control over sensitive records, and deals like this can push public AI contracts toward local vendors instead of foreign platforms.'
   }
@@ -147,22 +259,25 @@ function whyItMatters(title) {
     return 'When government starts using AI for formal reporting, the big issue is accountability.  Faster paperwork is nice, but accuracy and oversight matter a lot more.'
   }
   if (/security|vulnerability|2fa|safety|guardrail|pollution|clean air|lawsuit/.test(lower)) {
-    return 'It shows that AI products are not just demos; they also raise safety, security, legal, and public-trust questions.'
+    return 'For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.'
   }
   if (/job|layoff|work|employee|engineer|coding/.test(lower)) {
-    return 'It matters for workers because AI is changing which tasks people do themselves and which tasks software can help handle.'
+    return 'This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.'
+  }
+  if (/openai is bringing on some big guns|ipo|noam shazeer|dean ball/.test(lower)) {
+    return 'This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.'
   }
   if (/model|claude|gpt|deepseek|qwen|gemini|openai|anthropic/.test(lower)) {
-    return 'It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.'
+    return 'Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.'
   }
   if (/app|device|android|apple|airpods|glasses/.test(lower)) {
-    return 'It matters because AI features are moving into everyday devices and apps, not just separate chatbots.'
+    return 'This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.'
   }
-  return 'It matters because AI is moving quickly across business, work, apps, and public policy.'
+  return 'The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.'
 }
 
 async function fetchText(url) {
-  const response = await fetch(url, { headers: { 'User-Agent': 'AIHomeroom/1.0' } })
+  const response = await fetch(url, { headers: { 'User-Agent': 'AIHomeroom/1.0' }, signal: AbortSignal.timeout(12000) })
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`)
   return response.text()
 }
@@ -175,8 +290,9 @@ async function fetchRss(sourceName, url) {
       const title = firstMatch(block, [/<title[^>]*>([\s\S]*?)<\/title>/i])
       const link = firstMatch(block, [/<link[^>]*>([\s\S]*?)<\/link>/i, /<link[^>]*href=["']([^"']+)["'][^>]*>/i])
       const dateText = firstMatch(block, [/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i, /<published[^>]*>([\s\S]*?)<\/published>/i, /<updated[^>]*>([\s\S]*?)<\/updated>/i])
+      const context = cleanProse(firstRawMatch(block, [/<description[^>]*>([\s\S]*?)<\/description>/i, /<summary[^>]*>([\s\S]*?)<\/summary>/i, /<content:encoded[^>]*>([\s\S]*?)<\/content:encoded>/i]))
       const publishedAt = new Date(dateText)
-      return { title, sourceName, sourceUrl: canonicalUrl(link), publishedAt }
+      return { title, context, sourceName, sourceUrl: canonicalUrl(link), publishedAt }
     })
     .filter((item) => item.title && item.sourceUrl && !Number.isNaN(item.publishedAt.getTime()) && item.publishedAt >= cutoff && aiPattern.test(item.title))
 }
@@ -199,6 +315,7 @@ async function fetchHackerNews() {
         }
         items.push({
           title,
+          context: item?.text ?? '',
           sourceName,
           sourceUrl,
           publishedAt,
@@ -233,11 +350,27 @@ async function main() {
     if (seenUrls.has(candidate.sourceUrl)) continue
     if (/twitter\.com|x\.com/.test(candidate.sourceUrl)) continue
     if (selected.some((story) => similarity(story.headline, candidate.title) >= 0.34)) continue
+    let context = candidate.context ?? ''
+    if (!isUsefulContext(context, candidate.title)) {
+      try {
+        context = extractArticleContext(await fetchText(candidate.sourceUrl))
+      } catch (error) {
+        errors.push(`${candidate.sourceName} article context: ${error.message}`)
+      }
+    }
+
+    if (!isUsefulContext(context, candidate.title)) continue
+
+    const summary = storySummary(candidate.title, context)
+    const impact = whyItMatters(candidate.title, context)
+    if (similarity(summary, candidate.title) > 0.68) continue
+    if (/AI is moving quickly across business, work, apps, and public policy/.test(impact)) continue
+
     selected.push({
       headline: candidate.title,
       badge: 'new',
-      summary: storySummary(candidate.title),
-      whyItMatters: whyItMatters(candidate.title),
+      summary,
+      whyItMatters: impact,
       sourceName: candidate.sourceName,
       sourceUrl: candidate.sourceUrl,
       termNames: inferTerms(candidate.title),

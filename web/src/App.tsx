@@ -135,10 +135,10 @@ function App() {
     <main>
       <section className="hero whiteboard" aria-labelledby="site-title">
         <div className="hero-copy">
-          <p className="eyebrow">Daily AI news, explained like homeroom notes</p>
+          <p className="eyebrow">Daily AI news for normal people</p>
           <h1 id="site-title">AI Homeroom</h1>
           <p className="dek">
-            The day’s AI stories translated into plain English: what happened, why it matters, and what the weird words mean.
+            The day’s AI stories, what actually happened, why it matters, and the weird words worth knowing.
           </p>
           <div className="hero-actions">
             <a href="#today" className="button primary">Read today’s lesson</a>
@@ -148,7 +148,7 @@ function App() {
         <aside className="briefing-slip" aria-label="Today’s briefing summary">
           <span className="slip-label">Morning packet</span>
           <strong>{editionDate}</strong>
-          <p>{stories.length} sourced stories. Beginner summaries. Glossary cards built in.</p>
+          <p>{stories.length} sourced stories. Real summaries. Glossary cards built in.</p>
         </aside>
       </section>
 
@@ -173,7 +173,7 @@ function App() {
           <p className="eyebrow">Today’s lesson</p>
           <h2 id="edition-title">{editionDate}</h2>
           <p>
-            Fresh AI stories from the latest automated refresh, rewritten in plain English with direct source links.
+            Fresh AI stories from the latest automated refresh, with direct source links.
           </p>
         </div>
 

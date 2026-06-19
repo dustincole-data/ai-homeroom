@@ -10,89 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-06-17T03:47:42.035Z'
+export const generatedAt = '2026-06-19T14:50:32.322Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "France to ditch Palantir's AI data tools in favour of domestic provider",
+    "headline": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
     "badge": "new",
-    "summary": "France plans to replace Palantir's AI data tools with a domestic vendor, a move that keeps more government data and analytics control inside the country.",
-    "whyItMatters": "This is a data-sovereignty move.  Governments want control over sensitive records, and deals like this can push public AI contracts toward local vendors instead of foreign platforms.",
-    "sourceName": "theguardian.com",
-    "sourceUrl": "https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision",
+    "summary": "Longtime Linux kernel maintainer Greg Kroah-Hartman says AI bug reports have moved from mostly useless noise to something maintainers can actually use.  The story is about a practical turning point: AI tools are now finding real software bugs in one of the most important open-source projects in the world.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "theregister.com",
+    "sourceUrl": "https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Training Data",
       "Tool"
     ],
-    "publishedAt": "2026-06-17T00:16:14.000Z"
+    "publishedAt": "2026-06-19T13:01:52.000Z"
   },
   {
-    "headline": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+    "headline": "The CEO of Allbirds’ new AI biz has a plan, but no employees",
     "badge": "new",
-    "summary": "Version 15 of Wolfram Language and Mathematica adds a built-in AI assistant and new symbolic music features, bringing AI deeper into technical work.",
-    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
-    "sourceName": "writings.stephenwolfram.com",
-    "sourceUrl": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-06-16T23:15:44.000Z"
-  },
-  {
-    "headline": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
-    "badge": "new",
-    "summary": "Sales data suggests Anthropic’s public clash with the Trump administration may be helping the company, not hurting it.",
-    "whyItMatters": "Political fights can change buyer behavior in AI.  If a public clash makes a vendor look stronger, that can influence enterprise trust, sales, and competition.",
+    "summary": "Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first.",
+    "whyItMatters": "This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what “building a company” even means.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Training Data"
-    ],
-    "publishedAt": "2026-06-16T22:34:17.000Z"
-  },
-  {
-    "headline": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
-    "badge": "new",
-    "summary": "The Trump administration is backing xAI in a Clean Air Act fight over gas turbines at its data center, tying AI growth to pollution and permitting battles.",
-    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "xAI",
-      "AI Safety"
-    ],
-    "publishedAt": "2026-06-16T22:22:44.000Z"
-  },
-  {
-    "headline": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
-    "badge": "new",
-    "summary": "Anthropic is pausing token-based billing for its Claude Agent SDK, changing how developers will be charged for building agent-style products.",
-    "whyItMatters": "Agent pricing shapes whether teams can ship products at all.  A billing change like this can affect budgets, app design, and whether experiments turn into real businesses.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "AI Agent",
-      "Model"
-    ],
-    "publishedAt": "2026-06-16T21:00:35.000Z"
-  },
-  {
-    "headline": "Pentagon boasts of using AI to write reports mandated by Congress",
-    "badge": "new",
-    "summary": "The Pentagon says it is using AI to draft reports Congress requires, bringing machine-written paperwork into a process that used to rely on human staff.",
-    "whyItMatters": "When government starts using AI for formal reporting, the big issue is accountability.  Faster paperwork is nice, but accuracy and oversight matter a lot more.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress",
+    "sourceUrl": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-06-16T18:11:05.000Z"
+    "publishedAt": "2026-06-19T13:00:00.000Z"
+  },
+  {
+    "headline": "Barret Zoph is out at OpenAI again after just five months",
+    "badge": "new",
+    "summary": "Barret Zoph, OpenAI’s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati.",
+    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-06-19T04:49:33.000Z"
+  },
+  {
+    "headline": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+    "badge": "new",
+    "summary": "Baseten, a company that helps other businesses run AI models after they are trained, is reportedly close to raising $1.5 billion at a $13 billion valuation.  That would come only months after its last huge funding round.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-06-18T21:20:13.000Z"
+  },
+  {
+    "headline": "Snap spins off AI video team into new company, Dotmo, due to costs",
+    "badge": "new",
+    "summary": "Snap is spinning out its AI video team into a separate company called Dotmo because the work is expensive.  Current Snap employees will leave to build the new company around AI video instead of keeping it inside Snapchat.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-06-18T20:30:00.000Z"
+  },
+  {
+    "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+    "badge": "new",
+    "summary": "OpenAI is adding high-profile people as it prepares for an eventual IPO, including Transformer co-inventor Noam Shazeer and former Trump AI policy official Dean Ball.  The story is about OpenAI looking less like a research lab and more like a company preparing for Wall Street and Washington at the same time.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-06-18T19:59:22.000Z"
   }
 ]
