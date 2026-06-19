@@ -16,8 +16,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "France to ditch Palantir's AI data tools in favour of domestic provider",
     "badge": "new",
-    "summary": "France to ditch Palantir's AI data tools in favour of domestic provider. This is a current AI story from theguardian.com, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It matters because AI is moving quickly across business, work, apps, and public policy.",
+    "summary": "France plans to replace Palantir's AI data tools with a domestic vendor, a move that keeps more government data and analytics control inside the country.",
+    "whyItMatters": "This is a data-sovereignty move.  Governments want control over sensitive records, and deals like this can push public AI contracts toward local vendors instead of foreign platforms.",
     "sourceName": "theguardian.com",
     "sourceUrl": "https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision",
     "termNames": [
@@ -30,8 +30,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
     "badge": "new",
-    "summary": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More. This is a current AI story from writings.stephenwolfram.com, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It matters because AI is moving quickly across business, work, apps, and public policy.",
+    "summary": "Version 15 of Wolfram Language and Mathematica adds a built-in AI assistant and new symbolic music features, bringing AI deeper into technical work.",
+    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
     "sourceName": "writings.stephenwolfram.com",
     "sourceUrl": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality",
     "termNames": [
@@ -42,8 +42,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
     "badge": "new",
-    "summary": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests. This is a current AI story from TechCrunch AI, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
+    "summary": "Sales data suggests Anthropic’s public clash with the Trump administration may be helping the company, not hurting it.",
+    "whyItMatters": "Political fights can change buyer behavior in AI.  If a public clash makes a vendor look stronger, that can influence enterprise trust, sales, and competition.",
     "sourceName": "TechCrunch AI",
     "sourceUrl": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
     "termNames": [
@@ -56,8 +56,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
     "badge": "new",
-    "summary": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It shows that AI products are not just demos; they also raise safety, security, legal, and public-trust questions.",
+    "summary": "The Trump administration is backing xAI in a Clean Air Act fight over gas turbines at its data center, tying AI growth to pollution and permitting battles.",
+    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
     "sourceName": "Ars Technica AI",
     "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
     "termNames": [
@@ -70,8 +70,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
     "badge": "new",
-    "summary": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
+    "summary": "Anthropic is pausing token-based billing for its Claude Agent SDK, changing how developers will be charged for building agent-style products.",
+    "whyItMatters": "Agent pricing shapes whether teams can ship products at all.  A billing change like this can affect budgets, app design, and whether experiments turn into real businesses.",
     "sourceName": "Ars Technica AI",
     "sourceUrl": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk",
     "termNames": [
@@ -86,8 +86,8 @@ export const storySeeds: StorySeed[] = [
   {
     "headline": "Pentagon boasts of using AI to write reports mandated by Congress",
     "badge": "new",
-    "summary": "Pentagon boasts of using AI to write reports mandated by Congress. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed.",
-    "whyItMatters": "It matters because AI is moving quickly across business, work, apps, and public policy.",
+    "summary": "The Pentagon says it is using AI to draft reports Congress requires, bringing machine-written paperwork into a process that used to rely on human staff.",
+    "whyItMatters": "When government starts using AI for formal reporting, the big issue is accountability.  Faster paperwork is nice, but accuracy and oversight matter a lot more.",
     "sourceName": "Ars Technica AI",
     "sourceUrl": "https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress",
     "termNames": [

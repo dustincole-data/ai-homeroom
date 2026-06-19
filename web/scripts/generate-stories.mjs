@@ -99,13 +99,54 @@ function inferTerms(title) {
   return [...terms]
 }
 
-function plainSummary(title, source) {
-  return `${title}. This is a current AI story from ${source}, rewritten here as a plain-English note so readers can quickly understand what changed.`
+function cleanLead(text) {
+  return text.replace(/\s+/g, ' ').trim().replace(/[.?!]+$/, '')
+}
+
+function storySummary(title) {
+  const lower = title.toLowerCase()
+  if (/palantir/.test(lower) && /france/.test(lower)) {
+    return "France plans to replace Palantir's AI data tools with a domestic vendor, a move that keeps more government data and analytics control inside the country."
+  }
+  if (/wolfram language|mathematica/.test(lower)) {
+    return 'Version 15 of Wolfram Language and Mathematica adds a built-in AI assistant and new symbolic music features, bringing AI deeper into technical work.'
+  }
+  if (/anthropic/.test(lower) && /feud/.test(lower)) {
+    return 'Sales data suggests Anthropic’s public clash with the Trump administration may be helping the company, not hurting it.'
+  }
+  if (/xai/.test(lower) && /(gas turbines|clean air act|pollution|lawsuit)/.test(lower)) {
+    return 'The Trump administration is backing xAI in a Clean Air Act fight over gas turbines at its data center, tying AI growth to pollution and permitting battles.'
+  }
+  if (/token-based billing|claude agent sdk|billing/.test(lower)) {
+    return 'Anthropic is pausing token-based billing for its Claude Agent SDK, changing how developers will be charged for building agent-style products.'
+  }
+  if (/pentagon/.test(lower) && /reports/.test(lower)) {
+    return 'The Pentagon says it is using AI to draft reports Congress requires, bringing machine-written paperwork into a process that used to rely on human staff.'
+  }
+  return `${cleanLead(title)}.`
 }
 
 function whyItMatters(title) {
   const lower = title.toLowerCase()
-  if (/security|vulnerability|2fa|safety|lawsuit|guardrail|pollution|clean air/.test(lower)) {
+  if (/palantir/.test(lower) && /france/.test(lower)) {
+    return 'This is a data-sovereignty move.  Governments want control over sensitive records, and deals like this can push public AI contracts toward local vendors instead of foreign platforms.'
+  }
+  if (/wolfram language|mathematica/.test(lower)) {
+    return 'It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.'
+  }
+  if (/anthropic/.test(lower) && /feud/.test(lower)) {
+    return 'Political fights can change buyer behavior in AI.  If a public clash makes a vendor look stronger, that can influence enterprise trust, sales, and competition.'
+  }
+  if (/xai/.test(lower) && /(gas turbines|clean air act|pollution|lawsuit)/.test(lower)) {
+    return 'AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.'
+  }
+  if (/token-based billing|claude agent sdk|billing/.test(lower)) {
+    return 'Agent pricing shapes whether teams can ship products at all.  A billing change like this can affect budgets, app design, and whether experiments turn into real businesses.'
+  }
+  if (/pentagon/.test(lower) && /reports/.test(lower)) {
+    return 'When government starts using AI for formal reporting, the big issue is accountability.  Faster paperwork is nice, but accuracy and oversight matter a lot more.'
+  }
+  if (/security|vulnerability|2fa|safety|guardrail|pollution|clean air|lawsuit/.test(lower)) {
     return 'It shows that AI products are not just demos; they also raise safety, security, legal, and public-trust questions.'
   }
   if (/job|layoff|work|employee|engineer|coding/.test(lower)) {
