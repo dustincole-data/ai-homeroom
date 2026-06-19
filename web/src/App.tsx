@@ -186,9 +186,12 @@ function App() {
           <h3>{featuredStory.headline}</h3>
           <p className="summary">{markTerms(featuredStory.summary, storyTermsWithPermanentTerms(featuredStory.terms))}</p>
           <p className="why"><strong>Why it matters:</strong> {featuredStory.whyItMatters}</p>
-          <a className="article-link" href={featuredStory.sourceUrl} target="_blank" rel="noreferrer">
-            Original source: {featuredStory.sourceName}
-          </a>
+          <div className="card-footer">
+            <span className="margin-note">Note 1</span>
+            <a className="article-link" href={featuredStory.sourceUrl} target="_blank" rel="noreferrer">
+              Original source: {featuredStory.sourceName}
+            </a>
+          </div>
         </article>
 
         <div className="story-list">
