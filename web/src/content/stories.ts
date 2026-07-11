@@ -10,7 +10,7 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-11T18:40:36.117Z'
+export const generatedAt = '2026-07-11T18:43:35.882Z'
 
 export const storySeeds: StorySeed[] = [
   {
@@ -26,6 +26,19 @@ export const storySeeds: StorySeed[] = [
     "publishedAt": "2026-07-11T18:04:01.000Z"
   },
   {
+    "headline": "Who manages the agents?",
+    "badge": "new",
+    "summary": "There are two visions for the future: AI as a deity built and controlled by a small group of clergy, or humans at the center with AI as an amplifier.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "off-policy.com",
+    "sourceUrl": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-07-11T18:02:33.000Z"
+  },
+  {
     "headline": "Reverse centaurs are the answer to the AI paradox",
     "badge": "new",
     "summary": "Privacy policy: we don't collect or retain any data at all ever period. My latest Locus column is \"Reverse Centaurs,\" and it sets out to unravel a paradox: how is it that some AI's users describe their experience as a hellish ordeal, while others delight in the ways that AI is changing their lives for the better.",
@@ -38,53 +51,41 @@ export const storySeeds: StorySeed[] = [
     "publishedAt": "2026-07-11T17:23:52.000Z"
   },
   {
-    "headline": "Meta removes controversial AI feature on Instagram after backlash",
+    "headline": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
     "badge": "new",
-    "summary": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\"",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash",
+    "summary": "ICE’s internal oversight group, the Office of Professional Responsibility, has begun investigating online critics of the agency , opening more than 100 cases looking at what ICE officials call “incidents of doxing and threats” against agency employees. And in the European Union, tech companies will be able to scan citizens’ personal texts, emails, and social media messages.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "wired.com",
+    "sourceUrl": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-10T23:55:07.000Z"
+    "publishedAt": "2026-07-11T17:00:52.000Z"
   },
   {
-    "headline": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+    "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
     "badge": "new",
-    "summary": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-10T23:49:50.000Z"
-  },
-  {
-    "headline": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
-    "badge": "new",
-    "summary": "Recreating a 1986 BBC Micro game by using AI to reverse-engineer 6502 assembly — extracting Q7.8 fixed-point physics, emulating the SN76489 sound chip, and discovering why the original feels the way it does. Software archaeology with a modern accomplice.",
+    "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "jamesdrandall.com",
-    "sourceUrl": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-10T22:04:45.000Z"
-  },
-  {
-    "headline": "Apple sues OpenAI for allegedly stealing hardware secrets",
-    "badge": "new",
-    "summary": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, […]",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
-      "Tool"
+      "Model"
     ],
-    "publishedAt": "2026-07-10T21:36:51.000Z"
+    "publishedAt": "2026-07-11T14:13:00.000Z"
+  },
+  {
+    "headline": "Ghost Font: A font that humans can read but AI cannot",
+    "badge": "new",
+    "summary": "An anti-AI font that can be read by humans but not leading AI models. Type your text below, then download and share the video clip containing your message.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "mixfont.com",
+    "sourceUrl": "https://www.mixfont.com/ghost-font",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-11T09:36:53.000Z"
   }
 ]

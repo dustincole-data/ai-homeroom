@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { isSameTopic } from '../scripts/story-dedup.mjs'
+import { isSameTopic, shouldCompareWithHistory } from '../scripts/story-dedup.mjs'
 
 const metaVerge = {
   headline: 'Meta turns off the Instagram feature that let users make AI deepfakes of public accounts',
@@ -17,9 +17,19 @@ const metaRnz = {
   context: "Meta has backed down on a controversial feature that allowed people's public Instagram posts to be used by anyone for AI generation.",
 }
 
+const metaTechCrunch = {
+  headline: 'Meta removes controversial AI feature on Instagram after backlash',
+  context: 'Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way, the company said.',
+}
+
 test('treats independent coverage of one event as the same topic', () => {
   assert.equal(isSameTopic(metaVerge, metaBbc), true)
   assert.equal(isSameTopic(metaVerge, metaRnz), true)
+  assert.equal(isSameTopic(metaVerge, metaTechCrunch), true)
+  assert.equal(isSameTopic(
+    { headline: metaVerge.headline },
+    { headline: metaTechCrunch.headline },
+  ), true)
 })
 
 test('does not collapse unrelated stories that merely mention AI', () => {
@@ -27,6 +37,11 @@ test('does not collapse unrelated stories that merely mention AI', () => {
     headline: 'Apple sues OpenAI for allegedly stealing hardware secrets',
     context: 'Apple says former engineers shared confidential hardware plans with the AI startup.',
   }), false)
+})
+
+test('does not treat the current daily set as prior-day history', () => {
+  assert.equal(shouldCompareWithHistory('2026-07-11T09:00:00Z', '2026-07-11T18:00:00Z'), false)
+  assert.equal(shouldCompareWithHistory('2026-07-10T23:59:00Z', '2026-07-11T00:01:00Z'), true)
 })
 
 test('matches a topic against an earlier daily story', () => {

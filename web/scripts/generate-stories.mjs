@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { isSameTopic } from './story-dedup.mjs'
+import { isSameTopic, shouldCompareWithHistory } from './story-dedup.mjs'
 
 const feeds = [
   ['TechCrunch AI', 'https://techcrunch.com/category/artificial-intelligence/feed/'],
@@ -143,8 +143,10 @@ function similarity(a, b) {
 function loadRecentStories() {
   try {
     const source = readFileSync(outputPath, 'utf8')
-    const match = source.match(/export const storySeeds: StorySeed\[\] = (\[[\s\S]*\])\s*$/)
-    return match ? JSON.parse(match[1]) : []
+    const generatedAt = source.match(/export const generatedAt = '([^']+)'/)?.[1]
+    const stories = source.match(/export const storySeeds: StorySeed\[\] = (\[[\s\S]*\])\s*$/)?.[1]
+    if (!generatedAt || !stories || !shouldCompareWithHistory(generatedAt, now.toISOString())) return []
+    return JSON.parse(stories)
   } catch {
     return []
   }

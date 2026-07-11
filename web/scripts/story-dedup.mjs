@@ -28,12 +28,29 @@ function overlap(left, right) {
   return shared
 }
 
+function namedHeadlineTokens({ headline = '' }) {
+  return new Set(
+    headline
+      .match(/\b(?:[A-Z][a-z]+|[A-Z]{2,})\b/g)
+      ?.map((token) => normalizeToken(token.toLowerCase()))
+      .filter((token) => token.length > 2 && !stopWords.has(token)) ?? [],
+  )
+}
+
+export function shouldCompareWithHistory(historyGeneratedAt, currentGeneratedAt) {
+  const historyDay = new Date(historyGeneratedAt).toISOString().slice(0, 10)
+  const currentDay = new Date(currentGeneratedAt).toISOString().slice(0, 10)
+  return historyDay !== currentDay
+}
+
 /**
  * Returns true only when two independently sourced articles describe the same
  * event. It intentionally compares the headline plus source excerpt so it can
  * catch rewritten headlines without collapsing broad AI coverage together.
  */
 export function isSameTopic(leftStory, rightStory) {
+  if (overlap(namedHeadlineTokens(leftStory), namedHeadlineTokens(rightStory)) >= 2) return true
+
   const left = topicTokens(leftStory)
   const right = topicTokens(rightStory)
   const union = new Set([...left, ...right]).size
