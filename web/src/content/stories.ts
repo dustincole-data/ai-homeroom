@@ -10,7 +10,7 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-11T18:43:35.882Z'
+export const generatedAt = '2026-07-11T18:44:13.806Z'
 
 export const storySeeds: StorySeed[] = [
   {
