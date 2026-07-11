@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict'
+import test from 'node:test'
+import { isSameTopic } from '../scripts/story-dedup.mjs'
+
+const metaVerge = {
+  headline: 'Meta turns off the Instagram feature that let users make AI deepfakes of public accounts',
+  context: 'Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them.',
+}
+
+const metaBbc = {
+  headline: 'Meta pulls new AI image feature after days of backlash',
+  context: "Meta's release this week of an AI feature that let people alter Instagram content drew swift blowback.",
+}
+
+const metaRnz = {
+  headline: 'Meta removes AI feature on Instagram after global backlash',
+  context: "Meta has backed down on a controversial feature that allowed people's public Instagram posts to be used by anyone for AI generation.",
+}
+
+test('treats independent coverage of one event as the same topic', () => {
+  assert.equal(isSameTopic(metaVerge, metaBbc), true)
+  assert.equal(isSameTopic(metaVerge, metaRnz), true)
+})
+
+test('does not collapse unrelated stories that merely mention AI', () => {
+  assert.equal(isSameTopic(metaVerge, {
+    headline: 'Apple sues OpenAI for allegedly stealing hardware secrets',
+    context: 'Apple says former engineers shared confidential hardware plans with the AI startup.',
+  }), false)
+})
+
+test('matches a topic against an earlier daily story', () => {
+  assert.equal(isSameTopic(metaBbc, metaRnz), true)
+})

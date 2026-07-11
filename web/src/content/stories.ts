@@ -10,82 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-06-19T14:50:32.322Z'
+export const generatedAt = '2026-07-11T18:39:21.577Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
+    "headline": "AI 2040 and the Cult of Intelligence",
     "badge": "new",
-    "summary": "Longtime Linux kernel maintainer Greg Kroah-Hartman says AI bug reports have moved from mostly useless noise to something maintainers can actually use.  The story is about a practical turning point: AI tools are now finding real software bugs in one of the most important open-source projects in the world.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "theregister.com",
-    "sourceUrl": "https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-06-19T13:01:52.000Z"
-  },
-  {
-    "headline": "The CEO of Allbirds’ new AI biz has a plan, but no employees",
-    "badge": "new",
-    "summary": "Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first.",
-    "whyItMatters": "This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what “building a company” even means.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees",
+    "summary": "I read Yudkowsky and was like, OMG recursive self improvement hard takeoff AI is coming. Then I joined the real world and actually tried to do things.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "geohot.github.io",
+    "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-06-19T13:00:00.000Z"
+    "publishedAt": "2026-07-11T18:04:01.000Z"
   },
   {
-    "headline": "Barret Zoph is out at OpenAI again after just five months",
+    "headline": "Who manages the agents?",
     "badge": "new",
-    "summary": "Barret Zoph, OpenAI’s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati.",
-    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+    "summary": "There are two visions for the future: AI as a deity built and controlled by a small group of clergy, or humans at the center with AI as an amplifier.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "off-policy.com",
+    "sourceUrl": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "AI Agent"
     ],
-    "publishedAt": "2026-06-19T04:49:33.000Z"
+    "publishedAt": "2026-07-11T18:02:33.000Z"
   },
   {
-    "headline": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+    "headline": "Reverse centaurs are the answer to the AI paradox",
     "badge": "new",
-    "summary": "Baseten, a company that helps other businesses run AI models after they are trained, is reportedly close to raising $1.5 billion at a $13 billion valuation.  That would come only months after its last huge funding round.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
+    "summary": "Privacy policy: we don't collect or retain any data at all ever period. My latest Locus column is \"Reverse Centaurs,\" and it sets out to unravel a paradox: how is it that some AI's users describe their experience as a hellish ordeal, while others delight in the ways that AI is changing their lives for the better.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "pluralistic.net",
+    "sourceUrl": "https://pluralistic.net/2025/09/11/vulgar-thatcherism",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-06-18T21:20:13.000Z"
+    "publishedAt": "2026-07-11T17:23:52.000Z"
   },
   {
-    "headline": "Snap spins off AI video team into new company, Dotmo, due to costs",
+    "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
     "badge": "new",
-    "summary": "Snap is spinning out its AI video team into a separate company called Dotmo because the work is expensive.  Current Snap employees will leave to build the new company around AI video instead of keeping it inside Snapchat.",
+    "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-07-11T14:13:00.000Z"
+  },
+  {
+    "headline": "Ghost Font: A font that humans can read but AI cannot",
+    "badge": "new",
+    "summary": "An anti-AI font that can be read by humans but not leading AI models. Type your text below, then download and share the video clip containing your message.",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
+    "sourceName": "mixfont.com",
+    "sourceUrl": "https://www.mixfont.com/ghost-font",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-06-18T20:30:00.000Z"
+    "publishedAt": "2026-07-11T09:36:53.000Z"
   },
   {
-    "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+    "headline": "Microsoft latest report shows 25% emissions raised due to AI data centers",
     "badge": "new",
-    "summary": "OpenAI is adding high-profile people as it prepares for an eventual IPO, including Transformer co-inventor Noam Shazeer and former Trump AI policy official Dean Ball.  The story is about OpenAI looking less like a research lab and more like a company preparing for Wall Street and Washington at the same time.",
-    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+    "summary": "The most recent Microsoft Environmental Sustainability Report shows the actual emissions of the company (solid line) compared to the estimated emissions if Microsoft had not taken steps to reduce its emissions. Microsoft has several plans to reduce carbon emissions, including a 10-year partnership with Climeworks for direct air capture .",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "windowscentral.com",
+    "sourceUrl": "https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Training Data"
     ],
-    "publishedAt": "2026-06-18T19:59:22.000Z"
+    "publishedAt": "2026-07-11T09:10:45.000Z"
   }
 ]

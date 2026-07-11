@@ -46,8 +46,12 @@ test('fresh story generator is wired into deployment and avoids stale static sto
 
   assert.match(packageJson, /"update-stories": "node scripts\/generate-stories\.mjs"/)
   assert.match(workflow, /npm run update-stories/)
+  assert.match(workflow, /github\.actor != 'github-actions\[bot\]'/)
+  assert.match(workflow, /Persist generated stories for the next refresh/)
+  assert.match(workflow, /git add web\/src\/content\/stories\.ts/)
   assert.match(generator, /lookbackMs = 24 \* 60 \* 60 \* 1000/)
-  assert.match(generator, /similarity\(story\.headline, candidate\.title\) >= 0\.34/)
+  assert.match(generator, /isSameTopic\(story, topic\)/)
+  assert.match(generator, /const recentStories = loadRecentStories\(\)/)
 
   const generatedAt = stories.match(/export const generatedAt = '([^']+)'/)?.[1]
   assert.ok(generatedAt, 'generatedAt should be present')
