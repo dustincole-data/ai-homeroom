@@ -173,6 +173,18 @@
       "context": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
       "sourceUrl": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
       "publishedAt": "2026-07-12T16:27:06.000Z"
+    },
+    {
+      "headline": "Autoresearch, Claude and Constrained Optimization",
+      "context": "Introduction You don't need to look far to find claims that folks have been using AI to do the work of dozens of people. I tend to be skeptical of any claim that discusses improvements without evidence. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization",
+      "publishedAt": "2026-07-12T14:32:00.000Z"
+    },
+    {
+      "headline": "AI boosts research careers but narrow the span of ideas explored: study",
+      "context": "Nicole Millman; Source images: iStock {\"customDimensions\": {\"5\":\"Elie Dolgin\",\"11\":2674892739,\"7\":\"scientific-research, machine-learning, deep-learning, artificial-intelligence, ai-scientist, publications\",\"10\":\"scientific-research\",\"6\":\"artificial-intelligence\",\"8\":\"01/19/2026\"}, \"post\": {\"id\": 2674892739, \"providerId\": 0, \"sections\": [2268663105, 2286715746, 497728259. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "publishedAt": "2026-07-12T13:26:13.000Z"
     }
   ]
 }

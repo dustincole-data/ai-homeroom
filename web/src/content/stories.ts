@@ -10,87 +10,34 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-13T12:25:10.809Z'
+export const generatedAt = '2026-07-13T12:29:21.474Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Waze is getting a bunch of new AI-powered features",
+    "headline": "Autoresearch, Claude and Constrained Optimization",
     "badge": "new",
-    "summary": "Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-13T09:00:00.000Z"
-  },
-  {
-    "headline": "Ask HN: Add flag for AI-generated articles",
-    "badge": "new",
-    "summary": "Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to skip it.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "news.ycombinator.com",
-    "sourceUrl": "https://news.ycombinator.com/item?id=48886741",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-13T01:24:20.000Z"
-  },
-  {
-    "headline": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
-    "badge": "new",
-    "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Image Recognition"
-    ],
-    "publishedAt": "2026-07-12T20:10:19.000Z"
-  },
-  {
-    "headline": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-    "badge": "new",
-    "summary": "We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.",
+    "summary": "Introduction You don't need to look far to find claims that folks have been using AI to do the work of dozens of people. I tend to be skeptical of any claim that discusses improvements without evidence.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "systima.ai",
-    "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+    "sourceName": "elliotcsmith.com",
+    "sourceUrl": "https://www.elliotcsmith.com/autoresearch-claude-and-constrained-optimization",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Anthropic",
       "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-07-12T18:25:51.000Z"
+    "publishedAt": "2026-07-12T14:32:00.000Z"
   },
   {
-    "headline": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+    "headline": "AI boosts research careers but narrow the span of ideas explored: study",
     "badge": "new",
-    "summary": "Product Resources Solutions Company Pricing The Ploy Effect Log in Start Free Product > Resources > Solutions > Company > AI Website Builder Visitor Identification Account-Based Marketing Analytics Answer Engine Optimization Hosting Product Resources Solutions Company Pricing T h e P l o y E f f e c t Log in Start Free Back to blog Migrating a production AI agent to GPT-5.6 We.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "ploy.ai",
-    "sourceUrl": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+    "summary": "Nicole Millman; Source images: iStock {\"customDimensions\": {\"5\":\"Elie Dolgin\",\"11\":2674892739,\"7\":\"scientific-research, machine-learning, deep-learning, artificial-intelligence, ai-scientist, publications\",\"10\":\"scientific-research\",\"6\":\"artificial-intelligence\",\"8\":\"01/19/2026\"}, \"post\": {\"id\": 2674892739, \"providerId\": 0, \"sections\": [2268663105, 2286715746, 497728259.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "spectrum.ieee.org",
+    "sourceUrl": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Model"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-12T17:13:07.000Z"
-  },
-  {
-    "headline": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
-    "badge": "new",
-    "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-12T16:27:06.000Z"
+    "publishedAt": "2026-07-12T13:26:13.000Z"
   }
 ]
