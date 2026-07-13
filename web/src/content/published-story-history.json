@@ -13,8 +13,8 @@
       "publishedAt": "2026-06-16T23:15:44.000Z"
     },
     {
-      "headline": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests",
-      "context": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests. This is a current AI story from TechCrunch AI, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
+      "headline": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests",
+      "context": "Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests. This is a current AI story from TechCrunch AI, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
       "sourceUrl": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
       "publishedAt": "2026-06-16T22:34:17.000Z"
     },
@@ -43,14 +43,14 @@
       "publishedAt": "2026-06-19T13:01:52.000Z"
     },
     {
-      "headline": "The CEO of Allbirds\u2019 new AI biz has a plan, but no employees",
-      "context": "Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first. This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what \u201cbuilding a company\u201d even means.",
+      "headline": "The CEO of Allbirds’ new AI biz has a plan, but no employees",
+      "context": "Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first. This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what “building a company” even means.",
       "sourceUrl": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees",
       "publishedAt": "2026-06-19T13:00:00.000Z"
     },
     {
       "headline": "Barret Zoph is out at OpenAI again after just five months",
-      "context": "Barret Zoph, OpenAI\u2019s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+      "context": "Barret Zoph, OpenAI’s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
       "publishedAt": "2026-06-19T04:49:33.000Z"
     },
@@ -116,27 +116,33 @@
     },
     {
       "headline": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-      "context": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [\u2026] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "context": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
       "publishedAt": "2026-07-10T23:49:50.000Z"
     },
     {
       "headline": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
-      "context": "Recreating a 1986 BBC Micro game by using AI to reverse-engineer 6502 assembly \u2014 extracting Q7.8 fixed-point physics, emulating the SN76489 sound chip, and discovering why the original feels the way it does. Software archaeology with a modern accomplice. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "context": "Recreating a 1986 BBC Micro game by using AI to reverse-engineer 6502 assembly — extracting Q7.8 fixed-point physics, emulating the SN76489 sound chip, and discovering why the original feels the way it does. Software archaeology with a modern accomplice. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology",
       "publishedAt": "2026-07-10T22:04:45.000Z"
     },
     {
       "headline": "Apple sues OpenAI for allegedly stealing hardware secrets",
-      "context": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [\u2026] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "context": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, […] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
       "publishedAt": "2026-07-10T21:36:51.000Z"
     },
     {
       "headline": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
-      "context": "ICE\u2019s internal oversight group, the Office of Professional Responsibility, has begun investigating online critics of the agency , opening more than 100 cases looking at what ICE officials call \u201cincidents of doxing and threats\u201d against agency employees. And in the European Union, tech companies will be able to scan citizens\u2019 personal texts, emails, and social media messages. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "context": "ICE’s internal oversight group, the Office of Professional Responsibility, has begun investigating online critics of the agency , opening more than 100 cases looking at what ICE officials call “incidents of doxing and threats” against agency employees. And in the European Union, tech companies will be able to scan citizens’ personal texts, emails, and social media messages. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
       "sourceUrl": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years",
       "publishedAt": "2026-07-11T17:00:52.000Z"
+    },
+    {
+      "headline": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+      "context": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […] This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "publishedAt": "2026-07-12T20:10:19.000Z"
     }
   ]
 }

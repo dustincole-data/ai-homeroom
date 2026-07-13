@@ -10,82 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-11T18:44:13.806Z'
+export const generatedAt = '2026-07-13T12:25:10.809Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "AI 2040 and the Cult of Intelligence",
+    "headline": "Waze is getting a bunch of new AI-powered features",
     "badge": "new",
-    "summary": "I read Yudkowsky and was like, OMG recursive self improvement hard takeoff AI is coming. Then I joined the real world and actually tried to do things.",
+    "summary": "Google is integrating its flagship AI assistant, Gemini, into the driving app with the goal of letting users personalize their trips a little more. Of the four new updates, only two are being described as involving Gemini.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "geohot.github.io",
-    "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-11T18:04:01.000Z"
+    "publishedAt": "2026-07-13T09:00:00.000Z"
   },
   {
-    "headline": "Who manages the agents?",
+    "headline": "Ask HN: Add flag for AI-generated articles",
     "badge": "new",
-    "summary": "There are two visions for the future: AI as a deity built and controlled by a small group of clergy, or humans at the center with AI as an amplifier.",
+    "summary": "Should HN add the ability to flag articles as AI-generated? This doesn't have to act as a regular flag, i.e., it won't de-rank the article; it could just show up as an indicator, allowing others (like myself) who don't like reading AI-generated text, to skip it.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "off-policy.com",
-    "sourceUrl": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night",
+    "sourceName": "news.ycombinator.com",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48886741",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-13T01:24:20.000Z"
+  },
+  {
+    "headline": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+    "badge": "new",
+    "summary": "Lorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to speak out against AI glasses. While she didn't specify any brands in particular, it's likely she was taking a shot at festival sponsor Ray-Ban, which has collaborated with Meta on a pair of AI smartglasses. […]",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Image Recognition"
     ],
-    "publishedAt": "2026-07-11T18:02:33.000Z"
+    "publishedAt": "2026-07-12T20:10:19.000Z"
   },
   {
-    "headline": "Reverse centaurs are the answer to the AI paradox",
+    "headline": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
     "badge": "new",
-    "summary": "Privacy policy: we don't collect or retain any data at all ever period. My latest Locus column is \"Reverse Centaurs,\" and it sets out to unravel a paradox: how is it that some AI's users describe their experience as a hellish ordeal, while others delight in the ways that AI is changing their lives for the better.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "pluralistic.net",
-    "sourceUrl": "https://pluralistic.net/2025/09/11/vulgar-thatcherism",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-11T17:23:52.000Z"
-  },
-  {
-    "headline": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
-    "badge": "new",
-    "summary": "ICE’s internal oversight group, the Office of Professional Responsibility, has begun investigating online critics of the agency , opening more than 100 cases looking at what ICE officials call “incidents of doxing and threats” against agency employees. And in the European Union, tech companies will be able to scan citizens’ personal texts, emails, and social media messages.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "wired.com",
-    "sourceUrl": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-11T17:00:52.000Z"
-  },
-  {
-    "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
-    "badge": "new",
-    "summary": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting.",
+    "summary": "We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using OpenCode.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
+    "sourceName": "systima.ai",
+    "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Anthropic",
       "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-07-11T14:13:00.000Z"
+    "publishedAt": "2026-07-12T18:25:51.000Z"
   },
   {
-    "headline": "Ghost Font: A font that humans can read but AI cannot",
+    "headline": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
     "badge": "new",
-    "summary": "An anti-AI font that can be read by humans but not leading AI models. Type your text below, then download and share the video clip containing your message.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "mixfont.com",
-    "sourceUrl": "https://www.mixfont.com/ghost-font",
+    "summary": "Product Resources Solutions Company Pricing The Ploy Effect Log in Start Free Product > Resources > Solutions > Company > AI Website Builder Visitor Identification Account-Based Marketing Analytics Answer Engine Optimization Hosting Product Resources Solutions Company Pricing T h e P l o y E f f e c t Log in Start Free Back to blog Migrating a production AI agent to GPT-5.6 We.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "ploy.ai",
+    "sourceUrl": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Model"
     ],
-    "publishedAt": "2026-07-11T09:36:53.000Z"
+    "publishedAt": "2026-07-12T17:13:07.000Z"
+  },
+  {
+    "headline": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+    "badge": "new",
+    "summary": "Apple's self-driving car program never really got off the ground, but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving platform, Apple realized that it would need powerful on-device AI processing.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-12T16:27:06.000Z"
   }
 ]
