@@ -429,7 +429,7 @@ async function main() {
     if (selected.length === 6) break
   }
 
-  if (selected.length < 3) {
+  if (selected.length < 1) {
     throw new Error(`Only found ${selected.length} fresh AI stories. Errors: ${errors.join('; ')}`)
   }
 

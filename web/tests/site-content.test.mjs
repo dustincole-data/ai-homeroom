@@ -64,9 +64,8 @@ test('fresh story generator is wired into deployment and avoids stale static sto
   assert.ok(Date.now() - Date.parse(generatedAt) < 48 * 60 * 60 * 1000, 'generated stories should not be stale')
 
   const headlines = [...stories.matchAll(/"headline": "([^"]+)"/g)].map((match) => match[1])
-  // The generator emits up to six stories and explicitly allows smaller daily sets
-  // when reliable, unique coverage is scarce.
-  assert.ok(headlines.length >= 3, 'at least three fresh stories should be generated')
+  // On quiet news days, one reliable, unique story beats inventing or repeating coverage.
+  assert.ok(headlines.length >= 1, 'at least one fresh story should be generated')
   assert.ok(headlines.length <= 6, 'no more than six fresh stories should be generated')
   assert.equal(new Set(headlines).size, headlines.length)
 })
