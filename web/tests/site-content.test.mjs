@@ -43,6 +43,7 @@ test('fresh story generator is wired into deployment and avoids stale static sto
   const packageJson = readFileSync(new URL('../package.json', import.meta.url), 'utf8')
   const generator = readFileSync(new URL('../scripts/generate-stories.mjs', import.meta.url), 'utf8')
   const stories = storiesSource()
+  const publishedHistory = JSON.parse(readFileSync(new URL('../src/content/published-story-history.json', import.meta.url), 'utf8')).stories
 
   assert.match(packageJson, /"update-stories": "node scripts\/generate-stories\.mjs"/)
   assert.match(workflow, /npm run update-stories/)
@@ -53,6 +54,10 @@ test('fresh story generator is wired into deployment and avoids stale static sto
   assert.match(generator, /isSameTopic\(story, topic\)/)
   assert.match(generator, /const publishedHistory = loadPublishedHistory\(\)/)
   assert.match(generator, /isPreviouslyPublished\(topic, previouslyPublished\)/)
+  assert.match(generator, /published\.sourceUrl === entry\.sourceUrl/)
+
+  const currentStories = JSON.parse(stories.match(/export const storySeeds: StorySeed\[\] = (\[[\s\S]*\])\s*$/)?.[1] ?? '[]')
+  assert.ok(currentStories.every((story) => publishedHistory.some((published) => published.sourceUrl === story.sourceUrl)), 'every live story should be retained in published history')
 
   const generatedAt = stories.match(/export const generatedAt = '([^']+)'/)?.[1]
   assert.ok(generatedAt, 'generatedAt should be present')

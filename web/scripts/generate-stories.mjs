@@ -173,7 +173,7 @@ function writePublishedHistory(existingHistory, currentStories, selectedStories)
   const history = [...existingHistory]
   for (const story of [...currentStories, ...selectedStories]) {
     const entry = historyEntry(story)
-    if (!entry.headline || history.some((published) => published.sourceUrl === entry.sourceUrl || isSameTopic(published, entry))) continue
+    if (!entry.headline || history.some((published) => published.sourceUrl === entry.sourceUrl)) continue
     history.push(entry)
   }
   writeFileSync(publishedHistoryPath, `${JSON.stringify({ stories: history }, null, 2)}\n`)
