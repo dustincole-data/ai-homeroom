@@ -1,0 +1,142 @@
+{
+  "stories": [
+    {
+      "headline": "France to ditch Palantir's AI data tools in favour of domestic provider",
+      "context": "France to ditch Palantir's AI data tools in favour of domestic provider. This is a current AI story from theguardian.com, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because AI is moving quickly across business, work, apps, and public policy.",
+      "sourceUrl": "https://www.theguardian.com/world/2026/jun/16/france-ai-data-tools-palantir-chapsvision",
+      "publishedAt": "2026-06-17T00:16:14.000Z"
+    },
+    {
+      "headline": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More",
+      "context": "Wolfram Language and Mathematica Version 15, AI Assistant, Symbolic Music, More. This is a current AI story from writings.stephenwolfram.com, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because AI is moving quickly across business, work, apps, and public policy.",
+      "sourceUrl": "https://writings.stephenwolfram.com/2026/06/launching-version-15-of-wolfram-language-mathematica-built-in-useful-ai-lots-of-new-core-functionality",
+      "publishedAt": "2026-06-16T23:15:44.000Z"
+    },
+    {
+      "headline": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests",
+      "context": "Anthropic\u2019s latest feud with the Trump admin may actually help it, sales data suggests. This is a current AI story from TechCrunch AI, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
+      "sourceUrl": "https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests",
+      "publishedAt": "2026-06-16T22:34:17.000Z"
+    },
+    {
+      "headline": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines",
+      "context": "Trump admin tries to block Clean Air Act lawsuit over xAI's gas turbines. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed. It shows that AI products are not just demos; they also raise safety, security, legal, and public-trust questions.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/06/trump-admin-helps-xai-fight-pollution-lawsuit-says-military-needs-grok-for-war",
+      "publishedAt": "2026-06-16T22:22:44.000Z"
+    },
+    {
+      "headline": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK",
+      "context": "Anthropic \"pauses\" token-based billing for its Claude Agent SDK. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because model changes can affect the tools people use for writing, coding, research, and everyday work.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk",
+      "publishedAt": "2026-06-16T21:00:35.000Z"
+    },
+    {
+      "headline": "Pentagon boasts of using AI to write reports mandated by Congress",
+      "context": "Pentagon boasts of using AI to write reports mandated by Congress. This is a current AI story from Ars Technica AI, rewritten here as a plain-English note so readers can quickly understand what changed. It matters because AI is moving quickly across business, work, apps, and public policy.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/06/pentagon-boasts-of-using-ai-to-write-reports-mandated-by-congress",
+      "publishedAt": "2026-06-16T18:11:05.000Z"
+    },
+    {
+      "headline": "Linux Maintainer Greg Kroah-Hartman Says AI Tools Now Useful, Finding Real Bugs",
+      "context": "Longtime Linux kernel maintainer Greg Kroah-Hartman says AI bug reports have moved from mostly useless noise to something maintainers can actually use.  The story is about a practical turning point: AI tools are now finding real software bugs in one of the most important open-source projects in the world. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://www.theregister.com/software/2026/03/26/linux-kernel-czar-says-ai-bug-reports-arent-slop-anymore/5226256",
+      "publishedAt": "2026-06-19T13:01:52.000Z"
+    },
+    {
+      "headline": "The CEO of Allbirds\u2019 new AI biz has a plan, but no employees",
+      "context": "Allbirds is trying to turn its AI pivot into a real business without building a normal staff around it.  The story looks at a strange new startup model where a public shoe company chases AI, keeps the team tiny, and tries to use automation instead of hiring people first. This is the AI-work story in miniature.  If a company can test a business with almost no staff, that changes hiring, startup costs, and what \u201cbuilding a company\u201d even means.",
+      "sourceUrl": "https://techcrunch.com/2026/06/19/the-ceo-of-allbirds-new-ai-biz-has-a-plan-but-no-employees",
+      "publishedAt": "2026-06-19T13:00:00.000Z"
+    },
+    {
+      "headline": "Barret Zoph is out at OpenAI again after just five months",
+      "context": "Barret Zoph, OpenAI\u2019s head of enterprise AI sales, has left the company only five months after returning.  He had come back from Thinking Machines Lab, the rival AI company started by former OpenAI CTO Mira Murati. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab",
+      "publishedAt": "2026-06-19T04:49:33.000Z"
+    },
+    {
+      "headline": "AI inference startup Baseten reportedly raising $1.5B months after its last mega-round",
+      "context": "Baseten, a company that helps other businesses run AI models after they are trained, is reportedly close to raising $1.5 billion at a $13 billion valuation.  That would come only months after its last huge funding round. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round",
+      "publishedAt": "2026-06-18T21:20:13.000Z"
+    },
+    {
+      "headline": "Snap spins off AI video team into new company, Dotmo, due to costs",
+      "context": "Snap is spinning out its AI video team into a separate company called Dotmo because the work is expensive.  Current Snap employees will leave to build the new company around AI video instead of keeping it inside Snapchat. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs",
+      "publishedAt": "2026-06-18T20:30:00.000Z"
+    },
+    {
+      "headline": "OpenAI is bringing on some big guns in the lead-up to its IPO",
+      "context": "OpenAI is adding high-profile people as it prepares for an eventual IPO, including Transformer co-inventor Noam Shazeer and former Trump AI policy official Dean Ball.  The story is about OpenAI looking less like a research lab and more like a company preparing for Wall Street and Washington at the same time. This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+      "sourceUrl": "https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo",
+      "publishedAt": "2026-06-18T19:59:22.000Z"
+    },
+    {
+      "headline": "AI 2040 and the Cult of Intelligence",
+      "context": "I read Yudkowsky and was like, OMG recursive self improvement hard takeoff AI is coming. Then I joined the real world and actually tried to do things. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+      "publishedAt": "2026-07-11T18:04:01.000Z"
+    },
+    {
+      "headline": "Who manages the agents?",
+      "context": "There are two visions for the future: AI as a deity built and controlled by a small group of clergy, or humans at the center with AI as an amplifier. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night",
+      "publishedAt": "2026-07-11T18:02:33.000Z"
+    },
+    {
+      "headline": "Reverse centaurs are the answer to the AI paradox",
+      "context": "Privacy policy: we don't collect or retain any data at all ever period. My latest Locus column is \"Reverse Centaurs,\" and it sets out to unravel a paradox: how is it that some AI's users describe their experience as a hellish ordeal, while others delight in the ways that AI is changing their lives for the better. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://pluralistic.net/2025/09/11/vulgar-thatcherism",
+      "publishedAt": "2026-07-11T17:23:52.000Z"
+    },
+    {
+      "headline": "OpenAI bets on families as ChatGPT goes deeper into households",
+      "context": "ChatGPT is hiring a dedicated product manager to build experiences for families, caregivers, and older adults, according to a job posting. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households",
+      "publishedAt": "2026-07-11T14:13:00.000Z"
+    },
+    {
+      "headline": "Ghost Font: A font that humans can read but AI cannot",
+      "context": "An anti-AI font that can be read by humans but not leading AI models. Type your text below, then download and share the video clip containing your message. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://www.mixfont.com/ghost-font",
+      "publishedAt": "2026-07-11T09:36:53.000Z"
+    },
+    {
+      "headline": "Microsoft latest report shows 25% emissions raised due to AI data centers",
+      "context": "The most recent Microsoft Environmental Sustainability Report shows the actual emissions of the company (solid line) compared to the estimated emissions if Microsoft had not taken steps to reduce its emissions. Microsoft has several plans to reduce carbon emissions, including a 10-year partnership with Climeworks for direct air capture . This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump",
+      "publishedAt": "2026-07-11T09:10:45.000Z"
+    },
+    {
+      "headline": "Meta removes controversial AI feature on Instagram after backlash",
+      "context": "\"Our intent was to provide a useful creative tool and to give people control over whether their public content could be referenced in this way,\" the company said in a blog post. \"We've heard the feedback that this feature missed the mark, so it's no longer available.\" The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash",
+      "publishedAt": "2026-07-10T23:55:07.000Z"
+    },
+    {
+      "headline": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+      "context": "Following significant backlash, Meta is turning off the feature it announced this week that let users generate AI images based on content from public Instagram accounts just by tagging them. The feature, as originally set up, meant that content from any public Instagram account could be used in AI creations without the account owner's permission. [\u2026] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "publishedAt": "2026-07-10T23:49:50.000Z"
+    },
+    {
+      "headline": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
+      "context": "Recreating a 1986 BBC Micro game by using AI to reverse-engineer 6502 assembly \u2014 extracting Q7.8 fixed-point physics, emulating the SN76489 sound chip, and discovering why the original feels the way it does. Software archaeology with a modern accomplice. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology",
+      "publishedAt": "2026-07-10T22:04:45.000Z"
+    },
+    {
+      "headline": "Apple sues OpenAI for allegedly stealing hardware secrets",
+      "context": "Apple has sued OpenAI, alleging that engineers stole Apple secrets to advance the AI startup's hardware plans. In its complaint, Apple says it uncovered \"a pattern of theft of Apple's trade secrets by OpenAI employees who were formerly at Apple.\" In addition to OpenAI, the lawsuit also names IO Products - Jony Ive's hardware startup, [\u2026] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets",
+      "publishedAt": "2026-07-10T21:36:51.000Z"
+    },
+    {
+      "headline": "AI Found a Root Bug in Linux That Everyone Missed for 15 Years",
+      "context": "ICE\u2019s internal oversight group, the Office of Professional Responsibility, has begun investigating online critics of the agency , opening more than 100 cases looking at what ICE officials call \u201cincidents of doxing and threats\u201d against agency employees. And in the European Union, tech companies will be able to scan citizens\u2019 personal texts, emails, and social media messages. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://www.wired.com/story/security-news-this-week-ai-found-a-root-bug-in-linux-that-everyone-missed-for-15-years",
+      "publishedAt": "2026-07-11T17:00:52.000Z"
+    }
+  ]
+}

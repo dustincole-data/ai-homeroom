@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { isSameTopic, shouldCompareWithHistory } from '../scripts/story-dedup.mjs'
+import { isPreviouslyPublished, isSameTopic, shouldCompareWithHistory } from '../scripts/story-dedup.mjs'
 
 const metaVerge = {
   headline: 'Meta turns off the Instagram feature that let users make AI deepfakes of public accounts',
@@ -46,4 +46,13 @@ test('does not treat the current daily set as prior-day history', () => {
 
 test('matches a topic against an earlier daily story', () => {
   assert.equal(isSameTopic(metaBbc, metaRnz), true)
+})
+
+test('rejects a new candidate when the same topic was published previously', () => {
+  const publishedHistory = [metaVerge]
+  assert.equal(isPreviouslyPublished(metaRnz, publishedHistory), true)
+  assert.equal(isPreviouslyPublished({
+    headline: 'Apple sues OpenAI for allegedly stealing hardware secrets',
+    context: 'Apple says former engineers shared confidential hardware plans with the AI startup.',
+  }, publishedHistory), false)
 })

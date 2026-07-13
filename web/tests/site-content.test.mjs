@@ -51,14 +51,18 @@ test('fresh story generator is wired into deployment and avoids stale static sto
   assert.match(workflow, /git add web\/src\/content\/stories\.ts/)
   assert.match(generator, /lookbackMs = 24 \* 60 \* 60 \* 1000/)
   assert.match(generator, /isSameTopic\(story, topic\)/)
-  assert.match(generator, /const recentStories = loadRecentStories\(\)/)
+  assert.match(generator, /const publishedHistory = loadPublishedHistory\(\)/)
+  assert.match(generator, /isPreviouslyPublished\(topic, previouslyPublished\)/)
 
   const generatedAt = stories.match(/export const generatedAt = '([^']+)'/)?.[1]
   assert.ok(generatedAt, 'generatedAt should be present')
   assert.ok(Date.now() - Date.parse(generatedAt) < 48 * 60 * 60 * 1000, 'generated stories should not be stale')
 
   const headlines = [...stories.matchAll(/"headline": "([^"]+)"/g)].map((match) => match[1])
-  assert.equal(headlines.length, 6)
+  // The generator emits up to six stories and explicitly allows smaller daily sets
+  // when reliable, unique coverage is scarce.
+  assert.ok(headlines.length >= 3, 'at least three fresh stories should be generated')
+  assert.ok(headlines.length <= 6, 'no more than six fresh stories should be generated')
   assert.equal(new Set(headlines).size, headlines.length)
 })
 

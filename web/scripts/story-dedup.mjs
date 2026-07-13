@@ -48,6 +48,10 @@ export function shouldCompareWithHistory(historyGeneratedAt, currentGeneratedAt)
  * event. It intentionally compares the headline plus source excerpt so it can
  * catch rewritten headlines without collapsing broad AI coverage together.
  */
+export function isPreviouslyPublished(candidate, publishedStories = []) {
+  return publishedStories.some((story) => isSameTopic(story, candidate))
+}
+
 export function isSameTopic(leftStory, rightStory) {
   if (overlap(namedHeadlineTokens(leftStory), namedHeadlineTokens(rightStory)) >= 2) return true
 

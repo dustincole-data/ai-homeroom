@@ -57,7 +57,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/src/content/stories.ts
+          git add web/src/content/stories.ts web/src/content/published-story-history.json
           git diff --cached --quiet || git commit -m "chore: refresh AI Homeroom stories"
           git push
       - name: Setup Pages
