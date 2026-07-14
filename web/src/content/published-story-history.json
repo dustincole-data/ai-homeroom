@@ -185,6 +185,42 @@
       "context": "Nicole Millman; Source images: iStock {\"customDimensions\": {\"5\":\"Elie Dolgin\",\"11\":2674892739,\"7\":\"scientific-research, machine-learning, deep-learning, artificial-intelligence, ai-scientist, publications\",\"10\":\"scientific-research\",\"6\":\"artificial-intelligence\",\"8\":\"01/19/2026\"}, \"post\": {\"id\": 2674892739, \"providerId\": 0, \"sections\": [2268663105, 2286715746, 497728259. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
       "publishedAt": "2026-07-12T13:26:13.000Z"
+    },
+    {
+      "headline": "Show HN: Benchmark your eng team's AI agent maturity in 5 minutes",
+      "context": "we had hundreds of discussions with engineering leaders over the past few months, and everyone's trying to understand where they are in the AI journey. we collected all this data into a benchmark and built a free grader to let you know where you stand. you answer on a 1–5 scale (e.g., autonomy runs from \"suggestions only\" to \"agents own multi-hour workflows across code, infra. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://agent-benchmarks.com/software-factory",
+      "publishedAt": "2026-07-14T06:48:47.000Z"
+    },
+    {
+      "headline": "Scams Were Awful. Then They Got AI",
+      "context": "Then They Got AI. by Haiman Wong March 11, 2026 Print Share via Email: Scams%20Were%20Already%20Awful.%20Then%20They%20Got%20AI. Share via Facebook: Scams%20Were%20Already%20Awful.%20Then%20They%20Got%20AI. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.rstreet.org/commentary/scams-were-already-awful-then-they-got-ai",
+      "publishedAt": "2026-07-14T00:09:32.000Z"
+    },
+    {
+      "headline": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+      "context": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation",
+      "publishedAt": "2026-07-13T23:31:18.000Z"
+    },
+    {
+      "headline": "The AI Whale Fall and Open Source",
+      "context": "powered by Hugo | themed with poison &copy; 2026 . Frontier labs are subsidizing AI usage, and we&rsquo;d be fools not to use it to improve the state of open source while that holds out. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
+      "publishedAt": "2026-07-13T23:16:42.000Z"
+    },
+    {
+      "headline": "Cdbx.ai – AI-powered browser IDE to describe, build, and publish apps",
+      "context": "Everything you'd expect from a desktop IDE — without the setup. Full Monaco editor — same engine as VS Code Real terminal with streaming output AI pair programmer that reads and writes your files Instant preview. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://cdbx.ai",
+      "publishedAt": "2026-07-13T23:07:16.000Z"
+    },
+    {
+      "headline": "Satya Nadella has issued a shocking warning to companies using AI",
+      "context": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai",
+      "publishedAt": "2026-07-13T20:59:00.000Z"
     }
   ]
 }
