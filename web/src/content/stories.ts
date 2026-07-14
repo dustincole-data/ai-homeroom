@@ -10,82 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-14T09:15:48.602Z'
+export const generatedAt = '2026-07-14T18:40:37.737Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Show HN: Benchmark your eng team's AI agent maturity in 5 minutes",
+    "headline": "Google faces another AI training lawsuit from major publishers",
     "badge": "new",
-    "summary": "we had hundreds of discussions with engineering leaders over the past few months, and everyone's trying to understand where they are in the AI journey. we collected all this data into a benchmark and built a free grader to let you know where you stand. you answer on a 1–5 scale (e.g., autonomy runs from \"suggestions only\" to \"agents own multi-hour workflows across code, infra.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "agent-benchmarks.com",
-    "sourceUrl": "https://agent-benchmarks.com/software-factory",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-14T06:48:47.000Z"
-  },
-  {
-    "headline": "Scams Were Awful. Then They Got AI",
-    "badge": "new",
-    "summary": "Then They Got AI. by Haiman Wong March 11, 2026 Print Share via Email: Scams%20Were%20Already%20Awful.%20Then%20They%20Got%20AI. Share via Facebook: Scams%20Were%20Already%20Awful.%20Then%20They%20Got%20AI.",
+    "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "rstreet.org",
-    "sourceUrl": "https://www.rstreet.org/commentary/scams-were-already-awful-then-they-got-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-14T00:09:32.000Z"
-  },
-  {
-    "headline": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-    "badge": "new",
-    "summary": "The company is raising at least $75 million, led by Robot Ventures, with significant participation from USV and other prominent investors.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "DeepMind",
+      "AI Safety"
     ],
-    "publishedAt": "2026-07-13T23:31:18.000Z"
+    "publishedAt": "2026-07-14T18:33:31.000Z"
   },
   {
-    "headline": "The AI Whale Fall and Open Source",
+    "headline": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
     "badge": "new",
-    "summary": "powered by Hugo | themed with poison &copy; 2026 . Frontier labs are subsidizing AI usage, and we&rsquo;d be fools not to use it to improve the state of open source while that holds out.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "minor.gripe",
-    "sourceUrl": "https://minor.gripe/posts/2026-07-13-the_ai_whalefall_and_open_source",
+    "summary": "Today, we're announcing Bonsai 27B, based on Qwen3.6 27B, the new multimodal flagship of the Bonsai family and the first model of its capability class to run on a phone. Our earlier releases proved that models with 1-bit and ternary weights could produce commercially useful language models.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "prismml.com",
+    "sourceUrl": "https://prismml.com/news/bonsai-27b",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-14T17:50:48.000Z"
+  },
+  {
+    "headline": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+    "badge": "new",
+    "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-07-14T17:45:55.000Z"
+  },
+  {
+    "headline": "Meta accused of using biased AI targeting for mass layoffs",
+    "badge": "new",
+    "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constellation\" of internal AI tools, […]",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-13T23:16:42.000Z"
+    "publishedAt": "2026-07-14T17:18:11.000Z"
   },
   {
-    "headline": "Cdbx.ai – AI-powered browser IDE to describe, build, and publish apps",
+    "headline": "Google revamps image search for its 25th anniversary with more images and more AI",
     "badge": "new",
-    "summary": "Everything you'd expect from a desktop IDE — without the setup. Full Monaco editor — same engine as VS Code Real terminal with streaming output AI pair programmer that reads and writes your files Instant preview.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "cdbx.ai",
-    "sourceUrl": "https://cdbx.ai",
+    "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind",
+      "Image Recognition"
+    ],
+    "publishedAt": "2026-07-14T16:28:14.000Z"
+  },
+  {
+    "headline": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
+    "badge": "new",
+    "summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Tool"
     ],
-    "publishedAt": "2026-07-13T23:07:16.000Z"
-  },
-  {
-    "headline": "Satya Nadella has issued a shocking warning to companies using AI",
-    "badge": "new",
-    "summary": "Of all the debates raging about the potential downsides of AI, there is one worry causing the most hand-wringing among AI enthusiasts in Silicon Valley — that the giant AI labs that sell proprietary models are somehow acting like Trojan horses.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-13T20:59:00.000Z"
+    "publishedAt": "2026-07-14T16:22:15.000Z"
   }
 ]
