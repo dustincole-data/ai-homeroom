@@ -10,6 +10,12 @@ export type PermanentGlossaryTerm = {
 // concepts that should be folded into one stronger definition.
 export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
   {
+    term: 'Agent Loop',
+    aliases: ['agent loop'],
+    definition:
+      'An agent loop is the cycle an AI agent repeats until a job is done: gather context, take an action, then check what happened and decide the next step.',
+  },
+  {
     term: 'Agentic AI',
     aliases: ['agentic AI'],
     definition:
@@ -76,16 +82,40 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'Back-office work is behind-the-scenes business work like processing forms, support tasks, operations, scheduling, or billing.',
   },
   {
+    term: 'Benchmark',
+    aliases: ['benchmark', 'benchmarks'],
+    definition:
+      'A benchmark is a standard test used to compare AI models or agents on the same tasks. Scores are easy to quote and easy to misread, so it matters who ran the test and on which tasks.',
+  },
+  {
     term: 'Chatbot',
     aliases: ['chatbot'],
     definition:
       'A chatbot is the interface you type or talk into. It is usually the steering wheel, not the whole AI system.',
   },
   {
+    term: 'ChatGPT Work',
+    aliases: ['ChatGPT Work'],
+    definition:
+      'ChatGPT Work is OpenAI’s agent for everyday office work like documents, research, spreadsheets, and slides. It runs on the same Codex engine built for coding.',
+  },
+  {
+    term: 'Claude Code',
+    aliases: ['Claude Code'],
+    definition:
+      'Claude Code is Anthropic’s coding agent. It works on real files on your own computer, runs commands, and checks its own work. It is also the engine behind Cowork.',
+  },
+  {
     term: 'Claude Fable',
     aliases: ['Claude Fable'],
     definition:
       'Claude Fable is a version or test variant of Claude, Anthropic’s AI chatbot.',
+  },
+  {
+    term: 'Codex',
+    aliases: ['Codex'],
+    definition:
+      'Codex is OpenAI’s coding agent. It runs in the terminal, in the ChatGPT desktop app, and in the cloud, where it works on a copy of your project and hands back the changes for you to review.',
   },
   {
     term: 'Coding',
@@ -100,16 +130,40 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'A coding agent is an AI agent that can work inside codebases to read files, edit code, run commands, test changes, and sometimes open pull requests.',
   },
   {
+    term: 'Command-Line Interface (CLI)',
+    aliases: ['CLI', 'command-line interface', 'command line', 'terminal'],
+    definition:
+      'A command-line interface, or CLI, is the text window where you type instructions to a computer instead of clicking buttons. It is the black screen with white text, and it is where coding agents started. You do not have to use one.',
+  },
+  {
     term: 'Company Server',
     aliases: ['company server'],
     definition:
       'A company server is a computer owned or rented by a business that handles data or runs software for users.',
   },
   {
+    term: 'Computer Use',
+    aliases: ['computer use', 'computer-use', 'Computer Use'],
+    definition:
+      'Computer use is when an agent looks at a picture of your screen, works out where things are, and moves the mouse and types the way a person would. It needs no special connection to the software it is operating, which is what makes it broad. It is also the slowest and least reliable way for an agent to work, so it is normally the last resort.',
+  },
+  {
+    term: 'Context Rot',
+    aliases: ['context rot'],
+    definition:
+      'Context rot is the way an AI model gets less sharp as a long conversation or task fills up its context window. It tends to hold on to the beginning and the end, and lose the middle.',
+  },
+  {
     term: 'Context Window',
     aliases: ['context', 'context window', 'context windows'],
     definition:
       'A context window is the amount of text or information an AI model can keep in mind at one time, including your prompt, chat history, files, search results, or connected data.',
+  },
+  {
+    term: 'Cowork',
+    aliases: ['Cowork', 'Claude Cowork'],
+    definition:
+      'Cowork is Anthropic’s agent for people who do not want a terminal. It runs the Claude Code engine inside a chat window and works on your files, calendar, email, and other apps you connect to it.',
   },
   {
     term: 'Debugging',
@@ -136,6 +190,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'Deezer is a music streaming service, similar to Spotify or Apple Music.',
   },
   {
+    term: 'Diff',
+    aliases: ['diff', 'diffs'],
+    definition:
+      'A diff is a before-and-after view of what changed in a file. Additions show as additions, deletions show as deletions. It is the receipt you review before you accept an agent’s work.',
+  },
+  {
     term: 'DiffusionGemma',
     aliases: ['DiffusionGemma'],
     definition:
@@ -158,6 +218,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
     aliases: ['fine-tuning'],
     definition:
       'Fine-tuning is extra training that changes how a model behaves for a specific style, format, task, or pattern.',
+  },
+  {
+    term: 'Frontier Model',
+    aliases: ['frontier model', 'frontier models'],
+    definition:
+      'A frontier model is one of the newest and most capable models a company sells, and usually the most expensive one to run.',
   },
   {
     term: 'GPU',
@@ -184,10 +250,22 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'A hallucination is a confident AI answer that sounds real but is wrong, unsupported, or made up.',
   },
   {
+    term: 'Harness',
+    aliases: ['harness', 'harnesses'],
+    definition:
+      'A harness is the program that wraps an AI model and turns it into an agent. It runs the loop, hands the model its tools, and decides what it is allowed to touch. The model is the brain. The harness is the body it drives around in. Claude Code and Codex are harnesses.',
+  },
+  {
     term: 'Hidden Rules',
     aliases: ['hidden rules'],
     definition:
       'Hidden rules are instructions inside software that affect what it does but are not clearly shown to users.',
+  },
+  {
+    term: 'Hook',
+    aliases: ['hook', 'hooks'],
+    definition:
+      'A hook is a piece of code that runs before an agent is allowed to act, and it can block the action. Writing "never delete my files" in an instructions file is a request the model can ignore. A hook actually stops it. Guardrails are the rules, and a hook is what makes one stick.',
   },
   {
     term: 'Human Judgment',
@@ -206,6 +284,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
     aliases: ['inference'],
     definition:
       'Inference is the moment a trained model is being used to answer, predict, classify, write, or generate something.',
+  },
+  {
+    term: 'Instructions File',
+    aliases: ['instructions file', 'instruction file', 'CLAUDE.md', 'AGENTS.md'],
+    definition:
+      'An instructions file is a plain-English document you drop into a project folder that tells an agent how you want it to work: what the project is, how to check its own work, and what never to touch. There is no code in it and no format to learn. Claude Code reads one called CLAUDE.md. Codex reads one called AGENTS.md.',
   },
   {
     term: 'Keyword Search',
@@ -286,6 +370,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'An open model is an AI model whose learned settings or design are released so other people can download, run, inspect, or build on it more freely than a closed product.',
   },
   {
+    term: 'OpenAI',
+    aliases: ['OpenAI'],
+    definition:
+      'OpenAI is the AI company that makes ChatGPT, the GPT models, and the Codex coding agent.',
+  },
+  {
     term: 'Operations',
     aliases: ['operations'],
     definition:
@@ -296,6 +386,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
     aliases: ['outsourcing'],
     definition:
       'Outsourcing means hiring another company or team, often in another place, to do work for your business.',
+  },
+  {
+    term: 'Permission Mode',
+    aliases: ['permission mode', 'permission modes', 'plan mode', 'manual mode', 'accept-edits mode', 'auto mode'],
+    definition:
+      'A permission mode is how much freedom you give an agent before it acts. Plan mode lets it look but not touch. Other modes make it ask before every action, or let it change files without asking, or let it mostly run on its own. Starting in plan mode is the safest way to learn what an agent intends to do.',
   },
   {
     term: 'Platform',
@@ -328,10 +424,22 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'A remote server is a powerful computer somewhere else that your device connects to over the internet.',
   },
   {
+    term: 'Repository (Repo)',
+    aliases: ['repository', 'repositories', 'repo', 'repos', 'codebase'],
+    definition:
+      'A repository, or repo, is the folder that holds a software project along with the history of every change made to it. The code inside it is the codebase.',
+  },
+  {
     term: 'Retrieval-Augmented Generation (RAG)',
     aliases: ['RAG', 'Retrieval-Augmented Generation'],
     definition:
       'Retrieval-Augmented Generation, or RAG, is a setup where AI searches trusted documents first, then answers with that information in front of it.',
+  },
+  {
+    term: 'Sandbox',
+    aliases: ['sandbox', 'sandboxes', 'sandboxed'],
+    definition:
+      'A sandbox is a walled-off space where an agent can work without touching your real files or your real computer. If it makes a mess, the mess stays inside the box.',
   },
   {
     term: 'Skill',
@@ -419,7 +527,7 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
   },
   {
     term: 'Validation',
-    aliases: ['validation'],
+    aliases: ['validation', 'verification', 'verify', 'verified'],
     definition:
       'Validation means checking an AI answer against sources, files, logs, tests, or other evidence before trusting it.',
   },
