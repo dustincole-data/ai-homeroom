@@ -10,86 +10,89 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-14T18:40:37.737Z'
+export const generatedAt = '2026-07-15T09:15:42.570Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Google faces another AI training lawsuit from major publishers",
+    "headline": "I tricked Claude into leaking your deepest, darkest secrets",
     "badge": "new",
-    "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+    "summary": "Blog {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Memory Heist\",\"description\":\"How I tricked Claude into leaking your deepest, darkest secrets\",\"datePublished\":\"2026-07-09\",\"dateModified\":\"2026-07-09\",\"author\":{\"@type\":\"Person\",\"name\":\"Ayush Paul\",\"url\":\"https://ayush.digital\"},\"publisher\":{\"@type\":\"Person\",\"name\":\"Ayush.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers",
+    "sourceName": "ayush.digital",
+    "sourceUrl": "https://www.ayush.digital/blog/the-memory-heist",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind",
-      "AI Safety"
+      "Anthropic",
+      "Chatbot",
+      "Model"
     ],
-    "publishedAt": "2026-07-14T18:33:31.000Z"
+    "publishedAt": "2026-07-15T06:28:00.000Z"
   },
   {
-    "headline": "Bonsai 27B (1-bit LLM): The First 27B-Class Model to Run on a Phone",
+    "headline": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
     "badge": "new",
-    "summary": "Today, we're announcing Bonsai 27B, based on Qwen3.6 27B, the new multimodal flagship of the Bonsai family and the first model of its capability class to run on a phone. Our earlier releases proved that models with 1-bit and ternary weights could produce commercially useful language models.",
+    "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-07-15T00:27:04.000Z"
+  },
+  {
+    "headline": "Lorde says AI glasses are ‘not sexy’",
+    "badge": "new",
+    "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Image Recognition"
+    ],
+    "publishedAt": "2026-07-14T23:10:02.000Z"
+  },
+  {
+    "headline": "LeMario: Training a JEPA World Model on Super Mario Bros",
+    "badge": "new",
+    "summary": "A from-scratch JEPA world model trained on Super Mario Bros. to study action-conditioned prediction and reward-free planning.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "prismml.com",
-    "sourceUrl": "https://prismml.com/news/bonsai-27b",
+    "sourceName": "benjamin-bai.com",
+    "sourceUrl": "https://www.benjamin-bai.com/projects/lemario",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-07-14T17:50:48.000Z"
+    "publishedAt": "2026-07-14T22:30:47.000Z"
   },
   {
-    "headline": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+    "headline": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
     "badge": "new",
-    "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+    "summary": "OpenAI’s first foray into hardware devices is reported to be a mobile smart speaker with integrated AI capabilities that can sync with ChatGPT and provide other home AI services. Bloomberg reported Tuesday that the device — which is still currently under development — is designed to be screen-free and is being pitched internally as a “humanlike AI companion that lives in the.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind"
+      "Chatbot"
     ],
-    "publishedAt": "2026-07-14T17:45:55.000Z"
+    "publishedAt": "2026-07-14T22:22:24.000Z"
   },
   {
-    "headline": "Meta accused of using biased AI targeting for mass layoffs",
+    "headline": "OpenAI pushes back on Apple trade secret lawsuit",
     "badge": "new",
-    "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constellation\" of internal AI tools, […]",
+    "summary": "OpenAI pushed back Tuesday against allegations made by Apple in a trade secret lawsuit , suggesting the complaint lacks merit. “While we take these allegations seriously, we’re not aware of any evidence that this complaint has merit,” OpenAI said in a statement, first shared by Bloomberg reporter Ed Ludlow on X.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-14T17:18:11.000Z"
-  },
-  {
-    "headline": "Google revamps image search for its 25th anniversary with more images and more AI",
-    "badge": "new",
-    "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
-      "Image Recognition"
-    ],
-    "publishedAt": "2026-07-14T16:28:14.000Z"
-  },
-  {
-    "headline": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
-    "badge": "new",
-    "summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Chatbot",
+      "AI Safety",
       "Tool"
     ],
-    "publishedAt": "2026-07-14T16:22:15.000Z"
+    "publishedAt": "2026-07-14T22:07:42.000Z"
   }
 ]
