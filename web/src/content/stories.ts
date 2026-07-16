@@ -10,89 +10,91 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-15T09:15:42.570Z'
+export const generatedAt = '2026-07-16T09:15:25.746Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "I tricked Claude into leaking your deepest, darkest secrets",
+    "headline": "Stop saying that AI is just a tool and it only matters how it is used",
     "badge": "new",
-    "summary": "Blog {\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"The Memory Heist\",\"description\":\"How I tricked Claude into leaking your deepest, darkest secrets\",\"datePublished\":\"2026-07-09\",\"dateModified\":\"2026-07-09\",\"author\":{\"@type\":\"Person\",\"name\":\"Ayush Paul\",\"url\":\"https://ayush.digital\"},\"publisher\":{\"@type\":\"Person\",\"name\":\"Ayush.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "ayush.digital",
-    "sourceUrl": "https://www.ayush.digital/blog/the-memory-heist",
+    "summary": "I'm tired of this phrase and this simple way of thinking about tools. This blog post is a wandering train of thought on the topic of what tools are and why it matters to be even slightly more mature in how we think about them. This post has garnered significant traffic to my blog as well as discussion on and offline over the last 10 months. For some google search queries (such.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "frank.computer",
+    "sourceUrl": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-16T04:31:01.000Z"
+  },
+  {
+    "headline": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+    "badge": "new",
+    "summary": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-16T04:00:00.000Z"
+  },
+  {
+    "headline": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+    "badge": "new",
+    "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-07-15T23:59:44.000Z"
+  },
+  {
+    "headline": "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary",
+    "badge": "new",
+    "summary": "AI pair programming in your terminal — one static binary, sub-ms startup, any model - 1ay1/agentty",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/1ay1/agentty",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Anthropic",
       "Chatbot",
+      "AI Agent",
       "Model"
     ],
-    "publishedAt": "2026-07-15T06:28:00.000Z"
+    "publishedAt": "2026-07-15T22:30:24.000Z"
   },
   {
-    "headline": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+    "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
     "badge": "new",
-    "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+    "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "VentureBeat AI",
+    "sourceUrl": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-07-15T00:27:04.000Z"
-  },
-  {
-    "headline": "Lorde says AI glasses are ‘not sexy’",
-    "badge": "new",
-    "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Image Recognition"
-    ],
-    "publishedAt": "2026-07-14T23:10:02.000Z"
-  },
-  {
-    "headline": "LeMario: Training a JEPA World Model on Super Mario Bros",
-    "badge": "new",
-    "summary": "A from-scratch JEPA world model trained on Super Mario Bros. to study action-conditioned prediction and reward-free planning.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "benjamin-bai.com",
-    "sourceUrl": "https://www.benjamin-bai.com/projects/lemario",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-07-14T22:30:47.000Z"
-  },
-  {
-    "headline": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
-    "badge": "new",
-    "summary": "OpenAI’s first foray into hardware devices is reported to be a mobile smart speaker with integrated AI capabilities that can sync with ChatGPT and provide other home AI services. Bloomberg reported Tuesday that the device — which is still currently under development — is designed to be screen-free and is being pitched internally as a “humanlike AI companion that lives in the.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-07-14T22:22:24.000Z"
-  },
-  {
-    "headline": "OpenAI pushes back on Apple trade secret lawsuit",
-    "badge": "new",
-    "summary": "OpenAI pushed back Tuesday against allegations made by Apple in a trade secret lawsuit , suggesting the complaint lacks merit. “While we take these allegations seriously, we’re not aware of any evidence that this complaint has merit,” OpenAI said in a statement, first shared by Bloomberg reporter Ed Ludlow on X.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Safety",
+      "AI Agent",
       "Tool"
     ],
-    "publishedAt": "2026-07-14T22:07:42.000Z"
+    "publishedAt": "2026-07-15T22:24:17.000Z"
+  },
+  {
+    "headline": "LLM Networking with MikroTik",
+    "badge": "new",
+    "summary": "I’ve been refraining from saying ‘vibe networking’ or ‘vibkrotik’ or some other abomination, but it is true - I have been using LLMs to setup a few networks these last few months, and things have generally gone over swimmingly.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "blog.greg.technology",
+    "sourceUrl": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-15T22:23:27.000Z"
   }
 ]

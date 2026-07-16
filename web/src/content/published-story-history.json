@@ -293,6 +293,42 @@
       "context": "OpenAI pushed back Tuesday against allegations made by Apple in a trade secret lawsuit , suggesting the complaint lacks merit. “While we take these allegations seriously, we’re not aware of any evidence that this complaint has merit,” OpenAI said in a statement, first shared by Bloomberg reporter Ed Ludlow on X. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit",
       "publishedAt": "2026-07-14T22:07:42.000Z"
+    },
+    {
+      "headline": "Stop saying that AI is just a tool and it only matters how it is used",
+      "context": "I'm tired of this phrase and this simple way of thinking about tools. This blog post is a wandering train of thought on the topic of what tools are and why it matters to be even slightly more mature in how we think about them. This post has garnered significant traffic to my blog as well as discussion on and offline over the last 10 months. For some google search queries (such. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+      "publishedAt": "2026-07-16T04:31:01.000Z"
+    },
+    {
+      "headline": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+      "context": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant",
+      "publishedAt": "2026-07-16T04:00:00.000Z"
+    },
+    {
+      "headline": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "context": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+      "publishedAt": "2026-07-15T23:59:44.000Z"
+    },
+    {
+      "headline": "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary",
+      "context": "AI pair programming in your terminal — one static binary, sub-ms startup, any model - 1ay1/agentty Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://github.com/1ay1/agentty",
+      "publishedAt": "2026-07-15T22:30:24.000Z"
+    },
+    {
+      "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+      "context": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+      "publishedAt": "2026-07-15T22:24:17.000Z"
+    },
+    {
+      "headline": "LLM Networking with MikroTik",
+      "context": "I’ve been refraining from saying ‘vibe networking’ or ‘vibkrotik’ or some other abomination, but it is true - I have been using LLMs to setup a few networks these last few months, and things have generally gone over swimmingly. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "publishedAt": "2026-07-15T22:23:27.000Z"
     }
   ]
 }
