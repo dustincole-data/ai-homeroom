@@ -55,6 +55,9 @@ jobs:
       - name: Refresh variant content snapshots
         run: node scripts/emit-variant-data.mjs
         working-directory: web
+      - name: Promote AI Homeroom to the site root
+        run: node scripts/promote-homeroom.mjs
+        working-directory: web
       - name: Persist generated stories for the next refresh
         if: github.actor != 'github-actions[bot]'
         run: |

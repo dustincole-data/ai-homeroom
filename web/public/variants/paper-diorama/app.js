@@ -88,7 +88,7 @@ document.getElementById('cards').innerHTML = stories.map((story, i) => {
   const featured = i === 0;
   const patch = PATCHES[i % PATCHES.length];
   return `
-  <article class="craft-card${featured ? ' featured' : ''}" style="--tilt:${tilt}deg" aria-label="Story ${i + 1}">
+  <article class="craft-card${featured ? ' featured' : ''}" id="story-${i}" style="--tilt:${tilt}deg" aria-label="Story ${i + 1}">
     <span class="card-patch" style="background:${patch}" aria-hidden="true"></span>
     <span class="sticker ${story.badge}" aria-label="${story.badge} story">${story.badge === 'new' ? '★ new' : '↻ upd'}</span>
     <p class="card-topline"><span class="source-chip">${escapeHtml(story.sourceName)}</span></p>
@@ -98,6 +98,7 @@ document.getElementById('cards').innerHTML = stories.map((story, i) => {
     <div class="card-footer">
       <a class="article-link" href="${escapeHtml(story.sourceUrl)}" target="_blank" rel="noreferrer">Original source: ${escapeHtml(story.sourceName)} ↗</a>
       <span class="card-date">${cardDate(story.publishedAt)}</span>
+      <button type="button" class="card-listen" data-story="${i}" hidden>▶ Listen</button>
     </div>
   </article>`;
 }).join('');
@@ -175,6 +176,224 @@ window.addEventListener('scroll', () => {
   if (r.bottom < 0 || r.top > window.innerHeight) hideTooltip();
   else showTooltip(tooltipFor);
 }, { passive: true });
+
+/* ═══════════════════════════════════════════════════════════════
+   THE INTERCOM — the lesson, read aloud.
+   Browser-native speech synthesis: no key, no network, no cost.
+   ═══════════════════════════════════════════════════════════════ */
+const synth = window.speechSynthesis;
+
+/* Say it the way a teacher would: initialisms get spelled, domains get
+   "dot", money gets said in full. TTS engines mangle all three. */
+const SAY = [
+  [/\bAI\b/g, 'A.I.'],
+  [/\bLLMs\b/g, 'L.L.M.s'], [/\bLLM\b/g, 'L.L.M.'],
+  [/\bAPIs\b/g, 'A.P.I.s'], [/\bAPI\b/g, 'A.P.I.'],
+  [/\bCLI\b/g, 'C.L.I.'], [/\bMCP\b/g, 'M.C.P.'], [/\bRAG\b/g, 'rag'],
+  [/\bGPUs\b/g, 'G.P.U.s'], [/\bGPU\b/g, 'G.P.U.'],
+  [/\bRSS\b/g, 'R.S.S.'], [/\bCEO\b/g, 'C.E.O.'],
+  [/\$(\d+(?:\.\d+)?)\s?M\b/g, '$1 million dollars'],
+  [/\$(\d+(?:\.\d+)?)\s?B\b/g, '$1 billion dollars'],
+  [/\$(\d+(?:\.\d+)?)\s?K\b/g, '$1 thousand dollars'],
+  [/\b([a-z0-9-]+)\.(com|ai|org|net|io|dev|computer|technology|co)\b/gi, '$1 dot $2'],
+  [/[—–]/g, ', '],
+  [/["“”]/g, ''],
+  [/\s+/g, ' '],
+];
+const speakable = (text) => SAY.reduce((s, [re, to]) => s.replace(re, to), text).trim();
+
+const ORDINAL = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth', 'seventh', 'eighth', 'ninth', 'tenth'];
+
+/* Build the lesson script: an ordered list of {storyIndex, text} segments. */
+function buildScript() {
+  const spokenDate = new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date(generatedAt));
+  const segments = [{
+    storyIndex: null,
+    text: `Good morning, and welcome to A.I. Homeroom for ${spokenDate}. We have ${stories.length} ${stories.length === 1 ? 'story' : 'stories'} on the board today. Here is what actually happened, and why it matters.`,
+  }];
+
+  stories.forEach((story, i) => {
+    const nth = ORDINAL[i] ?? `number ${i + 1}`;
+    segments.push({
+      storyIndex: i,
+      text: speakable(
+        `Story the ${nth}, from ${story.sourceName}. ${story.headline}. ` +
+        `${story.summary} ` +
+        `Why it matters. ${story.whyItMatters}`,
+      ),
+    });
+  });
+
+  segments.push({
+    storyIndex: null,
+    text: 'And that is today’s lesson. Every story links to its original source on the page, so you can read the whole thing when you are back at a screen. Class dismissed.',
+  });
+  return segments;
+}
+
+/* Chrome truncates long utterances; feed it a sentence at a time. */
+function chunk(text, max = 180) {
+  const out = [];
+  for (const sentence of text.match(/[^.!?]+[.!?]*\s*/g) ?? [text]) {
+    if (sentence.length <= max) { out.push(sentence.trim()); continue; }
+    let line = '';
+    for (const word of sentence.split(/\s+/)) {
+      if ((line + ' ' + word).trim().length > max) { out.push(line.trim()); line = word; }
+      else line = (line + ' ' + word).trim();
+    }
+    if (line) out.push(line.trim());
+  }
+  return out.filter(Boolean);
+}
+
+if (synth && stories.length) {
+  const segments = buildScript();
+  /* flatten to chunks, remembering which story each belongs to */
+  const queue = segments.flatMap((seg) => chunk(seg.text).map((text) => ({ text, storyIndex: seg.storyIndex })));
+  const totalWords = queue.reduce((n, q) => n + q.text.split(/\s+/).length, 0);
+
+  const el = {
+    intercom: document.getElementById('intercom'),
+    cta: document.getElementById('listen-cta'),
+    runtime: document.getElementById('cta-runtime'),
+    now: document.getElementById('intercom-now'),
+    bar: document.getElementById('intercom-bar'),
+    play: document.getElementById('btn-play'),
+    prev: document.getElementById('btn-prev'),
+    next: document.getElementById('btn-next'),
+    stop: document.getElementById('btn-stop'),
+    voice: document.getElementById('voice-select'),
+    rate: document.getElementById('rate-select'),
+    onAir: document.getElementById('on-air'),
+  };
+
+  /* runtime estimate at ~155 wpm */
+  const minutes = Math.max(1, Math.round(totalWords / 155));
+  el.runtime.textContent = `${minutes} min`;
+  el.cta.hidden = false;
+  document.querySelectorAll('.card-listen').forEach((b) => { b.hidden = false; });
+
+  let cursor = 0;
+  let playing = false;
+  let voices = [];
+  let keepAlive = null;
+
+  /* Voices arrive asynchronously in Chrome. */
+  function loadVoices() {
+    voices = synth.getVoices().filter((v) => v.lang?.toLowerCase().startsWith('en'));
+    if (!voices.length) return;
+    const preferred = [/natural/i, /google us english/i, /aria/i, /jenny/i, /samantha/i, /zira/i];
+    const ranked = [...voices].sort((a, b) => {
+      const score = (v) => preferred.findIndex((re) => re.test(v.name));
+      const sa = score(a), sb = score(b);
+      return (sa < 0 ? 99 : sa) - (sb < 0 ? 99 : sb);
+    });
+    el.voice.innerHTML = ranked
+      .map((v, i) => `<option value="${escapeHtml(v.name)}"${i === 0 ? ' selected' : ''}>${escapeHtml(v.name.replace(/^Microsoft /, '').replace(/ - English.*$/, ''))}</option>`)
+      .join('');
+  }
+  loadVoices();
+  synth.addEventListener?.('voiceschanged', loadVoices);
+
+  const currentVoice = () => voices.find((v) => v.name === el.voice.value) ?? null;
+
+  function highlight(storyIndex) {
+    document.querySelectorAll('.craft-card.now-reading').forEach((c) => c.classList.remove('now-reading'));
+    if (storyIndex === null || storyIndex === undefined) {
+      el.now.textContent = 'Homeroom announcements';
+      return;
+    }
+    const card = document.getElementById(`story-${storyIndex}`);
+    if (!card) return;
+    card.classList.add('now-reading');
+    el.now.textContent = `Story ${storyIndex + 1} of ${stories.length} — ${stories[storyIndex].sourceName}`;
+    card.scrollIntoView({ block: 'center', behavior: reduceMotion ? 'auto' : 'smooth' });
+  }
+
+  function progress() {
+    el.bar.style.width = `${(cursor / queue.length) * 100}%`;
+  }
+
+  function speakAt(i) {
+    if (i >= queue.length) { stop(); return; }
+    cursor = i;
+    progress();
+    const item = queue[i];
+    if (i === 0 || item.storyIndex !== queue[i - 1]?.storyIndex) highlight(item.storyIndex);
+
+    const u = new SpeechSynthesisUtterance(item.text);
+    const v = currentVoice();
+    if (v) { u.voice = v; u.lang = v.lang; }
+    u.rate = Number(el.rate.value);
+    u.pitch = 1;
+    u.onend = () => { if (playing) speakAt(i + 1); };
+    u.onerror = (e) => { if (e.error !== 'interrupted' && e.error !== 'canceled' && playing) speakAt(i + 1); };
+    synth.speak(u);
+  }
+
+  /* Chrome silently stops speaking after ~15s unless nudged. */
+  function startKeepAlive() {
+    clearInterval(keepAlive);
+    keepAlive = setInterval(() => {
+      if (!playing) return;
+      if (synth.speaking && !synth.paused) { synth.pause(); synth.resume(); }
+    }, 9000);
+  }
+
+  function play(from = cursor) {
+    synth.cancel();
+    playing = true;
+    el.intercom.hidden = false;
+    el.play.textContent = '⏸';
+    el.play.setAttribute('aria-label', 'Pause');
+    el.onAir.classList.add('live');
+    startKeepAlive();
+    speakAt(from);
+  }
+
+  function pause() {
+    playing = false;
+    synth.cancel();
+    el.play.textContent = '▶';
+    el.play.setAttribute('aria-label', 'Play');
+    el.onAir.classList.remove('live');
+    clearInterval(keepAlive);
+  }
+
+  function stop() {
+    pause();
+    cursor = 0;
+    progress();
+    el.intercom.hidden = true;
+    document.querySelectorAll('.craft-card.now-reading').forEach((c) => c.classList.remove('now-reading'));
+  }
+
+  /* jump to the first chunk of a story (or the intro) */
+  const firstChunkOf = (storyIndex) => queue.findIndex((q) => q.storyIndex === storyIndex);
+  function jumpStory(delta) {
+    const here = queue[cursor]?.storyIndex;
+    const base = here === null || here === undefined ? (delta > 0 ? -1 : 0) : here;
+    const target = Math.min(stories.length - 1, Math.max(0, base + delta));
+    const at = firstChunkOf(target);
+    if (at >= 0) play(at);
+  }
+
+  el.cta.addEventListener('click', () => play(0));
+  el.play.addEventListener('click', () => (playing ? pause() : play(cursor)));
+  el.prev.addEventListener('click', () => jumpStory(-1));
+  el.next.addEventListener('click', () => jumpStory(1));
+  el.stop.addEventListener('click', stop);
+  el.rate.addEventListener('change', () => { if (playing) play(cursor); });
+  el.voice.addEventListener('change', () => { if (playing) play(cursor); });
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest?.('.card-listen');
+    if (!btn) return;
+    const at = firstChunkOf(Number(btn.dataset.story));
+    if (at >= 0) play(at);
+  });
+  window.addEventListener('pagehide', () => synth.cancel());
+  window.addEventListener('beforeunload', () => synth.cancel());
+}
 
 /* ═══════════════════════════════════════════════════════════════
    PAPER AIRPLANE — three.js, folded from eight triangles,

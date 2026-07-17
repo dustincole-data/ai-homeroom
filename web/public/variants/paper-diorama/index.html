@@ -3,9 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AI Homeroom — daily AI news summaries, impact notes, and a word wall of weird words, for normal people." />
+  <meta name="description" content="Daily AI news summaries, impact notes, and glossary cards for normal people. Read it, or have it read to you." />
   <meta name="theme-color" content="#2f4fc4" />
   <title>AI Homeroom</title>
+  <link rel="canonical" href="https://dustincole-data.github.io/ai-homeroom/" />
+  <link rel="apple-touch-icon" href="/ai-homeroom/apple-touch-icon.png" />
+  <link rel="manifest" href="/ai-homeroom/site.webmanifest" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Homeroom" />
+  <meta property="og:description" content="AI news summaries, impact notes, and glossary cards for normal people." />
+  <meta property="og:url" content="https://dustincole-data.github.io/ai-homeroom/" />
+  <meta property="og:image" content="https://dustincole-data.github.io/ai-homeroom/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Homeroom" />
+  <meta name="twitter:description" content="AI news summaries, impact notes, and glossary cards for normal people." />
+  <meta name="twitter:image" content="https://dustincole-data.github.io/ai-homeroom/og-image.png" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%232f4fc4'/%3E%3Ccircle cx='68' cy='34' r='16' fill='%23f5b73a'/%3E%3Cpath d='M14 74 L44 48 L70 74 Z' fill='%233f9e5c'/%3E%3Cpath d='M0 84 L28 62 L58 84 Z' fill='%23e2543a'/%3E%3C/svg%3E" />
   <link rel="preload" href="./assets/fonts/tanker-400.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="./assets/fonts/generalsans-400.woff2" as="font" type="font/woff2" crossorigin />
@@ -66,6 +80,11 @@
         </p>
         <div class="hero-actions">
           <a class="paper-btn red" href="#showtell">See today’s show &amp; tell</a>
+          <button class="paper-btn yellow listen-cta" id="listen-cta" type="button" hidden>
+            <span class="cta-icon" aria-hidden="true">▶</span>
+            Listen to today’s lesson
+            <span class="cta-runtime" id="cta-runtime"></span>
+          </button>
           <a class="paper-btn white" href="https://github.com/dustincole-data/ai-homeroom" rel="noreferrer">View the build</a>
         </div>
       </div>
@@ -104,13 +123,42 @@
 
     <footer class="recess">
       <h2 class="diecut small" data-text="RECESS!">RECESS!</h2>
-      <p class="recess-line">After-hours classrooms —
-        <a href="../night-school/">Night School</a> <span class="tape-dot">●</span>
-        <a href="../permanent-record/">the Records Office</a>
-      </p>
-      <p class="fineprint marker">Summaries link to their sources. Glue dries nightly. No safety scissors were harmed.</p>
+      <p class="recess-line">New lesson every school day. Sources always linked.</p>
+      <p class="fineprint marker">Glue dries nightly. No safety scissors were harmed.</p>
     </footer>
   </main>
+
+  <!-- ══════════ THE INTERCOM — spoken lesson player ══════════ -->
+  <aside class="intercom" id="intercom" hidden aria-label="Spoken lesson player">
+    <div class="intercom-grille" aria-hidden="true"></div>
+    <div class="intercom-body">
+      <p class="intercom-status">
+        <span class="on-air" id="on-air">ON AIR</span>
+        <span class="intercom-now typed" id="intercom-now">Homeroom announcements</span>
+      </p>
+      <div class="intercom-progress" aria-hidden="true"><span id="intercom-bar"></span></div>
+      <div class="intercom-controls">
+        <button type="button" id="btn-prev" class="ic-btn" aria-label="Previous story">⏮</button>
+        <button type="button" id="btn-play" class="ic-btn primary" aria-label="Pause">⏸</button>
+        <button type="button" id="btn-next" class="ic-btn" aria-label="Next story">⏭</button>
+        <label class="ic-field">
+          <span class="ic-label">Teacher</span>
+          <select id="voice-select" aria-label="Choose a voice"></select>
+        </label>
+        <label class="ic-field">
+          <span class="ic-label">Pace</span>
+          <select id="rate-select" aria-label="Reading speed">
+            <option value="0.85">0.85×</option>
+            <option value="1" selected>1×</option>
+            <option value="1.25">1.25×</option>
+            <option value="1.5">1.5×</option>
+            <option value="1.75">1.75×</option>
+          </select>
+        </label>
+        <button type="button" id="btn-stop" class="ic-btn close" aria-label="Stop and close player">✕</button>
+      </div>
+    </div>
+  </aside>
 
   <div id="tooltip" class="term-tooltip" role="tooltip" hidden></div>
 
