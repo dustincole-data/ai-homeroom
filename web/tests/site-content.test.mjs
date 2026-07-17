@@ -70,6 +70,18 @@ test('fresh story generator is wired into deployment and avoids stale static sto
   assert.equal(new Set(headlines).size, headlines.length)
 })
 
+test('lesson notes come from the model per story, with a heuristic fallback and repeat guard', () => {
+  const generator = readFileSync(new URL('../scripts/generate-stories.mjs', import.meta.url), 'utf8')
+  const workflow = readFileSync(new URL('../../.github/workflows/pages.yml', import.meta.url), 'utf8')
+
+  assert.match(generator, /async function writeLessonNotes/)
+  assert.match(generator, /function validateNotes/)
+  assert.match(generator, /process\.env\.OPENAI_API_KEY/)
+  assert.match(generator, /near-identical/, 'duplicate notes must be rejected')
+  assert.match(generator, /keeping heuristic lesson notes/, 'missing key must not break the refresh')
+  assert.match(workflow, /OPENAI_API_KEY: \$\{\{ secrets\.OPENAI_API_KEY \}\}/)
+})
+
 test('site exposes app icons and social share preview metadata', () => {
   const html = readFileSync(new URL('../index.html', import.meta.url), 'utf8')
   assert.match(html, /rel="apple-touch-icon" href="\/ai-homeroom\/apple-touch-icon\.png"/)

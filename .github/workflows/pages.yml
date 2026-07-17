@@ -36,6 +36,8 @@ jobs:
         if: github.actor != 'github-actions[bot]'
         run: npm run update-stories
         working-directory: web
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Update RSS feed for this deploy
         run: |
           npm run update-feed -- \

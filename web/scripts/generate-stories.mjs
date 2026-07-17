@@ -318,6 +318,82 @@ function whyItMatters(title, context = '') {
   return 'The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.'
 }
 
+/* ── LLM lesson notes ─────────────────────────────────────────────
+   The keyword heuristics above cannot write story-specific prose —
+   they repeat canned blurbs. When OPENAI_API_KEY is present (a repo
+   Actions secret), a small model writes each story's summary and
+   why-it-matters from the article excerpt instead. The heuristics
+   remain as the offline fallback so the refresh never hard-fails. */
+
+const LESSON_NOTES_PROMPT = `You write the day's lesson notes for AI Homeroom, a daily AI news page for normal people, not a tech audience. You get a JSON list of stories: headline, source, and a raw excerpt from the article or feed (may be messy or truncated).
+
+For each story return, keyed by its id:
+- summary: 1-3 short sentences saying what actually happened, in plain everyday English. Ground every claim in the headline and excerpt only. Never invent names, numbers, or outcomes that are not there. If the excerpt is thin, summarize only what the headline supports.
+- whyItMatters: 1-2 sentences on why THIS story matters to regular people (workers, families, students, small businesses). Be concrete and name the actual company, product, or situation. The sentence must not be reusable on a different story.
+
+Style rules: everyday words; short sentences; no hype words like revolutionize or game-changer; no rhetorical questions; do not start two notes the same way; if jargon is unavoidable, explain it in passing.
+
+Return JSON: {"notes":[{"id":0,"summary":"...","whyItMatters":"..."}]} with exactly one note per story, ids matching the input.`
+
+function validateNotes(notes, stories) {
+  if (!Array.isArray(notes) || notes.length !== stories.length) {
+    throw new Error(`expected ${stories.length} notes, got ${Array.isArray(notes) ? notes.length : typeof notes}`)
+  }
+  const seenIds = new Set()
+  for (const note of notes) {
+    if (!Number.isInteger(note.id) || note.id < 0 || note.id >= stories.length || seenIds.has(note.id)) {
+      throw new Error(`bad note id: ${note.id}`)
+    }
+    seenIds.add(note.id)
+    for (const [field, min, max] of [['summary', 30, 700], ['whyItMatters', 30, 450]]) {
+      const value = note[field]
+      if (typeof value !== 'string' || value.trim().length < min || value.length > max) {
+        throw new Error(`note ${note.id} has unusable ${field}`)
+      }
+    }
+  }
+  /* the whole point: notes must be specific, so none may repeat */
+  for (const field of ['summary', 'whyItMatters']) {
+    for (let a = 0; a < notes.length; a++) {
+      for (let b = a + 1; b < notes.length; b++) {
+        if (similarity(notes[a][field], notes[b][field]) > 0.8) {
+          throw new Error(`notes ${notes[a].id} and ${notes[b].id} have near-identical ${field}`)
+        }
+      }
+    }
+  }
+  return notes
+}
+
+async function writeLessonNotes(stories, contexts) {
+  const key = process.env.OPENAI_API_KEY
+  if (!key) return null
+  const model = process.env.HOMEROOM_LLM_MODEL ?? 'gpt-5-mini'
+  const payload = stories.map((story, id) => ({
+    id,
+    headline: story.headline,
+    source: story.sourceName,
+    excerpt: (contexts[id] ?? '').slice(0, 900),
+  }))
+  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    signal: AbortSignal.timeout(90000),
+    body: JSON.stringify({
+      model,
+      response_format: { type: 'json_object' },
+      messages: [
+        { role: 'system', content: LESSON_NOTES_PROMPT },
+        { role: 'user', content: JSON.stringify({ stories: payload }) },
+      ],
+    }),
+  })
+  if (!response.ok) throw new Error(`OpenAI ${response.status}: ${(await response.text()).slice(0, 300)}`)
+  const data = await response.json()
+  const parsed = JSON.parse(data.choices?.[0]?.message?.content ?? '{}')
+  return validateNotes(parsed.notes, stories)
+}
+
 async function fetchText(url) {
   const response = await fetch(url, { headers: { 'User-Agent': 'AIHomeroom/1.0' }, signal: AbortSignal.timeout(12000) })
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`)
@@ -431,6 +507,22 @@ async function main() {
 
   if (selected.length < 1) {
     throw new Error(`Only found ${selected.length} fresh AI stories. Errors: ${errors.join('; ')}`)
+  }
+
+  /* story-specific notes from the LLM; heuristic text stays if unavailable */
+  try {
+    const notes = await writeLessonNotes(selected, selectedTopics.map((topic) => topic.context))
+    if (notes) {
+      for (const note of notes) {
+        selected[note.id].summary = note.summary.trim()
+        selected[note.id].whyItMatters = note.whyItMatters.trim()
+      }
+      console.log('Lesson notes written by the model.')
+    } else {
+      console.log('No OPENAI_API_KEY set; keeping heuristic lesson notes.')
+    }
+  } catch (error) {
+    errors.push(`lesson notes: ${error.message}`)
   }
 
   const content = `// Generated by web/scripts/generate-stories.mjs. Do not hand-edit story entries here.\nexport type StorySeed = {\n  headline: string\n  badge: 'new' | 'updated'\n  summary: string\n  whyItMatters: string\n  sourceName: string\n  sourceUrl: string\n  termNames: string[]\n  publishedAt: string\n}\n\nexport const generatedAt = '${now.toISOString()}'\n\nexport const storySeeds: StorySeed[] = ${JSON.stringify(selected, null, 2)}\n`
