@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI Homeroom · Night School — the day's AI news taught as constellations. Summaries, impact notes, and a star atlas of weird words." />
+  <meta name="theme-color" content="#111226" />
+  <title>AI Homeroom · Night School</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%23111226'/%3E%3Ccircle cx='35' cy='40' r='5' fill='%23f2edda'/%3E%3Ccircle cx='62' cy='30' r='3.4' fill='%23f2edda'/%3E%3Ccircle cx='70' cy='62' r='4.2' fill='%23e0b45c'/%3E%3Cpath d='M35 40 L62 30 L70 62' stroke='%23f2edda' stroke-opacity='.5' stroke-width='1.6' fill='none'/%3E%3C/svg%3E" />
+  <link rel="preload" href="./assets/fonts/zodiak-900.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="./assets/fonts/supreme-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="masthead">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-star" aria-hidden="true">✶</span>
+      AI Homeroom <em>· Night School</em>
+    </a>
+    <nav aria-label="Site">
+      <a href="#lesson">Tonight’s lesson</a>
+      <a href="#atlas">Star atlas</a>
+      <a href="https://dustincole-data.github.io/ai-homeroom/" class="quiet">Day school</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ══════════ HERO ══════════ -->
+    <section class="hero" aria-labelledby="site-title">
+      <svg class="hero-constellation" viewBox="0 0 900 520" aria-hidden="true">
+        <!-- Corona Scholastica — the Graduate's Cap, drawn on load -->
+        <g class="const-lines">
+          <path d="M 175 210 L 355 150 L 585 205 L 380 268 Z" />
+          <path d="M 380 268 L 378 330" />
+          <path d="M 585 205 L 600 305 L 588 352" />
+          <path d="M 355 150 L 352 96" />
+        </g>
+        <g class="const-stars">
+          <circle cx="175" cy="210" r="3.6" />
+          <circle cx="355" cy="150" r="4.6" />
+          <circle cx="585" cy="205" r="3.8" />
+          <circle cx="380" cy="268" r="3.2" />
+          <circle cx="378" cy="330" r="2.6" />
+          <circle cx="600" cy="305" r="2.8" />
+          <circle cx="588" cy="352" r="3.4" class="brass" />
+          <circle cx="352" cy="96" r="2.4" />
+        </g>
+        <text class="const-label" x="893" y="40">CORONA SCHOLASTICA · the graduate’s cap</text>
+      </svg>
+
+      <p class="hero-script">AI Homeroom presents — adult education, after dark</p>
+      <h1 id="site-title">Night<br />School</h1>
+      <p class="dek">The day’s AI stories, what actually happened, why it matters, and the weird words worth knowing — taught under a ceiling of chalk stars.</p>
+
+      <p class="session-log" role="doc-subtitle">
+        <span class="log-key">SESSION</span>
+        <span id="edition-date">—</span>
+        <span class="log-sep">·</span>
+        <span id="story-count">6</span> sourced stories
+        <span class="log-sep">·</span>
+        glossary cards built in
+        <span class="log-sep">·</span>
+        real daily news loaded
+      </p>
+
+      <div class="hero-actions">
+        <a class="button primary" href="#lesson">Begin tonight’s lesson</a>
+        <a class="button ghost" href="https://github.com/dustincole-data/ai-homeroom" rel="noreferrer">View the build</a>
+      </div>
+
+      <p class="dome-cue" aria-hidden="true">the dome is open<span class="cue-arrow">↓</span></p>
+    </section>
+
+    <!-- ══════════ TONIGHT'S LESSON ══════════ -->
+    <section id="lesson" class="lesson" aria-labelledby="lesson-title">
+      <div class="lesson-heading">
+        <h2 id="lesson-title">Tonight’s Lesson</h2>
+        <p class="lesson-sub">Fresh AI stories from the latest automated refresh, with direct source links. Class rule: every AI and computing term gets a glossary note in the <a href="#atlas">star atlas</a>.</p>
+      </div>
+      <div id="plates"><!-- star chart plates render here --></div>
+      <noscript>
+        <p class="noscript-note">The plates need JavaScript to draw. The same stories live at the <a href="https://dustincole-data.github.io/ai-homeroom/">original AI Homeroom</a>.</p>
+      </noscript>
+    </section>
+
+    <div class="board-divider" aria-hidden="true">
+      <svg viewBox="0 0 320 48">
+        <line x1="0" y1="24" x2="118" y2="24" />
+        <circle cx="160" cy="24" r="7" class="planet" />
+        <ellipse cx="160" cy="24" rx="17" ry="5.5" class="ring" transform="rotate(-16 160 24)" />
+        <line x1="202" y1="24" x2="320" y2="24" />
+      </svg>
+    </div>
+
+    <!-- ══════════ STAR ATLAS ══════════ -->
+    <section id="atlas" class="atlas" aria-labelledby="atlas-title">
+      <div class="atlas-heading">
+        <h2 id="atlas-title">The Star Atlas</h2>
+        <p class="atlas-sub">Every weird word gets explained. <span id="term-count">90</span> fixed stars, in alphabetical order, visible year-round.</p>
+      </div>
+      <div id="atlas-body"><!-- glossary renders here --></div>
+    </section>
+
+    <footer class="colophon">
+      <p class="dismissed">Class dismissed.</p>
+      <p class="colophon-line">Doors open again at first light — <a href="https://dustincole-data.github.io/ai-homeroom/">AI Homeroom, the day school</a>.</p>
+      <p class="rooms">
+        Other rooms tonight:
+        <a href="../paper-diorama/">the Diorama</a>
+        <span class="log-sep">·</span>
+        <a href="../permanent-record/">the Records Office</a>
+      </p>
+      <p class="fineprint">Summaries link to their original sources. Built nightly by a very diligent robot janitor.</p>
+    </footer>
+  </main>
+
+  <div id="tooltip" class="term-tooltip" role="tooltip" hidden></div>
+
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+  <script src="./data.js"></script>
+  <script src="./vendor/gsap.min.js"></script>
+  <script src="./vendor/ScrollTrigger.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

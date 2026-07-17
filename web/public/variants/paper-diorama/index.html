@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AI Homeroom · The Diorama — the day's AI news rebuilt in construction paper: summaries, impact notes, and a word wall of weird words." />
+  <meta name="theme-color" content="#2f4fc4" />
+  <title>AI Homeroom · The Diorama</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='14' fill='%232f4fc4'/%3E%3Ccircle cx='68' cy='34' r='16' fill='%23f5b73a'/%3E%3Cpath d='M14 74 L44 48 L70 74 Z' fill='%233f9e5c'/%3E%3Cpath d='M0 84 L28 62 L58 84 Z' fill='%23e2543a'/%3E%3C/svg%3E" />
+  <link rel="preload" href="./assets/fonts/tanker-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="./assets/fonts/generalsans-400.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- torn-paper SVG filters -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <filter id="torn" x="-8%" y="-8%" width="116%" height="116%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.032" numOctaves="4" seed="7" result="n" />
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="9" />
+      </filter>
+      <filter id="torn-soft" x="-6%" y="-6%" width="112%" height="112%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="21" result="n" />
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="5" />
+      </filter>
+    </defs>
+  </svg>
+
+  <canvas id="plane-canvas" aria-hidden="true"></canvas>
+
+  <header class="masthead">
+    <a class="wordmark" href="#top">
+      <span class="tape-chip">AI HOMEROOM</span>
+      <em class="marker">· the diorama</em>
+    </a>
+    <nav aria-label="Site">
+      <a href="#showtell" class="paper-tab red">Show &amp; tell</a>
+      <a href="#wordwall" class="paper-tab green">Word wall</a>
+      <a href="https://dustincole-data.github.io/ai-homeroom/" class="paper-tab plain">Original</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ══════════ HERO: the shoebox sky ══════════ -->
+    <section class="hero" aria-labelledby="site-title">
+      <div class="sky-scene" aria-hidden="true">
+        <div class="sun">
+          <svg class="sun-rays" viewBox="-110 -110 220 220">
+            <g id="rays"></g>
+          </svg>
+          <div class="sun-core"></div>
+        </div>
+        <div class="cloud cloud-1"><svg viewBox="0 0 200 84"><path d="M28 78 a26 26 0 0 1 4-51 a34 34 0 0 1 64-12 a28 28 0 0 1 46 8 a24 24 0 0 1 30 23 a20 20 0 0 1-8 32 Z"/></svg><span class="string"></span></div>
+        <div class="cloud cloud-2"><svg viewBox="0 0 200 84"><path d="M28 78 a26 26 0 0 1 4-51 a34 34 0 0 1 64-12 a28 28 0 0 1 46 8 a24 24 0 0 1 30 23 a20 20 0 0 1-8 32 Z"/></svg><span class="string"></span></div>
+        <div class="cloud cloud-3"><svg viewBox="0 0 200 84"><path d="M28 78 a26 26 0 0 1 4-51 a34 34 0 0 1 64-12 a28 28 0 0 1 46 8 a24 24 0 0 1 30 23 a20 20 0 0 1-8 32 Z"/></svg><span class="string"></span></div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="marker hero-kicker">AI Homeroom’s news, rebuilt with scissors &amp; glue</p>
+        <h1 id="site-title" class="diecut" data-text="THE DIORAMA">THE DIORAMA</h1>
+        <p class="dek">The day’s AI stories — what actually happened, why it matters, and the weird words worth knowing. Now in construction paper.</p>
+        <p class="session-tape">
+          <span class="marker"><span id="edition-date">—</span></span>
+          <span class="tape-dot">●</span> <span id="story-count">6</span> sourced stories
+          <span class="tape-dot">●</span> glossary cards glued in
+          <span class="tape-dot">●</span> real daily news loaded
+        </p>
+        <div class="hero-actions">
+          <a class="paper-btn red" href="#showtell">See today’s show &amp; tell</a>
+          <a class="paper-btn white" href="https://github.com/dustincole-data/ai-homeroom" rel="noreferrer">View the build</a>
+        </div>
+      </div>
+
+      <div class="hills" aria-hidden="true">
+        <svg class="hill hill-back" viewBox="0 0 1440 190" preserveAspectRatio="none"><path d="M0 190 L0 120 Q 180 40 360 110 T 720 90 T 1080 110 T 1440 70 L 1440 190 Z"/></svg>
+        <svg class="hill hill-mid" viewBox="0 0 1440 190" preserveAspectRatio="none"><path d="M0 190 L0 140 Q 240 70 480 130 T 960 120 T 1440 130 L 1440 190 Z"/></svg>
+        <svg class="hill hill-front" viewBox="0 0 1440 190" preserveAspectRatio="none"><path d="M0 190 L0 160 Q 200 110 400 155 T 800 150 T 1200 158 T 1440 145 L 1440 190 Z"/></svg>
+      </div>
+    </section>
+
+    <!-- ══════════ SHOW & TELL ══════════ -->
+    <section id="showtell" class="showtell" aria-labelledby="showtell-title">
+      <div class="section-banner">
+        <svg class="bunting" viewBox="0 0 520 44" aria-hidden="true">
+          <path d="M2 6 Q 260 30 518 6" fill="none" stroke="currentColor" stroke-width="2"/>
+          <g id="flags"></g>
+        </svg>
+        <h2 id="showtell-title" class="diecut small" data-text="TODAY’S SHOW &amp; TELL">TODAY’S SHOW &amp; TELL</h2>
+        <p class="section-sub marker">Fresh AI stories from the latest automated refresh — every weird word gets a <a href="#wordwall">word-wall card</a>.</p>
+      </div>
+      <div id="cards" class="cards"><!-- craft cards render here --></div>
+      <noscript><p class="noscript-note">The paper needs JavaScript to unfold. Same stories, no glitter, at the <a href="https://dustincole-data.github.io/ai-homeroom/">original AI Homeroom</a>.</p></noscript>
+    </section>
+
+    <div class="cut-line" aria-hidden="true"><span class="scissors">✂</span></div>
+
+    <!-- ══════════ WORD WALL ══════════ -->
+    <section id="wordwall" class="wordwall" aria-labelledby="wordwall-title">
+      <div class="section-banner">
+        <h2 id="wordwall-title" class="diecut small" data-text="THE WORD WALL">THE WORD WALL</h2>
+        <p class="section-sub marker">Every weird word gets explained — <span id="term-count">90</span> flashcards, A to Z, pinned till June.</p>
+      </div>
+      <div id="wall-body"><!-- glossary renders here --></div>
+    </section>
+
+    <footer class="recess">
+      <h2 class="diecut small" data-text="RECESS!">RECESS!</h2>
+      <p class="recess-line">Same lesson, different classrooms —
+        <a href="../night-school/">Night School</a> <span class="tape-dot">●</span>
+        <a href="../permanent-record/">the Records Office</a> <span class="tape-dot">●</span>
+        <a href="https://dustincole-data.github.io/ai-homeroom/">the original AI Homeroom</a>
+      </p>
+      <p class="fineprint marker">Summaries link to their sources. Glue dries nightly. No safety scissors were harmed.</p>
+    </footer>
+  </main>
+
+  <div id="tooltip" class="term-tooltip" role="tooltip" hidden></div>
+
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js" } }</script>
+  <script src="./data.js"></script>
+  <script src="./vendor/gsap.min.js"></script>
+  <script src="./vendor/ScrollTrigger.min.js"></script>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
