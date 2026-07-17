@@ -10,21 +10,9 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-17T10:47:53.716Z'
+export const generatedAt = '2026-07-17T11:39:37.800Z'
 
 export const storySeeds: StorySeed[] = [
-  {
-    "headline": "UIUC AI Teaching Assistant",
-    "badge": "new",
-    "summary": "The UX & driver code for the multi-model TA_Chatbot - Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-17T02:23:18.000Z"
-  },
   {
     "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
     "badge": "new",
@@ -38,55 +26,69 @@ export const storySeeds: StorySeed[] = [
     "publishedAt": "2026-07-16T19:16:48.000Z"
   },
   {
-    "headline": "Google Vids now lets you star in your own AI videos",
+    "headline": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
     "badge": "new",
-    "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind"
-    ],
-    "publishedAt": "2026-07-16T18:32:54.000Z"
-  },
-  {
-    "headline": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
-    "badge": "new",
-    "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-16T17:58:37.000Z"
-  },
-  {
-    "headline": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
-    "badge": "new",
-    "summary": "A German research consortium has released Soofi S 30B-A3B, an open language model trained entirely on Deutsche Telekom's cloud infrastructure in Munich. The model uses an efficient hybrid architecture that activates only a fraction of its 31.6 billion parameters per token, keeping throughput steady even at very long contexts.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "the-decoder.com",
-    "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
+    "summary": "This article is currently an experimental machine translation and may contain errors. If anything is unclear, please refer to the original Chinese version. I am continuously working to improve the translation. As of early 2026, mainstream LLM-generated text exhibits strong statistical patterns that can be effectively distinguished from human-written content using traditional.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "blog.lyc8503.net",
+    "sourceUrl": "https://blog.lyc8503.net/en/post/llm-classifier",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-07-16T17:44:46.000Z"
+    "publishedAt": "2026-07-16T16:41:37.000Z"
   },
   {
-    "headline": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+    "headline": "Agent-talk: Enabling coding agents to work together",
     "badge": "new",
-    "summary": "Hey HN, we’re Xia and Varun, the founders of Traceforce ( https://www.traceforce.ai/ ). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "news.ycombinator.com",
-    "sourceUrl": "https://news.ycombinator.com/item?id=48937020",
+    "summary": "Sign in Appearance settings {\"props\":{}} {\"props\":{\"should_use_dotcom_links\":true}} Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/xhluca/agent-talk",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety",
-      "Tool"
+      "AI Agent",
+      "Coding Agent"
     ],
-    "publishedAt": "2026-07-16T16:52:16.000Z"
+    "publishedAt": "2026-07-16T16:14:20.000Z"
+  },
+  {
+    "headline": "NotebookLM is now Gemini Notebook",
+    "badge": "new",
+    "summary": "We’re renaming NotebookLM to Gemini Notebook. It's the same standalone product, now doing more across the Google ecosystem and updated with a secure cloud computer. NotebookLM is now Gemini Notebook, continuing its mission as your primary research tool. You can now run code directly within your notebooks for deeper data analysis, a feature rolling out to all Pro users soon.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "blog.google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-07-16T16:08:13.000Z"
+  },
+  {
+    "headline": "Energy IPOs surge as investors hunt for ways to play AI boom",
+    "badge": "new",
+    "summary": "Initial public offerings for energy firms raised $12.6 billion in the first half of this year, according to data firm Dealogic. That marks the highest half-year level since the peak of the dotcom bubble in late 1999 and the highest first-half figure on record.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-16T15:48:21.000Z"
+  },
+  {
+    "headline": "Why is OpenAI selling a ChatGPT basketball?",
+    "badge": "new",
+    "summary": "? Amanda Silberling 8:31 AM PDT · July 16, 2026 You may have heard that OpenAI released its first piece of hardware this week: a $230 mini keyboard . You may not have heard that alongside this “command center for agentic work,” OpenAI also released a ChatGPT basketball. “This basketball comes from the Pause. Play. Prompt. campaign, a physical reminder that creativity doesn’t.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-07-16T15:31:09.000Z"
   }
 ]

@@ -395,6 +395,36 @@
       "context": "Hey HN, we’re Xia and Varun, the founders of Traceforce ( https://www.traceforce.ai/ ). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
       "sourceUrl": "https://news.ycombinator.com/item?id=48937020",
       "publishedAt": "2026-07-16T16:52:16.000Z"
+    },
+    {
+      "headline": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
+      "context": "This article is currently an experimental machine translation and may contain errors. If anything is unclear, please refer to the original Chinese version. I am continuously working to improve the translation. As of early 2026, mainstream LLM-generated text exhibits strong statistical patterns that can be effectively distinguished from human-written content using traditional. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://blog.lyc8503.net/en/post/llm-classifier",
+      "publishedAt": "2026-07-16T16:41:37.000Z"
+    },
+    {
+      "headline": "Agent-talk: Enabling coding agents to work together",
+      "context": "Sign in Appearance settings {\"props\":{}} {\"props\":{\"should_use_dotcom_links\":true}} Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://github.com/xhluca/agent-talk",
+      "publishedAt": "2026-07-16T16:14:20.000Z"
+    },
+    {
+      "headline": "NotebookLM is now Gemini Notebook",
+      "context": "We’re renaming NotebookLM to Gemini Notebook. It's the same standalone product, now doing more across the Google ecosystem and updated with a secure cloud computer. NotebookLM is now Gemini Notebook, continuing its mission as your primary research tool. You can now run code directly within your notebooks for deeper data analysis, a feature rolling out to all Pro users soon. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+      "publishedAt": "2026-07-16T16:08:13.000Z"
+    },
+    {
+      "headline": "Energy IPOs surge as investors hunt for ways to play AI boom",
+      "context": "Initial public offerings for energy firms raised $12.6 billion in the first half of this year, according to data firm Dealogic. That marks the highest half-year level since the peak of the dotcom bubble in late 1999 and the highest first-half figure on record. This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+      "sourceUrl": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom",
+      "publishedAt": "2026-07-16T15:48:21.000Z"
+    },
+    {
+      "headline": "Why is OpenAI selling a ChatGPT basketball?",
+      "context": "? Amanda Silberling 8:31 AM PDT · July 16, 2026 You may have heard that OpenAI released its first piece of hardware this week: a $230 mini keyboard . You may not have heard that alongside this “command center for agentic work,” OpenAI also released a ChatGPT basketball. “This basketball comes from the Pause. Play. Prompt. campaign, a physical reminder that creativity doesn’t. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball",
+      "publishedAt": "2026-07-16T15:31:09.000Z"
     }
   ]
 }
