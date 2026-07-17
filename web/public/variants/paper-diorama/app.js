@@ -527,7 +527,7 @@ if (!reduceMotion && window.gsap) {
   gsap.fromTo('.hero-kicker', { opacity: 0, y: -14 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out', delay: 0.15 });
   gsap.fromTo('.hero .diecut', { opacity: 0, scale: 0.94, y: 18 }, { opacity: 1, scale: 1, y: 0, duration: 0.9, ease: 'power4.out', delay: 0.3 });
   gsap.fromTo('.hero .dek, .session-tape, .hero-actions', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.8, stagger: 0.12, ease: 'power3.out', delay: 0.55 });
-  gsap.fromTo('.cloud', { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 1.2, stagger: 0.2, ease: 'power2.out', delay: 0.2 });
+  gsap.fromTo('.cloud, .sky-buddy', { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 1.2, stagger: 0.2, ease: 'power2.out', delay: 0.2 });
   gsap.fromTo('.sun', { opacity: 0, scale: 0.7, transformOrigin: 'center' }, { opacity: 1, scale: 1, duration: 1.1, ease: 'power3.out', delay: 0.45 });
 
   /* environment: perpetual gentle motion */
@@ -535,6 +535,7 @@ if (!reduceMotion && window.gsap) {
   document.querySelectorAll('.cloud').forEach((c, i) => {
     gsap.to(c, { y: '+=9', rotation: i % 2 ? 1.2 : -1.4, duration: 3.4 + i * 0.7, ease: 'sine.inOut', yoyo: true, repeat: -1, delay: i * 0.5 });
   });
+  gsap.to('.sky-buddy', { y: '+=12', rotation: 2.4, duration: 4.1, ease: 'sine.inOut', yoyo: true, repeat: -1, delay: 0.8, transformOrigin: '52% -300%' });
 
   /* hills parallax while the hero scrolls away */
   gsap.to('.hill-back', { yPercent: 34, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });

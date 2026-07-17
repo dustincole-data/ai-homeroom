@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <defs>
-    <linearGradient id="paper" x1="76" x2="456" y1="50" y2="470" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#fffdf8"/>
-      <stop offset="1" stop-color="#f7eddc"/>
-    </linearGradient>
-    <linearGradient id="board" x1="160" x2="372" y1="152" y2="326" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1f3d64"/>
-      <stop offset="1" stop-color="#13233f"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="112" fill="#f3eadb"/>
-  <path fill="rgba(19,35,63,.08)" d="M0 82h512v18H0zM0 204h512v18H0zM0 326h512v18H0zM0 448h512v18H0z"/>
-  <rect x="64" y="58" width="384" height="380" rx="48" fill="url(#paper)" stroke="#13233f" stroke-opacity=".14" stroke-width="6"/>
-  <path stroke="#b96b5d" stroke-linecap="round" stroke-width="8" d="M118 82v332"/>
-  <path stroke="#345f8d" stroke-opacity=".16" stroke-linecap="round" stroke-width="6" d="M150 142h240M150 188h240M150 234h240M150 280h220M150 326h180"/>
-  <rect x="142" y="134" width="248" height="210" rx="34" fill="#7b5537"/>
-  <rect x="160" y="152" width="212" height="174" rx="22" fill="url(#board)"/>
-  <path fill="#fffdf8" d="M205 286h-28l42-96h30l42 96h-30l-7-18h-46l-7 18Zm12-42h28l-14-36-14 36Zm98-54h68v24h-20v48h20v24h-68v-24h20v-48h-20v-24Z"/>
-  <path fill="#ffe48a" d="M362 72c10 34 30 54 64 64-34 10-54 30-64 64-10-34-30-54-64-64 34-10 54-30 64-64Z"/>
-  <path fill="#b7d7bd" d="M126 373h244c11 0 20 8 20 18s-9 18-20 18H126c-11 0-20-8-20-18s9-18 20-18Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- AI Homeroom — the class robot, cut from construction paper -->
+  <rect width="128" height="128" rx="28" fill="#2f4fc4"/>
+  <g transform="rotate(-3 64 66)">
+    <!-- antenna -->
+    <rect x="61.5" y="19" width="5" height="16" rx="2.5" fill="#f5b73a"/>
+    <circle cx="64" cy="16" r="7" fill="#e2543a"/>
+    <circle cx="61.5" cy="13.5" r="2" fill="#faf7ef" opacity="0.85"/>
+    <!-- ears -->
+    <rect x="16" y="58" width="10" height="18" rx="4" fill="#f5b73a"/>
+    <rect x="102" y="58" width="10" height="18" rx="4" fill="#e88bab"/>
+    <!-- head -->
+    <rect x="26" y="37" width="79" height="64" rx="13" fill="#283da3"/>
+    <rect x="23" y="33" width="79" height="64" rx="13" fill="#faf7ef"/>
+    <!-- eyes -->
+    <circle cx="46" cy="60" r="7" fill="#2d3154"/>
+    <circle cx="79" cy="60" r="7" fill="#2d3154"/>
+    <circle cx="48.5" cy="57.5" r="2.2" fill="#faf7ef"/>
+    <circle cx="81.5" cy="57.5" r="2.2" fill="#faf7ef"/>
+    <!-- cheeks -->
+    <circle cx="36" cy="72" r="4" fill="#e88bab" opacity="0.85"/>
+    <circle cx="89" cy="72" r="4" fill="#e88bab" opacity="0.85"/>
+    <!-- zigzag mouth -->
+    <polyline points="48,81 55,86.5 62,81 69,86.5 76,81" fill="none" stroke="#2d3154" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- the AI sparkle -->
+  <path d="M103 18 l3.2 8 8 3.2 -8 3.2 -3.2 8 -3.2 -8 -8 -3.2 8 -3.2 Z" fill="#f5b73a"/>
+  <path d="M112 40 l1.8 4.4 4.4 1.8 -4.4 1.8 -1.8 4.4 -1.8 -4.4 -4.4 -1.8 4.4 -1.8 Z" fill="#faf7ef" opacity="0.9"/>
 </svg>

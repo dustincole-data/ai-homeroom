@@ -94,6 +94,7 @@ a { color: inherit; }
   background: linear-gradient(oklch(0.40 0.17 264 / 0.9), oklch(0.40 0.17 264 / 0));
 }
 .wordmark { text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
+.wordmark .mark { width: 26px; height: 26px; transform: rotate(-4deg); filter: drop-shadow(1.5px 1.5px 0 oklch(0.2 0.08 265 / 0.4)); }
 .tape-chip {
   font-family: var(--font-display); font-size: 0.95rem; letter-spacing: 0.08em;
   white-space: nowrap;
@@ -152,6 +153,15 @@ a { color: inherit; }
 .cloud-1 { top: 20%; left: 7%; }
 .cloud-2 { top: 9%; left: 38%; width: clamp(90px, 11vw, 150px); opacity: 0.92; }
 .cloud-3 { top: 26%; right: 24%; width: clamp(80px, 10vw, 140px); opacity: 0.85; }
+
+/* the class robot, hanging out over cloud one */
+.sky-buddy { position: absolute; top: 11%; left: 10%; width: clamp(64px, 7.5vw, 104px); }
+.sky-buddy img { width: 100%; height: auto; display: block; transform: rotate(-5deg); filter: drop-shadow(3px 4px 0 oklch(0.3 0.1 265 / 0.3)); }
+.sky-buddy .string {
+  position: absolute; bottom: 92%; left: 52%;
+  width: 1.5px; height: 30vh;
+  background: oklch(0.975 0.004 95 / 0.55);
+}
 
 .hero-copy { position: relative; max-width: 60rem; }
 
@@ -524,6 +534,8 @@ a:focus-visible { outline: 3px solid var(--marigold); outline-offset: 3px; }
   .cloud-1 { top: 12%; left: 2%; width: 92px; }
   .cloud .string { height: 22vh; }
   .sun { top: 2.5%; right: -34px; width: 84px; }
+  .sky-buddy { top: 6.5%; left: auto; right: 12%; width: 58px; }
+  .sky-buddy .string { height: 12vh; }
   .sticker { right: 0.4rem; }
   .wall-columns { columns: 1 auto; }
   .intercom-grille { display: none; }

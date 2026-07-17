@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>og</title>
+<style>
+  @font-face { font-family: 'Tanker'; src: url('./assets/fonts/tanker-400.woff2') format('woff2'); }
+  @font-face { font-family: 'Shantell Sans'; src: url('./assets/fonts/shantell-700.woff2') format('woff2'); font-weight: 700; }
+  @font-face { font-family: 'General Sans'; src: url('./assets/fonts/generalsans-600.woff2') format('woff2'); font-weight: 600; }
+  * { margin: 0; box-sizing: border-box; }
+  body { width: 1200px; height: 630px; overflow: hidden; position: relative;
+    background-color: #2f4fc4;
+    background-image: url('./assets/img/paper-fiber.jpg');
+    background-size: 480px; background-blend-mode: multiply;
+    font-family: 'General Sans', sans-serif;
+  }
+  .sun { position: absolute; top: -40px; right: 60px; width: 230px; height: 230px; }
+  .cloud { position: absolute; fill: #faf7ef; }
+  .cloud.c1 { top: 108px; left: 40px; width: 200px; }
+  .cloud.c2 { top: 40px; left: 430px; width: 120px; opacity: 0.9; }
+  .string { position: absolute; width: 2px; background: rgba(250,247,239,0.55); }
+  .robot { position: absolute; top: 52px; left: 98px; width: 128px; transform: rotate(-5deg); }
+  .robot-string { top: 0; height: 62px; left: 160px; }
+  .hero { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; text-align: center; padding-bottom: 66px; padding-top: 30px; }
+  .kicker { font-family: 'Shantell Sans'; font-weight: 700; font-size: 34px; color: #f5b73a; transform: rotate(-1.2deg); }
+  h1 { font-family: 'Tanker'; font-size: 150px; line-height: 1; color: #faf7ef; letter-spacing: 0.015em; margin-top: 18px;
+    text-shadow: 5px 5px 0 #e2543a, 10px 10px 0 #283da3, 16px 18px 26px rgba(23,31,84,0.45); }
+  .tape { margin-top: 34px; background: #f2efe6 url('./assets/img/paper-fiber.jpg'); background-size: 380px; background-blend-mode: multiply;
+    color: #2d3154; font-size: 25px; font-weight: 600; padding: 12px 34px; transform: rotate(-0.8deg);
+    box-shadow: 4px 4px 0 rgba(23,31,84,0.35); }
+  .tape .dot { color: #e2543a; font-size: 0.6em; vertical-align: middle; margin: 0 10px; }
+  .hills { position: absolute; bottom: -4px; left: -2%; width: 104%; }
+  .hill { position: absolute; bottom: 0; left: 0; width: 100%; }
+</style>
+</head>
+<body>
+  <svg class="sun" viewBox="-110 -110 220 220">
+    <g fill="#f5b73a">
+      <circle r="66"/>
+      <g id="r"></g>
+    </g>
+  </svg>
+  <svg class="cloud c1" viewBox="0 0 200 84"><path d="M28 78 a26 26 0 0 1 4-51 a34 34 0 0 1 64-12 a28 28 0 0 1 46 8 a24 24 0 0 1 30 23 a20 20 0 0 1-8 32 Z"/></svg>
+  <svg class="cloud c2" viewBox="0 0 200 84"><path d="M28 78 a26 26 0 0 1 4-51 a34 34 0 0 1 64-12 a28 28 0 0 1 46 8 a24 24 0 0 1 30 23 a20 20 0 0 1-8 32 Z"/></svg>
+  <span class="string robot-string"></span>
+  <img class="robot" src="../../logo.svg" alt="" />
+
+  <div class="hero">
+    <p class="kicker">Daily AI news for normal people</p>
+    <h1>AI HOMEROOM</h1>
+    <p class="tape">what happened <span class="dot">●</span> why it matters <span class="dot">●</span> the weird words explained</p>
+  </div>
+
+  <svg class="hills" style="height:170px" viewBox="0 0 1440 190" preserveAspectRatio="none"><path fill="#3f9e5c" d="M0 190 L0 120 Q 180 40 360 110 T 720 90 T 1080 110 T 1440 70 L 1440 190 Z"/></svg>
+  <svg class="hills" style="height:130px" viewBox="0 0 1440 190" preserveAspectRatio="none"><path fill="#2f7a46" d="M0 190 L0 140 Q 240 70 480 130 T 960 120 T 1440 130 L 1440 190 Z"/></svg>
+  <svg class="hills" style="height:92px" viewBox="0 0 1440 190" preserveAspectRatio="none"><path fill="#c23b2e" d="M0 190 L0 160 Q 200 110 400 155 T 800 150 T 1200 158 T 1440 145 L 1440 190 Z"/></svg>
+
+  <script>
+    const g = document.getElementById('r');
+    for (let i = 0; i < 12; i++) {
+      const a = (i / 12) * Math.PI * 2, inner = 72, outer = 104, half = 0.11;
+      const pts = [
+        [Math.cos(a - half) * inner, Math.sin(a - half) * inner],
+        [Math.cos(a + half) * inner, Math.sin(a + half) * inner],
+        [Math.cos(a) * outer, Math.sin(a) * outer],
+      ].map(p => p.join(',')).join(' ');
+      g.insertAdjacentHTML('beforeend', `<polygon points="${pts}"/>`);
+    }
+  </script>
+</body>
+</html>
