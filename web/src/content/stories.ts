@@ -10,76 +10,20 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-17T00:11:15.588Z'
+export const generatedAt = '2026-07-17T10:47:53.716Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "AI Data Centers and the Concentration of Wealth",
+    "headline": "UIUC AI Teaching Assistant",
     "badge": "new",
-    "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. Opposition to AI data centers has emerged as a primary theme in US politics, one that—surprisingly—doesn’t fall along party lines. We applaud people coming together for constructive debate on any issue, and agree that communities need to evaluate whether any economic benefits these data.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "schneier.com",
-    "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
+    "summary": "The UX & driver code for the multi-model TA_Chatbot - Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/Center-for-AI-Innovation/ai-teaching-assistant-uiuc",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Training Data"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-16T23:22:36.000Z"
-  },
-  {
-    "headline": "EU will force Google to share search data and open up AI on Android",
-    "badge": "new",
-    "summary": "The new “specification measures” cover two elements of Google’s business: Android phones and search. Both changes could theoretically increase competition and give users more choices, but Google claims they will undermine privacy and security.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "arstechnica.com",
-    "sourceUrl": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
-      "Training Data"
-    ],
-    "publishedAt": "2026-07-16T22:19:13.000Z"
-  },
-  {
-    "headline": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-    "badge": "new",
-    "summary": "The complaint targets Terry Wayne Harwood, who was arrested earlier this year for possession and distribution of child sexual abuse materials (CSAM), the South Carolina attorney’s office announced . As xAI alleged, the company assisted in that arrest after discovering that Harwood had been using two xAI accounts for months to undress or “nudify” non-sexual images of multiple.",
-    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "xAI"
-    ],
-    "publishedAt": "2026-07-16T20:26:23.000Z"
-  },
-  {
-    "headline": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
-    "badge": "new",
-    "summary": "Libretto PR agents is a free TypeScript library for maintaining Playwright browser automations. Add one line of code to your existing Playwright scripts and it lets an agent automatically open GitHub PRs fixing the script when it fails. A few months ago we released Libretto, a CLI + coding-agent skill for building deterministic browser automations. The idea was that for many.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "libretto.sh",
-    "sourceUrl": "https://libretto.sh/debug-agents",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-16T20:21:27.000Z"
-  },
-  {
-    "headline": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
-    "badge": "new",
-    "summary": "All posts video comparison agents $100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol We gave Claude Fable 5 and GPT-5.6 Sol the same song, a budget, web search, and local ffmpeg, then let each autonomously direct a music video.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "tryai.dev",
-    "sourceUrl": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-07-16T20:03:23.000Z"
+    "publishedAt": "2026-07-17T02:23:18.000Z"
   },
   {
     "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
@@ -92,5 +36,57 @@ export const storySeeds: StorySeed[] = [
       "Artificial Intelligence (AI)"
     ],
     "publishedAt": "2026-07-16T19:16:48.000Z"
+  },
+  {
+    "headline": "Google Vids now lets you star in your own AI videos",
+    "badge": "new",
+    "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-07-16T18:32:54.000Z"
+  },
+  {
+    "headline": "New York governor says she’s using AI to analyze ‘every single rule’ in the state",
+    "badge": "new",
+    "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul said that her team is using \"AI to analyze every single rule, regulation, [and] policy\" to check for outdated […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-16T17:58:37.000Z"
+  },
+  {
+    "headline": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks",
+    "badge": "new",
+    "summary": "A German research consortium has released Soofi S 30B-A3B, an open language model trained entirely on Deutsche Telekom's cloud infrastructure in Munich. The model uses an efficient hybrid architecture that activates only a fraction of its 31.6 billion parameters per token, keeping throughput steady even at very long contexts.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "the-decoder.com",
+    "sourceUrl": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-16T17:44:46.000Z"
+  },
+  {
+    "headline": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+    "badge": "new",
+    "summary": "Hey HN, we’re Xia and Varun, the founders of Traceforce ( https://www.traceforce.ai/ ). Traceforce provides visibility and control over AI apps such as ChatGPT, Claude etc directly on all devices (laptops, sandboxes, virtual machines) by discovering not just which apps are being used but also how they are connected to other data sources via MCPs.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "news.ycombinator.com",
+    "sourceUrl": "https://news.ycombinator.com/item?id=48937020",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Safety",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-16T16:52:16.000Z"
   }
 ]
