@@ -1,90 +1,86 @@
-// AI Homeroom content snapshot — generated 2026-07-16T09:15:25.746Z
+// AI Homeroom content snapshot — generated 2026-07-17T00:11:15.588Z
 window.HOMEROOM = {
- "generatedAt": "2026-07-16T09:15:25.746Z",
+ "generatedAt": "2026-07-17T00:11:15.588Z",
  "stories": [
   {
-   "headline": "Stop saying that AI is just a tool and it only matters how it is used",
+   "headline": "AI Data Centers and the Concentration of Wealth",
    "badge": "new",
-   "summary": "I'm tired of this phrase and this simple way of thinking about tools. This blog post is a wandering train of thought on the topic of what tools are and why it matters to be even slightly more mature in how we think about them. This post has garnered significant traffic to my blog as well as discussion on and offline over the last 10 months. For some google search queries (such.",
-   "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-   "sourceName": "frank.computer",
-   "sourceUrl": "https://www.frank.computer/blog/2025/05/just-a-tool.html",
+   "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian. Opposition to AI data centers has emerged as a primary theme in US politics, one that—surprisingly—doesn’t fall along party lines. We applaud people coming together for constructive debate on any issue, and agree that communities need to evaluate whether any economic benefits these data.",
+   "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+   "sourceName": "schneier.com",
+   "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/ai-data-centers-and-the-concentration-of-wealth.html",
    "termNames": [
     "Artificial Intelligence (AI)",
-    "Tool"
+    "Training Data"
    ],
-   "publishedAt": "2026-07-16T04:31:01.000Z"
+   "publishedAt": "2026-07-16T23:22:36.000Z"
   },
   {
-   "headline": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+   "headline": "EU will force Google to share search data and open up AI on Android",
    "badge": "new",
-   "summary": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
-   "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-   "sourceName": "TechCrunch AI",
-   "sourceUrl": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant",
+   "summary": "The new “specification measures” cover two elements of Google’s business: Android phones and search. Both changes could theoretically increase competition and give users more choices, but Google claims they will undermine privacy and security.",
+   "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+   "sourceName": "arstechnica.com",
+   "sourceUrl": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android",
    "termNames": [
     "Artificial Intelligence (AI)",
-    "Model",
-    "Tool"
+    "DeepMind",
+    "Training Data"
    ],
-   "publishedAt": "2026-07-16T04:00:00.000Z"
+   "publishedAt": "2026-07-16T22:19:13.000Z"
   },
   {
-   "headline": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+   "headline": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
    "badge": "new",
-   "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
-   "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-   "sourceName": "TechCrunch AI",
-   "sourceUrl": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic",
+   "summary": "The complaint targets Terry Wayne Harwood, who was arrested earlier this year for possession and distribution of child sexual abuse materials (CSAM), the South Carolina attorney’s office announced . As xAI alleged, the company assisted in that arrest after discovering that Harwood had been using two xAI accounts for months to undress or “nudify” non-sexual images of multiple.",
+   "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
+   "sourceName": "Ars Technica AI",
+   "sourceUrl": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users",
    "termNames": [
     "Artificial Intelligence (AI)",
-    "Anthropic",
-    "Chatbot"
+    "xAI"
    ],
-   "publishedAt": "2026-07-15T23:59:44.000Z"
+   "publishedAt": "2026-07-16T20:26:23.000Z"
   },
   {
-   "headline": "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary",
+   "headline": "Show HN: Libretto PR agents – Automatically fix failing playwright scripts",
    "badge": "new",
-   "summary": "AI pair programming in your terminal — one static binary, sub-ms startup, any model - 1ay1/agentty",
-   "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-   "sourceName": "github.com",
-   "sourceUrl": "https://github.com/1ay1/agentty",
+   "summary": "Libretto PR agents is a free TypeScript library for maintaining Playwright browser automations. Add one line of code to your existing Playwright scripts and it lets an agent automatically open GitHub PRs fixing the script when it fails. A few months ago we released Libretto, a CLI + coding-agent skill for building deterministic browser automations. The idea was that for many.",
+   "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+   "sourceName": "libretto.sh",
+   "sourceUrl": "https://libretto.sh/debug-agents",
+   "termNames": [
+    "Artificial Intelligence (AI)",
+    "AI Agent"
+   ],
+   "publishedAt": "2026-07-16T20:21:27.000Z"
+  },
+  {
+   "headline": "$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+   "badge": "new",
+   "summary": "All posts video comparison agents $100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol We gave Claude Fable 5 and GPT-5.6 Sol the same song, a budget, web search, and local ffmpeg, then let each autonomously direct a music video.",
+   "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+   "sourceName": "tryai.dev",
+   "sourceUrl": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
    "termNames": [
     "Artificial Intelligence (AI)",
     "Anthropic",
     "Chatbot",
-    "AI Agent",
     "Model"
    ],
-   "publishedAt": "2026-07-15T22:30:24.000Z"
+   "publishedAt": "2026-07-16T20:03:23.000Z"
   },
   {
-   "headline": "Agentic orchestration: Enterprise AI organizations have a deployment problem, not a platform problem — and most are calling chatbots agents",
+   "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
    "badge": "new",
-   "summary": "Across 101 enterprises, agent orchestration is consolidating onto model-provider platforms — Anthropic’s Claude leads by a wide margin — chosen for the gravity of the underlying model and judged on reliable multi-step execution. But the ambition runs well ahead of the reality: most deployed “agents” are still chatbot wrappers, the control plane enterprises expect is.",
-   "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+   "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a majority intend to switch or add providers within the year, many within a.",
+   "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
    "sourceName": "VentureBeat AI",
-   "sourceUrl": "https://venturebeat.com/ai/agentic-orchestration-enterprise-ai-organizations-have-a-deployment-problem-not-a-platform-problem-and-most-are-calling-chatbots-agents",
+   "sourceUrl": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
    "termNames": [
-    "Artificial Intelligence (AI)",
-    "AI Agent",
-    "Tool"
+    "Artificial Intelligence (AI)"
    ],
-   "publishedAt": "2026-07-15T22:24:17.000Z"
-  },
-  {
-   "headline": "LLM Networking with MikroTik",
-   "badge": "new",
-   "summary": "I’ve been refraining from saying ‘vibe networking’ or ‘vibkrotik’ or some other abomination, but it is true - I have been using LLMs to setup a few networks these last few months, and things have generally gone over swimmingly.",
-   "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-   "sourceName": "blog.greg.technology",
-   "sourceUrl": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
-   "termNames": [
-    "Artificial Intelligence (AI)",
-    "Model"
-   ],
-   "publishedAt": "2026-07-15T22:23:27.000Z"
+   "publishedAt": "2026-07-16T19:16:48.000Z"
   }
  ],
  "glossary": [

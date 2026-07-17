@@ -52,6 +52,9 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: web
+      - name: Refresh variant content snapshots
+        run: node scripts/emit-variant-data.mjs
+        working-directory: web
       - name: Persist generated stories for the next refresh
         if: github.actor != 'github-actions[bot]'
         run: |

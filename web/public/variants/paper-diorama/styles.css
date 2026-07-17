@@ -96,6 +96,7 @@ a { color: inherit; }
 .wordmark { text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
 .tape-chip {
   font-family: var(--font-display); font-size: 0.95rem; letter-spacing: 0.08em;
+  white-space: nowrap;
   background: var(--paperwhite) var(--tex); background-size: 320px; background-blend-mode: multiply;
   color: var(--ink);
   padding: 0.28rem 0.7rem;
@@ -402,6 +403,7 @@ a:focus-visible { outline: 3px solid var(--marigold); outline-offset: 3px; }
 }
 @media (max-width: 560px) {
   .masthead { flex-direction: column; align-items: flex-start; gap: 0.5rem; padding-block: 0.6rem; }
+  .wordmark .marker { display: none; }
   .masthead nav { gap: 0.45rem; }
   .paper-tab { font-size: 0.78rem; padding: 0.25rem 0.6rem; }
   .session-tape { font-size: 0.8rem; padding-inline: 0.9rem; }
