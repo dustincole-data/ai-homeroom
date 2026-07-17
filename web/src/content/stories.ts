@@ -10,7 +10,7 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-17T13:02:51.644Z'
+export const generatedAt = '2026-07-17T13:19:05.165Z'
 
 export const storySeeds: StorySeed[] = [
   {
@@ -24,57 +24,5 @@ export const storySeeds: StorySeed[] = [
       "Artificial Intelligence (AI)"
     ],
     "publishedAt": "2026-07-16T19:16:48.000Z"
-  },
-  {
-    "headline": "Google’s AI Mode now lets you link and interact with select apps",
-    "badge": "new",
-    "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-16T16:00:00.000Z"
-  },
-  {
-    "headline": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
-    "badge": "new",
-    "summary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind"
-    ],
-    "publishedAt": "2026-07-16T15:02:00.000Z"
-  },
-  {
-    "headline": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
-    "badge": "new",
-    "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-16T14:40:00.000Z"
-  },
-  {
-    "headline": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
-    "badge": "new",
-    "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-07-16T14:26:29.000Z"
   }
 ]
