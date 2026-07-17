@@ -425,6 +425,30 @@
       "context": "? Amanda Silberling 8:31 AM PDT · July 16, 2026 You may have heard that OpenAI released its first piece of hardware this week: a $230 mini keyboard . You may not have heard that alongside this “command center for agentic work,” OpenAI also released a ChatGPT basketball. “This basketball comes from the Pause. Play. Prompt. campaign, a physical reminder that creativity doesn’t. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball",
       "publishedAt": "2026-07-16T15:31:09.000Z"
+    },
+    {
+      "headline": "Google’s AI Mode now lets you link and interact with select apps",
+      "context": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps",
+      "publishedAt": "2026-07-16T16:00:00.000Z"
+    },
+    {
+      "headline": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "context": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product",
+      "publishedAt": "2026-07-16T15:02:00.000Z"
+    },
+    {
+      "headline": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "context": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence",
+      "publishedAt": "2026-07-16T14:40:00.000Z"
+    },
+    {
+      "headline": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "context": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8",
+      "publishedAt": "2026-07-16T14:26:29.000Z"
     }
   ]
 }

@@ -10,7 +10,7 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-17T11:39:37.800Z'
+export const generatedAt = '2026-07-17T13:02:51.644Z'
 
 export const storySeeds: StorySeed[] = [
   {
@@ -26,69 +26,55 @@ export const storySeeds: StorySeed[] = [
     "publishedAt": "2026-07-16T19:16:48.000Z"
   },
   {
-    "headline": "Detecting LLM-Generated Texts with “Classical” Machine Learning",
+    "headline": "Google’s AI Mode now lets you link and interact with select apps",
     "badge": "new",
-    "summary": "This article is currently an experimental machine translation and may contain errors. If anything is unclear, please refer to the original Chinese version. I am continuously working to improve the translation. As of early 2026, mainstream LLM-generated text exhibits strong statistical patterns that can be effectively distinguished from human-written content using traditional.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "blog.lyc8503.net",
-    "sourceUrl": "https://blog.lyc8503.net/en/post/llm-classifier",
+    "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "DeepMind",
+      "Tool"
     ],
-    "publishedAt": "2026-07-16T16:41:37.000Z"
+    "publishedAt": "2026-07-16T16:00:00.000Z"
   },
   {
-    "headline": "Agent-talk: Enabling coding agents to work together",
+    "headline": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
     "badge": "new",
-    "summary": "Sign in Appearance settings {\"props\":{}} {\"props\":{\"should_use_dotcom_links\":true}} Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/xhluca/agent-talk",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
-    ],
-    "publishedAt": "2026-07-16T16:14:20.000Z"
-  },
-  {
-    "headline": "NotebookLM is now Gemini Notebook",
-    "badge": "new",
-    "summary": "We’re renaming NotebookLM to Gemini Notebook. It's the same standalone product, now doing more across the Google ecosystem and updated with a secure cloud computer. NotebookLM is now Gemini Notebook, continuing its mission as your primary research tool. You can now run code directly within your notebooks for deeper data analysis, a feature rolling out to all Pro users soon.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "blog.google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook",
+    "summary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product",
     "termNames": [
       "Artificial Intelligence (AI)",
       "DeepMind"
     ],
-    "publishedAt": "2026-07-16T16:08:13.000Z"
+    "publishedAt": "2026-07-16T15:02:00.000Z"
   },
   {
-    "headline": "Energy IPOs surge as investors hunt for ways to play AI boom",
+    "headline": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
     "badge": "new",
-    "summary": "Initial public offerings for energy firms raised $12.6 billion in the first half of this year, according to data firm Dealogic. That marks the highest half-year level since the peak of the dotcom bubble in late 1999 and the highest first-half figure on record.",
-    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom",
+    "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-16T15:48:21.000Z"
+    "publishedAt": "2026-07-16T14:40:00.000Z"
   },
   {
-    "headline": "Why is OpenAI selling a ChatGPT basketball?",
+    "headline": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
     "badge": "new",
-    "summary": "? Amanda Silberling 8:31 AM PDT · July 16, 2026 You may have heard that OpenAI released its first piece of hardware this week: a $230 mini keyboard . You may not have heard that alongside this “command center for agentic work,” OpenAI also released a ChatGPT basketball. “This basketball comes from the Pause. Play. Prompt. campaign, a physical reminder that creativity doesn’t.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball",
+    "sourceUrl": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
+      "Anthropic"
     ],
-    "publishedAt": "2026-07-16T15:31:09.000Z"
+    "publishedAt": "2026-07-16T14:26:29.000Z"
   }
 ]
