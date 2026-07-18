@@ -10,19 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-17T13:19:05.165Z'
+export const generatedAt = '2026-07-18T09:16:05.387Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The AI compute gap: Enterprises are buying infrastructure faster than they can measure what it costs",
+    "headline": "Neil Rimer thinks the AI money is coming back out",
     "badge": "new",
-    "summary": "Across 107 enterprises, AI infrastructure spending is accelerating well ahead of the ability to see or steer its economics. Most organizations run their AI on a familiar base of hyperscalers and model-provider APIs, yet the next dollar is aimed at specialized compute almost none of them use today; a majority intend to switch or add providers within the year, many within a.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "VentureBeat AI",
-    "sourceUrl": "https://venturebeat.com/ai/the-ai-compute-gap-enterprises-are-buying-infrastructure-faster-than-they-can-measure-what-it-costs",
+    "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-16T19:16:48.000Z"
+    "publishedAt": "2026-07-18T04:47:25.000Z"
+  },
+  {
+    "headline": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
+    "badge": "new",
+    "summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-07-17T22:55:09.000Z"
+  },
+  {
+    "headline": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
+    "badge": "new",
+    "summary": "Their comments come as the California Nurses Association begins negotiating a new contract with Kaiser this month with AI a likely issue. Kaiser nurses&nbsp; went on strike against AI &nbsp;for one day in March and&nbsp; picketed against AI last fall .",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "localnewsmatters.org",
+    "sourceUrl": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-17T22:26:30.000Z"
+  },
+  {
+    "headline": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
+    "badge": "new",
+    "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Training Data"
+    ],
+    "publishedAt": "2026-07-17T22:12:56.000Z"
+  },
+  {
+    "headline": "AI-driven memory crunch jolts India’s smartphone market",
+    "badge": "new",
+    "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-17T20:09:27.000Z"
+  },
+  {
+    "headline": "Agent Security Is a Systems Problem",
+    "badge": "new",
+    "summary": "We take the position that agent security must be approached as a systems problem: the AI model powering the agent must be treated as an untrusted component, and security invariants must be enforced at the system level. Through this lens, efforts to increase model robustness (the dominant viewpoint in the community) are insufficient on their own.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2605.18991",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-07-17T19:44:48.000Z"
   }
 ]
