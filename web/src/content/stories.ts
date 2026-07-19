@@ -10,83 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-18T09:16:05.387Z'
+export const generatedAt = '2026-07-19T09:16:02.301Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Neil Rimer thinks the AI money is coming back out",
+    "headline": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
     "badge": "new",
-    "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-18T04:47:25.000Z"
-  },
-  {
-    "headline": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
-    "badge": "new",
-    "summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
+    "summary": "The delay has been a source of frustration for Google engineers, AI researchers and managers, many of whom are concerned the company risks losing an edge in the market as rivals Anthropic and OpenAI produce models that exceed Gemini’s capabilities, according to 10 current and former employees. Google has multiple layers of stakeholders involved in preparing models for release.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs",
+    "sourceName": "latimes.com",
+    "sourceUrl": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-17T22:55:09.000Z"
-  },
-  {
-    "headline": "Kaiser nurses say AI, surveillance are making their jobs and patient care worse",
-    "badge": "new",
-    "summary": "Their comments come as the California Nurses Association begins negotiating a new contract with Kaiser this month with AI a likely issue. Kaiser nurses&nbsp; went on strike against AI &nbsp;for one day in March and&nbsp; picketed against AI last fall .",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "localnewsmatters.org",
-    "sourceUrl": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-17T22:26:30.000Z"
-  },
-  {
-    "headline": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-    "badge": "new",
-    "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Training Data"
-    ],
-    "publishedAt": "2026-07-17T22:12:56.000Z"
-  },
-  {
-    "headline": "AI-driven memory crunch jolts India’s smartphone market",
-    "badge": "new",
-    "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-17T20:09:27.000Z"
-  },
-  {
-    "headline": "Agent Security Is a Systems Problem",
-    "badge": "new",
-    "summary": "We take the position that agent security must be approached as a systems problem: the AI model powering the agent must be treated as an untrusted component, and security invariants must be enforced at the system level. Through this lens, efforts to increase model robustness (the dominant viewpoint in the community) are insufficient on their own.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2605.18991",
-    "termNames": [
-      "Artificial Intelligence (AI)",
+      "DeepMind",
       "AI Agent",
-      "AI Safety"
+      "Coding Agent"
     ],
-    "publishedAt": "2026-07-17T19:44:48.000Z"
+    "publishedAt": "2026-07-19T04:35:08.000Z"
+  },
+  {
+    "headline": "LLM-Integrated Multivariable Calculus Course",
+    "badge": "new",
+    "summary": "Vectors and the Geometry of the Space 25:29 Lecture 1 Vectors 33:47 Lecture 2 Dot Product 26:17 Lecture 3 Vector Projections and Determinants 20:07 Lecture 4 Cross Product 37:06 Lecture 5 Planes and Lines 30:02 Lecture 6 Planes and Lines (cont.) Vector Functions 28:26 Lecture 7 Parametric Curves 28:39 Lecture 8 Parametric Curves (cont.) Partial Derivatives 40:22 Lecture 9.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "calculus.academa.ai",
+    "sourceUrl": "https://calculus.academa.ai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-19T02:55:43.000Z"
+  },
+  {
+    "headline": "AI Mania Is Eviscerating Global Decision-Making",
+    "badge": "new",
+    "summary": "Note: This has been cross-posted to my company's blog, in case you think there is some use in sharing with someone in a format that looks more authoritative. I strongly believe there are entire companies right now under heavy AI psychosis and it’s impossible to have rational conversations with them about it.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "ludic.mataroa.blog",
+    "sourceUrl": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-19T01:29:19.000Z"
+  },
+  {
+    "headline": "Anthropic's newest ad is creeping people out",
+    "badge": "new",
+    "summary": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "techcrunch.com",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-07-18T23:50:18.000Z"
+  },
+  {
+    "headline": "NYC may require landlords and realtors to disclose the use of AI in listings",
+    "badge": "new",
+    "summary": "New York City mayor Zohran Mamdani is having a very busy week. Just a day after announcing a “click-to-cancel” rule aimed at companies like Adobe, Mamdani is cracking down on “deceptive landlord practices,” including using AI-generated and AI-edited images designed to make properties look more appealing.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "petapixel.com",
+    "sourceUrl": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-18T22:13:39.000Z"
+  },
+  {
+    "headline": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+    "badge": "new",
+    "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […]",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-07-18T20:54:42.000Z"
   }
 ]

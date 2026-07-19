@@ -485,6 +485,42 @@
       "context": "We take the position that agent security must be approached as a systems problem: the AI model powering the agent must be treated as an untrusted component, and security invariants must be enforced at the system level. Through this lens, efforts to increase model robustness (the dominant viewpoint in the community) are insufficient on their own. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://arxiv.org/abs/2605.18991",
       "publishedAt": "2026-07-17T19:44:48.000Z"
+    },
+    {
+      "headline": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+      "context": "The delay has been a source of frustration for Google engineers, AI researchers and managers, many of whom are concerned the company risks losing an edge in the market as rivals Anthropic and OpenAI produce models that exceed Gemini’s capabilities, according to 10 current and former employees. Google has multiple layers of stakeholders involved in preparing models for release. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+      "publishedAt": "2026-07-19T04:35:08.000Z"
+    },
+    {
+      "headline": "LLM-Integrated Multivariable Calculus Course",
+      "context": "Vectors and the Geometry of the Space 25:29 Lecture 1 Vectors 33:47 Lecture 2 Dot Product 26:17 Lecture 3 Vector Projections and Determinants 20:07 Lecture 4 Cross Product 37:06 Lecture 5 Planes and Lines 30:02 Lecture 6 Planes and Lines (cont.) Vector Functions 28:26 Lecture 7 Parametric Curves 28:39 Lecture 8 Parametric Curves (cont.) Partial Derivatives 40:22 Lecture 9. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://calculus.academa.ai",
+      "publishedAt": "2026-07-19T02:55:43.000Z"
+    },
+    {
+      "headline": "AI Mania Is Eviscerating Global Decision-Making",
+      "context": "Note: This has been cross-posted to my company's blog, in case you think there is some use in sharing with someone in a format that looks more authoritative. I strongly believe there are entire companies right now under heavy AI psychosis and it’s impossible to have rational conversations with them about it. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+      "publishedAt": "2026-07-19T01:29:19.000Z"
+    },
+    {
+      "headline": "Anthropic's newest ad is creeping people out",
+      "context": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
+      "publishedAt": "2026-07-18T23:50:18.000Z"
+    },
+    {
+      "headline": "NYC may require landlords and realtors to disclose the use of AI in listings",
+      "context": "New York City mayor Zohran Mamdani is having a very busy week. Just a day after announcing a “click-to-cancel” rule aimed at companies like Adobe, Mamdani is cracking down on “deceptive landlord practices,” including using AI-generated and AI-edited images designed to make properties look more appealing. This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+      "sourceUrl": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+      "publishedAt": "2026-07-18T22:13:39.000Z"
+    },
+    {
+      "headline": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+      "context": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […] Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "publishedAt": "2026-07-18T20:54:42.000Z"
     }
   ]
 }
