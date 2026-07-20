@@ -10,86 +10,56 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-19T09:16:02.301Z'
+export const generatedAt = '2026-07-20T09:15:31.632Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Google's Gemini delay: Coding stumbles, clashing teams and frustrated engineers",
+    "headline": "Tech Workers Face Evaporating Financial Security as AI Transforms Industry",
     "badge": "new",
-    "summary": "The delay has been a source of frustration for Google engineers, AI researchers and managers, many of whom are concerned the company risks losing an edge in the market as rivals Anthropic and OpenAI produce models that exceed Gemini’s capabilities, according to 10 current and former employees. Google has multiple layers of stakeholders involved in preparing models for release.",
+    "summary": "Waves of layoffs and growing pressure to automate jobs are creating existential panic in the tech industry. Economists say other white-collar workers are next.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "latimes.com",
-    "sourceUrl": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+    "sourceName": "adn.com",
+    "sourceUrl": "https://www.adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind",
-      "AI Agent",
-      "Coding Agent"
+      "AI Safety"
     ],
-    "publishedAt": "2026-07-19T04:35:08.000Z"
+    "publishedAt": "2026-07-20T02:45:14.000Z"
   },
   {
-    "headline": "LLM-Integrated Multivariable Calculus Course",
+    "headline": "AI advice made people less accurate but more confident – sudy",
     "badge": "new",
-    "summary": "Vectors and the Geometry of the Space 25:29 Lecture 1 Vectors 33:47 Lecture 2 Dot Product 26:17 Lecture 3 Vector Projections and Determinants 20:07 Lecture 4 Cross Product 37:06 Lecture 5 Planes and Lines 30:02 Lecture 6 Planes and Lines (cont.) Vector Functions 28:26 Lecture 7 Parametric Curves 28:39 Lecture 8 Parametric Curves (cont.) Partial Derivatives 40:22 Lecture 9.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "calculus.academa.ai",
-    "sourceUrl": "https://calculus.academa.ai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-07-19T02:55:43.000Z"
-  },
-  {
-    "headline": "AI Mania Is Eviscerating Global Decision-Making",
-    "badge": "new",
-    "summary": "Note: This has been cross-posted to my company's blog, in case you think there is some use in sharing with someone in a format that looks more authoritative. I strongly believe there are entire companies right now under heavy AI psychosis and it’s impossible to have rational conversations with them about it.",
+    "summary": "A study found that access to AI advice collapsed people's willingness to say \"I don't know\" from 44% to 3%, while accuracy dropped from 27% to 9%.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "ludic.mataroa.blog",
-    "sourceUrl": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
+    "sourceName": "thenextweb.com",
+    "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-19T01:29:19.000Z"
+    "publishedAt": "2026-07-19T21:18:10.000Z"
   },
   {
-    "headline": "Anthropic's newest ad is creeping people out",
+    "headline": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
     "badge": "new",
-    "summary": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "techcrunch.com",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-07-18T23:50:18.000Z"
-  },
-  {
-    "headline": "NYC may require landlords and realtors to disclose the use of AI in listings",
-    "badge": "new",
-    "summary": "New York City mayor Zohran Mamdani is having a very busy week. Just a day after announcing a “click-to-cancel” rule aimed at companies like Adobe, Mamdani is cracking down on “deceptive landlord practices,” including using AI-generated and AI-edited images designed to make properties look more appealing.",
-    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
-    "sourceName": "petapixel.com",
-    "sourceUrl": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
+    "summary": "Christopher Nolan, the Oscar-winning director whose new version of “The Odyssey” is currently conquering the box office , said it’s been “pretty encouraging” to see deep skepticism of AI, especially from young people . Nolan was responding to a question from interviewer Hugo Travers , who publishes on YouTube under the name HugoDécrypte.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-18T22:13:39.000Z"
+    "publishedAt": "2026-07-19T14:52:08.000Z"
   },
   {
-    "headline": "Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an entire generation’",
+    "headline": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
     "badge": "new",
-    "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect he'd roll into the company's offices and offer […]",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+    "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-18T20:54:42.000Z"
+    "publishedAt": "2026-07-19T14:00:00.000Z"
   }
 ]
