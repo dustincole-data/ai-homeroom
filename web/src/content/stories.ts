@@ -10,56 +10,81 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-20T09:15:31.632Z'
+export const generatedAt = '2026-07-21T09:15:43.602Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Tech Workers Face Evaporating Financial Security as AI Transforms Industry",
+    "headline": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
     "badge": "new",
-    "summary": "Waves of layoffs and growing pressure to automate jobs are creating existential panic in the tech industry. Economists say other white-collar workers are next.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "adn.com",
-    "sourceUrl": "https://www.adn.com/nation-world/2026/07/19/the-biggest-winners-of-the-american-economy-fear-theyre-sinking-fast",
+    "summary": "Data center leases, GPU supply contracts raise liabilities at Meta, Oracle, Nikkei study shows",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "asia.nikkei.com",
+    "sourceUrl": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-21T03:56:03.000Z"
+  },
+  {
+    "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
+    "badge": "new",
+    "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety"
+      "Anthropic",
+      "Tool"
     ],
-    "publishedAt": "2026-07-20T02:45:14.000Z"
+    "publishedAt": "2026-07-21T00:12:24.000Z"
   },
   {
-    "headline": "AI advice made people less accurate but more confident – sudy",
+    "headline": "Trump’s latest AI czar has already resigned",
     "badge": "new",
-    "summary": "A study found that access to AI advice collapsed people's willingness to say \"I don't know\" from 44% to 3%, while accuracy dropped from 27% to 9%.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "thenextweb.com",
-    "sourceUrl": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-19T21:18:10.000Z"
-  },
-  {
-    "headline": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
-    "badge": "new",
-    "summary": "Christopher Nolan, the Oscar-winning director whose new version of “The Odyssey” is currently conquering the box office , said it’s been “pretty encouraging” to see deep skepticism of AI, especially from young people . Nolan was responding to a question from interviewer Hugo Travers , who publishes on YouTube under the name HugoDécrypte.",
+    "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse",
+    "sourceUrl": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-19T14:52:08.000Z"
+    "publishedAt": "2026-07-20T22:21:04.000Z"
   },
   {
-    "headline": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+    "headline": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
     "badge": "new",
-    "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
+    "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this […]",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-19T14:00:00.000Z"
+    "publishedAt": "2026-07-20T22:19:12.000Z"
+  },
+  {
+    "headline": "AI’s most important protocol is getting a little bit easier to use",
+    "badge": "new",
+    "summary": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-20T20:50:40.000Z"
+  },
+  {
+    "headline": "Cue AI",
+    "badge": "new",
+    "summary": ".g-blue { fill: var(--g-logo-blue); } .g-red { fill: var(--g-logo-red); } .g-yellow { fill: var(--g-logo-yellow); } .g-green { fill: var(--g-logo-green); } Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "deepmind.google",
+    "sourceUrl": "https://deepmind.google/models/gemma/gemmaverse/cue-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-20T19:41:44.000Z"
   }
 ]

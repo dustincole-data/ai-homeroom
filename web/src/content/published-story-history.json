@@ -545,6 +545,42 @@
       "context": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
       "sourceUrl": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all",
       "publishedAt": "2026-07-19T14:00:00.000Z"
+    },
+    {
+      "headline": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "context": "Data center leases, GPU supply contracts raise liabilities at Meta, Oracle, Nikkei study shows Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "publishedAt": "2026-07-21T03:56:03.000Z"
+    },
+    {
+      "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
+      "context": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
+      "publishedAt": "2026-07-21T00:12:24.000Z"
+    },
+    {
+      "headline": "Trump’s latest AI czar has already resigned",
+      "context": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned",
+      "publishedAt": "2026-07-20T22:21:04.000Z"
+    },
+    {
+      "headline": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
+      "context": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this […] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+      "publishedAt": "2026-07-20T22:19:12.000Z"
+    },
+    {
+      "headline": "AI’s most important protocol is getting a little bit easier to use",
+      "context": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use",
+      "publishedAt": "2026-07-20T20:50:40.000Z"
+    },
+    {
+      "headline": "Cue AI",
+      "context": ".g-blue { fill: var(--g-logo-blue); } .g-red { fill: var(--g-logo-red); } .g-yellow { fill: var(--g-logo-yellow); } .g-green { fill: var(--g-logo-green); } Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://deepmind.google/models/gemma/gemmaverse/cue-ai",
+      "publishedAt": "2026-07-20T19:41:44.000Z"
     }
   ]
 }
