@@ -10,81 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-21T09:15:43.602Z'
+export const generatedAt = '2026-07-22T09:15:48.151Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+    "headline": "Synthesia’s AI training platform is moving beyond videos into live coaching",
     "badge": "new",
-    "summary": "Data center leases, GPU supply contracts raise liabilities at Meta, Oracle, Nikkei study shows",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "asia.nikkei.com",
-    "sourceUrl": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-21T03:56:03.000Z"
-  },
-  {
-    "headline": "Anthropic’s landmark $1.5B copyright settlement is approved",
-    "badge": "new",
-    "summary": "The final approval settles one case, but it doesn't resolve the broader issue of using copyrighted works to train AI models.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
+    "sourceUrl": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
       "Tool"
     ],
-    "publishedAt": "2026-07-21T00:12:24.000Z"
+    "publishedAt": "2026-07-22T08:00:00.000Z"
   },
   {
-    "headline": "Trump’s latest AI czar has already resigned",
+    "headline": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
     "badge": "new",
-    "summary": "The director role for the Center for AI Standards and Innovation (CAISI) has become a revolving door since David Sacks left his position as czar.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned",
+    "summary": "Your MCP server can be 100% spec-compliant and still be unusable by an agent. The Model Context Protocol spec tells you how to transport tools: JSON-RPC framing, capability negotiation, schema shapes.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "tengli.dev",
+    "sourceUrl": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "AI Agent"
     ],
-    "publishedAt": "2026-07-20T22:21:04.000Z"
+    "publishedAt": "2026-07-22T05:51:50.000Z"
   },
   {
-    "headline": "Here are the 30,000 songs Sony is suing Udio’s AI music generator over",
+    "headline": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
     "badge": "new",
-    "summary": "Sony Music Entertainment has filed another lawsuit against Udio, accusing the AI music generator of infringing the copyright of more than 30,000 of its songs, ranging from Elvis Presley's Hound Dog to Beyoncé's Say My Name, and Harry Styles' As It Was. The lawsuit, filed in a New York court on Monday, claims that this […]",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-20T22:19:12.000Z"
-  },
-  {
-    "headline": "AI’s most important protocol is getting a little bit easier to use",
-    "badge": "new",
-    "summary": "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work.",
+    "summary": ".css-axw7ok{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:8px;} .css-xhglp9{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;color:rgba(0, 0, 0.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use",
+    "sourceName": "apply-tracker.com",
+    "sourceUrl": "https://www.apply-tracker.com/en",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "Tool"
     ],
-    "publishedAt": "2026-07-20T20:50:40.000Z"
+    "publishedAt": "2026-07-22T03:47:55.000Z"
   },
   {
-    "headline": "Cue AI",
+    "headline": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
     "badge": "new",
-    "summary": ".g-blue { fill: var(--g-logo-blue); } .g-red { fill: var(--g-logo-red); } .g-yellow { fill: var(--g-logo-yellow); } .g-green { fill: var(--g-logo-green); } Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio.",
+    "summary": "It’s been a big year for AI acquisitions — so big that most of them barely register anymore. Anthropic and OpenAI have each gone on buying sprees, snapping up developer tooling, AI services shops, and product-testing startups to convert model capability into enterprise revenue and extend their reach faster than the other.",
     "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "deepmind.google",
-    "sourceUrl": "https://deepmind.google/models/gemma/gemmaverse/cue-ai",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-07-22T03:20:57.000Z"
+  },
+  {
+    "headline": "Meta is testing an AI bedtime story app for people with no imagination",
+    "badge": "new",
+    "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-21T23:55:10.000Z"
+  },
+  {
+    "headline": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+    "badge": "new",
+    "summary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-20T19:41:44.000Z"
+    "publishedAt": "2026-07-21T22:06:43.000Z"
   }
 ]

@@ -581,6 +581,42 @@
       "context": ".g-blue { fill: var(--g-logo-blue); } .g-red { fill: var(--g-logo-red); } .g-yellow { fill: var(--g-logo-yellow); } .g-green { fill: var(--g-logo-green); } Explore our next generation AI systems Explore models Gemini Gemini Build intelligent agents Gemini Omni Create anything from anything Nano Banana Create and edit detailed images Gemini Audio Talk, create and control audio. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
       "sourceUrl": "https://deepmind.google/models/gemma/gemmaverse/cue-ai",
       "publishedAt": "2026-07-20T19:41:44.000Z"
+    },
+    {
+      "headline": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+      "context": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
+      "publishedAt": "2026-07-22T08:00:00.000Z"
+    },
+    {
+      "headline": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
+      "context": "Your MCP server can be 100% spec-compliant and still be unusable by an agent. The Model Context Protocol spec tells you how to transport tools: JSON-RPC framing, capability negotiation, schema shapes. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+      "publishedAt": "2026-07-22T05:51:50.000Z"
+    },
+    {
+      "headline": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+      "context": ".css-axw7ok{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:8px;} .css-xhglp9{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;color:rgba(0, 0, 0. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.apply-tracker.com/en",
+      "publishedAt": "2026-07-22T03:47:55.000Z"
+    },
+    {
+      "headline": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
+      "context": "It’s been a big year for AI acquisitions — so big that most of them barely register anymore. Anthropic and OpenAI have each gone on buying sprees, snapping up developer tooling, AI services shops, and product-testing startups to convert model capability into enterprise revenue and extend their reach faster than the other. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter",
+      "publishedAt": "2026-07-22T03:20:57.000Z"
+    },
+    {
+      "headline": "Meta is testing an AI bedtime story app for people with no imagination",
+      "context": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination",
+      "publishedAt": "2026-07-21T23:55:10.000Z"
+    },
+    {
+      "headline": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
+      "context": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+      "publishedAt": "2026-07-21T22:06:43.000Z"
     }
   ]
 }
