@@ -617,6 +617,42 @@
       "context": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
       "publishedAt": "2026-07-21T22:06:43.000Z"
+    },
+    {
+      "headline": "Claude Cookbook",
+      "context": "Practical guides and code examples for building with Claude. Learn prompting techniques, tool use, multimodal capabilities, and more. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://platform.claude.com/cookbook",
+      "publishedAt": "2026-07-24T05:09:15.000Z"
+    },
+    {
+      "headline": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "context": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity researchers.&nbsp; In June, the U.S. government slapped export control restrictions on Anthropic’s much-hyped AI models. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+      "publishedAt": "2026-07-24T01:00:00.000Z"
+    },
+    {
+      "headline": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+      "context": "This report presents a taxonomy and examples of potential omnicidal events resulting from AI: scenarios where all or almost all humans are killed. These events are not presented as inevitable, but as possibilities that we can work to avoid. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arxiv.org/abs/2507.09369",
+      "publishedAt": "2026-07-23T22:51:13.000Z"
+    },
+    {
+      "headline": "Alexa Plus is getting an AI update to handle more complicated instructions",
+      "context": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to […] This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "publishedAt": "2026-07-23T21:15:06.000Z"
+    },
+    {
+      "headline": "AMD takes on Nvidia with its Helios AI rack-scale system",
+      "context": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+      "publishedAt": "2026-07-23T20:33:02.000Z"
+    },
+    {
+      "headline": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+      "context": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
+      "publishedAt": "2026-07-23T18:38:34.000Z"
     }
   ]
 }

@@ -10,84 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-22T09:15:48.151Z'
+export const generatedAt = '2026-07-24T09:16:02.415Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Synthesia’s AI training platform is moving beyond videos into live coaching",
+    "headline": "Claude Cookbook",
     "badge": "new",
-    "summary": "Synthesia launched AI Roleplay Sessions, an interactive enterprise training platform where employees practice workplace conversations with AI avatars that provide feedback, scoring, and analytics to help companies measure training effectiveness.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-22T08:00:00.000Z"
-  },
-  {
-    "headline": "I graded 36 popular MCP servers on agent usability. A third got a D or F",
-    "badge": "new",
-    "summary": "Your MCP server can be 100% spec-compliant and still be unusable by an agent. The Model Context Protocol spec tells you how to transport tools: JSON-RPC framing, capability negotiation, schema shapes.",
+    "summary": "Practical guides and code examples for building with Claude. Learn prompting techniques, tool use, multimodal capabilities, and more.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "tengli.dev",
-    "sourceUrl": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+    "sourceName": "platform.claude.com",
+    "sourceUrl": "https://platform.claude.com/cookbook",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Anthropic",
+      "Chatbot",
+      "Model"
     ],
-    "publishedAt": "2026-07-22T05:51:50.000Z"
+    "publishedAt": "2026-07-24T05:09:15.000Z"
   },
   {
-    "headline": "Apply Tracker, Free AI CV, Cover Letter and Job Tracker",
+    "headline": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
     "badge": "new",
-    "summary": ".css-axw7ok{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;gap:8px;} .css-xhglp9{text-align:center;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;font-size:1.5rem;padding:8px;border-radius:50%;color:rgba(0, 0, 0.",
+    "summary": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity researchers.&nbsp; In June, the U.S. government slapped export control restrictions on Anthropic’s much-hyped AI models.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-07-24T01:00:00.000Z"
+  },
+  {
+    "headline": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+    "badge": "new",
+    "summary": "This report presents a taxonomy and examples of potential omnicidal events resulting from AI: scenarios where all or almost all humans are killed. These events are not presented as inevitable, but as possibilities that we can work to avoid.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "apply-tracker.com",
-    "sourceUrl": "https://www.apply-tracker.com/en",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-22T03:47:55.000Z"
-  },
-  {
-    "headline": "The Anthropic-Physical Intelligence rumor roiling AI Twitter",
-    "badge": "new",
-    "summary": "It’s been a big year for AI acquisitions — so big that most of them barely register anymore. Anthropic and OpenAI have each gone on buying sprees, snapping up developer tooling, AI services shops, and product-testing startups to convert model capability into enterprise revenue and extend their reach faster than the other.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/21/the-anthropic-physical-intelligence-rumor-roiling-ai-twitter",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-07-22T03:20:57.000Z"
-  },
-  {
-    "headline": "Meta is testing an AI bedtime story app for people with no imagination",
-    "badge": "new",
-    "summary": "At last, a tech company has found a way to outsource humanity's oldest pastime: using our imaginations.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-21T23:55:10.000Z"
-  },
-  {
-    "headline": "Neill Blomkamp’s new zombie AI ‘film’ is just slop warmed over",
-    "badge": "new",
-    "summary": "On Monday, District 9 and Gran Turismo director Neill Blomkamp unveiled his latest project: a 13-minute sci-fi short titled Nightborne that's loosely based on Peter Watts' 2014 novel Echopraxia. The short comes from Blomkamp's new AI startup / production company, Barley Studios, and features characters whose voices and faces are modeled after human actors.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/entertainment/968703/neill-blomkamps-nightborne-barley-studios-seedance",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2507.09369",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-21T22:06:43.000Z"
+    "publishedAt": "2026-07-23T22:51:13.000Z"
+  },
+  {
+    "headline": "Alexa Plus is getting an AI update to handle more complicated instructions",
+    "badge": "new",
+    "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to […]",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-23T21:15:06.000Z"
+  },
+  {
+    "headline": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "badge": "new",
+    "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU"
+    ],
+    "publishedAt": "2026-07-23T20:33:02.000Z"
+  },
+  {
+    "headline": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
+    "badge": "new",
+    "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-07-23T18:38:34.000Z"
   }
 ]
