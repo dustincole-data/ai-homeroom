@@ -653,6 +653,42 @@
       "context": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
       "publishedAt": "2026-07-23T18:38:34.000Z"
+    },
+    {
+      "headline": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+      "context": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+      "publishedAt": "2026-07-25T00:23:11.000Z"
+    },
+    {
+      "headline": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "context": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+      "publishedAt": "2026-07-24T22:25:58.000Z"
+    },
+    {
+      "headline": "Canadian legislator reads out apparent LLM response in floor speech",
+      "context": "Bill Oliver, a Progressive Conservative Party member of the legislative assembly of New Brunswick, noted in a speech last month that “One of the dangers associated with creating advocacy offices is that citizens often develop expectations that exceed the powers actually granted to those offices.” He then went on to say out loud that “here’s a more natural, flowing version of. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+      "publishedAt": "2026-07-24T21:25:15.000Z"
+    },
+    {
+      "headline": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "context": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
+      "publishedAt": "2026-07-24T18:07:32.000Z"
+    },
+    {
+      "headline": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+      "context": "As a result, all the original gene-editing systems had known rates of what are called off-target effects, in which they simply edit the wrong sequence. This may be a low-probability event, but edit enough cells—and therapies generally have to edit many—and errors become inevitable. A lot of effort has gone into finding ways to minimize or eliminate off-target edits. In a recent. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
+      "publishedAt": "2026-07-24T17:31:26.000Z"
+    },
+    {
+      "headline": "Meta is making its AI chatbot more like an assistant",
+      "context": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […] Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
+      "publishedAt": "2026-07-24T17:00:00.000Z"
     }
   ]
 }

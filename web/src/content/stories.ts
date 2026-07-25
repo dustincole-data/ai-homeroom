@@ -10,86 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-24T09:16:02.415Z'
+export const generatedAt = '2026-07-25T09:15:42.045Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Claude Cookbook",
+    "headline": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
     "badge": "new",
-    "summary": "Practical guides and code examples for building with Claude. Learn prompting techniques, tool use, multimodal capabilities, and more.",
+    "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "platform.claude.com",
-    "sourceUrl": "https://platform.claude.com/cookbook",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-07-24T05:09:15.000Z"
-  },
-  {
-    "headline": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-    "badge": "new",
-    "summary": "For months, AI giants have devised special vetted programs and strict guardrails to limit the use of their models by malicious hackers. But these limits are now hindering the work of legitimate network defenders, as well as that of offensive cybersecurity researchers.&nbsp; In June, the U.S. government slapped export control restrictions on Anthropic’s much-hyped AI models.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers",
+    "sourceUrl": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety"
+      "Chatbot"
     ],
-    "publishedAt": "2026-07-24T01:00:00.000Z"
+    "publishedAt": "2026-07-25T00:23:11.000Z"
   },
   {
-    "headline": "A taxonomy of omnicidal futures involving artificial intelligence (2025)",
+    "headline": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
     "badge": "new",
-    "summary": "This report presents a taxonomy and examples of potential omnicidal events resulting from AI: scenarios where all or almost all humans are killed. These events are not presented as inevitable, but as possibilities that we can work to avoid.",
+    "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2507.09369",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-23T22:51:13.000Z"
+    "publishedAt": "2026-07-24T22:25:58.000Z"
   },
   {
-    "headline": "Alexa Plus is getting an AI update to handle more complicated instructions",
+    "headline": "Canadian legislator reads out apparent LLM response in floor speech",
     "badge": "new",
-    "summary": "Amazon is launching an update to its Alexa Plus assistant that will allow it to connect to smart home devices in new ways. With the update, which is currently in preview, Alexa Plus can link up with tech from Bosch, Delta, Ecovacs, iRobot, Yale Home, Whirlpool, Tapo, Eufy, and others, while automatically routing requests to […]",
+    "summary": "Bill Oliver, a Progressive Conservative Party member of the legislative assembly of New Brunswick, noted in a speech last month that “One of the dangers associated with creating advocacy offices is that citizens often develop expectations that exceed the powers actually granted to those offices.” He then went on to say out loud that “here’s a more natural, flowing version of.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model",
+      "Speech-to-Text",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-24T21:25:15.000Z"
+  },
+  {
+    "headline": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+    "badge": "new",
+    "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-24T18:07:32.000Z"
+  },
+  {
+    "headline": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+    "badge": "new",
+    "summary": "As a result, all the original gene-editing systems had known rates of what are called off-target effects, in which they simply edit the wrong sequence. This may be a low-probability event, but edit enough cells—and therapies generally have to edit many—and errors become inevitable. A lot of effort has gone into finding ways to minimize or eliminate off-target edits. In a recent.",
     "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-23T21:15:06.000Z"
+    "publishedAt": "2026-07-24T17:31:26.000Z"
   },
   {
-    "headline": "AMD takes on Nvidia with its Helios AI rack-scale system",
+    "headline": "Meta is making its AI chatbot more like an assistant",
     "badge": "new",
-    "summary": "AMD is challenging its chipmaker rival with a new rack-scale system that will start shipping to customers later this year.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system",
+    "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […]",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-23T20:33:02.000Z"
-  },
-  {
-    "headline": "AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing",
-    "badge": "new",
-    "summary": "AegisAI co-founders developed AI agents that quickly analyze each message as a human would, paying attention to small anomalies that even the most elaborate checklist wouldn’t catch.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
-      "AI Safety"
-    ],
-    "publishedAt": "2026-07-23T18:38:34.000Z"
+    "publishedAt": "2026-07-24T17:00:00.000Z"
   }
 ]
