@@ -10,83 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-25T09:15:42.045Z'
+export const generatedAt = '2026-07-26T09:16:13.880Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+    "headline": "MIT to become hotbed of AI video surveillance",
     "badge": "new",
-    "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-07-25T00:23:11.000Z"
-  },
-  {
-    "headline": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-    "badge": "new",
-    "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+    "summary": "It’s a lot: According to information obtained by The Tech, MIT is spending over $3 million on more than 500 AI surveillance cameras in academic buildings, residence halls, and outdoor areas along Memorial Drive. Installation of the new cameras, along with the wiring and infrastructure that will support them, began November 2025 and will likely continue until September 2026.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "schneier.com",
+    "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-24T22:25:58.000Z"
+    "publishedAt": "2026-07-26T04:07:54.000Z"
   },
   {
-    "headline": "Canadian legislator reads out apparent LLM response in floor speech",
+    "headline": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
     "badge": "new",
-    "summary": "Bill Oliver, a Progressive Conservative Party member of the legislative assembly of New Brunswick, noted in a speech last month that “One of the dangers associated with creating advocacy offices is that citizens often develop expectations that exceed the powers actually granted to those offices.” He then went on to say out loud that “here’s a more natural, flowing version of.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+    "summary": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "danluu.com",
+    "sourceUrl": "https://danluu.com/ai-coding",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model",
-      "Speech-to-Text",
+      "AI Agent",
+      "Coding Agent",
+      "Model"
+    ],
+    "publishedAt": "2026-07-26T03:02:17.000Z"
+  },
+  {
+    "headline": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+    "badge": "new",
+    "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-26T01:30:00.000Z"
+  },
+  {
+    "headline": "I scanned my AI agent framework for destructive/consequential actions, and wow",
+    "badge": "new",
+    "summary": "We scanned 25 AI agent frameworks — 23,476 files — looking for one specific thing: a consequential action that a model can reach, with a parameter the model controls, and no authorisation check on the path. We also found 12 false positives in our own scanner, and fixed them before publishing this.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "actenon.com",
+    "sourceUrl": "https://www.actenon.com",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-07-26T00:58:07.000Z"
+  },
+  {
+    "headline": "What is happening to jobs? Separating AI hype from reality",
+    "badge": "new",
+    "summary": "Advances in AI models have sparked fears that rapid disruption of labor markets is imminent, if not already underway. A steady drumbeat of media articles has forecast a grim future for white-collar work due to AI. [1] Fears of an “AI jobs apocalypse” are often amplified by AI leaders themselves.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "siepr.stanford.edu",
+    "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+    "termNames": [
+      "Artificial Intelligence (AI)",
       "Tool"
     ],
-    "publishedAt": "2026-07-24T21:25:15.000Z"
+    "publishedAt": "2026-07-25T22:51:10.000Z"
   },
   {
-    "headline": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+    "headline": "Cloudflare's new AI traffic options for customers",
     "badge": "new",
-    "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage",
+    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "blog.cloudflare.com",
+    "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-24T18:07:32.000Z"
-  },
-  {
-    "headline": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-    "badge": "new",
-    "summary": "As a result, all the original gene-editing systems had known rates of what are called off-target effects, in which they simply edit the wrong sequence. This may be a low-probability event, but edit enough cells—and therapies generally have to edit many—and errors become inevitable. A lot of effort has gone into finding ways to minimize or eliminate off-target edits. In a recent.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-24T17:31:26.000Z"
-  },
-  {
-    "headline": "Meta is making its AI chatbot more like an assistant",
-    "badge": "new",
-    "summary": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […]",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-24T17:00:00.000Z"
+    "publishedAt": "2026-07-25T22:50:49.000Z"
   }
 ]

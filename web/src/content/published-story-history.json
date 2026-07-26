@@ -689,6 +689,42 @@
       "context": "Meta is upgrading its AI chatbot with new productivity features in a bid to compete with rivals like Gemini, ChatGPT, and Claude. The update will allow Meta AI to tap into your calendar to help you plan events and generate daily briefings, as well as perform in-depth research that you can steer as it progresses. […] Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update",
       "publishedAt": "2026-07-24T17:00:00.000Z"
+    },
+    {
+      "headline": "MIT to become hotbed of AI video surveillance",
+      "context": "It’s a lot: According to information obtained by The Tech, MIT is spending over $3 million on more than 500 AI surveillance cameras in academic buildings, residence halls, and outdoor areas along Memorial Drive. Installation of the new cameras, along with the wiring and infrastructure that will support them, began November 2025 and will likely continue until September 2026. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+      "publishedAt": "2026-07-26T04:07:54.000Z"
+    },
+    {
+      "headline": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
+      "context": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://danluu.com/ai-coding",
+      "publishedAt": "2026-07-26T03:02:17.000Z"
+    },
+    {
+      "headline": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "context": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "publishedAt": "2026-07-26T01:30:00.000Z"
+    },
+    {
+      "headline": "I scanned my AI agent framework for destructive/consequential actions, and wow",
+      "context": "We scanned 25 AI agent frameworks — 23,476 files — looking for one specific thing: a consequential action that a model can reach, with a parameter the model controls, and no authorisation check on the path. We also found 12 false positives in our own scanner, and fixed them before publishing this. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.actenon.com",
+      "publishedAt": "2026-07-26T00:58:07.000Z"
+    },
+    {
+      "headline": "What is happening to jobs? Separating AI hype from reality",
+      "context": "Advances in AI models have sparked fears that rapid disruption of labor markets is imminent, if not already underway. A steady drumbeat of media articles has forecast a grim future for white-collar work due to AI. [1] Fears of an “AI jobs apocalypse” are often amplified by AI leaders themselves. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "publishedAt": "2026-07-25T22:51:10.000Z"
+    },
+    {
+      "headline": "Cloudflare's new AI traffic options for customers",
+      "context": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
+      "publishedAt": "2026-07-25T22:50:49.000Z"
     }
   ]
 }
