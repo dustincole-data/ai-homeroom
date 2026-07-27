@@ -10,84 +10,68 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-26T09:16:13.880Z'
+export const generatedAt = '2026-07-27T09:15:50.032Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "MIT to become hotbed of AI video surveillance",
+    "headline": "Meta launched a new AI optimism ad set to a song about human extinction",
     "badge": "new",
-    "summary": "It’s a lot: According to information obtained by The Tech, MIT is spending over $3 million on more than 500 AI surveillance cameras in academic buildings, residence halls, and outdoor areas along Memorial Drive. Installation of the new cameras, along with the wiring and infrastructure that will support them, began November 2025 and will likely continue until September 2026.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "schneier.com",
-    "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-26T04:07:54.000Z"
-  },
-  {
-    "headline": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
-    "badge": "new",
-    "summary": "I've been using AI fairly heavily since last November and the whole thing is a funny experience . An agent will do something that, if a human did it, you'd immediately fire them.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "danluu.com",
-    "sourceUrl": "https://danluu.com/ai-coding",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent",
-      "Model"
-    ],
-    "publishedAt": "2026-07-26T03:02:17.000Z"
-  },
-  {
-    "headline": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-    "badge": "new",
-    "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-26T01:30:00.000Z"
-  },
-  {
-    "headline": "I scanned my AI agent framework for destructive/consequential actions, and wow",
-    "badge": "new",
-    "summary": "We scanned 25 AI agent frameworks — 23,476 files — looking for one specific thing: a consequential action that a model can reach, with a parameter the model controls, and no authorisation check on the path. We also found 12 false positives in our own scanner, and fixed them before publishing this.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "actenon.com",
-    "sourceUrl": "https://www.actenon.com",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-26T00:58:07.000Z"
-  },
-  {
-    "headline": "What is happening to jobs? Separating AI hype from reality",
-    "badge": "new",
-    "summary": "Advances in AI models have sparked fears that rapid disruption of labor markets is imminent, if not already underway. A steady drumbeat of media articles has forecast a grim future for white-collar work due to AI. [1] Fears of an “AI jobs apocalypse” are often amplified by AI leaders themselves.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "siepr.stanford.edu",
-    "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-25T22:51:10.000Z"
-  },
-  {
-    "headline": "Cloudflare's new AI traffic options for customers",
-    "badge": "new",
-    "summary": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages.",
+    "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "blog.cloudflare.com",
-    "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
+    "sourceName": "techcrunch.com",
+    "sourceUrl": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-25T22:50:49.000Z"
+    "publishedAt": "2026-07-27T08:09:32.000Z"
+  },
+  {
+    "headline": "Are brain waves the next unlock for physical AI?",
+    "badge": "new",
+    "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-27T00:19:14.000Z"
+  },
+  {
+    "headline": "Making sense of the panic over Chinese AI",
+    "badge": "new",
+    "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-26T19:40:57.000Z"
+  },
+  {
+    "headline": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+    "badge": "new",
+    "summary": "After OpenAI recently admitted that one of its models had breached the systems of AI platform Hugging Face , Hugging Face’s CEO Clem Delangue posted on X that he was flying to San Francisco to have “a little chat with that ‘rogue agent.’” Then, in a follow-up post on Saturday, Delangue outlined what he’d asked for from OpenAI. He said he called for “radical transparency,”.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-07-26T16:33:13.000Z"
+  },
+  {
+    "headline": "The New AI Superpowers: Focus and Followthrough",
+    "badge": "new",
+    "summary": "So logically, if AI can help us complete tasks 2-100x faster than before, we should be UNDERWORKED and experiencing ZERO burnout, right? You may be too young to recognize this meme, but it’s the feeling most people in tech had when AI started accelerating their efficiency.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "rickmanelius.com",
+    "sourceUrl": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-26T13:13:03.000Z"
   }
 ]

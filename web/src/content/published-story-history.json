@@ -725,6 +725,36 @@
       "context": "For our second Content Independence Day, we’re giving website owners finer options to manage AI traffic. Instead of a one-size-fits-all block, all customers can now easily distinguish and manage Search, Agent, and Training bots, alongside the new ability to protect ad-monetized pages. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
       "publishedAt": "2026-07-25T22:50:49.000Z"
+    },
+    {
+      "headline": "Meta launched a new AI optimism ad set to a song about human extinction",
+      "context": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
+      "publishedAt": "2026-07-27T08:09:32.000Z"
+    },
+    {
+      "headline": "Are brain waves the next unlock for physical AI?",
+      "context": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+      "publishedAt": "2026-07-27T00:19:14.000Z"
+    },
+    {
+      "headline": "Making sense of the panic over Chinese AI",
+      "context": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+      "publishedAt": "2026-07-26T19:40:57.000Z"
+    },
+    {
+      "headline": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "context": "After OpenAI recently admitted that one of its models had breached the systems of AI platform Hugging Face , Hugging Face’s CEO Clem Delangue posted on X that he was flying to San Francisco to have “a little chat with that ‘rogue agent.’” Then, in a follow-up post on Saturday, Delangue outlined what he’d asked for from OpenAI. He said he called for “radical transparency,”. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "publishedAt": "2026-07-26T16:33:13.000Z"
+    },
+    {
+      "headline": "The New AI Superpowers: Focus and Followthrough",
+      "context": "So logically, if AI can help us complete tasks 2-100x faster than before, we should be UNDERWORKED and experiencing ZERO burnout, right? You may be too young to recognize this meme, but it’s the feeling most people in tech had when AI started accelerating their efficiency. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "publishedAt": "2026-07-26T13:13:03.000Z"
     }
   ]
 }
