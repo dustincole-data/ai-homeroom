@@ -10,68 +10,89 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-27T09:15:50.032Z'
+export const generatedAt = '2026-07-28T09:15:43.346Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Meta launched a new AI optimism ad set to a song about human extinction",
+    "headline": "Tell HN: Our paid Claude AI subscription unavailable >1 week and no support",
     "badge": "new",
-    "summary": "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "techcrunch.com",
-    "sourceUrl": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-27T08:09:32.000Z"
-  },
-  {
-    "headline": "Are brain waves the next unlock for physical AI?",
-    "badge": "new",
-    "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-27T00:19:14.000Z"
-  },
-  {
-    "headline": "Making sense of the panic over Chinese AI",
-    "badge": "new",
-    "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-26T19:40:57.000Z"
-  },
-  {
-    "headline": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
-    "badge": "new",
-    "summary": "After OpenAI recently admitted that one of its models had breached the systems of AI platform Hugging Face , Hugging Face’s CEO Clem Delangue posted on X that he was flying to San Francisco to have “a little chat with that ‘rogue agent.’” Then, in a follow-up post on Saturday, Delangue outlined what he’d asked for from OpenAI. He said he called for “radical transparency,”.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+    "summary": "Dear all, our team is using a Claude AI Team plan for more than 1 year already: - we are a normal company, doing normal business, nothing critical - all our bills are paid and we can see them as paid - nontheless, the service is not available for more than one week to us Question: - any other idea to reach out to them than their \"Fin AI Chatbot\" at support@anthropic.com? - did.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "news.ycombinator.com",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49080775",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Anthropic",
+      "Chatbot",
+      "Model"
     ],
-    "publishedAt": "2026-07-26T16:33:13.000Z"
+    "publishedAt": "2026-07-28T08:00:19.000Z"
   },
   {
-    "headline": "The New AI Superpowers: Focus and Followthrough",
+    "headline": "Microsoft unveils AI security tools it says outperform competing platforms",
     "badge": "new",
-    "summary": "So logically, if AI can help us complete tasks 2-100x faster than before, we should be UNDERWORKED and experiencing ZERO burnout, right? You may be too young to recognize this meme, but it’s the feeling most people in tech had when AI started accelerating their efficiency.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "rickmanelius.com",
-    "sourceUrl": "https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+    "summary": "The new tools come less than a week after OpenAI lost control of two of its security models when they infiltrated the servers of startup Hugging Face. The hack, Hugging Face added, involved “a swarm of tens of thousands of automated actions” that stole internal Hugging Face credentials.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "arstechnica.com",
+    "sourceUrl": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "AI Safety",
+      "Tool"
     ],
-    "publishedAt": "2026-07-26T13:13:03.000Z"
+    "publishedAt": "2026-07-28T07:02:33.000Z"
+  },
+  {
+    "headline": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+    "badge": "new",
+    "summary": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent"
+    ],
+    "publishedAt": "2026-07-28T04:30:00.000Z"
+  },
+  {
+    "headline": "Show HN: SeaTicket – AI agent that resolve GitHub and Discord issues",
+    "badge": "new",
+    "summary": "https://seaticket.ai/ After maintaining Seafile, open-source file-sync software, since 2012. Somewhere across those fourteen years, \"go check if someone already reported this\" turned into one of the most common lines in our team chat.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "news.ycombinator.com",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49078625",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-07-28T02:43:40.000Z"
+  },
+  {
+    "headline": "Using an open model feels surprisingly good",
+    "badge": "new",
+    "summary": "I've been using Claude and ChatGPT like the next guy for probably two years now. I've never been a huge \"open software\" nerd or anything like that.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "matthewsaltz.com",
+    "sourceUrl": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-28T02:37:14.000Z"
+  },
+  {
+    "headline": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
+    "badge": "new",
+    "summary": "Why the companies winning in the AI age own their intelligence: a task-trained open source model vs the frontier, with every number published.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "fermisense.com",
+    "sourceUrl": "https://fermisense.com/when-machines-take-the-wheel",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-07-28T02:18:53.000Z"
   }
 ]
