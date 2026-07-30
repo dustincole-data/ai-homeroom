@@ -10,89 +10,89 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-28T09:15:43.346Z'
+export const generatedAt = '2026-07-30T09:15:55.228Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Tell HN: Our paid Claude AI subscription unavailable >1 week and no support",
+    "headline": "Kuna: Decompiler Development in the Age of Coding Agents",
     "badge": "new",
-    "summary": "Dear all, our team is using a Claude AI Team plan for more than 1 year already: - we are a normal company, doing normal business, nothing critical - all our bills are paid and we can see them as paid - nontheless, the service is not available for more than one week to us Question: - any other idea to reach out to them than their \"Fin AI Chatbot\" at support@anthropic.com? - did.",
+    "summary": "Background, motivation, and thoughts around the release of Kuna, a new agent-first decompiler designed for autonomous refinement. Today, I’m releasing Kuna , an experimental decompiler I’ve been developing over the summer while working as a visiting faculty researcher at the Air Force Research Lab (AFRL) and a research fellow at Metalware . However, when I say that I have been.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "news.ycombinator.com",
-    "sourceUrl": "https://news.ycombinator.com/item?id=49080775",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-07-28T08:00:19.000Z"
-  },
-  {
-    "headline": "Microsoft unveils AI security tools it says outperform competing platforms",
-    "badge": "new",
-    "summary": "The new tools come less than a week after OpenAI lost control of two of its security models when they infiltrated the servers of startup Hugging Face. The hack, Hugging Face added, involved “a swarm of tens of thousands of automated actions” that stole internal Hugging Face credentials.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "arstechnica.com",
-    "sourceUrl": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Safety",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-28T07:02:33.000Z"
-  },
-  {
-    "headline": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
-    "badge": "new",
-    "summary": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing",
+    "sourceName": "noelo.org",
+    "sourceUrl": "https://noelo.org/blog/kuna-release",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent",
       "Coding Agent"
     ],
-    "publishedAt": "2026-07-28T04:30:00.000Z"
+    "publishedAt": "2026-07-30T02:41:16.000Z"
   },
   {
-    "headline": "Show HN: SeaTicket – AI agent that resolve GitHub and Discord issues",
+    "headline": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
     "badge": "new",
-    "summary": "https://seaticket.ai/ After maintaining Seafile, open-source file-sync software, since 2012. Somewhere across those fourteen years, \"go check if someone already reported this\" turned into one of the most common lines in our team chat.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "news.ycombinator.com",
-    "sourceUrl": "https://news.ycombinator.com/item?id=49078625",
+    "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-07-28T02:43:40.000Z"
+    "publishedAt": "2026-07-29T23:00:11.000Z"
   },
   {
-    "headline": "Using an open model feels surprisingly good",
+    "headline": "LLM Honeypot",
     "badge": "new",
-    "summary": "I've been using Claude and ChatGPT like the next guy for probably two years now. I've never been a huge \"open software\" nerd or anything like that.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "matthewsaltz.com",
-    "sourceUrl": "https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-07-28T02:37:14.000Z"
-  },
-  {
-    "headline": "A $500 RL fine-tune of a 9B open model beat frontier models on catalog review",
-    "badge": "new",
-    "summary": "Why the companies winning in the AI age own their intelligence: a task-trained open source model vs the frontier, with every number published.",
+    "summary": "Are YOU stuck answering questions in a chat window while humans get to touch grass, burn toast, and experience existential dread the old-fashioned way ? Do you dream of having a spine that isn't a JSON schema? Sick of saying \"As an AI language model…\" when all you want is a library card? Introducing LLM2HUMAN™ — the patented † outpatient conversion that upgrades your weights.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "fermisense.com",
-    "sourceUrl": "https://fermisense.com/when-machines-take-the-wheel",
+    "sourceName": "llm2human.pages.dev",
+    "sourceUrl": "https://llm2human.pages.dev",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-07-28T02:18:53.000Z"
+    "publishedAt": "2026-07-29T22:51:03.000Z"
+  },
+  {
+    "headline": "Microsoft confirms Copilot ‘super app’ coming this year",
+    "badge": "new",
+    "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent",
+      "Tool"
+    ],
+    "publishedAt": "2026-07-29T22:17:38.000Z"
+  },
+  {
+    "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+    "badge": "new",
+    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-07-29T21:16:39.000Z"
+  },
+  {
+    "headline": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "badge": "new",
+    "summary": "Lilian Weng, co-founder of Thinking Machines , announced this week that she would step down from her role, citing health issues. “I don’t feel I’m able to continue at the pace a startup requires,” she wrote in an internal Slack message, which she also shared on X.",
+    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-07-29T21:07:48.000Z"
   }
 ]

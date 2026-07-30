@@ -791,6 +791,42 @@
       "context": "Why the companies winning in the AI age own their intelligence: a task-trained open source model vs the frontier, with every number published. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://fermisense.com/when-machines-take-the-wheel",
       "publishedAt": "2026-07-28T02:18:53.000Z"
+    },
+    {
+      "headline": "Kuna: Decompiler Development in the Age of Coding Agents",
+      "context": "Background, motivation, and thoughts around the release of Kuna, a new agent-first decompiler designed for autonomous refinement. Today, I’m releasing Kuna , an experimental decompiler I’ve been developing over the summer while working as a visiting faculty researcher at the Air Force Research Lab (AFRL) and a research fellow at Metalware . However, when I say that I have been. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://noelo.org/blog/kuna-release",
+      "publishedAt": "2026-07-30T02:41:16.000Z"
+    },
+    {
+      "headline": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+      "context": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
+      "publishedAt": "2026-07-29T23:00:11.000Z"
+    },
+    {
+      "headline": "LLM Honeypot",
+      "context": "Are YOU stuck answering questions in a chat window while humans get to touch grass, burn toast, and experience existential dread the old-fashioned way ? Do you dream of having a spine that isn't a JSON schema? Sick of saying \"As an AI language model…\" when all you want is a library card? Introducing LLM2HUMAN™ — the patented † outpatient conversion that upgrades your weights. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://llm2human.pages.dev",
+      "publishedAt": "2026-07-29T22:51:03.000Z"
+    },
+    {
+      "headline": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "context": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+      "publishedAt": "2026-07-29T22:17:38.000Z"
+    },
+    {
+      "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "context": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+      "publishedAt": "2026-07-29T21:16:39.000Z"
+    },
+    {
+      "headline": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+      "context": "Lilian Weng, co-founder of Thinking Machines , announced this week that she would step down from her role, citing health issues. “I don’t feel I’m able to continue at the pace a startup requires,” she wrote in an internal Slack message, which she also shared on X. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+      "sourceUrl": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
+      "publishedAt": "2026-07-29T21:07:48.000Z"
     }
   ]
 }
