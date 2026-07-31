@@ -827,6 +827,42 @@
       "context": "Lilian Weng, co-founder of Thinking Machines , announced this week that she would step down from her role, citing health issues. “I don’t feel I’m able to continue at the pace a startup requires,” she wrote in an internal Slack message, which she also shared on X. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
       "sourceUrl": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
       "publishedAt": "2026-07-29T21:07:48.000Z"
+    },
+    {
+      "headline": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "context": "Chrome uses Gemini AI to automate vulnerability discovery, triage, and patching, accelerating updates to match modern security risks. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update",
+      "publishedAt": "2026-07-31T07:29:22.000Z"
+    },
+    {
+      "headline": "Show HN: What should the GUI for AI agents look like?",
+      "context": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, syntax, paths, and. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://marbleos.com/demo",
+      "publishedAt": "2026-07-31T05:17:29.000Z"
+    },
+    {
+      "headline": "Anthropic says its own AI models breached three companies during security tests",
+      "context": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+      "publishedAt": "2026-07-31T01:06:54.000Z"
+    },
+    {
+      "headline": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "context": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+      "publishedAt": "2026-07-30T23:25:58.000Z"
+    },
+    {
+      "headline": "Reddit reports a solid quarter but shows signs of AI’s impact",
+      "context": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+      "publishedAt": "2026-07-30T23:08:58.000Z"
+    },
+    {
+      "headline": "Investors love AI, as long as you’re a cloud host",
+      "context": "Amazon reported better-than-expected second-quarter earnings on Thursday, and investors loved what they saw. Net sales rose 20%, and cloud revenue stood out as a particular bright spot. This combination of positive results was enough to send Amazon’s stock up nearly 10% in after-hours trading. Crucially, Amazon isn’t slowing down on data center spending, despite the. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+      "publishedAt": "2026-07-30T22:41:41.000Z"
     }
   ]
 }

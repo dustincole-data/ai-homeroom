@@ -10,89 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-30T09:15:55.228Z'
+export const generatedAt = '2026-07-31T09:16:01.677Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Kuna: Decompiler Development in the Age of Coding Agents",
+    "headline": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
     "badge": "new",
-    "summary": "Background, motivation, and thoughts around the release of Kuna, a new agent-first decompiler designed for autonomous refinement. Today, I’m releasing Kuna , an experimental decompiler I’ve been developing over the summer while working as a visiting faculty researcher at the Air Force Research Lab (AFRL) and a research fellow at Metalware . However, when I say that I have been.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "noelo.org",
-    "sourceUrl": "https://noelo.org/blog/kuna-release",
+    "summary": "Chrome uses Gemini AI to automate vulnerability discovery, triage, and patching, accelerating updates to match modern security risks.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "blog.google",
+    "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
+      "DeepMind"
     ],
-    "publishedAt": "2026-07-30T02:41:16.000Z"
+    "publishedAt": "2026-07-31T07:29:22.000Z"
   },
   {
-    "headline": "Mark Zuckerberg predicts that billions of people will have personal AI agents in five years",
+    "headline": "Show HN: What should the GUI for AI agents look like?",
     "badge": "new",
-    "summary": "As Meta pours billions into AI infrastructure and agents, Zuckerberg is working to convince investors that the payoff will be worth the price.",
+    "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, syntax, paths, and.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/29/mark-zuckerberg-predicts-that-billions-of-people-will-have-personal-ai-agents-in-five-years",
+    "sourceName": "marbleos.com",
+    "sourceUrl": "https://marbleos.com/demo",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-07-29T23:00:11.000Z"
+    "publishedAt": "2026-07-31T05:17:29.000Z"
   },
   {
-    "headline": "LLM Honeypot",
+    "headline": "Anthropic says its own AI models breached three companies during security tests",
     "badge": "new",
-    "summary": "Are YOU stuck answering questions in a chat window while humans get to touch grass, burn toast, and experience existential dread the old-fashioned way ? Do you dream of having a spine that isn't a JSON schema? Sick of saying \"As an AI language model…\" when all you want is a library card? Introducing LLM2HUMAN™ — the patented † outpatient conversion that upgrades your weights.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "llm2human.pages.dev",
-    "sourceUrl": "https://llm2human.pages.dev",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-07-29T22:51:03.000Z"
-  },
-  {
-    "headline": "Microsoft confirms Copilot ‘super app’ coming this year",
-    "badge": "new",
-    "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent",
-      "Tool"
-    ],
-    "publishedAt": "2026-07-29T22:17:38.000Z"
-  },
-  {
-    "headline": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
-    "badge": "new",
-    "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+    "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026",
+    "sourceUrl": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
+      "Anthropic",
+      "Model",
       "AI Safety"
     ],
-    "publishedAt": "2026-07-29T21:16:39.000Z"
+    "publishedAt": "2026-07-31T01:06:54.000Z"
   },
   {
-    "headline": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+    "headline": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
     "badge": "new",
-    "summary": "Lilian Weng, co-founder of Thinking Machines , announced this week that she would step down from her role, citing health issues. “I don’t feel I’m able to continue at the pace a startup requires,” she wrote in an internal Slack message, which she also shared on X.",
-    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+    "summary": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai",
+    "sourceUrl": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Anthropic"
     ],
-    "publishedAt": "2026-07-29T21:07:48.000Z"
+    "publishedAt": "2026-07-30T23:25:58.000Z"
+  },
+  {
+    "headline": "Reddit reports a solid quarter but shows signs of AI’s impact",
+    "badge": "new",
+    "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-30T23:08:58.000Z"
+  },
+  {
+    "headline": "Investors love AI, as long as you’re a cloud host",
+    "badge": "new",
+    "summary": "Amazon reported better-than-expected second-quarter earnings on Thursday, and investors loved what they saw. Net sales rose 20%, and cloud revenue stood out as a particular bright spot. This combination of positive results was enough to send Amazon’s stock up nearly 10% in after-hours trading. Crucially, Amazon isn’t slowing down on data center spending, despite the.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-07-30T22:41:41.000Z"
   }
 ]
