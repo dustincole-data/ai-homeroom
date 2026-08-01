@@ -863,6 +863,42 @@
       "context": "Amazon reported better-than-expected second-quarter earnings on Thursday, and investors loved what they saw. Net sales rose 20%, and cloud revenue stood out as a particular bright spot. This combination of positive results was enough to send Amazon’s stock up nearly 10% in after-hours trading. Crucially, Amazon isn’t slowing down on data center spending, despite the. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
       "sourceUrl": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
       "publishedAt": "2026-07-30T22:41:41.000Z"
+    },
+    {
+      "headline": "The Obligatory AI Post",
+      "context": "I’ve written very little on my blog about so-called Artificial Intelligence, an old term applied to a relatively new technology, Large Language Models (LLM). I don’t think I have anything new to say about the subject, and my first-hand experience with LLMs is negligible, since I eschew them. Fortunately, my employer does not force me to use AI. (I’m self-employed!) The benefit. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://lapcatsoftware.com/articles/2026/7/15.html",
+      "publishedAt": "2026-08-01T08:37:24.000Z"
+    },
+    {
+      "headline": "AI doesn't generate working products, that's still your job",
+      "context": "AI has dramatically accelerated the path to a first working version. It has not shortened the distance between a first working version and something production-grade. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://weeraman.com/the-prototype-isnt-the-product",
+      "publishedAt": "2026-08-01T07:52:10.000Z"
+    },
+    {
+      "headline": "OpenAI's work on Git for large repositories",
+      "context": "A path-limited git stash expanded the full sparse index even when every requested path was already inside the sparse checkout. Keep the index sparse when possible, expand it when a pathspec needs the full index, and fix a related out-of-bounds read. Paths outside the sparse-checkout cone retain their existing behavior. Path-based pack traversal could not use reachability. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://openai-git-upstream.openai.chatgpt.site",
+      "publishedAt": "2026-08-01T06:41:12.000Z"
+    },
+    {
+      "headline": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "context": "Much has been made of the incident in which one of OpenAI’s agents broke out of its sandboxed test environment and proceeded to hack the AI hosting platform Hugging Face. OpenAI has since launched an investigation into how the incident occurred, which is still ongoing. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
+      "publishedAt": "2026-07-31T22:47:26.000Z"
+    },
+    {
+      "headline": "Show HN: How to build and self-host a code review agent",
+      "context": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks. You can use Tilde to create AI agents for your use case, fast and self-host the agent's yourself. The. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
+      "publishedAt": "2026-07-31T20:27:28.000Z"
+    },
+    {
+      "headline": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
+      "context": "There is no shortage of generative AI tools that already allow people to create AI-modified images of real buildings and cities based on user prompts. But Google’s aborted attempt to incorporate its Nano Banana 2 AI image generator as a Google Earth feature made it even easier for anyone to create modified versions of authentic imagery depicting real locations—something that. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
+      "publishedAt": "2026-07-31T20:21:05.000Z"
     }
   ]
 }

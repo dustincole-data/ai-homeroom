@@ -10,85 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-07-31T09:16:01.677Z'
+export const generatedAt = '2026-08-01T09:15:44.245Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+    "headline": "The Obligatory AI Post",
     "badge": "new",
-    "summary": "Chrome uses Gemini AI to automate vulnerability discovery, triage, and patching, accelerating updates to match modern security risks.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "blog.google",
-    "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update",
+    "summary": "I’ve written very little on my blog about so-called Artificial Intelligence, an old term applied to a relatively new technology, Large Language Models (LLM). I don’t think I have anything new to say about the subject, and my first-hand experience with LLMs is negligible, since I eschew them. Fortunately, my employer does not force me to use AI. (I’m self-employed!) The benefit.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "lapcatsoftware.com",
+    "sourceUrl": "https://lapcatsoftware.com/articles/2026/7/15.html",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-07-31T07:29:22.000Z"
+    "publishedAt": "2026-08-01T08:37:24.000Z"
   },
   {
-    "headline": "Show HN: What should the GUI for AI agents look like?",
+    "headline": "AI doesn't generate working products, that's still your job",
     "badge": "new",
-    "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs, interacting with a computer was limited to strange terminal commands: C:\\> DIR C:\\> COPY FILE.TXT A: You had to remember the command, syntax, paths, and.",
+    "summary": "AI has dramatically accelerated the path to a first working version. It has not shortened the distance between a first working version and something production-grade.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "marbleos.com",
-    "sourceUrl": "https://marbleos.com/demo",
+    "sourceName": "weeraman.com",
+    "sourceUrl": "https://weeraman.com/the-prototype-isnt-the-product",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-01T07:52:10.000Z"
+  },
+  {
+    "headline": "OpenAI's work on Git for large repositories",
+    "badge": "new",
+    "summary": "A path-limited git stash expanded the full sparse index even when every requested path was already inside the sparse checkout. Keep the index sparse when possible, expand it when a pathspec needs the full index, and fix a related out-of-bounds read. Paths outside the sparse-checkout cone retain their existing behavior. Path-based pack traversal could not use reachability.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "openai-git-upstream.openai.chatgpt.site",
+    "sourceUrl": "https://openai-git-upstream.openai.chatgpt.site",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-01T06:41:12.000Z"
+  },
+  {
+    "headline": "OpenAI reportedly finds evidence that more of its agents ran amok",
+    "badge": "new",
+    "summary": "Much has been made of the incident in which one of OpenAI’s agents broke out of its sandboxed test environment and proceeded to hack the AI hosting platform Hugging Face. OpenAI has since launched an investigation into how the incident occurred, which is still ongoing.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-07-31T22:47:26.000Z"
+  },
+  {
+    "headline": "Show HN: How to build and self-host a code review agent",
+    "badge": "new",
+    "summary": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks. You can use Tilde to create AI agents for your use case, fast and self-host the agent's yourself. The.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "trytilde.ai",
+    "sourceUrl": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-07-31T05:17:29.000Z"
+    "publishedAt": "2026-07-31T20:27:28.000Z"
   },
   {
-    "headline": "Anthropic says its own AI models breached three companies during security tests",
+    "headline": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
     "badge": "new",
-    "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+    "summary": "There is no shortage of generative AI tools that already allow people to create AI-modified images of real buildings and cities based on user prompts. But Google’s aborted attempt to incorporate its Nano Banana 2 AI image generator as a Google Earth feature made it even easier for anyone to create modified versions of authentic imagery depicting real locations—something that.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Model",
-      "AI Safety"
+      "DeepMind",
+      "Tool"
     ],
-    "publishedAt": "2026-07-31T01:06:54.000Z"
-  },
-  {
-    "headline": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
-    "badge": "new",
-    "summary": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-07-30T23:25:58.000Z"
-  },
-  {
-    "headline": "Reddit reports a solid quarter but shows signs of AI’s impact",
-    "badge": "new",
-    "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-30T23:08:58.000Z"
-  },
-  {
-    "headline": "Investors love AI, as long as you’re a cloud host",
-    "badge": "new",
-    "summary": "Amazon reported better-than-expected second-quarter earnings on Thursday, and investors loved what they saw. Net sales rose 20%, and cloud revenue stood out as a particular bright spot. This combination of positive results was enough to send Amazon’s stock up nearly 10% in after-hours trading. Crucially, Amazon isn’t slowing down on data center spending, despite the.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-07-30T22:41:41.000Z"
+    "publishedAt": "2026-07-31T20:21:05.000Z"
   }
 ]
