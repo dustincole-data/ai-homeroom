@@ -10,85 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-01T09:15:44.245Z'
+export const generatedAt = '2026-08-02T09:15:46.797Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The Obligatory AI Post",
+    "headline": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
     "badge": "new",
-    "summary": "I’ve written very little on my blog about so-called Artificial Intelligence, an old term applied to a relatively new technology, Large Language Models (LLM). I don’t think I have anything new to say about the subject, and my first-hand experience with LLMs is negligible, since I eschew them. Fortunately, my employer does not force me to use AI. (I’m self-employed!) The benefit.",
+    "summary": "My Photography Threads Instagram GitHub LinkedIn Email Me Menu Home Blog Categories Archive RSS Feed Links A greenhouse and a lens both run on sunlight, and they do opposite things with it. The greenhouse traps ambient heat and holds it, so everything inside grows a little faster than it would outside: flowers, herbs, weeds, whatever happens to be in the soil.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "lapcatsoftware.com",
-    "sourceUrl": "https://lapcatsoftware.com/articles/2026/7/15.html",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-01T08:37:24.000Z"
-  },
-  {
-    "headline": "AI doesn't generate working products, that's still your job",
-    "badge": "new",
-    "summary": "AI has dramatically accelerated the path to a first working version. It has not shortened the distance between a first working version and something production-grade.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "weeraman.com",
-    "sourceUrl": "https://weeraman.com/the-prototype-isnt-the-product",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-01T07:52:10.000Z"
-  },
-  {
-    "headline": "OpenAI's work on Git for large repositories",
-    "badge": "new",
-    "summary": "A path-limited git stash expanded the full sparse index even when every requested path was already inside the sparse checkout. Keep the index sparse when possible, expand it when a pathspec needs the full index, and fix a related out-of-bounds read. Paths outside the sparse-checkout cone retain their existing behavior. Path-based pack traversal could not use reachability.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "openai-git-upstream.openai.chatgpt.site",
-    "sourceUrl": "https://openai-git-upstream.openai.chatgpt.site",
+    "sourceName": "brethorsting.com",
+    "sourceUrl": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-01T06:41:12.000Z"
+    "publishedAt": "2026-08-02T00:06:25.000Z"
   },
   {
-    "headline": "OpenAI reportedly finds evidence that more of its agents ran amok",
+    "headline": "AI opens new era in cognitive studies of wild primates",
     "badge": "new",
-    "summary": "Much has been made of the incident in which one of OpenAI’s agents broke out of its sandboxed test environment and proceeded to hack the AI hosting platform Hugging Face. OpenAI has since launched an investigation into how the incident occurred, which is still ongoing.",
+    "summary": "Emory anthropologists created an AI system to automate behavioral studies of capuchins monkeys in the wild. The novel method provides a roadmap for the first scalable, systematic way to evaluate and monitor the cognitive abilities of wild primates.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "news.emory.edu",
+    "sourceUrl": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-01T22:40:22.000Z"
+  },
+  {
+    "headline": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says",
+    "badge": "new",
+    "summary": "Roles with a high exposure to AI have seen sharp declines in real wages in recent years, according to a new whitepaper from Apollo.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "businessinsider.com",
+    "sourceUrl": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-01T21:05:00.000Z"
+  },
+  {
+    "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+    "badge": "new",
+    "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
+    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok",
+    "sourceUrl": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-31T22:47:26.000Z"
-  },
-  {
-    "headline": "Show HN: How to build and self-host a code review agent",
-    "badge": "new",
-    "summary": "Hey HN, I've had a side-project that I've slowly ticked away at over the last year called Tilde. Tilde is a harness SDK platform - I've tried to take the best things of OpenClaw, Hermes & other harnesses and decompose them and make them available as cloud API building blocks. You can use Tilde to create AI agents for your use case, fast and self-host the agent's yourself. The.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "trytilde.ai",
-    "sourceUrl": "https://www.trytilde.ai/blog/how-to-build-code-review-agent",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-07-31T20:27:28.000Z"
-  },
-  {
-    "headline": "Google Earth risked ruin with retracted AI tool for making fake satellite pics",
-    "badge": "new",
-    "summary": "There is no shortage of generative AI tools that already allow people to create AI-modified images of real buildings and cities based on user prompts. But Google’s aborted attempt to incorporate its Nano Banana 2 AI image generator as a Google Earth feature made it even easier for anyone to create modified versions of authentic imagery depicting real locations—something that.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/07/google-earth-releases-swiftly-retracts-ai-feature-to-make-fake-satellite-images",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
+      "xAI",
       "Tool"
     ],
-    "publishedAt": "2026-07-31T20:21:05.000Z"
+    "publishedAt": "2026-08-01T20:26:04.000Z"
+  },
+  {
+    "headline": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+    "badge": "new",
+    "summary": "The controversy started when, in the middle of a video posted on the educational channel Complexly , Green incongruously used the phrase “I appreciate the pushback,” leading viewers to speculate that he’d written the script with a chatbot — and, in the process, accidentally included its response to one of his prompts. In a since-deleted post on X, Green acknowledged that he’d.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-01T19:45:45.000Z"
+  },
+  {
+    "headline": "Is this Billboard Hot 100 hit AI slop?",
+    "badge": "new",
+    "summary": "Entertainment Close Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. Report Close Report Posts from this topic will be added to your daily email digest and your homepage feed.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-01T18:20:00.000Z"
   }
 ]
