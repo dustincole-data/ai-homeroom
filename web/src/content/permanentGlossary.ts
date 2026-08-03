@@ -76,6 +76,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'Automation means using software to handle repeatable steps with less human clicking.',
   },
   {
+    term: 'Automation Bias',
+    aliases: ['automation bias'],
+    definition:
+      'Automation bias is the habit of trusting a machine answer more than the evidence justifies, and quietly checking it less. It is why showing sources can raise confidence in an answer even when those sources do not actually support it.',
+  },
+  {
     term: 'Back-Office Work',
     aliases: ['back-office work'],
     definition:
@@ -245,9 +251,17 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
   },
   {
     term: 'Hallucination',
-    aliases: ['hallucination', 'hallucinations'],
+    aliases: [
+      'hallucination',
+      'hallucinations',
+      'hallucinate',
+      'hallucinates',
+      'hallucinated',
+      'hallucinating',
+      'confabulation',
+    ],
     definition:
-      'A hallucination is a confident AI answer that sounds real but is wrong, unsupported, or made up.',
+      'A hallucination is a confident AI answer that sounds real but is wrong, unsupported, or made up. Doctors call the same behaviour in people confabulation: filling a gap with something plausible and believing it.',
   },
   {
     term: 'Harness',
@@ -400,6 +414,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
       'A platform is a service or system that many people or companies build on or use, like an app store, social network, or streaming app.',
   },
   {
+    term: 'Pretraining',
+    aliases: ['pretraining', 'pre-training', 'base model', 'base models'],
+    definition:
+      'Pretraining is the first and largest stage of building a model, where it reads an enormous amount of text and learns to predict what comes next. What comes out of it is called a base model. Facts that appeared often get learned solidly; facts that appeared once usually do not, which is where a lot of hallucination starts.',
+  },
+  {
     term: 'Privacy',
     aliases: ['privacy'],
     definition:
@@ -431,9 +451,9 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
   },
   {
     term: 'Retrieval-Augmented Generation (RAG)',
-    aliases: ['RAG', 'Retrieval-Augmented Generation'],
+    aliases: ['RAG', 'Retrieval-Augmented Generation', 'grounding', 'grounded', 'ungrounded'],
     definition:
-      'Retrieval-Augmented Generation, or RAG, is a setup where AI searches trusted documents first, then answers with that information in front of it.',
+      'Retrieval-Augmented Generation, or RAG, is a setup where AI searches trusted documents first, then answers with that information in front of it. Making a model answer from a document instead of from memory is called grounding, and it is the largest single reduction in hallucination available to most people. It does not remove the problem entirely.',
   },
   {
     term: 'Sandbox',
@@ -452,6 +472,12 @@ export const permanentGlossaryTerms: PermanentGlossaryTerm[] = [
     aliases: ['software engineer', 'software engineers'],
     definition:
       'A software engineer is a person who designs, builds, tests, and maintains software.',
+  },
+  {
+    term: 'Software Package',
+    aliases: ['package', 'packages', 'software package', 'software packages'],
+    definition:
+      'A software package is a chunk of code someone else already wrote that a program borrows instead of rebuilding it, a bit like an app installing a plug-in. Models sometimes recommend package names that sound real but do not exist, and attackers have started registering those invented names.',
   },
   {
     term: 'Speech-to-Text',
