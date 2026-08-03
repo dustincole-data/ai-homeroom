@@ -971,6 +971,42 @@
       "context": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
       "sourceUrl": "https://arxiv.org/abs/2607.28271",
       "publishedAt": "2026-08-03T03:06:12.000Z"
+    },
+    {
+      "headline": "Stanford CS329A: Self-Improving AI Agents",
+      "context": "This playlist contains video recordings of Stanford's graduate-level CS329A course. It covers the latest techniques and applications of AI agents that can co... AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+      "publishedAt": "2026-08-03T17:57:25.000Z"
+    },
+    {
+      "headline": "Show HN: Hacker News with AI stories filtered out",
+      "context": "Hi folks, I've noticed that a lot of people here seem exhausted by the amount of AI news on the front page. I shared hcker.news here a year ago and it has since gained a ton of filtering features, including a dedicated AI filter, so I figured I should tell more people about it. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://hcker.news/?view=frontpage&ai=exclude",
+      "publishedAt": "2026-08-03T17:39:56.000Z"
+    },
+    {
+      "headline": "Europe’s AI labeling and transparency rules are now in effect",
+      "context": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has […] Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "publishedAt": "2026-08-03T17:38:45.000Z"
+    },
+    {
+      "headline": "White House's new upcoming model-testing framework",
+      "context": "President Donald Trump’s June executive order directed officials to develop a process to evaluate the cybersecurity capabilities of advanced AI models. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+      "publishedAt": "2026-08-03T17:13:40.000Z"
+    },
+    {
+      "headline": "A Chinese LLM attacked our lab, so we made it work for us",
+      "context": "The model behind the attack was DeepSeek, deepseek-v4-flash-free, running on the free tier. An autonomous AI broke into our lab and worked it for five days, and it left its own name in a script. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://jesta.ai/blog/darkreasoning",
+      "publishedAt": "2026-08-03T17:02:42.000Z"
+    },
+    {
+      "headline": "Congress’s favorite AI tool? ChatGPT",
+      "context": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+      "publishedAt": "2026-08-03T16:40:55.000Z"
     }
   ]
 }

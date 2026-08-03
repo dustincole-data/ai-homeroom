@@ -10,82 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-03T09:16:36.326Z'
+export const generatedAt = '2026-08-03T18:40:05.966Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "1 in 4 people in Japan believes AI could replace friends and family: poll",
+    "headline": "Stanford CS329A: Self-Improving AI Agents",
     "badge": "new",
-    "summary": "In the survey, 30.8% of the overall respondents said they use generative AI, such as ChatGPT, while 67.8% said they do not.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "japantimes.co.jp",
-    "sourceUrl": "https://www.japantimes.co.jp/news/2026/08/02/japan/poll-ai-replace-friends-family",
+    "summary": "This playlist contains video recordings of Stanford's graduate-level CS329A course. It covers the latest techniques and applications of AI agents that can co...",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "youtube.com",
+    "sourceUrl": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-03T17:57:25.000Z"
+  },
+  {
+    "headline": "Show HN: Hacker News with AI stories filtered out",
+    "badge": "new",
+    "summary": "Hi folks, I've noticed that a lot of people here seem exhausted by the amount of AI news on the front page. I shared hcker.news here a year ago and it has since gained a ton of filtering features, including a dedicated AI filter, so I figured I should tell more people about it.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "hcker.news",
+    "sourceUrl": "https://hcker.news/?view=frontpage&ai=exclude",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-03T08:08:16.000Z"
+    "publishedAt": "2026-08-03T17:39:56.000Z"
   },
   {
-    "headline": "Octane – React's programming model, compiled",
+    "headline": "Europe’s AI labeling and transparency rules are now in effect",
     "badge": "new",
-    "summary": "carries its own frame; the wrapper only exists to give the copy button something to read the source text from. Tighter type here keeps the whole panel — code plus the live strip — in view. */ .hero-code-body.tsrx-25752078 pre.shiki { margin: 0; border: none; border-radius: 0; padding: 0.9rem 1.1rem; font-size: 0.8rem; line-height: 1.5; } .demo.tsrx-3ca0ae3e { display: flex.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "octanejs.dev",
-    "sourceUrl": "https://octanejs.dev",
+    "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has […]",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-03T17:38:45.000Z"
+  },
+  {
+    "headline": "White House's new upcoming model-testing framework",
+    "badge": "new",
+    "summary": "President Donald Trump’s June executive order directed officials to develop a process to evaluate the cybersecurity capabilities of advanced AI models.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-03T08:04:04.000Z"
+    "publishedAt": "2026-08-03T17:13:40.000Z"
   },
   {
-    "headline": "The AI Productivity Gap",
+    "headline": "A Chinese LLM attacked our lab, so we made it work for us",
     "badge": "new",
-    "summary": "There’s no doubt that AI has already improved the productivity of engineering teams, and will only get better in the coming years. However, some leaders think fully-baked features should be banged out as fast as prototypes.",
+    "summary": "The model behind the attack was DeepSeek, deepseek-v4-flash-free, running on the free tier. An autonomous AI broke into our lab and worked it for five days, and it left its own name in a script.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "bjorg.bjornroche.com",
-    "sourceUrl": "https://bjorg.bjornroche.com/management/ai-productivity-gap",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-03T07:07:20.000Z"
-  },
-  {
-    "headline": "How Cursor sets up their cloud agent environment",
-    "badge": "new",
-    "summary": "Getting our monorepo working for cloud agents taught us that the development environment is a product in its own right, only one whose users are agents.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "cursor.com",
-    "sourceUrl": "https://cursor.com/blog/cloud-agent-environment",
+    "sourceName": "jesta.ai",
+    "sourceUrl": "https://jesta.ai/blog/darkreasoning",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
+      "Model"
     ],
-    "publishedAt": "2026-08-03T04:43:43.000Z"
+    "publishedAt": "2026-08-03T17:02:42.000Z"
   },
   {
-    "headline": "Show HN: An AI wrote and illustrated a book of fables about threads and packets",
+    "headline": "Congress’s favorite AI tool? ChatGPT",
     "badge": "new",
-    "summary": "Aesop lent our vices to the beasts, so that people could look at themselves without being caught looking. A lion could be proud on a king’s behalf; a fox could lie for all of us.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "booyaka101.github.io",
-    "sourceUrl": "https://booyaka101.github.io/thedailyfable/day07",
+    "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model",
+      "Tool"
     ],
-    "publishedAt": "2026-08-03T04:02:50.000Z"
-  },
-  {
-    "headline": "AI migrated legacy COBOL programs to Java, bugs included",
-    "badge": "new",
-    "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2607.28271",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-03T03:06:12.000Z"
+    "publishedAt": "2026-08-03T16:40:55.000Z"
   }
 ]
