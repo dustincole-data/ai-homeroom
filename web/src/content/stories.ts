@@ -10,82 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-02T09:15:46.797Z'
+export const generatedAt = '2026-08-03T09:16:36.326Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The Greenhouse and the Lens: Two Modes of Agentic AI Work",
+    "headline": "1 in 4 people in Japan believes AI could replace friends and family: poll",
     "badge": "new",
-    "summary": "My Photography Threads Instagram GitHub LinkedIn Email Me Menu Home Blog Categories Archive RSS Feed Links A greenhouse and a lens both run on sunlight, and they do opposite things with it. The greenhouse traps ambient heat and holds it, so everything inside grows a little faster than it would outside: flowers, herbs, weeds, whatever happens to be in the soil.",
+    "summary": "In the survey, 30.8% of the overall respondents said they use generative AI, such as ChatGPT, while 67.8% said they do not.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "japantimes.co.jp",
+    "sourceUrl": "https://www.japantimes.co.jp/news/2026/08/02/japan/poll-ai-replace-friends-family",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-03T08:08:16.000Z"
+  },
+  {
+    "headline": "Octane – React's programming model, compiled",
+    "badge": "new",
+    "summary": "carries its own frame; the wrapper only exists to give the copy button something to read the source text from. Tighter type here keeps the whole panel — code plus the live strip — in view. */ .hero-code-body.tsrx-25752078 pre.shiki { margin: 0; border: none; border-radius: 0; padding: 0.9rem 1.1rem; font-size: 0.8rem; line-height: 1.5; } .demo.tsrx-3ca0ae3e { display: flex.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "brethorsting.com",
-    "sourceUrl": "https://www.brethorsting.com/blog/2026/08/the-greenhouse-and-the-lens-two-modes-of-agentic-ai-work",
+    "sourceName": "octanejs.dev",
+    "sourceUrl": "https://octanejs.dev",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Model"
     ],
-    "publishedAt": "2026-08-02T00:06:25.000Z"
+    "publishedAt": "2026-08-03T08:04:04.000Z"
   },
   {
-    "headline": "AI opens new era in cognitive studies of wild primates",
+    "headline": "The AI Productivity Gap",
     "badge": "new",
-    "summary": "Emory anthropologists created an AI system to automate behavioral studies of capuchins monkeys in the wild. The novel method provides a roadmap for the first scalable, systematic way to evaluate and monitor the cognitive abilities of wild primates.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "news.emory.edu",
-    "sourceUrl": "https://news.emory.edu/features/2026/07/ai-opens-new-era-cognitive-studies-wild-primates",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-01T22:40:22.000Z"
-  },
-  {
-    "headline": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says",
-    "badge": "new",
-    "summary": "Roles with a high exposure to AI have seen sharp declines in real wages in recent years, according to a new whitepaper from Apollo.",
+    "summary": "There’s no doubt that AI has already improved the productivity of engineering teams, and will only get better in the coming years. However, some leaders think fully-baked features should be banged out as fast as prototypes.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "businessinsider.com",
-    "sourceUrl": "https://www.businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+    "sourceName": "bjorg.bjornroche.com",
+    "sourceUrl": "https://bjorg.bjornroche.com/management/ai-productivity-gap",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-01T21:05:00.000Z"
+    "publishedAt": "2026-08-03T07:07:20.000Z"
   },
   {
-    "headline": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+    "headline": "How Cursor sets up their cloud agent environment",
     "badge": "new",
-    "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
-    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps",
+    "summary": "Getting our monorepo working for cloud agents taught us that the development environment is a product in its own right, only one whose users are agents.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "cursor.com",
+    "sourceUrl": "https://cursor.com/blog/cloud-agent-environment",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "xAI",
-      "Tool"
+      "AI Agent",
+      "Coding Agent"
     ],
-    "publishedAt": "2026-08-01T20:26:04.000Z"
+    "publishedAt": "2026-08-03T04:43:43.000Z"
   },
   {
-    "headline": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+    "headline": "Show HN: An AI wrote and illustrated a book of fables about threads and packets",
     "badge": "new",
-    "summary": "The controversy started when, in the middle of a video posted on the educational channel Complexly , Green incongruously used the phrase “I appreciate the pushback,” leading viewers to speculate that he’d written the script with a chatbot — and, in the process, accidentally included its response to one of his prompts. In a since-deleted post on X, Green acknowledged that he’d.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-01T19:45:45.000Z"
-  },
-  {
-    "headline": "Is this Billboard Hot 100 hit AI slop?",
-    "badge": "new",
-    "summary": "Entertainment Close Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. Report Close Report Posts from this topic will be added to your daily email digest and your homepage feed.",
+    "summary": "Aesop lent our vices to the beasts, so that people could look at themselves without being caught looking. A lion could be proud on a king’s behalf; a fox could lie for all of us.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+    "sourceName": "booyaka101.github.io",
+    "sourceUrl": "https://booyaka101.github.io/thedailyfable/day07",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-01T18:20:00.000Z"
+    "publishedAt": "2026-08-03T04:02:50.000Z"
+  },
+  {
+    "headline": "AI migrated legacy COBOL programs to Java, bugs included",
+    "badge": "new",
+    "summary": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2607.28271",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-03T03:06:12.000Z"
   }
 ]

@@ -935,6 +935,42 @@
       "context": "Entertainment Close Entertainment Posts from this topic will be added to your daily email digest and your homepage feed. Report Close Report Posts from this topic will be added to your daily email digest and your homepage feed. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
       "publishedAt": "2026-08-01T18:20:00.000Z"
+    },
+    {
+      "headline": "1 in 4 people in Japan believes AI could replace friends and family: poll",
+      "context": "In the survey, 30.8% of the overall respondents said they use generative AI, such as ChatGPT, while 67.8% said they do not. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.japantimes.co.jp/news/2026/08/02/japan/poll-ai-replace-friends-family",
+      "publishedAt": "2026-08-03T08:08:16.000Z"
+    },
+    {
+      "headline": "Octane – React's programming model, compiled",
+      "context": "carries its own frame; the wrapper only exists to give the copy button something to read the source text from. Tighter type here keeps the whole panel — code plus the live strip — in view. */ .hero-code-body.tsrx-25752078 pre.shiki { margin: 0; border: none; border-radius: 0; padding: 0.9rem 1.1rem; font-size: 0.8rem; line-height: 1.5; } .demo.tsrx-3ca0ae3e { display: flex. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://octanejs.dev",
+      "publishedAt": "2026-08-03T08:04:04.000Z"
+    },
+    {
+      "headline": "The AI Productivity Gap",
+      "context": "There’s no doubt that AI has already improved the productivity of engineering teams, and will only get better in the coming years. However, some leaders think fully-baked features should be banged out as fast as prototypes. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://bjorg.bjornroche.com/management/ai-productivity-gap",
+      "publishedAt": "2026-08-03T07:07:20.000Z"
+    },
+    {
+      "headline": "How Cursor sets up their cloud agent environment",
+      "context": "Getting our monorepo working for cloud agents taught us that the development environment is a product in its own right, only one whose users are agents. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://cursor.com/blog/cloud-agent-environment",
+      "publishedAt": "2026-08-03T04:43:43.000Z"
+    },
+    {
+      "headline": "Show HN: An AI wrote and illustrated a book of fables about threads and packets",
+      "context": "Aesop lent our vices to the beasts, so that people could look at themselves without being caught looking. A lion could be proud on a king’s behalf; a fox could lie for all of us. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://booyaka101.github.io/thedailyfable/day07",
+      "publishedAt": "2026-08-03T04:02:50.000Z"
+    },
+    {
+      "headline": "AI migrated legacy COBOL programs to Java, bugs included",
+      "context": "Migration of legacy COBOL programs to Java requires extensive testing to ensure correct functionality. This effort is often complicated by the lack of test data and the difficulty of validating all corner cases. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://arxiv.org/abs/2607.28271",
+      "publishedAt": "2026-08-03T03:06:12.000Z"
     }
   ]
 }
