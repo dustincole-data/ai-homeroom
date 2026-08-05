@@ -10,85 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-03T18:40:05.966Z'
+export const generatedAt = '2026-08-05T09:15:43.060Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Stanford CS329A: Self-Improving AI Agents",
+    "headline": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
     "badge": "new",
-    "summary": "This playlist contains video recordings of Stanford's graduate-level CS329A course. It covers the latest techniques and applications of AI agents that can co...",
+    "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. We ask whether structured memory access requires generation at all. Zero-Mem.",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "youtube.com",
-    "sourceUrl": "https://www.youtube.com/playlist?list=PLangBM27OtEA",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2607.29377",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "AI Agent",
+      "Model"
     ],
-    "publishedAt": "2026-08-03T17:57:25.000Z"
+    "publishedAt": "2026-08-05T04:36:44.000Z"
   },
   {
-    "headline": "Show HN: Hacker News with AI stories filtered out",
+    "headline": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
     "badge": "new",
-    "summary": "Hi folks, I've noticed that a lot of people here seem exhausted by the amount of AI news on the front page. I shared hcker.news here a year ago and it has since gained a ton of filtering features, including a dedicated AI filter, so I figured I should tell more people about it.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "hcker.news",
-    "sourceUrl": "https://hcker.news/?view=frontpage&ai=exclude",
+    "summary": "En Fr News Join us News Business Sport Culture Science & Technology No Comment Programmes Podcast Live weather Close Watch Live News Business Sport Culture Science & Technology No Comment Programmes Podcast Weather Breaking News Close Just In Copy/paste the script below Artificial intelligence is now powering more than half of reported cybercrime across Africa, allowing.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "africanews.com",
+    "sourceUrl": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-03T17:39:56.000Z"
+    "publishedAt": "2026-08-04T22:01:41.000Z"
   },
   {
-    "headline": "Europe’s AI labeling and transparency rules are now in effect",
+    "headline": "An AI voice agent running locally on a $50 Arduino uno Q",
     "badge": "new",
-    "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has […]",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "summary": "On-device retail kiosk on Arduino UNO Q: Moorcheh vector search, local RAG + LLM, Whisper STT, Piper TTS - private, fast, no cloud API keys. Power with USB-C after you load your catalog.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "projecthub.arduino.cc",
+    "sourceUrl": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Speech-to-Text"
+    ],
+    "publishedAt": "2026-08-04T21:18:02.000Z"
+  },
+  {
+    "headline": "SpaceX made more revenue as an AI company than a space company",
+    "badge": "new",
+    "summary": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source of most of its […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+    "sourceUrl": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-03T17:38:45.000Z"
+    "publishedAt": "2026-08-04T20:47:55.000Z"
   },
   {
-    "headline": "White House's new upcoming model-testing framework",
+    "headline": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
     "badge": "new",
-    "summary": "President Donald Trump’s June executive order directed officials to develop a process to evaluate the cybersecurity capabilities of advanced AI models.",
+    "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "cnbc.com",
-    "sourceUrl": "https://www.cnbc.com/2026/08/03/white-house-ai-companies-voluntary-framework-meeting.html",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "Model",
+      "AI Safety"
     ],
-    "publishedAt": "2026-08-03T17:13:40.000Z"
+    "publishedAt": "2026-08-04T20:05:26.000Z"
   },
   {
-    "headline": "A Chinese LLM attacked our lab, so we made it work for us",
+    "headline": "Anthropic signs $10B deal with AI cloud startup Volta",
     "badge": "new",
-    "summary": "The model behind the attack was DeepSeek, deepseek-v4-flash-free, running on the free tier. An autonomous AI broke into our lab and worked it for five days, and it left its own name in a script.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "jesta.ai",
-    "sourceUrl": "https://jesta.ai/blog/darkreasoning",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-03T17:02:42.000Z"
-  },
-  {
-    "headline": "Congress’s favorite AI tool? ChatGPT",
-    "badge": "new",
-    "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+    "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+    "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model",
-      "Tool"
+      "Anthropic"
     ],
-    "publishedAt": "2026-08-03T16:40:55.000Z"
+    "publishedAt": "2026-08-04T19:48:40.000Z"
   }
 ]

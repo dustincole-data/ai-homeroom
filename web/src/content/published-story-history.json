@@ -1007,6 +1007,42 @@
       "context": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
       "publishedAt": "2026-08-03T16:40:55.000Z"
+    },
+    {
+      "headline": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+      "context": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. We ask whether structured memory access requires generation at all. Zero-Mem. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arxiv.org/abs/2607.29377",
+      "publishedAt": "2026-08-05T04:36:44.000Z"
+    },
+    {
+      "headline": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "context": "En Fr News Join us News Business Sport Culture Science & Technology No Comment Programmes Podcast Live weather Close Watch Live News Business Sport Culture Science & Technology No Comment Programmes Podcast Weather Breaking News Close Just In Copy/paste the script below Artificial intelligence is now powering more than half of reported cybercrime across Africa, allowing. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
+      "publishedAt": "2026-08-04T22:01:41.000Z"
+    },
+    {
+      "headline": "An AI voice agent running locally on a $50 Arduino uno Q",
+      "context": "On-device retail kiosk on Arduino UNO Q: Moorcheh vector search, local RAG + LLM, Whisper STT, Piper TTS - private, fast, no cloud API keys. Power with USB-C after you load your catalog. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b",
+      "publishedAt": "2026-08-04T21:18:02.000Z"
+    },
+    {
+      "headline": "SpaceX made more revenue as an AI company than a space company",
+      "context": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source of most of its […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "publishedAt": "2026-08-04T20:47:55.000Z"
+    },
+    {
+      "headline": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "context": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
+      "publishedAt": "2026-08-04T20:05:26.000Z"
+    },
+    {
+      "headline": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "context": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
+      "publishedAt": "2026-08-04T19:48:40.000Z"
     }
   ]
 }
