@@ -1043,6 +1043,42 @@
       "context": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
       "publishedAt": "2026-08-04T19:48:40.000Z"
+    },
+    {
+      "headline": "Meta says AI model accessed the internet and hacked another firm",
+      "context": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po",
+      "publishedAt": "2026-08-06T06:04:08.000Z"
+    },
+    {
+      "headline": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
+      "context": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "publishedAt": "2026-08-06T00:25:10.000Z"
+    },
+    {
+      "headline": "Meta launches Muse Code, an AI agent for large code bases",
+      "context": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+      "publishedAt": "2026-08-05T21:21:28.000Z"
+    },
+    {
+      "headline": "Prime Agent: A self-improving RLM agent",
+      "context": "Prime Agent is our open-source, self-improving coding harness built around two abstractions: the Recursive Language Model (RLM) and the Continual Harness. With Opus 5, it achieves 95.5% on ARC-AGI-3, surpassing the reported human expert baseline. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.primeintellect.ai/blog/prime-agent",
+      "publishedAt": "2026-08-05T21:11:57.000Z"
+    },
+    {
+      "headline": "When online commenters detect my art as AI",
+      "context": "Here is a collection of screenshots (obfuscated) of dozens and dozens of online comments from many platforms (Reddit, YouTube, Instagram, Facebook) containing accusations or confusion that my artworks and comics are AI-generated. Despite creating every piece by hand, despite sharing timelapses, the comments keep coming, and they're getting stronger. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+      "publishedAt": "2026-08-05T20:58:52.000Z"
+    },
+    {
+      "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "context": "The security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
+      "publishedAt": "2026-08-05T20:47:11.000Z"
     }
   ]
 }

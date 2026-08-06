@@ -10,86 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-05T09:15:43.060Z'
+export const generatedAt = '2026-08-06T09:16:11.323Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+    "headline": "Meta says AI model accessed the internet and hacked another firm",
     "badge": "new",
-    "summary": "LLM agents need memory to act consistently over long interactions, yet many systems use additional LLM calls to operate that memory. Generating intermediate records and mediating their retrieval adds recurring token and time costs, while omitted or merged details can obscure the original evidence. We ask whether structured memory access requires generation at all. Zero-Mem.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2607.29377",
+    "summary": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "bbc.co.uk",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
       "Model"
     ],
-    "publishedAt": "2026-08-05T04:36:44.000Z"
+    "publishedAt": "2026-08-06T06:04:08.000Z"
   },
   {
-    "headline": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+    "headline": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
     "badge": "new",
-    "summary": "En Fr News Join us News Business Sport Culture Science & Technology No Comment Programmes Podcast Live weather Close Watch Live News Business Sport Culture Science & Technology No Comment Programmes Podcast Weather Breaking News Close Just In Copy/paste the script below Artificial intelligence is now powering more than half of reported cybercrime across Africa, allowing.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "africanews.com",
-    "sourceUrl": "https://www.africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-04T22:01:41.000Z"
-  },
-  {
-    "headline": "An AI voice agent running locally on a $50 Arduino uno Q",
-    "badge": "new",
-    "summary": "On-device retail kiosk on Arduino UNO Q: Moorcheh vector search, local RAG + LLM, Whisper STT, Piper TTS - private, fast, no cloud API keys. Power with USB-C after you load your catalog.",
+    "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said.",
     "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "projecthub.arduino.cc",
-    "sourceUrl": "https://projecthub.arduino.cc/neelbuilds/build-a-voice-based-kiosk-for-retail-store-using-moorcheh-edge-and-arduino-uno-q-7f3c7b",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Speech-to-Text"
-    ],
-    "publishedAt": "2026-08-04T21:18:02.000Z"
-  },
-  {
-    "headline": "SpaceX made more revenue as an AI company than a space company",
-    "badge": "new",
-    "summary": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source of most of its […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-04T20:47:55.000Z"
+    "publishedAt": "2026-08-06T00:25:10.000Z"
   },
   {
-    "headline": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+    "headline": "Meta launches Muse Code, an AI agent for large code bases",
     "badge": "new",
-    "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains",
+    "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model",
-      "AI Safety"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-04T20:05:26.000Z"
+    "publishedAt": "2026-08-05T21:21:28.000Z"
   },
   {
-    "headline": "Anthropic signs $10B deal with AI cloud startup Volta",
+    "headline": "Prime Agent: A self-improving RLM agent",
     "badge": "new",
-    "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta",
+    "summary": "Prime Agent is our open-source, self-improving coding harness built around two abstractions: the Recursive Language Model (RLM) and the Continual Harness. With Opus 5, it achieves 95.5% on ARC-AGI-3, surpassing the reported human expert baseline.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "primeintellect.ai",
+    "sourceUrl": "https://www.primeintellect.ai/blog/prime-agent",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-05T21:11:57.000Z"
+  },
+  {
+    "headline": "When online commenters detect my art as AI",
+    "badge": "new",
+    "summary": "Here is a collection of screenshots (obfuscated) of dozens and dozens of online comments from many platforms (Reddit, YouTube, Instagram, Facebook) containing accusations or confusion that my artworks and comics are AI-generated. Despite creating every piece by hand, despite sharing timelapses, the comments keep coming, and they're getting stronger.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "davidrevoy.com",
+    "sourceUrl": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-05T20:58:52.000Z"
+  },
+  {
+    "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+    "badge": "new",
+    "summary": "The security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Anthropic"
     ],
-    "publishedAt": "2026-08-04T19:48:40.000Z"
+    "publishedAt": "2026-08-05T20:47:11.000Z"
   }
 ]
