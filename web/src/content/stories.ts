@@ -10,83 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-06T09:16:11.323Z'
+export const generatedAt = '2026-08-07T09:15:44.747Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Meta says AI model accessed the internet and hacked another firm",
+    "headline": "I won't read LLM authored fiction",
     "badge": "new",
-    "summary": "Meta is the latest company to disclose an AI agent breach, raising cyber-security concerns.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "bbc.co.uk",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/cx2kgdnyk2po",
+    "summary": "There have been periods of my life where I stopped reading. I don't mean that I stopped reading entirely - I still read articles and blogs and journals, but I could not find the time to read fiction novels.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "mccormick.cx",
+    "sourceUrl": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-06T06:04:08.000Z"
+    "publishedAt": "2026-08-07T07:45:56.000Z"
   },
   {
-    "headline": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
+    "headline": "Artificial Intelligence used to design new viruses",
     "badge": "new",
-    "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+    "summary": "BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC News Menu Home Climate World US & Canada UK Business Tech Science Entertainment & Arts Health More In.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "bbc.co.uk",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-06T00:25:10.000Z"
+    "publishedAt": "2026-08-07T06:31:15.000Z"
   },
   {
-    "headline": "Meta launches Muse Code, an AI agent for large code bases",
+    "headline": "OpenAI's New Device Will Be Hockey Puck-Sized and Cost over $300",
     "badge": "new",
-    "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "A highly anticipated new device from OpenAI will have a unique look, complete with moving parts that help give it personality, and likely cost more than $300, according to people familiar with the matter.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "bloomberg.com",
+    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-07T06:20:56.000Z"
+  },
+  {
+    "headline": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+    "badge": "new",
+    "summary": "The Orleans Parish Communication District (OPCD) is changing the way dispatch calls are handled in New Orleans with the implementation of new technology . The OPCD is currently testing out the new tool designed to reduce the volume of calls human dispatchers must handle, which is over a thousand emergency calls a day.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "shreveporttimes.com",
+    "sourceUrl": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Coding Agent"
+    ],
+    "publishedAt": "2026-08-07T00:37:30.000Z"
+  },
+  {
+    "headline": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+    "badge": "new",
+    "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+    "sourceUrl": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Chatbot"
     ],
-    "publishedAt": "2026-08-05T21:21:28.000Z"
+    "publishedAt": "2026-08-06T22:43:53.000Z"
   },
   {
-    "headline": "Prime Agent: A self-improving RLM agent",
+    "headline": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
     "badge": "new",
-    "summary": "Prime Agent is our open-source, self-improving coding harness built around two abstractions: the Recursive Language Model (RLM) and the Continual Harness. With Opus 5, it achieves 95.5% on ARC-AGI-3, surpassing the reported human expert baseline.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "primeintellect.ai",
-    "sourceUrl": "https://www.primeintellect.ai/blog/prime-agent",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-05T21:11:57.000Z"
-  },
-  {
-    "headline": "When online commenters detect my art as AI",
-    "badge": "new",
-    "summary": "Here is a collection of screenshots (obfuscated) of dozens and dozens of online comments from many platforms (Reddit, YouTube, Instagram, Facebook) containing accusations or confusion that my artworks and comics are AI-generated. Despite creating every piece by hand, despite sharing timelapses, the comments keep coming, and they're getting stronger.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "davidrevoy.com",
-    "sourceUrl": "https://www.davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-05T20:58:52.000Z"
-  },
-  {
-    "headline": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-    "badge": "new",
-    "summary": "The security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according.",
+    "summary": "In this post, I'll gradually introduce all of the core system components and advanced features that make up a modern high-throughput LLM inference system. In particular I'll be doing a breakdown of how vLLM [1] works. This post is the first in a series. It starts broad and then layers in detail (following an inverse-pyramid approach) so you can form an accurate high-level.",
     "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
+    "sourceName": "aleksagordic.com",
+    "sourceUrl": "https://www.aleksagordic.com/blog/vllm",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic"
+      "Model"
     ],
-    "publishedAt": "2026-08-05T20:47:11.000Z"
+    "publishedAt": "2026-08-06T21:30:21.000Z"
   }
 ]

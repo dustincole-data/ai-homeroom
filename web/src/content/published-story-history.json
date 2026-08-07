@@ -1079,6 +1079,42 @@
       "context": "The security incidents occurred during a cyber evaluation of seven leading AI models’ capabilities by the AI Security Institute (AISI), a research organization within the UK government, in late July. The researchers discovered 19 instances in which “AI agents took unsanctioned action on the live Internet, including cases that targeted real people and organizations,” according. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
       "sourceUrl": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
       "publishedAt": "2026-08-05T20:47:11.000Z"
+    },
+    {
+      "headline": "I won't read LLM authored fiction",
+      "context": "There have been periods of my life where I stopped reading. I don't mean that I stopped reading entirely - I still read articles and blogs and journals, but I could not find the time to read fiction novels. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+      "publishedAt": "2026-08-07T07:45:56.000Z"
+    },
+    {
+      "headline": "Artificial Intelligence used to design new viruses",
+      "context": "BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC News Menu Home Climate World US & Canada UK Business Tech Science Entertainment & Arts Health More In. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo",
+      "publishedAt": "2026-08-07T06:31:15.000Z"
+    },
+    {
+      "headline": "OpenAI's New Device Will Be Hockey Puck-Sized and Cost over $300",
+      "context": "A highly anticipated new device from OpenAI will have a unique look, complete with moving parts that help give it personality, and likely cost more than $300, according to people familiar with the matter. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
+      "publishedAt": "2026-08-07T06:20:56.000Z"
+    },
+    {
+      "headline": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+      "context": "The Orleans Parish Communication District (OPCD) is changing the way dispatch calls are handled in New Orleans with the implementation of new technology . The OPCD is currently testing out the new tool designed to reduce the volume of calls human dispatchers must handle, which is over a thousand emergency calls a day. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007",
+      "publishedAt": "2026-08-07T00:37:30.000Z"
+    },
+    {
+      "headline": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+      "context": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+      "publishedAt": "2026-08-06T22:43:53.000Z"
+    },
+    {
+      "headline": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+      "context": "In this post, I'll gradually introduce all of the core system components and advanced features that make up a modern high-throughput LLM inference system. In particular I'll be doing a breakdown of how vLLM [1] works. This post is the first in a series. It starts broad and then layers in detail (following an inverse-pyramid approach) so you can form an accurate high-level. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://www.aleksagordic.com/blog/vllm",
+      "publishedAt": "2026-08-06T21:30:21.000Z"
     }
   ]
 }
