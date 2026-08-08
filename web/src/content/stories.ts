@@ -10,84 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-07T09:15:44.747Z'
+export const generatedAt = '2026-08-08T09:15:42.422Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "I won't read LLM authored fiction",
+    "headline": "OpenAI says it slowed Astra model development over security concerns",
     "badge": "new",
-    "summary": "There have been periods of my life where I stopped reading. I don't mean that I stopped reading entirely - I still read articles and blogs and journals, but I could not find the time to read fiction novels.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "mccormick.cx",
-    "sourceUrl": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+    "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "Chatbot",
+      "Model",
+      "AI Safety"
     ],
-    "publishedAt": "2026-08-07T07:45:56.000Z"
+    "publishedAt": "2026-08-07T22:48:24.000Z"
   },
   {
-    "headline": "Artificial Intelligence used to design new viruses",
+    "headline": "After Rippling blew millions on AI in months, it built an employee ROI tool",
     "badge": "new",
-    "summary": "BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC News Menu Home Climate World US & Canada UK Business Tech Science Entertainment & Arts Health More In.",
+    "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "bbc.co.uk",
-    "sourceUrl": "https://www.bbc.co.uk/news/articles/c5y3j3ngevmo",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-08-07T21:30:11.000Z"
+  },
+  {
+    "headline": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+    "badge": "new",
+    "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-07T06:31:15.000Z"
+    "publishedAt": "2026-08-07T20:01:51.000Z"
   },
   {
-    "headline": "OpenAI's New Device Will Be Hockey Puck-Sized and Cost over $300",
+    "headline": "Watching Roku’s AI channel is like eating from a trough",
     "badge": "new",
-    "summary": "A highly anticipated new device from OpenAI will have a unique look, complete with moving parts that help give it personality, and likely cost more than $300, according to people familiar with the matter.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "bloomberg.com",
-    "sourceUrl": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
+    "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-07T06:20:56.000Z"
+    "publishedAt": "2026-08-07T18:59:46.000Z"
   },
   {
-    "headline": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+    "headline": "Managing AI Coding Costs at Scale",
     "badge": "new",
-    "summary": "The Orleans Parish Communication District (OPCD) is changing the way dispatch calls are handled in New Orleans with the implementation of new technology . The OPCD is currently testing out the new tool designed to reduce the volume of calls human dispatchers must handle, which is over a thousand emergency calls a day.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "shreveporttimes.com",
-    "sourceUrl": "https://www.shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007",
+    "summary": "Login Why Databricks Discover For App Developers For Executives For Startups Lakehouse Architecture Databricks AI Research Customers Customer Stories Partners Partner Overview Explore the Databricks partner ecosystem Partner Spotlight Featured partner announcements Partner Program Explore benefits, tiers and how to become a partner Cloud Providers Databricks on AWS, Azure and.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "databricks.com",
+    "sourceUrl": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "AI Agent",
       "Coding Agent"
     ],
-    "publishedAt": "2026-08-07T00:37:30.000Z"
+    "publishedAt": "2026-08-07T18:25:17.000Z"
   },
   {
-    "headline": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+    "headline": "Oracle bans AI-generated code from OpenJDK",
     "badge": "new",
-    "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+    "summary": "Oracle has banned AI-generated code from OpenJDK contributions, citing safety, security, and intellectual property risks. The open-source Java project steward said developers can use LLMs privately for debugging and reviewing code but cannot submit AI-generated material to repositories, pull requests, or other project channels.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "app.dealroom.co",
+    "sourceUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-06T22:43:53.000Z"
-  },
-  {
-    "headline": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
-    "badge": "new",
-    "summary": "In this post, I'll gradually introduce all of the core system components and advanced features that make up a modern high-throughput LLM inference system. In particular I'll be doing a breakdown of how vLLM [1] works. This post is the first in a series. It starts broad and then layers in detail (following an inverse-pyramid approach) so you can form an accurate high-level.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "aleksagordic.com",
-    "sourceUrl": "https://www.aleksagordic.com/blog/vllm",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-06T21:30:21.000Z"
+    "publishedAt": "2026-08-07T17:36:30.000Z"
   }
 ]
