@@ -1151,6 +1151,36 @@
       "context": "Oracle has banned AI-generated code from OpenJDK contributions, citing safety, security, and intellectual property risks. The open-source Java project steward said developers can use LLMs privately for debugging and reviewing code but cannot submit AI-generated material to repositories, pull requests, or other project channels. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
       "sourceUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
       "publishedAt": "2026-08-07T17:36:30.000Z"
+    },
+    {
+      "headline": "Software Giant SAP Stops Most Travel and Hiring Because of AI's Soaring Cost",
+      "context": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost",
+      "publishedAt": "2026-08-09T08:00:51.000Z"
+    },
+    {
+      "headline": "Show HN: Tura – Build agent that uses 80% less token and delivers better results",
+      "context": "Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared with Codex CLI. - ... The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://github.com/Tura-AI/tura",
+      "publishedAt": "2026-08-09T00:13:12.000Z"
+    },
+    {
+      "headline": "OpenAI acquires presentation startup NextSlide",
+      "context": "NextSlide recently announced that it’s joining OpenAI, with the presentation startup’s team members now working on ChatGPT. The NextSlide website currently displays a note from founder Ahmed Beshry describing the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.” The ultimate goal, Beshry said, was “to make. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+      "publishedAt": "2026-08-08T19:41:13.000Z"
+    },
+    {
+      "headline": "Gentoo bugzilla closed due AI bot scraper overload",
+      "context": "I've taken #Gentoo Bugzilla down, because it was unusable anyway. No point in feeding the #LLM scrapers that are using thousands of different IPv4 addresses, with no obvious patterns I can see. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://social.treehouse.systems/@mgorny/117058483039362779",
+      "publishedAt": "2026-08-08T13:55:42.000Z"
+    },
+    {
+      "headline": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+      "context": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "publishedAt": "2026-08-08T11:05:50.000Z"
     }
   ]
 }

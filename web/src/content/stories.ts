@@ -10,85 +10,71 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-08T09:15:42.422Z'
+export const generatedAt = '2026-08-09T09:15:58.279Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "OpenAI says it slowed Astra model development over security concerns",
+    "headline": "Software Giant SAP Stops Most Travel and Hiring Because of AI's Soaring Cost",
     "badge": "new",
-    "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+    "summary": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "404media.co",
+    "sourceUrl": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model",
-      "AI Safety"
-    ],
-    "publishedAt": "2026-08-07T22:48:24.000Z"
-  },
-  {
-    "headline": "After Rippling blew millions on AI in months, it built an employee ROI tool",
-    "badge": "new",
-    "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-08-07T21:30:11.000Z"
-  },
-  {
-    "headline": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-    "badge": "new",
-    "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-07T20:01:51.000Z"
-  },
-  {
-    "headline": "Watching Roku’s AI channel is like eating from a trough",
-    "badge": "new",
-    "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-07T18:59:46.000Z"
-  },
-  {
-    "headline": "Managing AI Coding Costs at Scale",
-    "badge": "new",
-    "summary": "Login Why Databricks Discover For App Developers For Executives For Startups Lakehouse Architecture Databricks AI Research Customers Customer Stories Partners Partner Overview Explore the Databricks partner ecosystem Partner Spotlight Featured partner announcements Partner Program Explore benefits, tiers and how to become a partner Cloud Providers Databricks on AWS, Azure and.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "databricks.com",
-    "sourceUrl": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
       "Coding Agent"
     ],
-    "publishedAt": "2026-08-07T18:25:17.000Z"
+    "publishedAt": "2026-08-09T08:00:51.000Z"
   },
   {
-    "headline": "Oracle bans AI-generated code from OpenJDK",
+    "headline": "Show HN: Tura – Build agent that uses 80% less token and delivers better results",
     "badge": "new",
-    "summary": "Oracle has banned AI-generated code from OpenJDK contributions, citing safety, security, and intellectual property risks. The open-source Java project steward said developers can use LLMs privately for debugging and reviewing code but cannot submit AI-generated material to repositories, pull requests, or other project channels.",
+    "summary": "Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared with Codex CLI. - ...",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/Tura-AI/tura",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-09T00:13:12.000Z"
+  },
+  {
+    "headline": "OpenAI acquires presentation startup NextSlide",
+    "badge": "new",
+    "summary": "NextSlide recently announced that it’s joining OpenAI, with the presentation startup’s team members now working on ChatGPT. The NextSlide website currently displays a note from founder Ahmed Beshry describing the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.” The ultimate goal, Beshry said, was “to make.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-08T19:41:13.000Z"
+  },
+  {
+    "headline": "Gentoo bugzilla closed due AI bot scraper overload",
+    "badge": "new",
+    "summary": "I've taken #Gentoo Bugzilla down, because it was unusable anyway. No point in feeding the #LLM scrapers that are using thousands of different IPv4 addresses, with no obvious patterns I can see.",
     "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "app.dealroom.co",
-    "sourceUrl": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+    "sourceName": "social.treehouse.systems",
+    "sourceUrl": "https://social.treehouse.systems/@mgorny/117058483039362779",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-07T17:36:30.000Z"
+    "publishedAt": "2026-08-08T13:55:42.000Z"
+  },
+  {
+    "headline": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+    "badge": "new",
+    "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-08-08T11:05:50.000Z"
   }
 ]
