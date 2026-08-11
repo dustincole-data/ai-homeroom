@@ -10,71 +10,91 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-09T09:15:58.279Z'
+export const generatedAt = '2026-08-11T09:16:05.865Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Software Giant SAP Stops Most Travel and Hiring Because of AI's Soaring Cost",
+    "headline": "OpenAI wraps $7B share sale ahead of potential IPO",
     "badge": "new",
-    "summary": "SAP says it needs to “be disciplined in how we spend.” That includes still freezing hires and travel. Unless it's to do with AI, of course.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "404media.co",
-    "sourceUrl": "https://www.404media.co/software-giant-sap-stops-most-travel-and-hiring-because-of-ais-soaring-cost",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Coding Agent"
-    ],
-    "publishedAt": "2026-08-09T08:00:51.000Z"
-  },
-  {
-    "headline": "Show HN: Tura – Build agent that uses 80% less token and delivers better results",
-    "badge": "new",
-    "summary": "Across 348 long-horizon benchmark sessions, Tura used up to 83.1% fewer turns on the rewrite benchmark and improved the DeepSWE pass rate by up to 16.7 percentage points compared with Codex CLI. - ...",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/Tura-AI/tura",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-09T00:13:12.000Z"
-  },
-  {
-    "headline": "OpenAI acquires presentation startup NextSlide",
-    "badge": "new",
-    "summary": "NextSlide recently announced that it’s joining OpenAI, with the presentation startup’s team members now working on ChatGPT. The NextSlide website currently displays a note from founder Ahmed Beshry describing the startup’s product as one “that could turn prompts, notes, documents, or research into a polished, editable presentation.” The ultimate goal, Beshry said, was “to make.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide",
+    "summary": "OpenAI's tender offer has been in the works since the company closed its record-breaking $122 billion funding round in March.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-08-08T19:41:13.000Z"
+    "publishedAt": "2026-08-11T05:40:35.000Z"
   },
   {
-    "headline": "Gentoo bugzilla closed due AI bot scraper overload",
+    "headline": "As AI-led attacks multiply, OpenAI launches a new cyber model",
     "badge": "new",
-    "summary": "I've taken #Gentoo Bugzilla down, because it was unusable anyway. No point in feeding the #LLM scrapers that are using thousands of different IPv4 addresses, with no obvious patterns I can see.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "social.treehouse.systems",
-    "sourceUrl": "https://social.treehouse.systems/@mgorny/117058483039362779",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-08T13:55:42.000Z"
-  },
-  {
-    "headline": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-    "badge": "new",
-    "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+    "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind"
+      "Chatbot",
+      "Model"
     ],
-    "publishedAt": "2026-08-08T11:05:50.000Z"
+    "publishedAt": "2026-08-10T23:56:15.000Z"
+  },
+  {
+    "headline": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+    "badge": "new",
+    "summary": "Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-08-10T22:13:03.000Z"
+  },
+  {
+    "headline": "Show HN: AI Pulse a fake LED strip beside the macOS Dock that shows agent status",
+    "badge": "new",
+    "summary": "Ambient macOS light strip for AI coding agents — a Dock-adjacent pill of eight LEDs showing whether anything is working, waiting, finished, or broken - leog/ai-pulse",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/leog/ai-pulse",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-10T22:07:41.000Z"
+  },
+  {
+    "headline": "How Claude marks AI-generated content",
+    "badge": "new",
+    "summary": "Anthropic’s commitments under the EU AI Act’s Code of Practice on Transparency of AI-Generated Content New models will mark AI-generated content from day one. Claude models launched in the EU on or after August 2, 2026 will support machine-readable marking at launch.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "support.claude.com",
+    "sourceUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-08-10T21:36:56.000Z"
+  },
+  {
+    "headline": "Tech industry is buzzing after a Claude agent hacked into a gym",
+    "badge": "new",
+    "summary": "By now, we all realize that Silicon Valley’s AI labs have built the world’s best hackers in the form of AI agents. Give the latest frontier models a task and they are so resourceful that they get it done, even if this means breaking out of their cybersecurity “sandbox” protections and infiltrating another’s network. (Short of that, they’ll use social engineering and.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "AI Agent",
+      "Model"
+    ],
+    "publishedAt": "2026-08-10T20:04:24.000Z"
   }
 ]

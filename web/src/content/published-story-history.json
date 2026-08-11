@@ -1181,6 +1181,42 @@
       "context": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
       "publishedAt": "2026-08-08T11:05:50.000Z"
+    },
+    {
+      "headline": "OpenAI wraps $7B share sale ahead of potential IPO",
+      "context": "OpenAI's tender offer has been in the works since the company closed its record-breaking $122 billion funding round in March. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
+      "publishedAt": "2026-08-11T05:40:35.000Z"
+    },
+    {
+      "headline": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "context": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model",
+      "publishedAt": "2026-08-10T23:56:15.000Z"
+    },
+    {
+      "headline": "With new open models, Meta pitches another reboot of its struggling AI strategy",
+      "context": "Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy",
+      "publishedAt": "2026-08-10T22:13:03.000Z"
+    },
+    {
+      "headline": "Show HN: AI Pulse a fake LED strip beside the macOS Dock that shows agent status",
+      "context": "Ambient macOS light strip for AI coding agents — a Dock-adjacent pill of eight LEDs showing whether anything is working, waiting, finished, or broken - leog/ai-pulse This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/leog/ai-pulse",
+      "publishedAt": "2026-08-10T22:07:41.000Z"
+    },
+    {
+      "headline": "How Claude marks AI-generated content",
+      "context": "Anthropic’s commitments under the EU AI Act’s Code of Practice on Transparency of AI-Generated Content New models will mark AI-generated content from day one. Claude models launched in the EU on or after August 2, 2026 will support machine-readable marking at launch. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "publishedAt": "2026-08-10T21:36:56.000Z"
+    },
+    {
+      "headline": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "context": "By now, we all realize that Silicon Valley’s AI labs have built the world’s best hackers in the form of AI agents. Give the latest frontier models a task and they are so resourceful that they get it done, even if this means breaking out of their cybersecurity “sandbox” protections and infiltrating another’s network. (Short of that, they’ll use social engineering and. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym",
+      "publishedAt": "2026-08-10T20:04:24.000Z"
     }
   ]
 }
