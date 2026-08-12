@@ -10,91 +10,88 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-11T09:16:05.865Z'
+export const generatedAt = '2026-08-12T09:15:24.250Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "OpenAI wraps $7B share sale ahead of potential IPO",
+    "headline": "llama.cpp",
     "badge": "new",
-    "summary": "OpenAI's tender offer has been in the works since the company closed its record-breaking $122 billion funding round in March.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "cnbc.com",
-    "sourceUrl": "https://www.cnbc.com/2026/08/10/openai-wraps-7-billion-share-sale-ahead-of-potential-ipo-.html",
+    "summary": "Models Docs GitHub ★ 123.5K llama .cpp AI that lives on your computer. Open-source, private & always local.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "llama.app",
+    "sourceUrl": "https://llama.app",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-11T05:40:35.000Z"
+    "publishedAt": "2026-08-12T04:51:59.000Z"
   },
   {
-    "headline": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+    "headline": "Crew, a multiplayer workspace for humans and AI agents to work together",
     "badge": "new",
-    "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-08-10T23:56:15.000Z"
-  },
-  {
-    "headline": "With new open models, Meta pitches another reboot of its struggling AI strategy",
-    "badge": "new",
-    "summary": "Meta has announced its intention to focus on open-weight large language models. Additionally, the company announced the release of an open model called Muse Glimmer and a promise to open the weights for Muse Spark 1.2, its more powerful model, in the next few weeks.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-10T22:13:03.000Z"
-  },
-  {
-    "headline": "Show HN: AI Pulse a fake LED strip beside the macOS Dock that shows agent status",
-    "badge": "new",
-    "summary": "Ambient macOS light strip for AI coding agents — a Dock-adjacent pill of eight LEDs showing whether anything is working, waiting, finished, or broken - leog/ai-pulse",
+    "summary": "Build Together. Contribute to JamelHammoud/crew development by creating an account on GitHub.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "github.com",
-    "sourceUrl": "https://github.com/leog/ai-pulse",
+    "sourceUrl": "https://github.com/JamelHammoud/crew",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-08-10T22:07:41.000Z"
+    "publishedAt": "2026-08-12T03:00:03.000Z"
   },
   {
-    "headline": "How Claude marks AI-generated content",
+    "headline": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
     "badge": "new",
-    "summary": "Anthropic’s commitments under the EU AI Act’s Code of Practice on Transparency of AI-Generated Content New models will mark AI-generated content from day one. Claude models launched in the EU on or after August 2, 2026 will support machine-readable marking at launch.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "support.claude.com",
-    "sourceUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+    "summary": "Research Gold's team of human methodologists are either AI generated or using the identity of real people without their permission",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "404media.co",
+    "sourceUrl": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-12T02:05:42.000Z"
+  },
+  {
+    "headline": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+    "badge": "new",
+    "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! […]",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
       "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-08-10T21:36:56.000Z"
+    "publishedAt": "2026-08-12T00:39:26.000Z"
   },
   {
-    "headline": "Tech industry is buzzing after a Claude agent hacked into a gym",
+    "headline": "ChatGPT and Gemini both just passed 1 billion users",
     "badge": "new",
-    "summary": "By now, we all realize that Silicon Valley’s AI labs have built the world’s best hackers in the form of AI agents. Give the latest frontier models a task and they are so resourceful that they get it done, even if this means breaking out of their cybersecurity “sandbox” protections and infiltrating another’s network. (Short of that, they’ll use social engineering and.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "summary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "DeepMind",
+      "Model"
+    ],
+    "publishedAt": "2026-08-11T19:41:42.000Z"
+  },
+  {
+    "headline": "OpenAI launches ChatGPT desktop app for Linux",
+    "badge": "new",
+    "summary": "ChatGPT is on desktops across the world, but there’s been one place where it’s been lacking: the Linux community. Certain sectors of the open source developer community have been clamoring for OpenAI to bring its chatbot to their neck of the woods. As of this week, OpenAI has rectified this oversight, launching a dedicated ChatGPT app for Linux. “Linux has been one of the.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym",
+    "sourceUrl": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
       "Chatbot",
-      "AI Agent",
-      "Model"
+      "Model",
+      "Tool"
     ],
-    "publishedAt": "2026-08-10T20:04:24.000Z"
+    "publishedAt": "2026-08-11T19:15:35.000Z"
   }
 ]
