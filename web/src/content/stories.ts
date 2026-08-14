@@ -10,88 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-12T09:15:24.250Z'
+export const generatedAt = '2026-08-14T09:15:36.931Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "llama.cpp",
+    "headline": "Writer introduces new AI model and upgraded harness to contain token costs",
     "badge": "new",
-    "summary": "Models Docs GitHub ★ 123.5K llama .cpp AI that lives on your computer. Open-source, private & always local.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "llama.app",
-    "sourceUrl": "https://llama.app",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-12T04:51:59.000Z"
-  },
-  {
-    "headline": "Crew, a multiplayer workspace for humans and AI agents to work together",
-    "badge": "new",
-    "summary": "Build Together. Contribute to JamelHammoud/crew development by creating an account on GitHub.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/JamelHammoud/crew",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-12T03:00:03.000Z"
-  },
-  {
-    "headline": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
-    "badge": "new",
-    "summary": "Research Gold's team of human methodologists are either AI generated or using the identity of real people without their permission",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "404media.co",
-    "sourceUrl": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-12T02:05:42.000Z"
-  },
-  {
-    "headline": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
-    "badge": "new",
-    "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that \"I was lead writer on this one! […]",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-08-12T00:39:26.000Z"
-  },
-  {
-    "headline": "ChatGPT and Gemini both just passed 1 billion users",
-    "badge": "new",
-    "summary": "For the 14th time, a Google product has hit 1 billion users. Google CEO Sundar Pichai posted on X that a billion people are using Gemini every month, and that Gemini is Google's fastest-growing product ever.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/978113/chatgpt-gemini-1-billion-users",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "DeepMind",
-      "Model"
-    ],
-    "publishedAt": "2026-08-11T19:41:42.000Z"
-  },
-  {
-    "headline": "OpenAI launches ChatGPT desktop app for Linux",
-    "badge": "new",
-    "summary": "ChatGPT is on desktops across the world, but there’s been one place where it’s been lacking: the Linux community. Certain sectors of the open source developer community have been clamoring for OpenAI to bring its chatbot to their neck of the woods. As of this week, OpenAI has rectified this oversight, launching a dedicated ChatGPT app for Linux. “Linux has been one of the.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/11/openai-launches-chatgpt-desktop-app-for-linux",
+    "sourceUrl": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model",
-      "Tool"
+      "Model"
     ],
-    "publishedAt": "2026-08-11T19:15:35.000Z"
+    "publishedAt": "2026-08-13T21:13:24.000Z"
+  },
+  {
+    "headline": "OpenAI is losing its second executive this week",
+    "badge": "new",
+    "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-13T19:28:39.000Z"
+  },
+  {
+    "headline": "IBM partners with OpenAI to bolster enterprise AI push",
+    "badge": "new",
+    "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-13T19:19:49.000Z"
+  },
+  {
+    "headline": "The new Instagram logo is the perfect embodiment of AI slop",
+    "badge": "new",
+    "summary": "Head of Instagram Adam Mosseri called it “leaner and more modern, with references to the original and the simplicity and craft that’s always made it Instagram.” Sure, Adam. Simplicity and craft are definitely what everyone thinks of when Instagram comes to mind. I might be more inclined to think ruthless algorithmic capture, relentless influencer hype cycles, and don’t forget.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-13T17:32:10.000Z"
+  },
+  {
+    "headline": "Mistral OCR 4.1",
+    "badge": "new",
+    "summary": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction, structural block labels, and block-level confidence scores.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "docs.mistral.ai",
+    "sourceUrl": "https://docs.mistral.ai/models/ocr-4-1",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-13T17:05:12.000Z"
+  },
+  {
+    "headline": "Text AI watermarks will always be trivial to remove",
+    "badge": "new",
+    "summary": "The European Union AI Act will begin to be enforceable in August 2026, one month from now 1 . One of the biggest new requirements is Article 50 , which requires all AI outputs to be “detectable as artificially generated”.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "seangoedecke.com",
+    "sourceUrl": "https://www.seangoedecke.com/text-ai-watermarks",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-13T15:07:10.000Z"
   }
 ]
