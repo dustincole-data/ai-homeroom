@@ -10,82 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-14T09:15:36.931Z'
+export const generatedAt = '2026-08-15T09:16:04.458Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Writer introduces new AI model and upgraded harness to contain token costs",
+    "headline": "Suspecting court of using AI, man injected prompts in filings to try to win case",
     "badge": "new",
-    "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
+    "summary": "In a decision published last week, Connecticut judge Walter Spader Jr. confirmed that the hidden text had no impact in a case where a man alleged a healthcare provider was improperly withholding access to records. The court weighed his filing on the merits, Spader said, but nevertheless, the attempted attack sets a “dangerous” precedent.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "arstechnica.com",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-15T07:31:46.000Z"
+  },
+  {
+    "headline": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+    "badge": "new",
+    "summary": "ThoughtDAG turns every question-and-answer exchange into a node, and every connection into context. Remove one edge, ask the same question again, and that branch is gone from the request. The web demo is a feature subset for a quick look — the example canvas needs no key. The desktop app is the full instrument: keyless web search, every connection tool, and your canvases living.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "chenxiachan.github.io",
+    "sourceUrl": "https://chenxiachan.github.io/thoughtdag",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-13T21:13:24.000Z"
+    "publishedAt": "2026-08-15T04:42:07.000Z"
   },
   {
-    "headline": "OpenAI is losing its second executive this week",
+    "headline": "Show HN: Deltix – AI Driven Testing",
     "badge": "new",
-    "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+    "summary": "An AI agent runs it on a simulator on your Mac and tells you if a real user could complete it. Save the successful run as a regression check you can replay later.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "app.deltix.ai",
+    "sourceUrl": "https://app.deltix.ai",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-13T19:28:39.000Z"
+    "publishedAt": "2026-08-15T02:42:14.000Z"
   },
   {
-    "headline": "IBM partners with OpenAI to bolster enterprise AI push",
+    "headline": "Google will now allow users to remove visible watermark from its AI generations",
     "badge": "new",
-    "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+    "sourceUrl": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "DeepMind"
     ],
-    "publishedAt": "2026-08-13T19:19:49.000Z"
+    "publishedAt": "2026-08-14T16:13:40.000Z"
   },
   {
-    "headline": "The new Instagram logo is the perfect embodiment of AI slop",
+    "headline": "AI by Hand",
     "badge": "new",
-    "summary": "Head of Instagram Adam Mosseri called it “leaner and more modern, with references to the original and the simplicity and craft that’s always made it Instagram.” Sure, Adam. Simplicity and craft are definitely what everyone thinks of when Instagram comes to mind. I might be more inclined to think ruthless algorithmic capture, relentless influencer hype cycles, and don’t forget.",
+    "summary": "Math, Algorithms, Architectures, by hand. Click to read AI by Hand ✍️, by Prof. Tom Yeh, a Substack publication with tens of thousands of subscribers.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+    "sourceName": "byhand.ai",
+    "sourceUrl": "https://www.byhand.ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-13T17:32:10.000Z"
+    "publishedAt": "2026-08-14T15:58:59.000Z"
   },
   {
-    "headline": "Mistral OCR 4.1",
+    "headline": "Google is making private AI practical with homomorphic encryption",
     "badge": "new",
-    "summary": "Our latest OCR service powering our Document AI stack, with native paragraph-level bounding box extraction, structural block labels, and block-level confidence scores.",
+    "summary": "Today we're excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec…",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "docs.mistral.ai",
-    "sourceUrl": "https://docs.mistral.ai/models/ocr-4-1",
+    "sourceName": "blog.google",
+    "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "DeepMind"
     ],
-    "publishedAt": "2026-08-13T17:05:12.000Z"
-  },
-  {
-    "headline": "Text AI watermarks will always be trivial to remove",
-    "badge": "new",
-    "summary": "The European Union AI Act will begin to be enforceable in August 2026, one month from now 1 . One of the biggest new requirements is Article 50 , which requires all AI outputs to be “detectable as artificially generated”.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "seangoedecke.com",
-    "sourceUrl": "https://www.seangoedecke.com/text-ai-watermarks",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-13T15:07:10.000Z"
+    "publishedAt": "2026-08-14T15:43:10.000Z"
   }
 ]

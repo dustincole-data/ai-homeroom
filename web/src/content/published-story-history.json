@@ -1289,6 +1289,42 @@
       "context": "The European Union AI Act will begin to be enforceable in August 2026, one month from now 1 . One of the biggest new requirements is Article 50 , which requires all AI outputs to be “detectable as artificially generated”. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://www.seangoedecke.com/text-ai-watermarks",
       "publishedAt": "2026-08-13T15:07:10.000Z"
+    },
+    {
+      "headline": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+      "context": "In a decision published last week, Connecticut judge Walter Spader Jr. confirmed that the hidden text had no impact in a case where a man alleged a healthcare provider was improperly withholding access to records. The court weighed his filing on the merits, Spader said, but nevertheless, the attempted attack sets a “dangerous” precedent. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+      "publishedAt": "2026-08-15T07:31:46.000Z"
+    },
+    {
+      "headline": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+      "context": "ThoughtDAG turns every question-and-answer exchange into a node, and every connection into context. Remove one edge, ask the same question again, and that branch is gone from the request. The web demo is a feature subset for a quick look — the example canvas needs no key. The desktop app is the full instrument: keyless web search, every connection tool, and your canvases living. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://chenxiachan.github.io/thoughtdag",
+      "publishedAt": "2026-08-15T04:42:07.000Z"
+    },
+    {
+      "headline": "Show HN: Deltix – AI Driven Testing",
+      "context": "An AI agent runs it on a simulator on your Mac and tells you if a real user could complete it. Save the successful run as a regression check you can replay later. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://app.deltix.ai",
+      "publishedAt": "2026-08-15T02:42:14.000Z"
+    },
+    {
+      "headline": "Google will now allow users to remove visible watermark from its AI generations",
+      "context": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "publishedAt": "2026-08-14T16:13:40.000Z"
+    },
+    {
+      "headline": "AI by Hand",
+      "context": "Math, Algorithms, Architectures, by hand. Click to read AI by Hand ✍️, by Prof. Tom Yeh, a Substack publication with tens of thousands of subscribers. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.byhand.ai",
+      "publishedAt": "2026-08-14T15:58:59.000Z"
+    },
+    {
+      "headline": "Google is making private AI practical with homomorphic encryption",
+      "context": "Today we're excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec… The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "publishedAt": "2026-08-14T15:43:10.000Z"
     }
   ]
 }
