@@ -1325,6 +1325,42 @@
       "context": "Today we're excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec… The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
       "publishedAt": "2026-08-14T15:43:10.000Z"
+    },
+    {
+      "headline": "Has the hallucination problem in AI been solved?",
+      "context": "My understanding that all AI can, and will hallucinate. I get downvoted for saying this, but no one ever says I'm wrong or cites any source. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49316330",
+      "publishedAt": "2026-08-16T02:23:52.000Z"
+    },
+    {
+      "headline": "Patterns and problems in emerging multi-agent systems",
+      "context": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.anthropic.com/research/multiagent-systems",
+      "publishedAt": "2026-08-16T02:12:53.000Z"
+    },
+    {
+      "headline": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+      "context": "Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Such applications, however, are not merely old code bases; they are scientific assets whose credibility has been accumulated through long-term development, comparison with observations, and use in domain studies. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://arxiv.org/abs/2608.13122",
+      "publishedAt": "2026-08-15T22:41:51.000Z"
+    },
+    {
+      "headline": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "context": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\" The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+      "publishedAt": "2026-08-15T21:29:19.000Z"
+    },
+    {
+      "headline": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "context": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "publishedAt": "2026-08-15T20:45:00.000Z"
+    },
+    {
+      "headline": "SpaceX officially closes its Cursor acquisition",
+      "context": "AI coding startup Cursor is now officially a part of SpaceX, according to an announcement on the Cursor blog . Elon Musk’s SpaceX — which also acquired Musk’s xAI earlier this year — announced a deal in April for the companies to develop technology together; the deal also gave SpaceX the option to acquire Cursor for $60 billion. AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
+      "sourceUrl": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
+      "publishedAt": "2026-08-15T16:30:00.000Z"
     }
   ]
 }

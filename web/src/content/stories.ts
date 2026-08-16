@@ -10,82 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-15T09:16:04.458Z'
+export const generatedAt = '2026-08-16T09:16:09.118Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+    "headline": "Has the hallucination problem in AI been solved?",
     "badge": "new",
-    "summary": "In a decision published last week, Connecticut judge Walter Spader Jr. confirmed that the hidden text had no impact in a case where a man alleged a healthcare provider was improperly withholding access to records. The court weighed his filing on the merits, Spader said, but nevertheless, the attempted attack sets a “dangerous” precedent.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "arstechnica.com",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+    "summary": "My understanding that all AI can, and will hallucinate. I get downvoted for saying this, but no one ever says I'm wrong or cites any source.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "news.ycombinator.com",
+    "sourceUrl": "https://news.ycombinator.com/item?id=49316330",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-15T07:31:46.000Z"
+    "publishedAt": "2026-08-16T02:23:52.000Z"
   },
   {
-    "headline": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+    "headline": "Patterns and problems in emerging multi-agent systems",
     "badge": "new",
-    "summary": "ThoughtDAG turns every question-and-answer exchange into a node, and every connection into context. Remove one edge, ask the same question again, and that branch is gone from the request. The web demo is a feature subset for a quick look — the example canvas needs no key. The desktop app is the full instrument: keyless web search, every connection tool, and your canvases living.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "chenxiachan.github.io",
-    "sourceUrl": "https://chenxiachan.github.io/thoughtdag",
+    "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "anthropic.com",
+    "sourceUrl": "https://www.anthropic.com/research/multiagent-systems",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-15T04:42:07.000Z"
+    "publishedAt": "2026-08-16T02:12:53.000Z"
   },
   {
-    "headline": "Show HN: Deltix – AI Driven Testing",
+    "headline": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
     "badge": "new",
-    "summary": "An AI agent runs it on a simulator on your Mac and tells you if a real user could complete it. Save the successful run as a regression check you can replay later.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "app.deltix.ai",
-    "sourceUrl": "https://app.deltix.ai",
+    "summary": "Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Such applications, however, are not merely old code bases; they are scientific assets whose credibility has been accumulated through long-term development, comparison with observations, and use in domain studies.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2608.13122",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "GPU"
     ],
-    "publishedAt": "2026-08-15T02:42:14.000Z"
+    "publishedAt": "2026-08-15T22:41:51.000Z"
   },
   {
-    "headline": "Google will now allow users to remove visible watermark from its AI generations",
+    "headline": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
     "badge": "new",
-    "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+    "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+    "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind"
+      "xAI",
+      "Image Recognition"
     ],
-    "publishedAt": "2026-08-14T16:13:40.000Z"
+    "publishedAt": "2026-08-15T21:29:19.000Z"
   },
   {
-    "headline": "AI by Hand",
+    "headline": "Have a laugh at AI’s expense by roleplaying as a chatbot",
     "badge": "new",
-    "summary": "Math, Algorithms, Architectures, by hand. Click to read AI by Hand ✍️, by Prof. Tom Yeh, a Substack publication with tens of thousands of subscribers.",
+    "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "byhand.ai",
-    "sourceUrl": "https://www.byhand.ai",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-14T15:58:59.000Z"
+    "publishedAt": "2026-08-15T20:45:00.000Z"
   },
   {
-    "headline": "Google is making private AI practical with homomorphic encryption",
+    "headline": "SpaceX officially closes its Cursor acquisition",
     "badge": "new",
-    "summary": "Today we're excited to showcase HEIR, the latest powerful tool added to our Private Computing Toolkit. HEIR is an open source compiler that unlocks cryptographically-sec…",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "blog.google",
-    "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+    "summary": "AI coding startup Cursor is now officially a part of SpaceX, according to an announcement on the Cursor blog . Elon Musk’s SpaceX — which also acquired Musk’s xAI earlier this year — announced a deal in April for the companies to develop technology together; the deal also gave SpaceX the option to acquire Cursor for $60 billion.",
+    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind"
+      "AI Agent",
+      "Coding Agent"
     ],
-    "publishedAt": "2026-08-14T15:43:10.000Z"
+    "publishedAt": "2026-08-15T16:30:00.000Z"
   }
 ]
