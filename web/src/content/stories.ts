@@ -10,85 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-16T09:16:09.118Z'
+export const generatedAt = '2026-08-17T09:16:18.247Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Has the hallucination problem in AI been solved?",
+    "headline": "HackEurope 2026: A short rant on AI and hackathons",
     "badge": "new",
-    "summary": "My understanding that all AI can, and will hallucinate. I get downvoted for saying this, but no one ever says I'm wrong or cites any source.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "news.ycombinator.com",
-    "sourceUrl": "https://news.ycombinator.com/item?id=49316330",
+    "summary": "HackEurope is over. In many ways, it was a complete shitshow (vibe coded inaccessible UI for participants, lots of delays, miscommunications, and other issues too many to list). But now that the caffeine overdose and sleep deprivation is over, I can say that there were actually some important lessons. Front-end is almost everything. There is 0 burden of proof that your project.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "duti.dev",
+    "sourceUrl": "https://duti.dev/blog/2026/spr",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-16T02:23:52.000Z"
+    "publishedAt": "2026-08-17T07:28:43.000Z"
   },
   {
-    "headline": "Patterns and problems in emerging multi-agent systems",
+    "headline": "OpenAI reportedly disbanded its preparedness team",
     "badge": "new",
-    "summary": "We ran experiments on swarms of Claude agents and found coordination failures, collusion, and sabotage. Here, we share what they mean for AI safety.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "anthropic.com",
-    "sourceUrl": "https://www.anthropic.com/research/multiagent-systems",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-16T02:12:53.000Z"
-  },
-  {
-    "headline": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
-    "badge": "new",
-    "summary": "Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Such applications, however, are not merely old code bases; they are scientific assets whose credibility has been accumulated through long-term development, comparison with observations, and use in domain studies.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2608.13122",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
-    ],
-    "publishedAt": "2026-08-15T22:41:51.000Z"
-  },
-  {
-    "headline": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
-    "badge": "new",
-    "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "xAI",
-      "Image Recognition"
-    ],
-    "publishedAt": "2026-08-15T21:29:19.000Z"
-  },
-  {
-    "headline": "Have a laugh at AI’s expense by roleplaying as a chatbot",
-    "badge": "new",
-    "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-08-16T21:32:56.000Z"
+  },
+  {
+    "headline": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "badge": "new",
+    "summary": "Stripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg . OpenRouter helps customers to select different AI models to perform different tasks, depending on their specific needs and budget.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-15T20:45:00.000Z"
+    "publishedAt": "2026-08-16T20:57:04.000Z"
   },
   {
-    "headline": "SpaceX officially closes its Cursor acquisition",
+    "headline": "Red queen hypothesis – A new way forward for self-improving AI",
     "badge": "new",
-    "summary": "AI coding startup Cursor is now officially a part of SpaceX, according to an announcement on the Cursor blog . Elon Musk’s SpaceX — which also acquired Musk’s xAI earlier this year — announced a deal in April for the companies to develop technology together; the deal also gave SpaceX the option to acquire Cursor for $60 billion.",
-    "whyItMatters": "AI infrastructure now carries real-world costs like power, pollution, and local pushback.  Once defense and AI get tied together, the policy stakes get much bigger.",
+    "summary": "At a time when there's widespread interest in self-improving AI, researchers here have tackled one of the central challenges affecting its development by using an approach adapted from evolutionary biology.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "cst.cam.ac.uk",
+    "sourceUrl": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-16T20:01:13.000Z"
+  },
+  {
+    "headline": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+    "badge": "new",
+    "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition",
+    "sourceUrl": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
+      "Anthropic"
     ],
-    "publishedAt": "2026-08-15T16:30:00.000Z"
+    "publishedAt": "2026-08-16T16:53:51.000Z"
+  },
+  {
+    "headline": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+    "badge": "new",
+    "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-08-16T14:56:40.000Z"
   }
 ]
