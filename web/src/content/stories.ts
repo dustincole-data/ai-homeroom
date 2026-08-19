@@ -10,83 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-17T09:16:18.247Z'
+export const generatedAt = '2026-08-19T09:17:54.563Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "HackEurope 2026: A short rant on AI and hackathons",
+    "headline": "Show HN: PlugClaw – Private AI agent hardware for any phone or PC",
     "badge": "new",
-    "summary": "HackEurope is over. In many ways, it was a complete shitshow (vibe coded inaccessible UI for participants, lots of delays, miscommunications, and other issues too many to list). But now that the caffeine overdose and sleep deprivation is over, I can say that there were actually some important lessons. Front-end is almost everything. There is 0 burden of proof that your project.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "duti.dev",
-    "sourceUrl": "https://duti.dev/blog/2026/spr",
+    "summary": "PlugClaw is a thumb-sized private AI computer. Plug it into any device to instantly deploy a secure AI workforce that operates apps, runs workflows, and automates tasks end-to-end - while keeping your data isolated under your control.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "plugos.net",
+    "sourceUrl": "https://plugos.net/plugclaw",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-19T04:03:16.000Z"
+  },
+  {
+    "headline": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+    "badge": "new",
+    "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent",
+      "Tool"
+    ],
+    "publishedAt": "2026-08-18T22:14:25.000Z"
+  },
+  {
+    "headline": "fx :Tiny, open, native coding agent.",
+    "badge": "new",
+    "summary": "v0.0.3 · 6.39mib · status: experimental (i) use at your own risk, we will be making frequent changes This demo runs the full fx CLI as WebAssembly compiled with the Zig toolchain. Networking is delegated to browser fetch , and every SDK aspect is configurable in the docs . 𝒇 x v0.0.3 · Run /help for commands ┃ auto · glm-5.2 (i) This demo is available in browsers with.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "fx.sh",
+    "sourceUrl": "https://fx.sh",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent"
+    ],
+    "publishedAt": "2026-08-18T22:00:21.000Z"
+  },
+  {
+    "headline": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+    "badge": "new",
+    "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-17T07:28:43.000Z"
+    "publishedAt": "2026-08-18T19:48:26.000Z"
   },
   {
-    "headline": "OpenAI reportedly disbanded its preparedness team",
+    "headline": "Norway should buy OpenAI",
     "badge": "new",
-    "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+    "summary": "Upon the automation of most, and then plausibly all, jobs, we will face an unprecedented crisis of technological unemployment, with gains from a technology trained on the corpus of humanity’s data concentrated into the hands of a small class of shareholders. Large language models are not conjured from nothing.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "onethousandmeans.com",
+    "sourceUrl": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-08-16T21:32:56.000Z"
+    "publishedAt": "2026-08-18T19:30:29.000Z"
   },
   {
-    "headline": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "headline": "Warp’s new system is an out-of-the-box software factory for AI development",
     "badge": "new",
-    "summary": "Stripe has finalized a deal to acquire OpenRouter, according to a new report in Bloomberg . OpenRouter helps customers to select different AI models to perform different tasks, depending on their specific needs and budget.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-16T20:57:04.000Z"
-  },
-  {
-    "headline": "Red queen hypothesis – A new way forward for self-improving AI",
-    "badge": "new",
-    "summary": "At a time when there's widespread interest in self-improving AI, researchers here have tackled one of the central challenges affecting its development by using an approach adapted from evolutionary biology.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "cst.cam.ac.uk",
-    "sourceUrl": "https://www.cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-16T20:01:13.000Z"
-  },
-  {
-    "headline": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-    "badge": "new",
-    "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+    "sourceUrl": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic"
+      "Coding Agent"
     ],
-    "publishedAt": "2026-08-16T16:53:51.000Z"
-  },
-  {
-    "headline": "ChatGPT’s Computer History tracks your clicks and keystrokes",
-    "badge": "new",
-    "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
-    ],
-    "publishedAt": "2026-08-16T14:56:40.000Z"
+    "publishedAt": "2026-08-18T14:00:00.000Z"
   }
 ]
