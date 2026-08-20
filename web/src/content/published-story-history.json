@@ -1433,6 +1433,42 @@
       "context": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
       "publishedAt": "2026-08-18T14:00:00.000Z"
+    },
+    {
+      "headline": "Don't Paste the AI, please",
+      "context": "When someone asks you something, they want your answer. Not a wall of unedited ChatGPT output . A short reply from you beats a long one from a model, every time. Someone asked you a real question. You popped it into a chatbot, copied the answer, and sent it back. It felt fast. It felt helpful. And it usually isn't. The person on the other side has the same tools you do . If. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://dontpastetheai.com",
+      "publishedAt": "2026-08-20T08:20:44.000Z"
+    },
+    {
+      "headline": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+      "context": "Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.wired.com/story/flock-safety-os-investigate",
+      "publishedAt": "2026-08-20T06:40:14.000Z"
+    },
+    {
+      "headline": "Universality of Gradient Descent Neural Network Training",
+      "context": "Focus to learn more arXiv-issued DOI via DataCite Submission history From: Gerrit Welper [ view email ] [v1] Mon, 27 Jul 2020 16:17:19 UTC (31 KB) Full-text links: Access Paper: View a PDF of the paper titled Universality of Gradient Descent Neural Network Training, by G. Welper View PDF HTML (experimental) TeX Source view license Current browse context: cs.LG new | recent |. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arxiv.org/abs/2007.13664",
+      "publishedAt": "2026-08-20T00:05:12.000Z"
+    },
+    {
+      "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+      "context": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "publishedAt": "2026-08-19T22:10:46.000Z"
+    },
+    {
+      "headline": "Feature Request: Support AGENTS.md",
+      "context": "By contrast, CLAUDE.md feels too specific to Claude Code. It doesn’t work as well when collaborating with other developers who aren’t using Claude Code. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/6235",
+      "publishedAt": "2026-08-19T21:19:50.000Z"
+    },
+    {
+      "headline": "AI was supposed to win people over by now — it hasn’t",
+      "context": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+      "publishedAt": "2026-08-19T19:11:40.000Z"
     }
   ]
 }

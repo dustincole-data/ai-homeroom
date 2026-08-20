@@ -10,87 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-19T09:17:54.563Z'
+export const generatedAt = '2026-08-20T09:16:10.735Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Show HN: PlugClaw – Private AI agent hardware for any phone or PC",
+    "headline": "Don't Paste the AI, please",
     "badge": "new",
-    "summary": "PlugClaw is a thumb-sized private AI computer. Plug it into any device to instantly deploy a secure AI workforce that operates apps, runs workflows, and automates tasks end-to-end - while keeping your data isolated under your control.",
+    "summary": "When someone asks you something, they want your answer. Not a wall of unedited ChatGPT output . A short reply from you beats a long one from a model, every time. Someone asked you a real question. You popped it into a chatbot, copied the answer, and sent it back. It felt fast. It felt helpful. And it usually isn't. The person on the other side has the same tools you do . If.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "dontpastetheai.com",
+    "sourceUrl": "https://dontpastetheai.com",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-20T08:20:44.000Z"
+  },
+  {
+    "headline": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
+    "badge": "new",
+    "summary": "Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "wired.com",
+    "sourceUrl": "https://www.wired.com/story/flock-safety-os-investigate",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-08-20T06:40:14.000Z"
+  },
+  {
+    "headline": "Universality of Gradient Descent Neural Network Training",
+    "badge": "new",
+    "summary": "Focus to learn more arXiv-issued DOI via DataCite Submission history From: Gerrit Welper [ view email ] [v1] Mon, 27 Jul 2020 16:17:19 UTC (31 KB) Full-text links: Access Paper: View a PDF of the paper titled Universality of Gradient Descent Neural Network Training, by G. Welper View PDF HTML (experimental) TeX Source view license Current browse context: cs.LG new | recent |.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "plugos.net",
-    "sourceUrl": "https://plugos.net/plugclaw",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2007.13664",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-20T00:05:12.000Z"
+  },
+  {
+    "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+    "badge": "new",
+    "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-08-19T22:10:46.000Z"
+  },
+  {
+    "headline": "Feature Request: Support AGENTS.md",
+    "badge": "new",
+    "summary": "By contrast, CLAUDE.md feels too specific to Claude Code. It doesn’t work as well when collaborating with other developers who aren’t using Claude Code.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/anthropics/claude-code/issues/6235",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-08-19T04:03:16.000Z"
+    "publishedAt": "2026-08-19T21:19:50.000Z"
   },
   {
-    "headline": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+    "headline": "AI was supposed to win people over by now — it hasn’t",
     "badge": "new",
-    "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+    "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent",
-      "Tool"
-    ],
-    "publishedAt": "2026-08-18T22:14:25.000Z"
-  },
-  {
-    "headline": "fx :Tiny, open, native coding agent.",
-    "badge": "new",
-    "summary": "v0.0.3 · 6.39mib · status: experimental (i) use at your own risk, we will be making frequent changes This demo runs the full fx CLI as WebAssembly compiled with the Zig toolchain. Networking is delegated to browser fetch , and every SDK aspect is configurable in the docs . 𝒇 x v0.0.3 · Run /help for commands ┃ auto · glm-5.2 (i) This demo is available in browsers with.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "fx.sh",
-    "sourceUrl": "https://fx.sh",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
-    ],
-    "publishedAt": "2026-08-18T22:00:21.000Z"
-  },
-  {
-    "headline": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
-    "badge": "new",
-    "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+    "sourceUrl": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-18T19:48:26.000Z"
-  },
-  {
-    "headline": "Norway should buy OpenAI",
-    "badge": "new",
-    "summary": "Upon the automation of most, and then plausibly all, jobs, we will face an unprecedented crisis of technological unemployment, with gains from a technology trained on the corpus of humanity’s data concentrated into the hands of a small class of shareholders. Large language models are not conjured from nothing.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "onethousandmeans.com",
-    "sourceUrl": "https://www.onethousandmeans.com/p/norway-should-buy-openai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-08-18T19:30:29.000Z"
-  },
-  {
-    "headline": "Warp’s new system is an out-of-the-box software factory for AI development",
-    "badge": "new",
-    "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Coding Agent"
-    ],
-    "publishedAt": "2026-08-18T14:00:00.000Z"
+    "publishedAt": "2026-08-19T19:11:40.000Z"
   }
 ]
