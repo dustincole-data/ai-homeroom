@@ -1469,6 +1469,42 @@
       "context": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
       "publishedAt": "2026-08-19T19:11:40.000Z"
+    },
+    {
+      "headline": "Giving an LLM your prod database is easy. Taking access away is the hard part",
+      "context": "Every \"chat with your database\" demo ends at the first correct query. The interesting engineering starts the moment a second user logs in — and the model can still see the salaries table. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://deepsql.ai/blog/giving-an-llm-your-database-is-easy-taking-access-away-is-hard",
+      "publishedAt": "2026-08-22T03:33:34.000Z"
+    },
+    {
+      "headline": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+      "context": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://ozbrain.com",
+      "publishedAt": "2026-08-21T23:09:06.000Z"
+    },
+    {
+      "headline": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "context": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "publishedAt": "2026-08-21T21:25:50.000Z"
+    },
+    {
+      "headline": "Quick impressions: A week of using Codex more than Claude",
+      "context": "Claude goes above and beyond what is asked and guesses what you might want. Codex does what you tell it and stops at the first sign that it might be done. Ten impressions from a week of using Codex more. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "publishedAt": "2026-08-21T19:51:48.000Z"
+    },
+    {
+      "headline": "How we made a text-to-speech model respond in sub-50 ms",
+      "context": "Low-latency, realtime multimodal model serving, starting with speech at 50 ms time to first audio. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier",
+      "publishedAt": "2026-08-21T15:51:10.000Z"
+    },
+    {
+      "headline": "Claudette: Make Claude stop talking like a BuzzFeed article",
+      "context": "Claudette is our solution to Claude being a great engineer with one incurable condition: it talks like it's delivering a TED talk about its own pull request. You ask why a test is flaky and you get a \"load-bearing assumption,\" three numbered revelations, and a solemn note that the third one is the most instructive yet . Nothing is ever just a bug. There is always a kicker. This. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "publishedAt": "2026-08-21T14:31:52.000Z"
     }
   ]
 }

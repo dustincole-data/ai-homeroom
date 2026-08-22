@@ -10,84 +10,90 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-20T09:16:10.735Z'
+export const generatedAt = '2026-08-22T09:15:43.645Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Don't Paste the AI, please",
+    "headline": "Giving an LLM your prod database is easy. Taking access away is the hard part",
     "badge": "new",
-    "summary": "When someone asks you something, they want your answer. Not a wall of unedited ChatGPT output . A short reply from you beats a long one from a model, every time. Someone asked you a real question. You popped it into a chatbot, copied the answer, and sent it back. It felt fast. It felt helpful. And it usually isn't. The person on the other side has the same tools you do . If.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "dontpastetheai.com",
-    "sourceUrl": "https://dontpastetheai.com",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-20T08:20:44.000Z"
-  },
-  {
-    "headline": "Flock Has a Powerful New AI Tool for Police. We Got Its Code",
-    "badge": "new",
-    "summary": "Flock’s surveillance cameras have already sparked outrage. WIRED reconstructed its next-generation AI system, already in use by some police, to confirm it goes much further than tracking license plates.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "wired.com",
-    "sourceUrl": "https://www.wired.com/story/flock-safety-os-investigate",
+    "summary": "Every \"chat with your database\" demo ends at the first correct query. The interesting engineering starts the moment a second user logs in — and the model can still see the salaries table.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "deepsql.ai",
+    "sourceUrl": "https://deepsql.ai/blog/giving-an-llm-your-database-is-easy-taking-access-away-is-hard",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Tool"
+      "Model",
+      "Training Data"
     ],
-    "publishedAt": "2026-08-20T06:40:14.000Z"
+    "publishedAt": "2026-08-22T03:33:34.000Z"
   },
   {
-    "headline": "Universality of Gradient Descent Neural Network Training",
+    "headline": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
     "badge": "new",
-    "summary": "Focus to learn more arXiv-issued DOI via DataCite Submission history From: Gerrit Welper [ view email ] [v1] Mon, 27 Jul 2020 16:17:19 UTC (31 KB) Full-text links: Access Paper: View a PDF of the paper titled Universality of Gradient Descent Neural Network Training, by G. Welper View PDF HTML (experimental) TeX Source view license Current browse context: cs.LG new | recent |.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2007.13664",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-20T00:05:12.000Z"
-  },
-  {
-    "headline": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
-    "badge": "new",
-    "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "AI Safety"
-    ],
-    "publishedAt": "2026-08-19T22:10:46.000Z"
-  },
-  {
-    "headline": "Feature Request: Support AGENTS.md",
-    "badge": "new",
-    "summary": "By contrast, CLAUDE.md feels too specific to Claude Code. It doesn’t work as well when collaborating with other developers who aren’t using Claude Code.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/anthropics/claude-code/issues/6235",
+    "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "ozbrain.com",
+    "sourceUrl": "https://ozbrain.com",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-08-19T21:19:50.000Z"
+    "publishedAt": "2026-08-21T23:09:06.000Z"
   },
   {
-    "headline": "AI was supposed to win people over by now — it hasn’t",
+    "headline": "Over 1 million people have clicked LinkedIn’s AI slop button",
     "badge": "new",
-    "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+    "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-19T19:11:40.000Z"
+    "publishedAt": "2026-08-21T21:25:50.000Z"
+  },
+  {
+    "headline": "Quick impressions: A week of using Codex more than Claude",
+    "badge": "new",
+    "summary": "Claude goes above and beyond what is asked and guesses what you might want. Codex does what you tell it and stops at the first sign that it might be done. Ten impressions from a week of using Codex more.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "allaboutcoding.ghinda.com",
+    "sourceUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-08-21T19:51:48.000Z"
+  },
+  {
+    "headline": "How we made a text-to-speech model respond in sub-50 ms",
+    "badge": "new",
+    "summary": "Low-latency, realtime multimodal model serving, starting with speech at 50 ms time to first audio.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "nari-labs.com",
+    "sourceUrl": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model",
+      "Speech-to-Text"
+    ],
+    "publishedAt": "2026-08-21T15:51:10.000Z"
+  },
+  {
+    "headline": "Claudette: Make Claude stop talking like a BuzzFeed article",
+    "badge": "new",
+    "summary": "Claudette is our solution to Claude being a great engineer with one incurable condition: it talks like it's delivering a TED talk about its own pull request. You ask why a test is flaky and you get a \"load-bearing assumption,\" three numbered revelations, and a solemn note that the third one is the most instructive yet . Nothing is ever just a bug. There is always a kicker. This.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-08-21T14:31:52.000Z"
   }
 ]
