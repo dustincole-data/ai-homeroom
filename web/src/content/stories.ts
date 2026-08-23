@@ -10,90 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-22T09:15:43.645Z'
+export const generatedAt = '2026-08-23T09:15:35.636Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Giving an LLM your prod database is easy. Taking access away is the hard part",
+    "headline": "Palantir's Karp – frontier AI labs that are 'trying to drug addict us'",
     "badge": "new",
-    "summary": "Every \"chat with your database\" demo ends at the first correct query. The interesting engineering starts the moment a second user logs in — and the model can still see the salaries table.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "deepsql.ai",
-    "sourceUrl": "https://deepsql.ai/blog/giving-an-llm-your-database-is-easy-taking-access-away-is-hard",
+    "summary": "Karp said Chinese models can't be blamed for distilling U.S. models when the frontier labs \"distilled all the value of IP, everywhere.\"",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model",
       "Training Data"
     ],
-    "publishedAt": "2026-08-22T03:33:34.000Z"
+    "publishedAt": "2026-08-23T04:03:46.000Z"
   },
   {
-    "headline": "Show HN: OzBrain, a shared brain for knowledge between agents and your team",
+    "headline": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
     "badge": "new",
-    "summary": "I think agent-first chat interfaces will be a primary software modality and busy dashboard/UI will go away. I’m not sure who exactly wins it, but I want my knowledge to grow/go with me.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "ozbrain.com",
-    "sourceUrl": "https://ozbrain.com",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-21T23:09:06.000Z"
-  },
-  {
-    "headline": "Over 1 million people have clicked LinkedIn’s AI slop button",
-    "badge": "new",
-    "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
+    "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-21T21:25:50.000Z"
+    "publishedAt": "2026-08-22T21:46:56.000Z"
   },
   {
-    "headline": "Quick impressions: A week of using Codex more than Claude",
+    "headline": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
     "badge": "new",
-    "summary": "Claude goes above and beyond what is asked and guesses what you might want. Codex does what you tell it and stops at the first sign that it might be done. Ten impressions from a week of using Codex more.",
+    "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "allaboutcoding.ghinda.com",
-    "sourceUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Anthropic",
       "Chatbot",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-08-22T19:00:00.000Z"
+  },
+  {
+    "headline": "Why your local LLM feels dumber than it is",
+    "badge": "new",
+    "summary": "Quick Introduction We have all been on forums, chats, reddit, discord, youtube, or somewhere and heard “Oh! Model XYZ is AMAZEBALLZ!zomgwtfbbq” then downloaded it (or more likely, some quantized form of it) and said “eww… This sucks!” This post is going to be a rather technical series of experiments to demonstrate the impact of implementation-specific hazards with inference.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "forum.level1techs.com",
+    "sourceUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+    "termNames": [
+      "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-21T19:51:48.000Z"
+    "publishedAt": "2026-08-22T18:14:16.000Z"
   },
   {
-    "headline": "How we made a text-to-speech model respond in sub-50 ms",
+    "headline": "OpenAI says California should strengthen its AI safety bill",
     "badge": "new",
-    "summary": "Low-latency, realtime multimodal model serving, starting with speech at 50 ms time to first audio.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "nari-labs.com",
-    "sourceUrl": "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier",
+    "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model",
-      "Speech-to-Text"
-    ],
-    "publishedAt": "2026-08-21T15:51:10.000Z"
-  },
-  {
-    "headline": "Claudette: Make Claude stop talking like a BuzzFeed article",
-    "badge": "new",
-    "summary": "Claudette is our solution to Claude being a great engineer with one incurable condition: it talks like it's delivering a TED talk about its own pull request. You ask why a test is flaky and you get a \"load-bearing assumption,\" three numbered revelations, and a solemn note that the third one is the most instructive yet . Nothing is ever just a bug. There is always a kicker. This.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
       "Chatbot",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-08-22T16:30:34.000Z"
+  },
+  {
+    "headline": "Frontier AI labs still won’t say how they’d contain a rogue model",
+    "badge": "new",
+    "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+    "termNames": [
+      "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-21T14:31:52.000Z"
+    "publishedAt": "2026-08-22T16:00:00.000Z"
   }
 ]
