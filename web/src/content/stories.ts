@@ -10,87 +10,81 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-23T09:15:35.636Z'
+export const generatedAt = '2026-08-24T09:16:06.846Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Palantir's Karp – frontier AI labs that are 'trying to drug addict us'",
+    "headline": "OCR It – pull text out of un-copyable documents for your LLM",
     "badge": "new",
-    "summary": "Karp said Chinese models can't be blamed for distilling U.S. models when the frontier labs \"distilled all the value of IP, everywhere.\"",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "cnbc.com",
-    "sourceUrl": "https://www.cnbc.com/2026/08/03/palantir-karp-open-ai-anthropic-open-weight.html",
+    "summary": "A Chrome extension for reading a paginated document trapped in a viewer — a scanned book, a slide deck, a PDF, a reader that won't let you select text. You drag out the capture region once . After that every press of the hotkey screenshots that exact rectangle, OCRs it, and appends the text to a running transcript. Or hand the whole job over: ⌥⇧A starts a run that captures.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/thiagotigaz/ocr-it",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Training Data"
+      "Model"
     ],
-    "publishedAt": "2026-08-23T04:03:46.000Z"
+    "publishedAt": "2026-08-24T06:25:31.000Z"
   },
   {
-    "headline": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+    "headline": "I built a low-latency AI companion that plays Skyrim with me",
     "badge": "new",
-    "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+    "summary": "How Varkos was built: a low-latency AI companion that plays Skyrim with you, follows complex instructions and evolves through shared experiences.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+    "sourceName": "pantel.is",
+    "sourceUrl": "https://pantel.is/projects/ai-gaming-companion",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-22T21:46:56.000Z"
+    "publishedAt": "2026-08-23T23:18:17.000Z"
   },
   {
-    "headline": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+    "headline": "Who’s behind the new ‘stealth model’ Ox Alpha?",
     "badge": "new",
-    "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+    "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "DeepMind"
-    ],
-    "publishedAt": "2026-08-22T19:00:00.000Z"
-  },
-  {
-    "headline": "Why your local LLM feels dumber than it is",
-    "badge": "new",
-    "summary": "Quick Introduction We have all been on forums, chats, reddit, discord, youtube, or somewhere and heard “Oh! Model XYZ is AMAZEBALLZ!zomgwtfbbq” then downloaded it (or more likely, some quantized form of it) and said “eww… This sucks!” This post is going to be a rather technical series of experiments to demonstrate the impact of implementation-specific hazards with inference.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "forum.level1techs.com",
-    "sourceUrl": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+    "sourceUrl": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-08-22T18:14:16.000Z"
+    "publishedAt": "2026-08-23T20:01:36.000Z"
   },
   {
-    "headline": "OpenAI says California should strengthen its AI safety bill",
+    "headline": "Training AI to Paint with Code",
     "badge": "new",
-    "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+    "summary": "When you make an image with an AI model, the only way to participate is the prompt. You cannot edit the image directly.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "surya.website",
+    "sourceUrl": "https://surya.website/rling-qwen-to-paint-with-code",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Safety"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-22T16:30:34.000Z"
+    "publishedAt": "2026-08-23T19:39:29.000Z"
   },
   {
-    "headline": "Frontier AI labs still won’t say how they’d contain a rogue model",
+    "headline": "AI and Infrastructure Engineering",
     "badge": "new",
-    "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+    "summary": "I run infrastructure at high-traffic, high-responsibility scale, and small mistakes get expensive. Most days that's Kubernetes and AWS, other days a small Go tool or a side project shipped for fun, most of which didn't work out.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "omegion.dev",
+    "sourceUrl": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-22T16:00:00.000Z"
+    "publishedAt": "2026-08-23T18:09:01.000Z"
+  },
+  {
+    "headline": "I turned Unix talk from 1983 into the interface for my AI",
+    "badge": "new",
+    "summary": "After writing yesterday's article about the talk command, I realized there is a poetic bond between the past and the future: talk transmits character…",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "en.andros.dev",
+    "sourceUrl": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-23T18:00:20.000Z"
   }
 ]

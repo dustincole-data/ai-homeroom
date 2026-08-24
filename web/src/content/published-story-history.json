@@ -1541,6 +1541,42 @@
       "context": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
       "publishedAt": "2026-08-22T16:00:00.000Z"
+    },
+    {
+      "headline": "OCR It – pull text out of un-copyable documents for your LLM",
+      "context": "A Chrome extension for reading a paginated document trapped in a viewer — a scanned book, a slide deck, a PDF, a reader that won't let you select text. You drag out the capture region once . After that every press of the hotkey screenshots that exact rectangle, OCRs it, and appends the text to a running transcript. Or hand the whole job over: ⌥⇧A starts a run that captures. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/thiagotigaz/ocr-it",
+      "publishedAt": "2026-08-24T06:25:31.000Z"
+    },
+    {
+      "headline": "I built a low-latency AI companion that plays Skyrim with me",
+      "context": "How Varkos was built: a low-latency AI companion that plays Skyrim with you, follows complex instructions and evolves through shared experiences. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://pantel.is/projects/ai-gaming-companion",
+      "publishedAt": "2026-08-23T23:18:17.000Z"
+    },
+    {
+      "headline": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "context": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
+      "publishedAt": "2026-08-23T20:01:36.000Z"
+    },
+    {
+      "headline": "Training AI to Paint with Code",
+      "context": "When you make an image with an AI model, the only way to participate is the prompt. You cannot edit the image directly. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://surya.website/rling-qwen-to-paint-with-code",
+      "publishedAt": "2026-08-23T19:39:29.000Z"
+    },
+    {
+      "headline": "AI and Infrastructure Engineering",
+      "context": "I run infrastructure at high-traffic, high-responsibility scale, and small mistakes get expensive. Most days that's Kubernetes and AWS, other days a small Go tool or a side project shipped for fun, most of which didn't work out. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering",
+      "publishedAt": "2026-08-23T18:09:01.000Z"
+    },
+    {
+      "headline": "I turned Unix talk from 1983 into the interface for my AI",
+      "context": "After writing yesterday's article about the talk command, I realized there is a poetic bond between the past and the future: talk transmits character… The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
+      "publishedAt": "2026-08-23T18:00:20.000Z"
     }
   ]
 }
