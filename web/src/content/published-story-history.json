@@ -1577,6 +1577,42 @@
       "context": "After writing yesterday's article about the talk command, I realized there is a poetic bond between the past and the future: talk transmits character… The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
       "publishedAt": "2026-08-23T18:00:20.000Z"
+    },
+    {
+      "headline": "Thomson Reuters Launches Its Own Frontier Model",
+      "context": "Thomson, the company's proprietary LLM, was trained and is run at a fraction of the cost of comparable frontier models and remains fully owned and controlled by Thomson Reuters Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "publishedAt": "2026-08-25T02:11:39.000Z"
+    },
+    {
+      "headline": "AI is hitting entry-level jobs hardest, Stanford study finds",
+      "context": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+      "publishedAt": "2026-08-24T21:45:53.000Z"
+    },
+    {
+      "headline": "Vintage Artificial Intelligence: Before It Got Awkward",
+      "context": "Dating roughly from the 1970s through the 1990s, these emulated software packages have come from many sources, and with many motivations, but have been curated together for a very subtle and occasionally imperceptible theme: the adventure of experiencing a machine that thinks . To be clear, and without taking too much time for a press conference announcing so or claiming such. Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+      "sourceUrl": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
+      "publishedAt": "2026-08-24T21:01:38.000Z"
+    },
+    {
+      "headline": "Em Dash Is Fine – It Is AI That Sucks",
+      "context": "Here is a dialog from the movie Office Space — and just to be clear; Michael Bolton in the movie are talking about Michael Bolton the singer. And this made me think about AI — and em dashes. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://blog.torh.net/2026/08/24/em-dash-is-fine-it-is-ai-that-sucks",
+      "publishedAt": "2026-08-24T18:15:12.000Z"
+    },
+    {
+      "headline": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+      "context": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+      "publishedAt": "2026-08-24T18:03:55.000Z"
+    },
+    {
+      "headline": "Agent Lightning v1.0",
+      "context": "1 marks the first official release of the Agent Lightning Skill, which helps coding agents optimize other AI agents. Provide an editable agent and a benchmark, and the skill gu... This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
+      "publishedAt": "2026-08-24T17:23:22.000Z"
     }
   ]
 }

@@ -10,81 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-24T09:16:06.846Z'
+export const generatedAt = '2026-08-25T09:15:56.308Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "OCR It – pull text out of un-copyable documents for your LLM",
+    "headline": "Thomson Reuters Launches Its Own Frontier Model",
     "badge": "new",
-    "summary": "A Chrome extension for reading a paginated document trapped in a viewer — a scanned book, a slide deck, a PDF, a reader that won't let you select text. You drag out the capture region once . After that every press of the hotkey screenshots that exact rectangle, OCRs it, and appends the text to a running transcript. Or hand the whole job over: ⌥⇧A starts a run that captures.",
+    "summary": "Thomson, the company's proprietary LLM, was trained and is run at a fraction of the cost of comparable frontier models and remains fully owned and controlled by Thomson Reuters",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "thomsonreuters.com",
+    "sourceUrl": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-08-25T02:11:39.000Z"
+  },
+  {
+    "headline": "AI is hitting entry-level jobs hardest, Stanford study finds",
+    "badge": "new",
+    "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-24T21:45:53.000Z"
+  },
+  {
+    "headline": "Vintage Artificial Intelligence: Before It Got Awkward",
+    "badge": "new",
+    "summary": "Dating roughly from the 1970s through the 1990s, these emulated software packages have come from many sources, and with many motivations, but have been curated together for a very subtle and occasionally imperceptible theme: the adventure of experiencing a machine that thinks . To be clear, and without taking too much time for a press conference announcing so or claiming such.",
+    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
+    "sourceName": "blog.archive.org",
+    "sourceUrl": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-24T21:01:38.000Z"
+  },
+  {
+    "headline": "Em Dash Is Fine – It Is AI That Sucks",
+    "badge": "new",
+    "summary": "Here is a dialog from the movie Office Space — and just to be clear; Michael Bolton in the movie are talking about Michael Bolton the singer. And this made me think about AI — and em dashes.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "blog.torh.net",
+    "sourceUrl": "https://blog.torh.net/2026/08/24/em-dash-is-fine-it-is-ai-that-sucks",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-24T18:15:12.000Z"
+  },
+  {
+    "headline": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+    "badge": "new",
+    "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-08-24T18:03:55.000Z"
+  },
+  {
+    "headline": "Agent Lightning v1.0",
+    "badge": "new",
+    "summary": "1 marks the first official release of the Agent Lightning Skill, which helps coding agents optimize other AI agents. Provide an editable agent and a benchmark, and the skill gu...",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "github.com",
-    "sourceUrl": "https://github.com/thiagotigaz/ocr-it",
+    "sourceUrl": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-24T06:25:31.000Z"
-  },
-  {
-    "headline": "I built a low-latency AI companion that plays Skyrim with me",
-    "badge": "new",
-    "summary": "How Varkos was built: a low-latency AI companion that plays Skyrim with you, follows complex instructions and evolves through shared experiences.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "pantel.is",
-    "sourceUrl": "https://pantel.is/projects/ai-gaming-companion",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-23T23:18:17.000Z"
-  },
-  {
-    "headline": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-    "badge": "new",
-    "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-23T20:01:36.000Z"
-  },
-  {
-    "headline": "Training AI to Paint with Code",
-    "badge": "new",
-    "summary": "When you make an image with an AI model, the only way to participate is the prompt. You cannot edit the image directly.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "surya.website",
-    "sourceUrl": "https://surya.website/rling-qwen-to-paint-with-code",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-23T19:39:29.000Z"
-  },
-  {
-    "headline": "AI and Infrastructure Engineering",
-    "badge": "new",
-    "summary": "I run infrastructure at high-traffic, high-responsibility scale, and small mistakes get expensive. Most days that's Kubernetes and AWS, other days a small Go tool or a side project shipped for fun, most of which didn't work out.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "omegion.dev",
-    "sourceUrl": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-23T18:09:01.000Z"
-  },
-  {
-    "headline": "I turned Unix talk from 1983 into the interface for my AI",
-    "badge": "new",
-    "summary": "After writing yesterday's article about the talk command, I realized there is a poetic bond between the past and the future: talk transmits character…",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "en.andros.dev",
-    "sourceUrl": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-23T18:00:20.000Z"
+    "publishedAt": "2026-08-24T17:23:22.000Z"
   }
 ]
