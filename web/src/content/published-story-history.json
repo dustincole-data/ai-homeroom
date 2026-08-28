@@ -1613,6 +1613,42 @@
       "context": "1 marks the first official release of the Agent Lightning Skill, which helps coding agents optimize other AI agents. Provide an editable agent and a benchmark, and the skill gu... This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
       "publishedAt": "2026-08-24T17:23:22.000Z"
+    },
+    {
+      "headline": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
+      "context": "The Defense Department had barred the U.S. military from using Anthropic's Claude in March Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+      "publishedAt": "2026-08-28T05:16:47.000Z"
+    },
+    {
+      "headline": "Alphabet stock sheds $700B as AI bills climb",
+      "context": "After leading the Magnificent 7 over much of the last 16 months, the tech giant is on shakier footing. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb",
+      "publishedAt": "2026-08-28T02:23:11.000Z"
+    },
+    {
+      "headline": "The \"I don't know, Claude wrote this\" pandemic",
+      "context": "When Claude drives you off the cliff June 16, 2026 25.4k views Share code review engineering process team leadership communication Thanks CodeRabbit for supporting today’s article! You ping an engineer about a big PR. You ask one real architecture question, and they can't answer it. Nobody can - it's a huge diff, everyone's rushed, so it gets approved and merged unread. That's. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.manager.dev/newsletter/the-i-don-t-know-claude-wrote-this-pandemic",
+      "publishedAt": "2026-08-28T01:01:32.000Z"
+    },
+    {
+      "headline": "Anthropic's new hardware standard lets AI agents control the physical world",
+      "context": "For now, the “research preview” of the MHS effort is being sold mainly as a way to help scientists streamline the arduous process of creating the custom software integrations that are often needed to get disparate components of an experiment working in concert. MHS can provide a common interface and common format for data sharing between these devices, Anthropic says, allowing. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world",
+      "publishedAt": "2026-08-27T22:15:43.000Z"
+    },
+    {
+      "headline": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
+      "context": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from sc... This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "publishedAt": "2026-08-27T21:46:39.000Z"
+    },
+    {
+      "headline": "Show HN: We built open OpenRouter that turns usage into a better model",
+      "context": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://github.com/experientiallabs/experiential",
+      "publishedAt": "2026-08-27T21:18:35.000Z"
     }
   ]
 }

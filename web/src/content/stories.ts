@@ -10,82 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-25T09:15:56.308Z'
+export const generatedAt = '2026-08-28T09:16:09.354Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Thomson Reuters Launches Its Own Frontier Model",
+    "headline": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
     "badge": "new",
-    "summary": "Thomson, the company's proprietary LLM, was trained and is run at a fraction of the cost of comparable frontier models and remains fully owned and controlled by Thomson Reuters",
+    "summary": "The Defense Department had barred the U.S. military from using Anthropic's Claude in March",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "thomsonreuters.com",
-    "sourceUrl": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-08-28T05:16:47.000Z"
+  },
+  {
+    "headline": "Alphabet stock sheds $700B as AI bills climb",
+    "badge": "new",
+    "summary": "After leading the Magnificent 7 over much of the last 16 months, the tech giant is on shakier footing.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "semafor.com",
+    "sourceUrl": "https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-28T02:23:11.000Z"
+  },
+  {
+    "headline": "The \"I don't know, Claude wrote this\" pandemic",
+    "badge": "new",
+    "summary": "When Claude drives you off the cliff June 16, 2026 25.4k views Share code review engineering process team leadership communication Thanks CodeRabbit for supporting today’s article! You ping an engineer about a big PR. You ask one real architecture question, and they can't answer it. Nobody can - it's a huge diff, everyone's rushed, so it gets approved and merged unread. That's.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "manager.dev",
+    "sourceUrl": "https://www.manager.dev/newsletter/the-i-don-t-know-claude-wrote-this-pandemic",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-08-25T02:11:39.000Z"
+    "publishedAt": "2026-08-28T01:01:32.000Z"
   },
   {
-    "headline": "AI is hitting entry-level jobs hardest, Stanford study finds",
+    "headline": "Anthropic's new hardware standard lets AI agents control the physical world",
     "badge": "new",
-    "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "For now, the “research preview” of the MHS effort is being sold mainly as a way to help scientists streamline the arduous process of creating the custom software integrations that are often needed to get disparate components of an experiment working in concert. MHS can provide a common interface and common format for data sharing between these devices, Anthropic says, allowing.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
     "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-24T21:45:53.000Z"
-  },
-  {
-    "headline": "Vintage Artificial Intelligence: Before It Got Awkward",
-    "badge": "new",
-    "summary": "Dating roughly from the 1970s through the 1990s, these emulated software packages have come from many sources, and with many motivations, but have been curated together for a very subtle and occasionally imperceptible theme: the adventure of experiencing a machine that thinks . To be clear, and without taking too much time for a press conference announcing so or claiming such.",
-    "whyItMatters": "Leadership churn at OpenAI matters because these are the people shaping which AI products companies buy and trust.  When top people move around this fast, it can affect product direction, sales, and confidence in the tools businesses are adopting.",
-    "sourceName": "blog.archive.org",
-    "sourceUrl": "https://blog.archive.org/2026/08/16/vintage-artificial-intelligence-before-it-got-awkward",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-24T21:01:38.000Z"
-  },
-  {
-    "headline": "Em Dash Is Fine – It Is AI That Sucks",
-    "badge": "new",
-    "summary": "Here is a dialog from the movie Office Space — and just to be clear; Michael Bolton in the movie are talking about Michael Bolton the singer. And this made me think about AI — and em dashes.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "blog.torh.net",
-    "sourceUrl": "https://blog.torh.net/2026/08/24/em-dash-is-fine-it-is-ai-that-sucks",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-24T18:15:12.000Z"
-  },
-  {
-    "headline": "Instinct’s powerful AI assistant is raising privacy and security concerns",
-    "badge": "new",
-    "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+    "sourceUrl": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety"
+      "Anthropic",
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-24T18:03:55.000Z"
+    "publishedAt": "2026-08-27T22:15:43.000Z"
   },
   {
-    "headline": "Agent Lightning v1.0",
+    "headline": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
     "badge": "new",
-    "summary": "1 marks the first official release of the Agent Lightning Skill, which helps coding agents optimize other AI agents. Provide an editable agent and a benchmark, and the skill gu...",
+    "summary": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from sc...",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
     "sourceName": "github.com",
-    "sourceUrl": "https://github.com/microsoft/agent-lightning/releases/tag/v1.0.1",
+    "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-08-24T17:23:22.000Z"
+    "publishedAt": "2026-08-27T21:46:39.000Z"
+  },
+  {
+    "headline": "Show HN: We built open OpenRouter that turns usage into a better model",
+    "badge": "new",
+    "summary": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/experientiallabs/experiential",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-08-27T21:18:35.000Z"
   }
 ]
