@@ -10,87 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-28T09:16:09.354Z'
+export const generatedAt = '2026-08-29T09:16:00.583Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Judge blocks Pentagon blacklist of Anthropic as supply chain risk",
+    "headline": "StemDeck, a free, open-source and local AI stem separator",
     "badge": "new",
-    "summary": "The Defense Department had barred the U.S. military from using Anthropic's Claude in March",
+    "summary": "Drop in an MP3, WAV, FLAC, OGG/Opus, MP4, or M4A file, or paste a YouTube URL, and StemDeck splits the audio into up to six stems (vocals, drums, bass, guitar, piano, other). Play them back in a DAW-style multitrack mixer: mute, solo, balance levels, zoom the waveform, loop a region, and export individual stems or a custom mix. Everything runs locally on your own machine. What.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/stemdeckapp/stemdeck",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-29T01:24:13.000Z"
+  },
+  {
+    "headline": "I accidentally turned LLM memory into program analysis",
+    "badge": "new",
+    "summary": "Over the past few months I have been playing around quite a bit with LLM agents, particularly for vulnerability research. They are becoming surprisingly good at navigating large codebases, explaining unfamiliar subsystems and helping explore potential attack surfaces. However, once an investigation starts taking a few hours, I kept running into the same problem: the model would.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "pwning.systems",
+    "sourceUrl": "https://pwning.systems/posts/llm-memory-program-analysis",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-08-28T23:27:45.000Z"
+  },
+  {
+    "headline": "An Anthropic researcher just gave us a peek at self-improving AI",
+    "badge": "new",
+    "summary": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice. On Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures ,” detailing how AI systems could reliably improve a model’s.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "cnbc.com",
-    "sourceUrl": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Anthropic"
     ],
-    "publishedAt": "2026-08-28T05:16:47.000Z"
+    "publishedAt": "2026-08-28T19:30:38.000Z"
   },
   {
-    "headline": "Alphabet stock sheds $700B as AI bills climb",
+    "headline": "Open-weight AI companies are the Valley’s hottest acquisition targets",
     "badge": "new",
-    "summary": "After leading the Magnificent 7 over much of the last 16 months, the tech giant is on shakier footing.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "semafor.com",
-    "sourceUrl": "https://www.semafor.com/article/08/27/2026/alphabet-stock-sheds-700b-as-ai-bills-climb",
+    "summary": "Everyone’s waiting for Nvidia to confirm this week’s most interesting tech deal: A reported $13 billion acquisition of Hugging Face, a platform for sharing open-weight AI models and benchmarks. Now best known as the target for a team of reward-hacking OpenAI agents, Hugging Face is at the center of the ecosystem of developers building and deploying LLMs that aren’t owned by.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-28T02:23:11.000Z"
+    "publishedAt": "2026-08-28T18:19:40.000Z"
   },
   {
-    "headline": "The \"I don't know, Claude wrote this\" pandemic",
+    "headline": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
     "badge": "new",
-    "summary": "When Claude drives you off the cliff June 16, 2026 25.4k views Share code review engineering process team leadership communication Thanks CodeRabbit for supporting today’s article! You ping an engineer about a big PR. You ask one real architecture question, and they can't answer it. Nobody can - it's a huge diff, everyone's rushed, so it gets approved and merged unread. That's.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "manager.dev",
-    "sourceUrl": "https://www.manager.dev/newsletter/the-i-don-t-know-claude-wrote-this-pandemic",
+    "summary": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature.",
+    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2608.23691",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-28T01:01:32.000Z"
+    "publishedAt": "2026-08-28T17:01:12.000Z"
   },
   {
-    "headline": "Anthropic's new hardware standard lets AI agents control the physical world",
+    "headline": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
     "badge": "new",
-    "summary": "For now, the “research preview” of the MHS effort is being sold mainly as a way to help scientists streamline the arduous process of creating the custom software integrations that are often needed to get disparate components of an experiment working in concert. MHS can provide a common interface and common format for data sharing between these devices, Anthropic says, allowing.",
+    "summary": "On Friday, The Verge reported that Meta closed a loophole that made it easy for smart glasses users to cover up an LED light that is supposed to alert bystanders that the device is actively recording. Meta had previously deactivated recording if a user attempted to start capturing video after placing a sticker over the light, but people quickly learned that they could get.",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
     "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
-      "AI Agent"
+      "Image Recognition"
     ],
-    "publishedAt": "2026-08-27T22:15:43.000Z"
-  },
-  {
-    "headline": "AI Engineer Notebooks – free, framework-free RAG/agents/evals on Colab",
-    "badge": "new",
-    "summary": "Hands-on, framework-free Colab notebooks for the AI Engineer / Forward Deployed Engineer (FDE) skill set — model APIs, structured output, tool calling, RAG, evals-as-the-spine, agents (loop from sc...",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-27T21:46:39.000Z"
-  },
-  {
-    "headline": "Show HN: We built open OpenRouter that turns usage into a better model",
-    "badge": "new",
-    "summary": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/experientiallabs/experiential",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-27T21:18:35.000Z"
+    "publishedAt": "2026-08-28T15:42:24.000Z"
   }
 ]

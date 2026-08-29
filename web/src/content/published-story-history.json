@@ -1649,6 +1649,42 @@
       "context": "Hi HN, we built an open source model gateway. It's a single place to manage our own self hosted, frontier, and open source models in one place. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
       "sourceUrl": "https://github.com/experientiallabs/experiential",
       "publishedAt": "2026-08-27T21:18:35.000Z"
+    },
+    {
+      "headline": "StemDeck, a free, open-source and local AI stem separator",
+      "context": "Drop in an MP3, WAV, FLAC, OGG/Opus, MP4, or M4A file, or paste a YouTube URL, and StemDeck splits the audio into up to six stems (vocals, drums, bass, guitar, piano, other). Play them back in a DAW-style multitrack mixer: mute, solo, balance levels, zoom the waveform, loop a region, and export individual stems or a custom mix. Everything runs locally on your own machine. What. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/stemdeckapp/stemdeck",
+      "publishedAt": "2026-08-29T01:24:13.000Z"
+    },
+    {
+      "headline": "I accidentally turned LLM memory into program analysis",
+      "context": "Over the past few months I have been playing around quite a bit with LLM agents, particularly for vulnerability research. They are becoming surprisingly good at navigating large codebases, explaining unfamiliar subsystems and helping explore potential attack surfaces. However, once an investigation starts taking a few hours, I kept running into the same problem: the model would. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://pwning.systems/posts/llm-memory-program-analysis",
+      "publishedAt": "2026-08-28T23:27:45.000Z"
+    },
+    {
+      "headline": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "context": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice. On Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures ,” detailing how AI systems could reliably improve a model’s. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "publishedAt": "2026-08-28T19:30:38.000Z"
+    },
+    {
+      "headline": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "context": "Everyone’s waiting for Nvidia to confirm this week’s most interesting tech deal: A reported $13 billion acquisition of Hugging Face, a platform for sharing open-weight AI models and benchmarks. Now best known as the target for a team of reward-hacking OpenAI agents, Hugging Face is at the center of the ecosystem of developers building and deploying LLMs that aren’t owned by. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
+      "publishedAt": "2026-08-28T18:19:40.000Z"
+    },
+    {
+      "headline": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "context": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature. It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+      "sourceUrl": "https://arxiv.org/abs/2608.23691",
+      "publishedAt": "2026-08-28T17:01:12.000Z"
+    },
+    {
+      "headline": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+      "context": "On Friday, The Verge reported that Meta closed a loophole that made it easy for smart glasses users to cover up an LED light that is supposed to alert bystanders that the device is actively recording. Meta had previously deactivated recording if a user attempted to start capturing video after placing a sticker over the light, but people quickly learned that they could get. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+      "publishedAt": "2026-08-28T15:42:24.000Z"
     }
   ]
 }
