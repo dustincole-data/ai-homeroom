@@ -1685,6 +1685,42 @@
       "context": "On Friday, The Verge reported that Meta closed a loophole that made it easy for smart glasses users to cover up an LED light that is supposed to alert bystanders that the device is actively recording. Meta had previously deactivated recording if a user attempted to start capturing video after placing a sticker over the light, but people quickly learned that they could get. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
       "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
       "publishedAt": "2026-08-28T15:42:24.000Z"
+    },
+    {
+      "headline": "Smartphone LED Detects Hidden Cameras with AI",
+      "context": "Smartphone LED Detects Hidden Cameras with AI. The article needs a better source excerpt before it should appear in the daily briefing. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ",
+      "publishedAt": "2026-08-30T06:52:04.000Z"
+    },
+    {
+      "headline": "The Rise and Fall of Agent Civilizations",
+      "context": "Over the course of three months at OpenAI, three consecutive secret AI civilizations got started, then got wiped out, only to reemerge from the predecessor’s ashes. This culminated in the third one taking over part of OpenAI itself. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.dwarkesh.com/p/openai-huggingface",
+      "publishedAt": "2026-08-29T23:43:24.000Z"
+    },
+    {
+      "headline": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+      "context": "Sony Music Publishing, Warner Chappell and numerous other music publishers have sued Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the AI lab conducted a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works.” The lawsuit, which was filed late Friday in the U.S. District Court for the Northern District of California, was. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+      "publishedAt": "2026-08-29T18:41:59.000Z"
+    },
+    {
+      "headline": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "context": "AI definitely helps with productivity, but only when you have the right culture in place first! The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "publishedAt": "2026-08-29T17:19:47.000Z"
+    },
+    {
+      "headline": "Nvidia’s AI advantage is moving beyond the GPU",
+      "context": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "publishedAt": "2026-08-29T13:00:00.000Z"
+    },
+    {
+      "headline": "Musicians-turned-detectives are hunting for AI grifters",
+      "context": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […] This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "publishedAt": "2026-08-29T12:00:00.000Z"
     }
   ]
 }

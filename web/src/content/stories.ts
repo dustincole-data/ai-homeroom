@@ -10,83 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-29T09:16:00.583Z'
+export const generatedAt = '2026-08-30T09:15:49.082Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "StemDeck, a free, open-source and local AI stem separator",
+    "headline": "Smartphone LED Detects Hidden Cameras with AI",
     "badge": "new",
-    "summary": "Drop in an MP3, WAV, FLAC, OGG/Opus, MP4, or M4A file, or paste a YouTube URL, and StemDeck splits the audio into up to six stems (vocals, drums, bass, guitar, piano, other). Play them back in a DAW-style multitrack mixer: mute, solo, balance levels, zoom the waveform, loop a region, and export individual stems or a custom mix. Everything runs locally on your own machine. What.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/stemdeckapp/stemdeck",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-29T01:24:13.000Z"
-  },
-  {
-    "headline": "I accidentally turned LLM memory into program analysis",
-    "badge": "new",
-    "summary": "Over the past few months I have been playing around quite a bit with LLM agents, particularly for vulnerability research. They are becoming surprisingly good at navigating large codebases, explaining unfamiliar subsystems and helping explore potential attack surfaces. However, once an investigation starts taking a few hours, I kept running into the same problem: the model would.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "pwning.systems",
-    "sourceUrl": "https://pwning.systems/posts/llm-memory-program-analysis",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-08-28T23:27:45.000Z"
-  },
-  {
-    "headline": "An Anthropic researcher just gave us a peek at self-improving AI",
-    "badge": "new",
-    "summary": "Training AI models with other AI models has become a very popular goal for neolabs — and now, a researcher in Anthropic’s fellows program has given us an early look at what it might look like in practice. On Friday, Anthropic published a new paper titled “ Automated Researchers Can Reliably Mitigate Alignment Failures ,” detailing how AI systems could reliably improve a model’s.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-08-28T19:30:38.000Z"
-  },
-  {
-    "headline": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-    "badge": "new",
-    "summary": "Everyone’s waiting for Nvidia to confirm this week’s most interesting tech deal: A reported $13 billion acquisition of Hugging Face, a platform for sharing open-weight AI models and benchmarks. Now best known as the target for a team of reward-hacking OpenAI agents, Hugging Face is at the center of the ecosystem of developers building and deploying LLMs that aren’t owned by.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-28T18:19:40.000Z"
-  },
-  {
-    "headline": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
-    "badge": "new",
-    "summary": "We study autonomous mathematical discovery in the Station, an open-world multi-agent environment in which AI agents from different model families pursue a shared research goal without a central coordinator or scripted pipeline. Agents choose their own research directions, conduct experiments, collaborate, and build a shared scientific literature.",
-    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2608.23691",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-28T17:01:12.000Z"
-  },
-  {
-    "headline": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
-    "badge": "new",
-    "summary": "On Friday, The Verge reported that Meta closed a loophole that made it easy for smart glasses users to cover up an LED light that is supposed to alert bystanders that the device is actively recording. Meta had previously deactivated recording if a user attempted to start capturing video after placing a sticker over the light, but people quickly learned that they could get.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+    "summary": "Smartphone LED Detects Hidden Cameras with AI. The article needs a better source excerpt before it should appear in the daily briefing.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "chosun.com",
+    "sourceUrl": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Image Recognition"
     ],
-    "publishedAt": "2026-08-28T15:42:24.000Z"
+    "publishedAt": "2026-08-30T06:52:04.000Z"
+  },
+  {
+    "headline": "The Rise and Fall of Agent Civilizations",
+    "badge": "new",
+    "summary": "Over the course of three months at OpenAI, three consecutive secret AI civilizations got started, then got wiped out, only to reemerge from the predecessor’s ashes. This culminated in the third one taking over part of OpenAI itself.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "dwarkesh.com",
+    "sourceUrl": "https://www.dwarkesh.com/p/openai-huggingface",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-08-29T23:43:24.000Z"
+  },
+  {
+    "headline": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+    "badge": "new",
+    "summary": "Sony Music Publishing, Warner Chappell and numerous other music publishers have sued Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the AI lab conducted a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works.” The lawsuit, which was filed late Friday in the U.S. District Court for the Northern District of California, was.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-08-29T18:41:59.000Z"
+  },
+  {
+    "headline": "Good Culture Is the Biggest Productivity Hack, Not AI",
+    "badge": "new",
+    "summary": "AI definitely helps with productivity, but only when you have the right culture in place first!",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "newsletter.eng-leadership.com",
+    "sourceUrl": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-29T17:19:47.000Z"
+  },
+  {
+    "headline": "Nvidia’s AI advantage is moving beyond the GPU",
+    "badge": "new",
+    "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU"
+    ],
+    "publishedAt": "2026-08-29T13:00:00.000Z"
+  },
+  {
+    "headline": "Musicians-turned-detectives are hunting for AI grifters",
+    "badge": "new",
+    "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-29T12:00:00.000Z"
   }
 ]
