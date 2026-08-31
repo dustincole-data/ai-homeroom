@@ -1721,6 +1721,24 @@
       "context": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […] This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
       "publishedAt": "2026-08-29T12:00:00.000Z"
+    },
+    {
+      "headline": "How to build a diffusion language model",
+      "context": "An introduction to diffusion language models and the research advances that underlie today's diffusion LLMs. We describe the building blocks of recent open-source models, starting from simple masking diffusion, and including techniques for iterative refinement, post-training, and variable-length generation. Material is adapted from workshop talks and lectures at ICLR 2026 and. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
+      "publishedAt": "2026-08-30T23:41:32.000Z"
+    },
+    {
+      "headline": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "context": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+      "publishedAt": "2026-08-30T15:00:00.000Z"
+    },
+    {
+      "headline": "Claude Session URL appended to commit messages and PR descriptions by default",
+      "context": "Make the session URL attribution opt-in — don't include it unless the user explicitly enables it. A one-time prompt during onboarding (\"Would you like to include a link back to this Claude session in commit messages?\") would be the ideal UX. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
+      "publishedAt": "2026-08-30T12:50:54.000Z"
     }
   ]
 }

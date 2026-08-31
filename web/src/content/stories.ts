@@ -10,83 +10,48 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-30T09:15:49.082Z'
+export const generatedAt = '2026-08-31T09:15:54.331Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Smartphone LED Detects Hidden Cameras with AI",
+    "headline": "How to build a diffusion language model",
     "badge": "new",
-    "summary": "Smartphone LED Detects Hidden Cameras with AI. The article needs a better source excerpt before it should appear in the daily briefing.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "chosun.com",
-    "sourceUrl": "https://www.chosun.com/english/industry-en/2026/08/30/SBFXUIJQYZEARKP5T4FBAY25HQ",
+    "summary": "An introduction to diffusion language models and the research advances that underlie today's diffusion LLMs. We describe the building blocks of recent open-source models, starting from simple masking diffusion, and including techniques for iterative refinement, post-training, and variable-length generation. Material is adapted from workshop talks and lectures at ICLR 2026 and.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "kuleshov-group.github.io",
+    "sourceUrl": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Image Recognition"
+      "Model"
     ],
-    "publishedAt": "2026-08-30T06:52:04.000Z"
+    "publishedAt": "2026-08-30T23:41:32.000Z"
   },
   {
-    "headline": "The Rise and Fall of Agent Civilizations",
+    "headline": "Caterpillar is bringing to AI deployment what it learned from automating mining",
     "badge": "new",
-    "summary": "Over the course of three months at OpenAI, three consecutive secret AI civilizations got started, then got wiped out, only to reemerge from the predecessor’s ashes. This culminated in the third one taking over part of OpenAI itself.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "dwarkesh.com",
-    "sourceUrl": "https://www.dwarkesh.com/p/openai-huggingface",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-08-29T23:43:24.000Z"
-  },
-  {
-    "headline": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
-    "badge": "new",
-    "summary": "Sony Music Publishing, Warner Chappell and numerous other music publishers have sued Anthropic and co-founders Dario Amodei and Benjamin Mann, alleging the AI lab conducted a “brazen campaign of illegally torrenting, scraping, and downloading copyrighted works.” The lawsuit, which was filed late Friday in the U.S. District Court for the Northern District of California, was.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-08-29T18:41:59.000Z"
-  },
-  {
-    "headline": "Good Culture Is the Biggest Productivity Hack, Not AI",
-    "badge": "new",
-    "summary": "AI definitely helps with productivity, but only when you have the right culture in place first!",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "newsletter.eng-leadership.com",
-    "sourceUrl": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-29T17:19:47.000Z"
-  },
-  {
-    "headline": "Nvidia’s AI advantage is moving beyond the GPU",
-    "badge": "new",
-    "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
-    ],
-    "publishedAt": "2026-08-29T13:00:00.000Z"
-  },
-  {
-    "headline": "Musicians-turned-detectives are hunting for AI grifters",
-    "badge": "new",
-    "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
+    "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-29T12:00:00.000Z"
+    "publishedAt": "2026-08-30T15:00:00.000Z"
+  },
+  {
+    "headline": "Claude Session URL appended to commit messages and PR descriptions by default",
+    "badge": "new",
+    "summary": "Make the session URL attribution opt-in — don't include it unless the user explicitly enables it. A one-time prompt during onboarding (\"Would you like to include a link back to this Claude session in commit messages?\") would be the ideal UX.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "Model",
+      "Tool"
+    ],
+    "publishedAt": "2026-08-30T12:50:54.000Z"
   }
 ]
