@@ -10,48 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-08-31T09:15:54.331Z'
+export const generatedAt = '2026-09-01T09:16:07.803Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "How to build a diffusion language model",
+    "headline": "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
     "badge": "new",
-    "summary": "An introduction to diffusion language models and the research advances that underlie today's diffusion LLMs. We describe the building blocks of recent open-source models, starting from simple masking diffusion, and including techniques for iterative refinement, post-training, and variable-length generation. Material is adapted from workshop talks and lectures at ICLR 2026 and.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "kuleshov-group.github.io",
-    "sourceUrl": "https://kuleshov-group.github.io/blog/blog/2026/how-to-build-a-diffusion-language-model",
+    "summary": "Blog PRODUCTS Dolt Doltgres DoltLite Dumbo Hosted Dolt DoltHub DoltLab Dolt Workbench KEYWORDS AI Use Case Reference Feature Release Golang Integration Performance Technical Web Dataset DoltLite Feature Release DoltLite Beta Tim Sehn August 31, 2026 4 min read My baby is growing up. Just five months after launch , DoltLite is Beta, version 0.50.0 .",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "dolthub.com",
+    "sourceUrl": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-08-30T23:41:32.000Z"
+    "publishedAt": "2026-09-01T01:25:40.000Z"
   },
   {
-    "headline": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+    "headline": "The Pentagon now has its own version of ChatGPT and Grok",
     "badge": "new",
-    "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+    "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "xAI",
+      "Model"
+    ],
+    "publishedAt": "2026-08-31T20:13:45.000Z"
+  },
+  {
+    "headline": "Instagram puts new limits on undisclosed AI profiles",
+    "badge": "new",
+    "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-30T15:00:00.000Z"
+    "publishedAt": "2026-08-31T19:16:59.000Z"
   },
   {
-    "headline": "Claude Session URL appended to commit messages and PR descriptions by default",
+    "headline": "The safest job from AI may be writing",
     "badge": "new",
-    "summary": "Make the session URL attribution opt-in — don't include it unless the user explicitly enables it. A one-time prompt during onboarding (\"Would you like to include a link back to this Claude session in commit messages?\") would be the ideal UX.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
+    "summary": "On distributed systems broadly defined and other curiosities. The opinions on this site are my own. Today, tech folk are scrambling to change their workflows to meet newly inflated 5X productivity quotas, while getting pummeled under the cognitive debt of agent-generated code. With every new model release, the gap is widening and humans are becoming more of a bottleneck in the.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "muratbuffalo.blogspot.com",
+    "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model",
-      "Tool"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-30T12:50:54.000Z"
+    "publishedAt": "2026-08-31T18:12:20.000Z"
+  },
+  {
+    "headline": "Clipto uses AI to search terabytes of video and is now valued at $250M",
+    "badge": "new",
+    "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-31T16:00:00.000Z"
+  },
+  {
+    "headline": "Debian won’t ban AI code from its Linux distribution",
+    "badge": "new",
+    "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already […]",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-08-31T15:34:58.000Z"
   }
 ]
