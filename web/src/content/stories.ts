@@ -10,83 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-01T09:16:07.803Z'
+export const generatedAt = '2026-09-03T09:15:39.176Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "DoltLite: A SQLite fork with Git-style version control, built with 2k agent PRs",
+    "headline": "Go grandmaster Shin defeats AI KataGo in historic human victory",
     "badge": "new",
-    "summary": "Blog PRODUCTS Dolt Doltgres DoltLite Dumbo Hosted Dolt DoltHub DoltLab Dolt Workbench KEYWORDS AI Use Case Reference Feature Release Golang Integration Performance Technical Web Dataset DoltLite Feature Release DoltLite Beta Tim Sehn August 31, 2026 4 min read My baby is growing up. Just five months after launch , DoltLite is Beta, version 0.50.0 .",
+    "summary": "Shin Jin-seo, the world's top-ranked Go player, on Tuesday completed a dramatic comeback against the world’s premier artificial intelligence Go engine, KataGo, claiming a historic human victory over AI. Shin, who holds the game's highest achievable rank of nine-dan, dealt KataGo a decisive 11.5-point defeat playing black in 221 moves in the series finale, which took three hours.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "dolthub.com",
-    "sourceUrl": "https://www.dolthub.com/blog/2026-08-31-doltlite-beta",
+    "sourceName": "kedglobal.com",
+    "sourceUrl": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-01T01:25:40.000Z"
+    "publishedAt": "2026-09-03T01:11:22.000Z"
   },
   {
-    "headline": "The Pentagon now has its own version of ChatGPT and Grok",
+    "headline": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
     "badge": "new",
-    "summary": "Versions of OpenAI's ChatGPT and SpaceXAI's Grok will join Google's Gemini on the Pentagon's central portal for AI tools.",
+    "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok",
+    "sourceName": "techcrunch.com",
+    "sourceUrl": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
-      "xAI",
       "Model"
     ],
-    "publishedAt": "2026-08-31T20:13:45.000Z"
+    "publishedAt": "2026-09-03T00:54:01.000Z"
   },
   {
-    "headline": "Instagram puts new limits on undisclosed AI profiles",
+    "headline": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
     "badge": "new",
-    "summary": "As frustration over AI influencers has been growing, Instagram is limiting the reach of undisclosed AI profiles.",
+    "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/31/instagram-puts-new-limits-on-undisclosed-ai-profiles",
+    "sourceUrl": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "GPU"
     ],
-    "publishedAt": "2026-08-31T19:16:59.000Z"
+    "publishedAt": "2026-09-02T22:24:09.000Z"
   },
   {
-    "headline": "The safest job from AI may be writing",
+    "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
     "badge": "new",
-    "summary": "On distributed systems broadly defined and other curiosities. The opinions on this site are my own. Today, tech folk are scrambling to change their workflows to meet newly inflated 5X productivity quotas, while getting pummeled under the cognitive debt of agent-generated code. With every new model release, the gap is widening and humans are becoming more of a bottleneck in the.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "muratbuffalo.blogspot.com",
-    "sourceUrl": "http://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-08-31T18:12:20.000Z"
-  },
-  {
-    "headline": "Clipto uses AI to search terabytes of video and is now valued at $250M",
-    "badge": "new",
-    "summary": "The three-year-old startup says it reached $15 million in ARR and profitability before raising its latest $15 million round.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation",
+    "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "AI Safety"
     ],
-    "publishedAt": "2026-08-31T16:00:00.000Z"
+    "publishedAt": "2026-09-02T20:19:14.000Z"
   },
   {
-    "headline": "Debian won’t ban AI code from its Linux distribution",
+    "headline": "AI is stopping startups from completing puberty",
     "badge": "new",
-    "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject to special rules beyond the standards already […]",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy",
+    "summary": "Puberty is that in-between bit between seed stage and a startup working out what it actually needs to be in order to thrive. If you've been in a seed or Series A or B startup, or even an early stage product in a larger company, you will likely",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "ashley.rolfmore.com",
+    "sourceUrl": "https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-08-31T15:34:58.000Z"
+    "publishedAt": "2026-09-02T18:06:14.000Z"
+  },
+  {
+    "headline": "Amazon’s AI assistant can now spot fake emails from the company",
+    "badge": "new",
+    "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-02T17:52:56.000Z"
   }
 ]
