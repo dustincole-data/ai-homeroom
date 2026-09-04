@@ -1811,6 +1811,42 @@
       "context": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
       "publishedAt": "2026-09-02T17:52:56.000Z"
+    },
+    {
+      "headline": "The sameness problem behind those unappetizing AI-generated menus",
+      "context": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "publishedAt": "2026-09-04T04:21:03.000Z"
+    },
+    {
+      "headline": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
+      "context": "A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. A .gov website belongs to an official government organization in the United States. A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+      "publishedAt": "2026-09-03T23:14:00.000Z"
+    },
+    {
+      "headline": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+      "context": "Summary GPT-6 Astra scores 62.7% for $26K on ARC-AGI-3 Semi-Private with our Standard harness Standard harness enables a model to carry forward notes it chooses to keep with it throughout the environment. , and 99.9% for $19K with a Provider Adapter harness The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arcprize.org/blog/astra",
+      "publishedAt": "2026-09-03T19:45:00.000Z"
+    },
+    {
+      "headline": "Abliteration.ai is making a business out of removing AI guardrails",
+      "context": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+      "publishedAt": "2026-09-03T18:37:57.000Z"
+    },
+    {
+      "headline": "Four major AI models suffer rare overlapping downtime",
+      "context": "Anthropic first reported a “partial outage” related to “elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5” at 9:23 am (all times Eastern). The company reported that it had “identified the cause” of the error roughly 15 minutes later, before reporting that “a fix has been deployed” and the issue was resolved by 12:16 pm. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+      "publishedAt": "2026-09-03T18:10:19.000Z"
+    },
+    {
+      "headline": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "context": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "publishedAt": "2026-09-03T18:00:00.000Z"
     }
   ]
 }

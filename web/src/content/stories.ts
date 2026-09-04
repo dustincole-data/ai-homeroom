@@ -10,84 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-03T09:15:39.176Z'
+export const generatedAt = '2026-09-04T09:16:50.302Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Go grandmaster Shin defeats AI KataGo in historic human victory",
+    "headline": "The sameness problem behind those unappetizing AI-generated menus",
     "badge": "new",
-    "summary": "Shin Jin-seo, the world's top-ranked Go player, on Tuesday completed a dramatic comeback against the world’s premier artificial intelligence Go engine, KataGo, claiming a historic human victory over AI. Shin, who holds the game's highest achievable rank of nine-dan, dealt KataGo a decisive 11.5-point defeat playing black in 221 moves in the series finale, which took three hours.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "kedglobal.com",
-    "sourceUrl": "https://www.kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+    "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-09-04T04:21:03.000Z"
+  },
+  {
+    "headline": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
+    "badge": "new",
+    "summary": "A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. A .gov website belongs to an official government organization in the United States. A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "nyc.gov",
+    "sourceUrl": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-03T01:11:22.000Z"
+    "publishedAt": "2026-09-03T23:14:00.000Z"
   },
   {
-    "headline": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
+    "headline": "OpenAI's GPT-6 Astra on ARC-AGI-3",
     "badge": "new",
-    "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "techcrunch.com",
-    "sourceUrl": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
+    "summary": "Summary GPT-6 Astra scores 62.7% for $26K on ARC-AGI-3 Semi-Private with our Standard harness Standard harness enables a model to carry forward notes it chooses to keep with it throughout the environment. , and 99.9% for $19K with a Provider Adapter harness The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "arcprize.org",
+    "sourceUrl": "https://arcprize.org/blog/astra",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-09-03T00:54:01.000Z"
+    "publishedAt": "2026-09-03T19:45:00.000Z"
   },
   {
-    "headline": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+    "headline": "Abliteration.ai is making a business out of removing AI guardrails",
     "badge": "new",
-    "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
-    ],
-    "publishedAt": "2026-09-02T22:24:09.000Z"
-  },
-  {
-    "headline": "OpenAI’s new reasoning technique alarms AI safety experts",
-    "badge": "new",
-    "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+    "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+    "sourceUrl": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Safety"
+    ],
+    "publishedAt": "2026-09-03T18:37:57.000Z"
+  },
+  {
+    "headline": "Four major AI models suffer rare overlapping downtime",
+    "badge": "new",
+    "summary": "Anthropic first reported a “partial outage” related to “elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5” at 9:23 am (all times Eastern). The company reported that it had “identified the cause” of the error roughly 15 minutes later, before reporting that “a fix has been deployed” and the issue was resolved by 12:16 pm.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model",
+      "Tool"
+    ],
+    "publishedAt": "2026-09-03T18:10:19.000Z"
+  },
+  {
+    "headline": "OpenAI’s next big AI model has ‘entered the AGI era’",
+    "badge": "new",
+    "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
-      "AI Safety"
+      "Model"
     ],
-    "publishedAt": "2026-09-02T20:19:14.000Z"
-  },
-  {
-    "headline": "AI is stopping startups from completing puberty",
-    "badge": "new",
-    "summary": "Puberty is that in-between bit between seed stage and a startup working out what it actually needs to be in order to thrive. If you've been in a seed or Series A or B startup, or even an early stage product in a larger company, you will likely",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "ashley.rolfmore.com",
-    "sourceUrl": "https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-02T18:06:14.000Z"
-  },
-  {
-    "headline": "Amazon’s AI assistant can now spot fake emails from the company",
-    "badge": "new",
-    "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-02T17:52:56.000Z"
+    "publishedAt": "2026-09-03T18:00:00.000Z"
   }
 ]
