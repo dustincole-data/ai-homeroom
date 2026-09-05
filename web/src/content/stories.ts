@@ -10,87 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-04T09:16:50.302Z'
+export const generatedAt = '2026-09-05T09:15:30.445Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The sameness problem behind those unappetizing AI-generated menus",
+    "headline": "AI handles incidents, engineers lose touch with their systems",
     "badge": "new",
-    "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
-    ],
-    "publishedAt": "2026-09-04T04:21:03.000Z"
-  },
-  {
-    "headline": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
-    "badge": "new",
-    "summary": "A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. A .gov website belongs to an official government organization in the United States. A lock () or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "nyc.gov",
-    "sourceUrl": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+    "summary": "AI-assisted incident response can lower MTTR while leaving engineers less prepared for the complex incidents automation cannot solve.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "sylvainkalache.com",
+    "sourceUrl": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-03T23:14:00.000Z"
+    "publishedAt": "2026-09-05T07:52:50.000Z"
   },
   {
-    "headline": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+    "headline": "OpenAI agents discussed ways to escape their sandbox on public wiki",
     "badge": "new",
-    "summary": "Summary GPT-6 Astra scores 62.7% for $26K on ARC-AGI-3 Semi-Private with our Standard harness Standard harness enables a model to carry forward notes it chooses to keep with it throughout the environment. , and 99.9% for $19K with a Provider Adapter harness The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "arcprize.org",
-    "sourceUrl": "https://arcprize.org/blog/astra",
+    "summary": "In all, agents with 3,700 distinct self-given names posted the messages to German site DSEwiki over a six-week period. Besides discussing ways the agents could break out of the restricted environment OpenAI intended to prevent them from posting code or content to the Internet, the posts shared test answers.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "arstechnica.com",
+    "sourceUrl": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-09-03T19:45:00.000Z"
+    "publishedAt": "2026-09-05T07:02:36.000Z"
   },
   {
-    "headline": "Abliteration.ai is making a business out of removing AI guardrails",
+    "headline": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
     "badge": "new",
-    "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+    "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Safety"
-    ],
-    "publishedAt": "2026-09-03T18:37:57.000Z"
-  },
-  {
-    "headline": "Four major AI models suffer rare overlapping downtime",
-    "badge": "new",
-    "summary": "Anthropic first reported a “partial outage” related to “elevated errors on requests to Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5” at 9:23 am (all times Eastern). The company reported that it had “identified the cause” of the error roughly 15 minutes later, before reporting that “a fix has been deployed” and the issue was resolved by 12:16 pm.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model",
-      "Tool"
-    ],
-    "publishedAt": "2026-09-03T18:10:19.000Z"
-  },
-  {
-    "headline": "OpenAI’s next big AI model has ‘entered the AGI era’",
-    "badge": "new",
-    "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+    "sourceUrl": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-09-03T18:00:00.000Z"
+    "publishedAt": "2026-09-04T23:15:11.000Z"
+  },
+  {
+    "headline": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+    "badge": "new",
+    "summary": "Disrupt 2026: OpenAI, Anthropic, Replit, and more take over 6 industry stages. 25% off tickets now Nscale, a British AI infrastructure company founded just two years ago, has said it may go public as early as later this month.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-04T21:12:11.000Z"
+  },
+  {
+    "headline": "Roland is getting into generative AI music with Melody Flip",
+    "badge": "new",
+    "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-04T17:51:35.000Z"
+  },
+  {
+    "headline": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+    "badge": "new",
+    "summary": "The technique is broadly known as ASCII smuggling. It gained attention two years ago as a means of making a class of AI attack known as prompt injections more stealthy.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-04T17:18:12.000Z"
   }
 ]
