@@ -1883,6 +1883,12 @@
       "context": "The technique is broadly known as ASCII smuggling. It gained attention two years ago as a means of making a class of AI attack known as prompt injections more stealthy. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
       "publishedAt": "2026-09-04T17:18:12.000Z"
+    },
+    {
+      "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "context": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+      "publishedAt": "2026-09-05T22:49:55.000Z"
     }
   ]
 }

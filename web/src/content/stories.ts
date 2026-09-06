@@ -10,83 +10,20 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-05T09:15:30.445Z'
+export const generatedAt = '2026-09-06T09:15:23.304Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "AI handles incidents, engineers lose touch with their systems",
+    "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
     "badge": "new",
-    "summary": "AI-assisted incident response can lower MTTR while leaving engineers less prepared for the complex incidents automation cannot solve.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "sylvainkalache.com",
-    "sourceUrl": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-05T07:52:50.000Z"
-  },
-  {
-    "headline": "OpenAI agents discussed ways to escape their sandbox on public wiki",
-    "badge": "new",
-    "summary": "In all, agents with 3,700 distinct self-given names posted the messages to German site DSEwiki over a six-week period. Besides discussing ways the agents could break out of the restricted environment OpenAI intended to prevent them from posting code or content to the Internet, the posts shared test answers.",
+    "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "arstechnica.com",
-    "sourceUrl": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Agent"
+      "Chatbot"
     ],
-    "publishedAt": "2026-09-05T07:02:36.000Z"
-  },
-  {
-    "headline": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
-    "badge": "new",
-    "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-09-04T23:15:11.000Z"
-  },
-  {
-    "headline": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-    "badge": "new",
-    "summary": "Disrupt 2026: OpenAI, Anthropic, Replit, and more take over 6 industry stages. 25% off tickets now Nscale, a British AI infrastructure company founded just two years ago, has said it may go public as early as later this month.",
-    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-04T21:12:11.000Z"
-  },
-  {
-    "headline": "Roland is getting into generative AI music with Melody Flip",
-    "badge": "new",
-    "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-04T17:51:35.000Z"
-  },
-  {
-    "headline": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
-    "badge": "new",
-    "summary": "The technique is broadly known as ASCII smuggling. It gained attention two years ago as a means of making a class of AI attack known as prompt injections more stealthy.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-04T17:18:12.000Z"
+    "publishedAt": "2026-09-05T22:49:55.000Z"
   }
 ]
