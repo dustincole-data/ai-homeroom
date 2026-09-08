@@ -10,20 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-06T09:15:23.304Z'
+export const generatedAt = '2026-09-08T09:15:31.170Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+    "headline": "UAE-based Falcon AI NSFW classifier among top global open-source models (2025)",
     "badge": "new",
-    "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+    "summary": "SO WHAT? - The rapid increase in downloads of Falcons AI’s open-source model underscores both community trust in the developer and the increasing global demand for robust AI-powered content moderation tools. Content moderation for online platforms and corporate environments is a big and growing use case which applies to a variety of domains from corporate governance, to media.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "middleeastainews.com",
+    "sourceUrl": "https://www.middleeastainews.com/p/uae-ai-model-tops-50-million-monthly",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Model"
     ],
-    "publishedAt": "2026-09-05T22:49:55.000Z"
+    "publishedAt": "2026-09-08T06:39:20.000Z"
+  },
+  {
+    "headline": "Mistral raises €3B",
+    "badge": "new",
+    "summary": "to make sovereign, open-weight AI the technology frontier Agentic Search. More accurate and efficient results from your AI systems.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "mistral.ai",
+    "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-08T05:06:23.000Z"
+  },
+  {
+    "headline": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+    "badge": "new",
+    "summary": "Arm Mali G2-Ultra NX brings AI-native graphics and neural acceleration to desktop-class mobile gaming.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "newsroom.arm.com",
+    "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU"
+    ],
+    "publishedAt": "2026-09-08T04:06:20.000Z"
+  },
+  {
+    "headline": "I tested 10 model/harness combinations on the same Three.js task",
+    "badge": "new",
+    "summary": "I've been testing a simple prompt with different model and harness combinations to work out which one produces best results. Prompt: Build a single-page Three.js sci-fi hangar with hovering drones, animated warning lights, emissive runway strips, and subtle volumetric-style fog planes.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "alvins82.github.io",
+    "sourceUrl": "https://alvins82.github.io/hangar-harness-model-tests",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-09-08T03:42:25.000Z"
+  },
+  {
+    "headline": "How well do agents use test/verification techniques?",
+    "badge": "new",
+    "summary": "We previously noted that, while it's easier than ever to hit a particular quality bar by having coding agents use effective test techniques, software quality seems to be getting worse , indicating that whatever defaults developers are using may not work very well. Here, we test if simple instructions to agents to use particular techniques or libraries improve implementation.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "danluu.com",
+    "sourceUrl": "https://danluu.com/agentic-testing",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-09-08T02:58:16.000Z"
+  },
+  {
+    "headline": "AI cancer cures slowed by chip shortage, says Arm boss",
+    "badge": "new",
+    "summary": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "bbc.com",
+    "sourceUrl": "https://www.bbc.com/news/articles/c0m39g7xzevo",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU"
+    ],
+    "publishedAt": "2026-09-08T02:12:13.000Z"
   }
 ]
