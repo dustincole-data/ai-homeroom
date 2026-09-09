@@ -1925,6 +1925,42 @@
       "context": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.bbc.com/news/articles/c0m39g7xzevo",
       "publishedAt": "2026-09-08T02:12:13.000Z"
+    },
+    {
+      "headline": "Hackers are stealing Claude tokens from subscribers",
+      "context": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+      "publishedAt": "2026-09-08T21:10:27.000Z"
+    },
+    {
+      "headline": "Tao: Open math problems being non-renewably mined by AI",
+      "context": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. This may seem unintuitive at first, since the set of possible problems one could ask is infinite. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://mathstodon.xyz/@tao/117237320796901560",
+      "publishedAt": "2026-09-08T21:00:52.000Z"
+    },
+    {
+      "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "context": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […] It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+      "publishedAt": "2026-09-08T20:53:52.000Z"
+    },
+    {
+      "headline": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+      "context": "In an investigation published Tuesday, the Tech Transparency Project (TTP) reported that Meta failed to detect 332 ads containing CSAM this year. The “vast majority” of ads promoted AI apps made in China, while many ads promoted so-called “nudify” apps that make it easy for bad actors to use AI and digitally alter images of children. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram",
+      "publishedAt": "2026-09-08T18:43:09.000Z"
+    },
+    {
+      "headline": "GrapheneOS on AI Usage",
+      "context": "GrapheneOS imposes a set of restrictions on how generative AI can be used in our project and community. It isn't forbidden but rather we imposed rules based on actual issues. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://grapheneos.social/@GrapheneOS/117236529351603001",
+      "publishedAt": "2026-09-08T18:00:58.000Z"
+    },
+    {
+      "headline": "Update to Google’s AI weather model improves forecast accuracy",
+      "context": "Google recently released version 3 of its WeatherNext model, with the biggest change being that it now ingests some satellite weather data, shortening the lag time between current weather conditions and generating a new forecast. The update is detailed in a white paper . AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+      "publishedAt": "2026-09-08T18:00:56.000Z"
     }
   ]
 }

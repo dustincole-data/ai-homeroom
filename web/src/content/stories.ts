@@ -10,84 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-08T09:15:31.170Z'
+export const generatedAt = '2026-09-09T09:16:11.245Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "UAE-based Falcon AI NSFW classifier among top global open-source models (2025)",
+    "headline": "Hackers are stealing Claude tokens from subscribers",
     "badge": "new",
-    "summary": "SO WHAT? - The rapid increase in downloads of Falcons AI’s open-source model underscores both community trust in the developer and the increasing global demand for robust AI-powered content moderation tools. Content moderation for online platforms and corporate environments is a big and growing use case which applies to a variety of domains from corporate governance, to media.",
+    "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "middleeastainews.com",
-    "sourceUrl": "https://www.middleeastainews.com/p/uae-ai-model-tops-50-million-monthly",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
       "Model"
     ],
-    "publishedAt": "2026-09-08T06:39:20.000Z"
+    "publishedAt": "2026-09-08T21:10:27.000Z"
   },
   {
-    "headline": "Mistral raises €3B",
+    "headline": "Tao: Open math problems being non-renewably mined by AI",
     "badge": "new",
-    "summary": "to make sovereign, open-weight AI the technology frontier Agentic Search. More accurate and efficient results from your AI systems.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "mistral.ai",
-    "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+    "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. This may seem unintuitive at first, since the set of possible problems one could ask is infinite.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "mathstodon.xyz",
+    "sourceUrl": "https://mathstodon.xyz/@tao/117237320796901560",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-08T05:06:23.000Z"
+    "publishedAt": "2026-09-08T21:00:52.000Z"
   },
   {
-    "headline": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+    "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
     "badge": "new",
-    "summary": "Arm Mali G2-Ultra NX brings AI-native graphics and neural acceleration to desktop-class mobile gaming.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "newsroom.arm.com",
-    "sourceUrl": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+    "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
+    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "GPU"
+      "Chatbot"
     ],
-    "publishedAt": "2026-09-08T04:06:20.000Z"
+    "publishedAt": "2026-09-08T20:53:52.000Z"
   },
   {
-    "headline": "I tested 10 model/harness combinations on the same Three.js task",
+    "headline": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
     "badge": "new",
-    "summary": "I've been testing a simple prompt with different model and harness combinations to work out which one produces best results. Prompt: Build a single-page Three.js sci-fi hangar with hovering drones, animated warning lights, emissive runway strips, and subtle volumetric-style fog planes.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "alvins82.github.io",
-    "sourceUrl": "https://alvins82.github.io/hangar-harness-model-tests",
+    "summary": "In an investigation published Tuesday, the Tech Transparency Project (TTP) reported that Meta failed to detect 332 ads containing CSAM this year. The “vast majority” of ads promoted AI apps made in China, while many ads promoted so-called “nudify” apps that make it easy for bad actors to use AI and digitally alter images of children.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-09-08T18:43:09.000Z"
+  },
+  {
+    "headline": "GrapheneOS on AI Usage",
+    "badge": "new",
+    "summary": "GrapheneOS imposes a set of restrictions on how generative AI can be used in our project and community. It isn't forbidden but rather we imposed rules based on actual issues.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "grapheneos.social",
+    "sourceUrl": "https://grapheneos.social/@GrapheneOS/117236529351603001",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-08T18:00:58.000Z"
+  },
+  {
+    "headline": "Update to Google’s AI weather model improves forecast accuracy",
+    "badge": "new",
+    "summary": "Google recently released version 3 of its WeatherNext model, with the biggest change being that it now ingests some satellite weather data, shortening the lag time between current weather conditions and generating a new forecast. The update is detailed in a white paper .",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind",
       "Model"
     ],
-    "publishedAt": "2026-09-08T03:42:25.000Z"
-  },
-  {
-    "headline": "How well do agents use test/verification techniques?",
-    "badge": "new",
-    "summary": "We previously noted that, while it's easier than ever to hit a particular quality bar by having coding agents use effective test techniques, software quality seems to be getting worse , indicating that whatever defaults developers are using may not work very well. Here, we test if simple instructions to agents to use particular techniques or libraries improve implementation.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "danluu.com",
-    "sourceUrl": "https://danluu.com/agentic-testing",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-09-08T02:58:16.000Z"
-  },
-  {
-    "headline": "AI cancer cures slowed by chip shortage, says Arm boss",
-    "badge": "new",
-    "summary": "Arm Holding's chief executive Rene Haas says artificial intelligence will find a solution to the disease.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "bbc.com",
-    "sourceUrl": "https://www.bbc.com/news/articles/c0m39g7xzevo",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
-    ],
-    "publishedAt": "2026-09-08T02:12:13.000Z"
+    "publishedAt": "2026-09-08T18:00:56.000Z"
   }
 ]
