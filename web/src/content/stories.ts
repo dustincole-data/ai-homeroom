@@ -10,86 +10,87 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-09T09:16:11.245Z'
+export const generatedAt = '2026-09-10T09:15:50.516Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Hackers are stealing Claude tokens from subscribers",
+    "headline": "Show HN: Botbin.io – pastebin for AI agent artifacts",
     "badge": "new",
-    "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers",
+    "summary": "Instant single-file HTML artifact publishing for AI agents. Render dashboards, interactive charts, and visual diffs without dumping raw HTML into chat.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "botbin.io",
+    "sourceUrl": "https://botbin.io/?v=next",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
+      "AI Agent"
     ],
-    "publishedAt": "2026-09-08T21:10:27.000Z"
+    "publishedAt": "2026-09-10T07:00:22.000Z"
   },
   {
-    "headline": "Tao: Open math problems being non-renewably mined by AI",
+    "headline": "OpenAI have no mathematicians capable of understanding what they put out",
     "badge": "new",
-    "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. This may seem unintuitive at first, since the set of possible problems one could ask is infinite.",
+    "summary": "Attached: 1 image Just to point something out to Open AI since they do not seem to have any mathematicians capable of understanding what they put out. They like to point out that their work was inspired by unforced Euler.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "mathstodon.xyz",
-    "sourceUrl": "https://mathstodon.xyz/@tao/117237320796901560",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-08T21:00:52.000Z"
-  },
-  {
-    "headline": "Drama swirls around OpenAI’s legendary mathematical milestone",
-    "badge": "new",
-    "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
-    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
+    "sourceName": "mastodon.social",
+    "sourceUrl": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-09-08T20:53:52.000Z"
+    "publishedAt": "2026-09-10T05:01:50.000Z"
   },
   {
-    "headline": "“This is the AI men actually use”: Meta ads pushed apps nudifying real teens",
+    "headline": "Busabase for DeepSeek Harness: An Agent database that runs apps and skills",
     "badge": "new",
-    "summary": "In an investigation published Tuesday, the Tech Transparency Project (TTP) reported that Meta failed to detect 332 ads containing CSAM this year. The “vast majority” of ads promoted AI apps made in China, while many ads promoted so-called “nudify” apps that make it easy for bad actors to use AI and digitally alter images of children.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/real-photos-of-young-girls-were-in-nudify-app-ads-on-facebook-instagram",
+    "summary": "@busabase/dsh-plugin connects DeepSeek Harness to Busabase , so an Agent can read trusted knowledge, work with structured data, and submit every proposed write for human review. It gives the Agent durable context beyond one chat without giving it permission to silently rewrite your source of truth.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/busabase/busabase-dsh-plugin",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Model",
+      "Training Data",
       "Tool"
     ],
-    "publishedAt": "2026-09-08T18:43:09.000Z"
+    "publishedAt": "2026-09-10T02:12:21.000Z"
   },
   {
-    "headline": "GrapheneOS on AI Usage",
+    "headline": "Training a 3.8B LLM to 0.384 CORE for $998",
     "badge": "new",
-    "summary": "GrapheneOS imposes a set of restrictions on how generative AI can be used in our project and community. It isn't forbidden but rather we imposed rules based on actual issues.",
+    "summary": "Created on September 04, 2026 Somewhere between “nanoGPT toy” and “you need a research lab” there’s a large, under-described region where one person with a few thousand dollars can train a meaningful model. I wanted to see language and understanding emerge from random weights for myself, and to learn the parts you can only learn by starting from scratch.",
     "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "grapheneos.social",
-    "sourceUrl": "https://grapheneos.social/@GrapheneOS/117236529351603001",
+    "sourceName": "hugovergnes.github.io",
+    "sourceUrl": "https://hugovergnes.github.io/little-lm-3-8b",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-09-10T02:04:11.000Z"
+  },
+  {
+    "headline": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+    "badge": "new",
+    "summary": "Creatures bred for speed grow really tall and generate high velocities by falling over. An evolved player makes invalid moves far away in the board, causing opponent players to run out of memory and crash. A game-playing agent accrues points by falsely inserting its name as the author of high-value items. These bizarre exploits and dozens more can be found in the list of.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "slimemoldtimemold.com",
+    "sourceUrl": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-08T18:00:58.000Z"
+    "publishedAt": "2026-09-10T01:59:51.000Z"
   },
   {
-    "headline": "Update to Google’s AI weather model improves forecast accuracy",
+    "headline": "OpenAI adds a prominent AI doomer to its board of directors",
     "badge": "new",
-    "summary": "Google recently released version 3 of its WeatherNext model, with the biggest change being that it now ingests some satellite weather data, shortening the lag time between current weather conditions and generating a new forecast. The update is detailed in a white paper .",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
+    "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind",
-      "Model"
+      "Chatbot"
     ],
-    "publishedAt": "2026-09-08T18:00:56.000Z"
+    "publishedAt": "2026-09-09T22:25:22.000Z"
   }
 ]

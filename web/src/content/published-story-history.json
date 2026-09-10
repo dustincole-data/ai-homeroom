@@ -1961,6 +1961,42 @@
       "context": "Google recently released version 3 of its WeatherNext model, with the biggest change being that it now ingests some satellite weather data, shortening the lag time between current weather conditions and generating a new forecast. The update is detailed in a white paper . AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
       "sourceUrl": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data",
       "publishedAt": "2026-09-08T18:00:56.000Z"
+    },
+    {
+      "headline": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+      "context": "Instant single-file HTML artifact publishing for AI agents. Render dashboards, interactive charts, and visual diffs without dumping raw HTML into chat. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://botbin.io/?v=next",
+      "publishedAt": "2026-09-10T07:00:22.000Z"
+    },
+    {
+      "headline": "OpenAI have no mathematicians capable of understanding what they put out",
+      "context": "Attached: 1 image Just to point something out to Open AI since they do not seem to have any mathematicians capable of understanding what they put out. They like to point out that their work was inspired by unforced Euler. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
+      "publishedAt": "2026-09-10T05:01:50.000Z"
+    },
+    {
+      "headline": "Busabase for DeepSeek Harness: An Agent database that runs apps and skills",
+      "context": "@busabase/dsh-plugin connects DeepSeek Harness to Busabase , so an Agent can read trusted knowledge, work with structured data, and submit every proposed write for human review. It gives the Agent durable context beyond one chat without giving it permission to silently rewrite your source of truth. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/busabase/busabase-dsh-plugin",
+      "publishedAt": "2026-09-10T02:12:21.000Z"
+    },
+    {
+      "headline": "Training a 3.8B LLM to 0.384 CORE for $998",
+      "context": "Created on September 04, 2026 Somewhere between “nanoGPT toy” and “you need a research lab” there’s a large, under-described region where one person with a few thousand dollars can train a meaningful model. I wanted to see language and understanding emerge from random weights for myself, and to learn the parts you can only learn by starting from scratch. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://hugovergnes.github.io/little-lm-3-8b",
+      "publishedAt": "2026-09-10T02:04:11.000Z"
+    },
+    {
+      "headline": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+      "context": "Creatures bred for speed grow really tall and generate high velocities by falling over. An evolved player makes invalid moves far away in the board, causing opponent players to run out of memory and crash. A game-playing agent accrues points by falsely inserting its name as the author of high-value items. These bizarre exploits and dozens more can be found in the list of. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours",
+      "publishedAt": "2026-09-10T01:59:51.000Z"
+    },
+    {
+      "headline": "OpenAI adds a prominent AI doomer to its board of directors",
+      "context": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
+      "publishedAt": "2026-09-09T22:25:22.000Z"
     }
   ]
 }
