@@ -10,87 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-10T09:15:50.516Z'
+export const generatedAt = '2026-09-11T09:15:49.095Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Show HN: Botbin.io – pastebin for AI agent artifacts",
+    "headline": "The Gemini app is now available for Windows",
     "badge": "new",
-    "summary": "Instant single-file HTML artifact publishing for AI agents. Render dashboards, interactive charts, and visual diffs without dumping raw HTML into chat.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "botbin.io",
-    "sourceUrl": "https://botbin.io/?v=next",
+    "summary": "The new Gemini app for Windows lets you access AI help with a simple keyboard shortcut, directly from your desktop. You can now download the Gemini app for Windows to get instant AI assistance directly on your desktop.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "blog.google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "DeepMind",
+      "Tool"
     ],
-    "publishedAt": "2026-09-10T07:00:22.000Z"
+    "publishedAt": "2026-09-11T04:52:20.000Z"
   },
   {
-    "headline": "OpenAI have no mathematicians capable of understanding what they put out",
+    "headline": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
     "badge": "new",
-    "summary": "Attached: 1 image Just to point something out to Open AI since they do not seem to have any mathematicians capable of understanding what they put out. They like to point out that their work was inspired by unforced Euler.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "mastodon.social",
-    "sourceUrl": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
+    "summary": "Back to school savings on Linux laptops and desktops through Sept. 10 Accelerate your AI development with Thelio Mira AI, System76's affordable, GPU-focused workstations, built for local AI development &mdash; so you can train, fine-tune, and iterate challenging AI workloads entirely on your own hardware.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "system76.com",
+    "sourceUrl": "https://system76.com/workstations/thelio-mira-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "GPU"
+    ],
+    "publishedAt": "2026-09-10T23:10:06.000Z"
+  },
+  {
+    "headline": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+    "badge": "new",
+    "summary": "Yesterday OpenAI announced a proof that settled a long-standing question about the Navier-Stokes equations from fluid dynamics. The announcement has created a lot of buzz, as one would expect.",
+    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+    "sourceName": "johndcook.com",
+    "sourceUrl": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-09-10T05:01:50.000Z"
+    "publishedAt": "2026-09-10T21:22:59.000Z"
   },
   {
-    "headline": "Busabase for DeepSeek Harness: An Agent database that runs apps and skills",
+    "headline": "OpenAI puts Pro subscriptions on hold due to Astra demand",
     "badge": "new",
-    "summary": "@busabase/dsh-plugin connects DeepSeek Harness to Busabase , so an Agent can read trusted knowledge, work with structured data, and submit every proposed write for human review. It gives the Agent durable context beyond one chat without giving it permission to silently rewrite your source of truth.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/busabase/busabase-dsh-plugin",
+    "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Model",
-      "Training Data",
-      "Tool"
+      "Chatbot"
     ],
-    "publishedAt": "2026-09-10T02:12:21.000Z"
+    "publishedAt": "2026-09-10T20:59:51.000Z"
   },
   {
-    "headline": "Training a 3.8B LLM to 0.384 CORE for $998",
+    "headline": "OpenAI Agents API",
     "badge": "new",
-    "summary": "Created on September 04, 2026 Somewhere between “nanoGPT toy” and “you need a research lab” there’s a large, under-described region where one person with a few thousand dollars can train a meaningful model. I wanted to see language and understanding emerge from random weights for myself, and to learn the parts you can only learn by starting from scratch.",
+    "summary": "ChatGPT Home API Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams can take on with ChatGPT or Codex Docs Use cases Training Resources ChatGPT Plugins Extend ChatGPT and Codex Workspace Agents Trigger published ChatGPT workspace agents Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources.",
     "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "hugovergnes.github.io",
-    "sourceUrl": "https://hugovergnes.github.io/little-lm-3-8b",
+    "sourceName": "developers.openai.com",
+    "sourceUrl": "https://developers.openai.com/api/docs/guides/agents-api/overview",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "Chatbot",
+      "AI Agent"
     ],
-    "publishedAt": "2026-09-10T02:04:11.000Z"
+    "publishedAt": "2026-09-10T19:43:22.000Z"
   },
   {
-    "headline": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+    "headline": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
     "badge": "new",
-    "summary": "Creatures bred for speed grow really tall and generate high velocities by falling over. An evolved player makes invalid moves far away in the board, causing opponent players to run out of memory and crash. A game-playing agent accrues points by falsely inserting its name as the author of high-value items. These bizarre exploits and dozens more can be found in the list of.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "slimemoldtimemold.com",
-    "sourceUrl": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours",
+    "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-10T01:59:51.000Z"
-  },
-  {
-    "headline": "OpenAI adds a prominent AI doomer to its board of directors",
-    "badge": "new",
-    "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-09-09T22:25:22.000Z"
+    "publishedAt": "2026-09-10T17:45:00.000Z"
   }
 ]
