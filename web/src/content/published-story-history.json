@@ -2033,6 +2033,42 @@
       "context": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
       "publishedAt": "2026-09-10T17:45:00.000Z"
+    },
+    {
+      "headline": "Anthropic's proposed AI watchdog METR has deep ties to Effective Altruism",
+      "context": "Anthropic’s CEO Dario Amodei says he has found an outside team that can regulate AI and make sure it doesn’t destroy the world — and it just so happens to have deep ties to his old housemate … Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://nypost.com/2026/09/15/business/anthropic-ceo-dario-amodeis-handpicked-ai-watchdog-has-deep-ties-to-effective-altruism-movement-a-complete-joke",
+      "publishedAt": "2026-09-16T08:13:23.000Z"
+    },
+    {
+      "headline": "Sanders: \"If AI is coming for workers, it should bring a 4-day workweek with it\"",
+      "context": "Bernie Sanders and Mark Takano want AI productivity gains to help deliver a 32-hour workweek without cuts to workers’ weekly pay or benefits. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://fortune.com/2026/09/15/bernie-sanders-ai-four-day-workweek-bill",
+      "publishedAt": "2026-09-16T07:13:41.000Z"
+    },
+    {
+      "headline": "Datamimic – don't let your coding agent invent its own test world",
+      "context": "Model-driven synthetic test data for CI/CD and analytics - deterministic, privacy-preserving, and domain-aware. Includes Python APIs, XML pipelines, and MCP/IDE integration to orchestrate realistic... This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/rapiddweller/datamimic",
+      "publishedAt": "2026-09-16T04:58:36.000Z"
+    },
+    {
+      "headline": "Stay discoverable in search while disallowing AI training",
+      "context": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+      "publishedAt": "2026-09-16T02:25:18.000Z"
+    },
+    {
+      "headline": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+      "context": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+      "publishedAt": "2026-09-16T00:20:39.000Z"
+    },
+    {
+      "headline": "AI and data centers are incredibly unpopular in every poll",
+      "context": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "publishedAt": "2026-09-15T23:34:25.000Z"
     }
   ]
 }

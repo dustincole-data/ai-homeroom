@@ -10,86 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-11T09:15:49.095Z'
+export const generatedAt = '2026-09-16T09:16:10.447Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The Gemini app is now available for Windows",
+    "headline": "Anthropic's proposed AI watchdog METR has deep ties to Effective Altruism",
     "badge": "new",
-    "summary": "The new Gemini app for Windows lets you access AI help with a simple keyboard shortcut, directly from your desktop. You can now download the Gemini app for Windows to get instant AI assistance directly on your desktop.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "blog.google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind",
-      "Tool"
-    ],
-    "publishedAt": "2026-09-11T04:52:20.000Z"
-  },
-  {
-    "headline": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
-    "badge": "new",
-    "summary": "Back to school savings on Linux laptops and desktops through Sept. 10 Accelerate your AI development with Thelio Mira AI, System76's affordable, GPU-focused workstations, built for local AI development &mdash; so you can train, fine-tune, and iterate challenging AI workloads entirely on your own hardware.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "system76.com",
-    "sourceUrl": "https://system76.com/workstations/thelio-mira-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "GPU"
-    ],
-    "publishedAt": "2026-09-10T23:10:06.000Z"
-  },
-  {
-    "headline": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
-    "badge": "new",
-    "summary": "Yesterday OpenAI announced a proof that settled a long-standing question about the Navier-Stokes equations from fluid dynamics. The announcement has created a lot of buzz, as one would expect.",
-    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
-    "sourceName": "johndcook.com",
-    "sourceUrl": "https://www.johndcook.com/blog/2026/09/09/formal-method-revolution",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-09-10T21:22:59.000Z"
-  },
-  {
-    "headline": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-    "badge": "new",
-    "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+    "summary": "Anthropic’s CEO Dario Amodei says he has found an outside team that can regulate AI and make sure it doesn’t destroy the world — and it just so happens to have deep ties to his old housemate …",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+    "sourceName": "nypost.com",
+    "sourceUrl": "https://nypost.com/2026/09/15/business/anthropic-ceo-dario-amodeis-handpicked-ai-watchdog-has-deep-ties-to-effective-altruism-movement-a-complete-joke",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Anthropic"
     ],
-    "publishedAt": "2026-09-10T20:59:51.000Z"
+    "publishedAt": "2026-09-16T08:13:23.000Z"
   },
   {
-    "headline": "OpenAI Agents API",
+    "headline": "Sanders: \"If AI is coming for workers, it should bring a 4-day workweek with it\"",
     "badge": "new",
-    "summary": "ChatGPT Home API Codex Docs Guides, concepts, and product docs for Codex Use cases Example workflows and tasks teams can take on with ChatGPT or Codex Docs Use cases Training Resources ChatGPT Plugins Extend ChatGPT and Codex Workspace Agents Trigger published ChatGPT workspace agents Commerce Build commerce flows in ChatGPT Ads Publish and measure ads in ChatGPT Resources.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "developers.openai.com",
-    "sourceUrl": "https://developers.openai.com/api/docs/guides/agents-api/overview",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-09-10T19:43:22.000Z"
-  },
-  {
-    "headline": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
-    "badge": "new",
-    "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+    "summary": "Bernie Sanders and Mark Takano want AI productivity gains to help deliver a 32-hour workweek without cuts to workers’ weekly pay or benefits.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "fortune.com",
+    "sourceUrl": "https://fortune.com/2026/09/15/bernie-sanders-ai-four-day-workweek-bill",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-10T17:45:00.000Z"
+    "publishedAt": "2026-09-16T07:13:41.000Z"
+  },
+  {
+    "headline": "Datamimic – don't let your coding agent invent its own test world",
+    "badge": "new",
+    "summary": "Model-driven synthetic test data for CI/CD and analytics - deterministic, privacy-preserving, and domain-aware. Includes Python APIs, XML pipelines, and MCP/IDE integration to orchestrate realistic...",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/rapiddweller/datamimic",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent",
+      "Training Data"
+    ],
+    "publishedAt": "2026-09-16T04:58:36.000Z"
+  },
+  {
+    "headline": "Stay discoverable in search while disallowing AI training",
+    "badge": "new",
+    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "blog.cloudflare.com",
+    "sourceUrl": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-16T02:25:18.000Z"
+  },
+  {
+    "headline": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+    "badge": "new",
+    "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Safety",
+      "GPU"
+    ],
+    "publishedAt": "2026-09-16T00:20:39.000Z"
+  },
+  {
+    "headline": "AI and data centers are incredibly unpopular in every poll",
+    "badge": "new",
+    "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Training Data"
+    ],
+    "publishedAt": "2026-09-15T23:34:25.000Z"
   }
 ]
