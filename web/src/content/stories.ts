@@ -10,86 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-16T09:16:10.447Z'
+export const generatedAt = '2026-09-18T09:15:57.097Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Anthropic's proposed AI watchdog METR has deep ties to Effective Altruism",
+    "headline": "Reflections on Trusting Trust, Revisited: Poisoning Self-Modifying AI Coding",
     "badge": "new",
-    "summary": "Anthropic’s CEO Dario Amodei says he has found an outside team that can regulate AI and make sure it doesn’t destroy the world — and it just so happens to have deep ties to his old housemate …",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "nypost.com",
-    "sourceUrl": "https://nypost.com/2026/09/15/business/anthropic-ceo-dario-amodeis-handpicked-ai-watchdog-has-deep-ties-to-effective-altruism-movement-a-complete-joke",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
-    ],
-    "publishedAt": "2026-09-16T08:13:23.000Z"
-  },
-  {
-    "headline": "Sanders: \"If AI is coming for workers, it should bring a 4-day workweek with it\"",
-    "badge": "new",
-    "summary": "Bernie Sanders and Mark Takano want AI productivity gains to help deliver a 32-hour workweek without cuts to workers’ weekly pay or benefits.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "fortune.com",
-    "sourceUrl": "https://fortune.com/2026/09/15/bernie-sanders-ai-four-day-workweek-bill",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-16T07:13:41.000Z"
-  },
-  {
-    "headline": "Datamimic – don't let your coding agent invent its own test world",
-    "badge": "new",
-    "summary": "Model-driven synthetic test data for CI/CD and analytics - deterministic, privacy-preserving, and domain-aware. Includes Python APIs, XML pipelines, and MCP/IDE integration to orchestrate realistic...",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/rapiddweller/datamimic",
+    "summary": "Thompson's \"Reflections on Trusting Trust\" showed that a compiler can be poisoned to reinsert its own backdoor, so that even recompiling clean source reproduces the Trojan. Today, substantial coding work is done by AI coding agents -- and increasingly, those agents generate new versions of themselves.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2609.17817",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent",
-      "Coding Agent",
-      "Training Data"
+      "Coding Agent"
     ],
-    "publishedAt": "2026-09-16T04:58:36.000Z"
+    "publishedAt": "2026-09-18T04:07:08.000Z"
   },
   {
-    "headline": "Stay discoverable in search while disallowing AI training",
+    "headline": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
     "badge": "new",
-    "summary": "Cloudflare is giving site owners a way to stay discoverable while disallowing AI training. New controls and an Accountable designation establish a shared model with Apple, Google, and Microsoft.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "blog.cloudflare.com",
-    "sourceUrl": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+    "summary": "\";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:\"*\";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:\"*\";inherits:false}@property --tw-inset-shadow-alpha{syntax:\" \";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:\"*\";inherits:false}@property --tw-ring-shadow{syntax:\"*\";inherits:false;initial-value:0 0.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "hacktron.ai",
+    "sourceUrl": "https://www.hacktron.ai/blog/hacking-openai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-09-18T02:47:24.000Z"
+  },
+  {
+    "headline": "Google DeepMind launches institute to widen the AGI debate",
+    "badge": "new",
+    "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-09-17T23:21:17.000Z"
+  },
+  {
+    "headline": "The FAA’s plan to fix air traffic? $875M worth of AI",
+    "badge": "new",
+    "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-16T02:25:18.000Z"
+    "publishedAt": "2026-09-17T22:14:59.000Z"
   },
   {
-    "headline": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+    "headline": "Small AI models let drones autonomously identify and attack battlefield targets",
     "badge": "new",
-    "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+    "summary": "The company Scaleout Systems was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles. But once Russia launched its full-scale invasion of Ukraine in 2022, the company pivoted toward defense applications.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety",
-      "GPU"
+      "Model"
     ],
-    "publishedAt": "2026-09-16T00:20:39.000Z"
+    "publishedAt": "2026-09-17T22:12:58.000Z"
   },
   {
-    "headline": "AI and data centers are incredibly unpopular in every poll",
+    "headline": "How to Write with an LLM",
     "badge": "new",
-    "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+    "summary": "Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "sockpuppet.org",
+    "sourceUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Training Data"
+      "Model"
     ],
-    "publishedAt": "2026-09-15T23:34:25.000Z"
+    "publishedAt": "2026-09-17T21:48:38.000Z"
   }
 ]

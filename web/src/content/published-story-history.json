@@ -2069,6 +2069,42 @@
       "context": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
       "publishedAt": "2026-09-15T23:34:25.000Z"
+    },
+    {
+      "headline": "Reflections on Trusting Trust, Revisited: Poisoning Self-Modifying AI Coding",
+      "context": "Thompson's \"Reflections on Trusting Trust\" showed that a compiler can be poisoned to reinsert its own backdoor, so that even recompiling clean source reproduces the Trojan. Today, substantial coding work is done by AI coding agents -- and increasingly, those agents generate new versions of themselves. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://arxiv.org/abs/2609.17817",
+      "publishedAt": "2026-09-18T04:07:08.000Z"
+    },
+    {
+      "headline": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
+      "context": "\";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:\"*\";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:\"*\";inherits:false}@property --tw-inset-shadow-alpha{syntax:\" \";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:\"*\";inherits:false}@property --tw-ring-shadow{syntax:\"*\";inherits:false;initial-value:0 0. This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+      "sourceUrl": "https://www.hacktron.ai/blog/hacking-openai",
+      "publishedAt": "2026-09-18T02:47:24.000Z"
+    },
+    {
+      "headline": "Google DeepMind launches institute to widen the AGI debate",
+      "context": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\" The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
+      "publishedAt": "2026-09-17T23:21:17.000Z"
+    },
+    {
+      "headline": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "context": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
+      "publishedAt": "2026-09-17T22:14:59.000Z"
+    },
+    {
+      "headline": "Small AI models let drones autonomously identify and attack battlefield targets",
+      "context": "The company Scaleout Systems was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles. But once Russia launched its full-scale invasion of Ukraine in 2022, the company pivoted toward defense applications. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions",
+      "publishedAt": "2026-09-17T22:12:58.000Z"
+    },
+    {
+      "headline": "How to Write with an LLM",
+      "context": "Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
+      "publishedAt": "2026-09-17T21:48:38.000Z"
     }
   ]
 }
