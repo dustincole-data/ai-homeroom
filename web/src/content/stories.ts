@@ -10,85 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-18T09:15:57.097Z'
+export const generatedAt = '2026-09-19T09:16:03.929Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Reflections on Trusting Trust, Revisited: Poisoning Self-Modifying AI Coding",
+    "headline": "EFF Statement on California Governor's Executive Order on AI",
     "badge": "new",
-    "summary": "Thompson's \"Reflections on Trusting Trust\" showed that a compiler can be poisoned to reinsert its own backdoor, so that even recompiling clean source reproduces the Trojan. Today, substantial coding work is done by AI coding agents -- and increasingly, those agents generate new versions of themselves.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "arxiv.org",
-    "sourceUrl": "https://arxiv.org/abs/2609.17817",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
-    ],
-    "publishedAt": "2026-09-18T04:07:08.000Z"
-  },
-  {
-    "headline": "A heap overflow and SSO misconfiguration to compromise OpenAI internal repos",
-    "badge": "new",
-    "summary": "\";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:\"*\";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:\"*\";inherits:false}@property --tw-inset-shadow-alpha{syntax:\" \";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:\"*\";inherits:false}@property --tw-ring-shadow{syntax:\"*\";inherits:false;initial-value:0 0.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "hacktron.ai",
-    "sourceUrl": "https://www.hacktron.ai/blog/hacking-openai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-09-18T02:47:24.000Z"
-  },
-  {
-    "headline": "Google DeepMind launches institute to widen the AGI debate",
-    "badge": "new",
-    "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "DeepMind"
-    ],
-    "publishedAt": "2026-09-17T23:21:17.000Z"
-  },
-  {
-    "headline": "The FAA’s plan to fix air traffic? $875M worth of AI",
-    "badge": "new",
-    "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai",
+    "summary": "California Gov. Gavin Newsom's executive order is an opportunity for a needed, thoughtful conversation about artificial intelligence and its potential harms. Everyday Californians are feeling real anxiety about the risks of artificial intelligence, and as an organization that works to ensure technology empowers people, EFF welcomes this order as a way for the state of.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "eff.org",
+    "sourceUrl": "https://www.eff.org/deeplinks/2026/09/eff-statement-california-governors-executive-order-ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-17T22:14:59.000Z"
+    "publishedAt": "2026-09-19T07:15:45.000Z"
   },
   {
-    "headline": "Small AI models let drones autonomously identify and attack battlefield targets",
+    "headline": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
     "badge": "new",
-    "summary": "The company Scaleout Systems was originally founded by researchers from Uppsala University in Sweden in 2018, and initially focused on training and deploying machine learning models directly on the hardware available in commercial trucks and other vehicles. But once Russia launched its full-scale invasion of Ukraine in 2022, the company pivoted toward defense applications.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions",
+    "summary": "No matter the company, AI chatbots were raving about the same guy named Elias Thorne. He must be pretty fascinating. And he is, at least on paper.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "vice.com",
+    "sourceUrl": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-19T07:13:10.000Z"
+  },
+  {
+    "headline": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
+    "badge": "new",
+    "summary": "Analysis of StepFun's Step 5 Preview and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "artificialanalysis.ai",
+    "sourceUrl": "https://artificialanalysis.ai/models/step-5",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-09-17T22:12:58.000Z"
+    "publishedAt": "2026-09-19T05:42:31.000Z"
   },
   {
-    "headline": "How to Write with an LLM",
+    "headline": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
     "badge": "new",
-    "summary": "Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "sockpuppet.org",
-    "sourceUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
+    "summary": "Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, according to a new study published in Science.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "scmp.com",
+    "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-09-17T21:48:38.000Z"
+    "publishedAt": "2026-09-18T23:54:42.000Z"
+  },
+  {
+    "headline": "Anthropic is operating a lab that conducts biology experiments",
+    "badge": "new",
+    "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-09-18T23:13:31.000Z"
+  },
+  {
+    "headline": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "badge": "new",
+    "summary": "Matthew S. Smith is a contributing editor for IEEE Spectrum and the former lead reviews editor at Digital Trends. OpenAI’s Jalapeño pairs its compute die with six stacks of HBM4 and an I/O chiplet. On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "spectrum.ieee.org",
+    "sourceUrl": "https://spectrum.ieee.org/llms-for-chip-design",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model",
+      "GPU"
+    ],
+    "publishedAt": "2026-09-18T23:04:17.000Z"
   }
 ]

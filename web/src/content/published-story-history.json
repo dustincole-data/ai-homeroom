@@ -2105,6 +2105,42 @@
       "context": "Two simple rules that let LLMs streamline and improve your writing without pasteurizing and jacking it with corn syrup. It’s tricky to write about writing. It comes across as a brag; you’re implying that you write well. Maybe you do, and maybe you don’t, but there’s for damned sure a quorum of critics on the Internet somewhere that think you suck at it. I’m vain and insecure. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
       "sourceUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
       "publishedAt": "2026-09-17T21:48:38.000Z"
+    },
+    {
+      "headline": "EFF Statement on California Governor's Executive Order on AI",
+      "context": "California Gov. Gavin Newsom's executive order is an opportunity for a needed, thoughtful conversation about artificial intelligence and its potential harms. Everyday Californians are feeling real anxiety about the risks of artificial intelligence, and as an organization that works to ensure technology empowers people, EFF welcomes this order as a way for the state of. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.eff.org/deeplinks/2026/09/eff-statement-california-governors-executive-order-ai",
+      "publishedAt": "2026-09-19T07:15:45.000Z"
+    },
+    {
+      "headline": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
+      "context": "No matter the company, AI chatbots were raving about the same guy named Elias Thorne. He must be pretty fascinating. And he is, at least on paper. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with",
+      "publishedAt": "2026-09-19T07:13:10.000Z"
+    },
+    {
+      "headline": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
+      "context": "Analysis of StepFun's Step 5 Preview and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://artificialanalysis.ai/models/step-5",
+      "publishedAt": "2026-09-19T05:42:31.000Z"
+    },
+    {
+      "headline": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+      "context": "Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, according to a new study published in Science. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+      "publishedAt": "2026-09-18T23:54:42.000Z"
+    },
+    {
+      "headline": "Anthropic is operating a lab that conducts biology experiments",
+      "context": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
+      "publishedAt": "2026-09-18T23:13:31.000Z"
+    },
+    {
+      "headline": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+      "context": "Matthew S. Smith is a contributing editor for IEEE Spectrum and the former lead reviews editor at Digital Trends. OpenAI’s Jalapeño pairs its compute die with six stacks of HBM4 and an I/O chiplet. On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://spectrum.ieee.org/llms-for-chip-design",
+      "publishedAt": "2026-09-18T23:04:17.000Z"
     }
   ]
 }
