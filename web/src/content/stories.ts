@@ -10,85 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-19T09:16:03.929Z'
+export const generatedAt = '2026-09-20T09:16:41.719Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "EFF Statement on California Governor's Executive Order on AI",
+    "headline": "KDE turns 30 and someone's brought an AI-native desktop proposal",
     "badge": "new",
-    "summary": "California Gov. Gavin Newsom's executive order is an opportunity for a needed, thoughtful conversation about artificial intelligence and its potential harms. Everyday Californians are feeling real anxiety about the risks of artificial intelligence, and as an organization that works to ensure technology empowers people, EFF welcomes this order as a way for the state of.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "eff.org",
-    "sourceUrl": "https://www.eff.org/deeplinks/2026/09/eff-statement-california-governors-executive-order-ai",
+    "summary": "Akademy talk imagines Plasma assembling itself around a personal model of each user KDE's annual conference takes place this weekend at Graz University of Technology in Austria, with an AI-native desktop proposal likely to divide attendees. The KDE project is celebrating its 30th anniversary this year, giving delegates at the Akademy conference in Graz another reason to raise a.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "theregister.com",
+    "sourceUrl": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-19T07:15:45.000Z"
+    "publishedAt": "2026-09-20T07:38:37.000Z"
   },
   {
-    "headline": "The Case of Elias Thorne, Imaginary Man AI Chatbots Are Obsessed With",
+    "headline": "Can you tell which images are AI-generated?",
     "badge": "new",
-    "summary": "No matter the company, AI chatbots were raving about the same guy named Elias Thorne. He must be pretty fascinating. And he is, at least on paper.",
+    "summary": "Choose Real photo or AI-generated with the buttons. On mobile, use Enlarge to inspect the image without accidentally answering.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "vice.com",
-    "sourceUrl": "https://www.vice.com/en/article/the-strange-case-of-elias-thorne-the-imaginary-man-ai-chatbots-are-obsessed-with",
+    "sourceName": "slop-sense.labtoagi.com",
+    "sourceUrl": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Image Recognition"
+    ],
+    "publishedAt": "2026-09-19T23:02:34.000Z"
+  },
+  {
+    "headline": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+    "badge": "new",
+    "summary": "Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Go beyond the headlines with expert reporting on the hardware industry.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "tomshardware.com",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-19T07:13:10.000Z"
+    "publishedAt": "2026-09-19T18:21:30.000Z"
   },
   {
-    "headline": "Stepfun Step 5 Preview (LLM): On AA Pareto frontier",
+    "headline": "Show HN: CUA-S1 – A System One Model for Computer Use",
     "badge": "new",
-    "summary": "Analysis of StepFun's Step 5 Preview and comparison to other AI models across key metrics including quality, price, performance (tokens per second & time to first token), context window & more.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "artificialanalysis.ai",
-    "sourceUrl": "https://artificialanalysis.ai/models/step-5",
+    "summary": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local decisions, like this.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/trycua/cua",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-09-19T05:42:31.000Z"
+    "publishedAt": "2026-09-19T15:52:51.000Z"
   },
   {
-    "headline": "Alibaba open-sources AI model that can detect cancer and nearly 150 conditions",
+    "headline": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
     "badge": "new",
-    "summary": "Tested on nearly 40,000 real-world exams, the model outperformed most radiologists, according to a new study published in Science.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "scmp.com",
-    "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-09-18T23:54:42.000Z"
-  },
-  {
-    "headline": "Anthropic is operating a lab that conducts biology experiments",
-    "badge": "new",
-    "summary": "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all.",
+    "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments",
+    "sourceUrl": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-18T23:13:31.000Z"
+    "publishedAt": "2026-09-19T15:00:00.000Z"
   },
   {
-    "headline": "How OpenAI Used Its Own LLMs to Design Its Jalapeño Chip",
+    "headline": "AI safety conversations have gotten unbelievable",
     "badge": "new",
-    "summary": "Matthew S. Smith is a contributing editor for IEEE Spectrum and the former lead reviews editor at Digital Trends. OpenAI’s Jalapeño pairs its compute die with six stacks of HBM4 and an I/O chiplet. On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "spectrum.ieee.org",
-    "sourceUrl": "https://spectrum.ieee.org/llms-for-chip-design",
+    "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model",
-      "GPU"
+      "AI Safety"
     ],
-    "publishedAt": "2026-09-18T23:04:17.000Z"
+    "publishedAt": "2026-09-19T15:00:00.000Z"
   }
 ]

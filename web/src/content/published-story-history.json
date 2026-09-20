@@ -2141,6 +2141,42 @@
       "context": "Matthew S. Smith is a contributing editor for IEEE Spectrum and the former lead reviews editor at Digital Trends. OpenAI’s Jalapeño pairs its compute die with six stacks of HBM4 and an I/O chiplet. On 25 August, OpenAI fully unveiled Jalapeño, the company’s debut AI accelerator chip. Jalapeño delivers up to 13.4 petaflops of 4-bit compute and accesses 232 gigabytes of the most. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://spectrum.ieee.org/llms-for-chip-design",
       "publishedAt": "2026-09-18T23:04:17.000Z"
+    },
+    {
+      "headline": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+      "context": "Akademy talk imagines Plasma assembling itself around a personal model of each user KDE's annual conference takes place this weekend at Graz University of Technology in Austria, with an AI-native desktop proposal likely to divide attendees. The KDE project is celebrating its 30th anniversary this year, giving delegates at the Akademy conference in Graz another reason to raise a. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+      "publishedAt": "2026-09-20T07:38:37.000Z"
+    },
+    {
+      "headline": "Can you tell which images are AI-generated?",
+      "context": "Choose Real photo or AI-generated with the buttons. On mobile, use Enlarge to inspect the image without accidentally answering. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
+      "publishedAt": "2026-09-19T23:02:34.000Z"
+    },
+    {
+      "headline": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+      "context": "Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Go beyond the headlines with expert reporting on the hardware industry. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+      "publishedAt": "2026-09-19T18:21:30.000Z"
+    },
+    {
+      "headline": "Show HN: CUA-S1 – A System One Model for Computer Use",
+      "context": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local decisions, like this. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://github.com/trycua/cua",
+      "publishedAt": "2026-09-19T15:52:51.000Z"
+    },
+    {
+      "headline": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+      "context": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+      "publishedAt": "2026-09-19T15:00:00.000Z"
+    },
+    {
+      "headline": "AI safety conversations have gotten unbelievable",
+      "context": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+      "publishedAt": "2026-09-19T15:00:00.000Z"
     }
   ]
 }
