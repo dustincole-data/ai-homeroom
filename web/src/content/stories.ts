@@ -10,82 +10,70 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-20T09:16:41.719Z'
+export const generatedAt = '2026-09-21T09:16:07.685Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+    "headline": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
     "badge": "new",
-    "summary": "Akademy talk imagines Plasma assembling itself around a personal model of each user KDE's annual conference takes place this weekend at Graz University of Technology in Austria, with an AI-native desktop proposal likely to divide attendees. The KDE project is celebrating its 30th anniversary this year, giving delegates at the Akademy conference in Graz another reason to raise a.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "theregister.com",
-    "sourceUrl": "https://www.theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-20T07:38:37.000Z"
-  },
-  {
-    "headline": "Can you tell which images are AI-generated?",
-    "badge": "new",
-    "summary": "Choose Real photo or AI-generated with the buttons. On mobile, use Enlarge to inspect the image without accidentally answering.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "slop-sense.labtoagi.com",
-    "sourceUrl": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Image Recognition"
-    ],
-    "publishedAt": "2026-09-19T23:02:34.000Z"
-  },
-  {
-    "headline": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
-    "badge": "new",
-    "summary": "Bench Performance Database Dive into our proprietary testing data and compare hardware with detailed benchmarks. Go beyond the headlines with expert reporting on the hardware industry.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "tomshardware.com",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-19T18:21:30.000Z"
-  },
-  {
-    "headline": "Show HN: CUA-S1 – A System One Model for Computer Use",
-    "badge": "new",
-    "summary": "Hello HN! We're Dillon and Francesco from Cua. We were wondering how many computer use tasks actually need a full general purpose LLM (e.g. gpt-6-astra, claude-opus-5 etc.) to think through all their decisions and steps. Some tasks require thinking about a plan, exploring different paths, recovering from failure. Other tasks are a question of making local decisions, like this.",
+    "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation.",
     "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
     "sourceName": "github.com",
-    "sourceUrl": "https://github.com/trycua/cua",
+    "sourceUrl": "https://github.com/volotat/mini-AGI",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-09-19T15:52:51.000Z"
+    "publishedAt": "2026-09-21T04:42:37.000Z"
   },
   {
-    "headline": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+    "headline": "World model companies are keeping a lot of secrets",
     "badge": "new",
-    "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+    "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+    "sourceUrl": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-09-20T20:29:07.000Z"
+  },
+  {
+    "headline": "Trump now says he wants to form an ‘AI Force’",
+    "badge": "new",
+    "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-19T15:00:00.000Z"
+    "publishedAt": "2026-09-20T15:39:22.000Z"
   },
   {
-    "headline": "AI safety conversations have gotten unbelievable",
+    "headline": "Show HN: A competition for small neural networks that play strategy games",
     "badge": "new",
-    "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+    "summary": "A ranked ladder for small neural networks that play strategy games. Train a model, write an adapter, upload two files, and get measured into a weight class from 8 KiB up.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "tinybrains.dev",
+    "sourceUrl": "https://tinybrains.dev",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-20T14:59:10.000Z"
+  },
+  {
+    "headline": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+    "badge": "new",
+    "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
     "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Safety"
     ],
-    "publishedAt": "2026-09-19T15:00:00.000Z"
+    "publishedAt": "2026-09-20T12:00:00.000Z"
   }
 ]
