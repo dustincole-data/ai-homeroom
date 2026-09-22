@@ -10,70 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-21T09:16:07.685Z'
+export const generatedAt = '2026-09-22T09:16:05.932Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+    "headline": "Can gzip be a language model?",
     "badge": "new",
-    "summary": "Sorry for the pretentious name, I know, I know.. It just contains all the pieces I would like to see a AGI model to have, and I can't stand the temptation.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/volotat/mini-AGI",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-09-21T04:42:37.000Z"
-  },
-  {
-    "headline": "World model companies are keeping a lot of secrets",
-    "badge": "new",
-    "summary": "Everyone in the world-models space is sitting on a pile of cash and a ton of buzz, but good luck getting anyone — from the founders to their own data suppliers — to tell you what they're actually building.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-09-20T20:29:07.000Z"
-  },
-  {
-    "headline": "Trump now says he wants to form an ‘AI Force’",
-    "badge": "new",
-    "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-20T15:39:22.000Z"
-  },
-  {
-    "headline": "Show HN: A competition for small neural networks that play strategy games",
-    "badge": "new",
-    "summary": "A ranked ladder for small neural networks that play strategy games. Train a model, write an adapter, upload two files, and get measured into a weight class from 8 KiB up.",
+    "summary": "A while back I wrote about language modeling without neural networks, where I generated Shakespeare with an unbounded n-gram model: no weights, no training, …",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "tinybrains.dev",
-    "sourceUrl": "https://tinybrains.dev",
+    "sourceName": "nathan.rs",
+    "sourceUrl": "https://nathan.rs/posts/gzip-lm",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-09-22T06:08:39.000Z"
+  },
+  {
+    "headline": "Why AI resembles a charismatic religious leader",
+    "badge": "new",
+    "summary": "AI can function as a charismatic figure without standing on a stage, establishing a church or gathering disciples, writes a scholar of religion.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "theconversation.com",
+    "sourceUrl": "https://theconversation.com/why-ai-resembles-a-charismatic-religious-leader-291831",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-20T14:59:10.000Z"
+    "publishedAt": "2026-09-22T05:38:17.000Z"
   },
   {
-    "headline": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+    "headline": "Jev introduces a new shape of LLM",
     "badge": "new",
-    "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+    "summary": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” …",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "simonwillison.net",
+    "sourceUrl": "https://simonwillison.net/2026/Sep/21/jev",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Safety"
+      "Model"
     ],
-    "publishedAt": "2026-09-20T12:00:00.000Z"
+    "publishedAt": "2026-09-22T04:38:31.000Z"
+  },
+  {
+    "headline": "California tightens rules on AI data center energy and water use",
+    "badge": "new",
+    "summary": "Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers while forcing them to pay for upgrades to […]",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Training Data"
+    ],
+    "publishedAt": "2026-09-21T20:29:45.000Z"
+  },
+  {
+    "headline": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+    "badge": "new",
+    "summary": "Agents have made it exponentially faster to ship code, but validating those changes hasn’t quite kept up at the same rate. Every PR still has to pass through CI, so as development accelerates, CI becomes a bottleneck, driving up infrastructure costs and leaving developers and agents waiting longer for feedback.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "linear.app",
+    "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent",
+      "Coding Agent"
+    ],
+    "publishedAt": "2026-09-21T19:23:33.000Z"
+  },
+  {
+    "headline": "The Advisory Group on Mathematics and Artificial Intelligence",
+    "badge": "new",
+    "summary": "This blog post was initially written in a different file format and converted using AI. — T.] We would …",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "terrytao.wordpress.com",
+    "sourceUrl": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-21T19:17:42.000Z"
   }
 ]

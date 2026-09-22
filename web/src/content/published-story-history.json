@@ -2207,6 +2207,42 @@
       "context": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
       "publishedAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "headline": "Can gzip be a language model?",
+      "context": "A while back I wrote about language modeling without neural networks, where I generated Shakespeare with an unbounded n-gram model: no weights, no training, … This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://nathan.rs/posts/gzip-lm",
+      "publishedAt": "2026-09-22T06:08:39.000Z"
+    },
+    {
+      "headline": "Why AI resembles a charismatic religious leader",
+      "context": "AI can function as a charismatic figure without standing on a stage, establishing a church or gathering disciples, writes a scholar of religion. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://theconversation.com/why-ai-resembles-a-charismatic-religious-leader-291831",
+      "publishedAt": "2026-09-22T05:38:17.000Z"
+    },
+    {
+      "headline": "Jev introduces a new shape of LLM",
+      "context": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” … Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://simonwillison.net/2026/Sep/21/jev",
+      "publishedAt": "2026-09-22T04:38:31.000Z"
+    },
+    {
+      "headline": "California tightens rules on AI data center energy and water use",
+      "context": "Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers while forcing them to pay for upgrades to […] AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "publishedAt": "2026-09-21T20:29:45.000Z"
+    },
+    {
+      "headline": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "context": "Agents have made it exponentially faster to ship code, but validating those changes hasn’t quite kept up at the same rate. Every PR still has to pass through CI, so as development accelerates, CI becomes a bottleneck, driving up infrastructure costs and leaving developers and agents waiting longer for feedback. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
+      "publishedAt": "2026-09-21T19:23:33.000Z"
+    },
+    {
+      "headline": "The Advisory Group on Mathematics and Artificial Intelligence",
+      "context": "This blog post was initially written in a different file format and converted using AI. — T.] We would … The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
+      "publishedAt": "2026-09-21T19:17:42.000Z"
     }
   ]
 }
