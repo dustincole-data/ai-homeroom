@@ -10,84 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-22T09:16:05.932Z'
+export const generatedAt = '2026-09-23T09:16:20.967Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Can gzip be a language model?",
+    "headline": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
     "badge": "new",
-    "summary": "A while back I wrote about language modeling without neural networks, where I generated Shakespeare with an unbounded n-gram model: no weights, no training, …",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "nathan.rs",
-    "sourceUrl": "https://nathan.rs/posts/gzip-lm",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-09-22T06:08:39.000Z"
-  },
-  {
-    "headline": "Why AI resembles a charismatic religious leader",
-    "badge": "new",
-    "summary": "AI can function as a charismatic figure without standing on a stage, establishing a church or gathering disciples, writes a scholar of religion.",
+    "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "theconversation.com",
-    "sourceUrl": "https://theconversation.com/why-ai-resembles-a-charismatic-religious-leader-291831",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-22T05:38:17.000Z"
+    "publishedAt": "2026-09-23T04:59:08.000Z"
   },
   {
-    "headline": "Jev introduces a new shape of LLM",
+    "headline": "OpenAI wants to consult elite mathematicians about how to not fumble again",
     "badge": "new",
-    "summary": "Last week TypeSafe AI unveiled Jev, their first example of a new category of model that they are calling “System One models” (I’m with Maggie Appleton, I think “decision models” …",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "simonwillison.net",
-    "sourceUrl": "https://simonwillison.net/2026/Sep/21/jev",
+    "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider […]",
+    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "Chatbot"
     ],
-    "publishedAt": "2026-09-22T04:38:31.000Z"
+    "publishedAt": "2026-09-23T00:17:17.000Z"
   },
   {
-    "headline": "California tightens rules on AI data center energy and water use",
+    "headline": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
     "badge": "new",
-    "summary": "Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times. The package of laws requires the California Public Utilities Commission to introduce a new rate classification for data centers while forcing them to pay for upgrades to […]",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+    "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-22T23:21:49.000Z"
+  },
+  {
+    "headline": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+    "badge": "new",
+    "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Training Data"
     ],
-    "publishedAt": "2026-09-21T20:29:45.000Z"
+    "publishedAt": "2026-09-22T21:56:43.000Z"
   },
   {
-    "headline": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+    "headline": "Rabbit’s new AI agent doesn’t need an R1 to run",
     "badge": "new",
-    "summary": "Agents have made it exponentially faster to ship code, but validating those changes hasn’t quite kept up at the same rate. Every PR still has to pass through CI, so as development accelerates, CI becomes a bottleneck, driving up infrastructure costs and leaving developers and agents waiting longer for feedback.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "linear.app",
-    "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
+    "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Coding Agent"
+      "AI Agent"
     ],
-    "publishedAt": "2026-09-21T19:23:33.000Z"
+    "publishedAt": "2026-09-22T20:52:40.000Z"
   },
   {
-    "headline": "The Advisory Group on Mathematics and Artificial Intelligence",
+    "headline": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
     "badge": "new",
-    "summary": "This blog post was initially written in a different file format and converted using AI. — T.] We would …",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "terrytao.wordpress.com",
-    "sourceUrl": "https://terrytao.wordpress.com/2026/09/21/advisory-group-on-mathematics-and-artificial-intelligence",
+    "summary": "Named EvilTokens, the platform was introduced over a Telegram channel in February and charged an initial $1,500 fee and a recurring $500 charge each month after that. EvilTokens provided a single service for streamlining most steps required to compromise email accounts in large numbers.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "Tool"
     ],
-    "publishedAt": "2026-09-21T19:17:42.000Z"
+    "publishedAt": "2026-09-22T19:45:47.000Z"
   }
 ]
