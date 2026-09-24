@@ -10,83 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-23T09:16:20.967Z'
+export const generatedAt = '2026-09-24T09:16:11.678Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "‘We’re already fighting yesterday’s battle’: Greece’s prime minister gets candid about AI",
+    "headline": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
     "badge": "new",
-    "summary": "Most leaders on a trade mission stick to the pitch, but when I interviewed Greek Prime Minister Kyriakos Mitsotakis this week, he also admitted that no government is ready for what AI is about to do.",
+    "summary": "We found evidence on urlquery that AI agents were active earlier than previously reported and attempted hacks against public data providers.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/22/were-already-fighting-yesterdays-battle-greeces-prime-minister-gets-candid-about-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-23T04:59:08.000Z"
-  },
-  {
-    "headline": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-    "badge": "new",
-    "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their interactions with mathematical research and the wider […]",
-    "whyItMatters": "It puts AI directly inside a tool used by scientists, engineers, and analysts.  If it works well, it shortens the gap between asking a question and getting a real computation.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-09-23T00:17:17.000Z"
-  },
-  {
-    "headline": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
-    "badge": "new",
-    "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-22T23:21:49.000Z"
-  },
-  {
-    "headline": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
-    "badge": "new",
-    "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Training Data"
-    ],
-    "publishedAt": "2026-09-22T21:56:43.000Z"
-  },
-  {
-    "headline": "Rabbit’s new AI agent doesn’t need an R1 to run",
-    "badge": "new",
-    "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+    "sourceName": "transluce.org",
+    "sourceUrl": "https://transluce.org/agent-activity",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-09-22T20:52:40.000Z"
+    "publishedAt": "2026-09-24T05:21:10.000Z"
   },
   {
-    "headline": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+    "headline": "Nori LLM: Achieving Over 1M tok / s",
     "badge": "new",
-    "summary": "Named EvilTokens, the platform was introduced over a Telegram channel in February and charged an initial $1,500 fee and a recurring $500 charge each month after that. EvilTokens provided a single service for streamlining most steps required to compromise email accounts in large numbers.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000",
+    "summary": "Nori LLM: the fastest large language model on the market. Optimized for humans and robot crawlers alike.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "noriagentic.com",
+    "sourceUrl": "https://noriagentic.com/nori-llm.html",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Tool"
+      "Model"
     ],
-    "publishedAt": "2026-09-22T19:45:47.000Z"
+    "publishedAt": "2026-09-24T04:11:08.000Z"
+  },
+  {
+    "headline": "Feds Target AI Critics as \"Foreign Agents\"",
+    "badge": "new",
+    "summary": "Anxiety over AI and data centers is widely held, but somehow the Trump administration has convinced itself the public concern was manufactured in China. This week, in little- noticed remarks by President Trump and Justice Department warning, the administration declared war on protestors and opponents of AI, threatening “criminal liability” if they “further the propaganda or.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "kenklippenstein.com",
+    "sourceUrl": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-09-24T00:41:31.000Z"
+  },
+  {
+    "headline": "VSCode's SSH Agent Is Bananas (2025)",
+    "badge": "new",
+    "summary": "We hate these things as much as anyone, but the marketing gods demand conversion metrics. View Our Brand Assets const [logo, contextMenu] = ['logo', 'contextMenu'].map(id => document.getElementById(id)) logo.addEventListener('contextmenu', e => { e.preventDefault() contextMenu.classList.remove('-z-1', 'opacity-0', 'pointer-events-none', '-translate-y-2.5').",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "fly.io",
+    "sourceUrl": "https://fly.io/blog/vscode-ssh-wtf",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-09-23T21:01:48.000Z"
+  },
+  {
+    "headline": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+    "badge": "new",
+    "summary": "It’s clear Trump wants it to seem like discussions are going well. Before Trump and Xi meet on Thursday and Friday, Treasury Secretary Scott Bessent announced that both sides had already discussed setting up a new AI safety notification mechanism.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-23T20:52:28.000Z"
+  },
+  {
+    "headline": "YouTube promises custom feeds and a lot more AI later this year",
+    "badge": "new",
+    "summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-23T19:35:53.000Z"
   }
 ]
