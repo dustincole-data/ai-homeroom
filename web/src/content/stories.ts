@@ -10,83 +10,82 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-24T09:16:11.678Z'
+export const generatedAt = '2026-09-25T09:15:57.927Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+    "headline": "SkillOpt: Training Loop for Agent Skills",
     "badge": "new",
-    "summary": "We found evidence on urlquery that AI agents were active earlier than previously reported and attempted hacks against public data providers.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "transluce.org",
-    "sourceUrl": "https://transluce.org/agent-activity",
+    "summary": "Executive Strategy for Self-Evolving Agent Skills. SkillOpt treats a compact natural-language skill document as the trainable state of a frozen language agent, then learns that document through rollouts, reflection, bounded edits, and held-out validation gates. Code Repo Paper Video Related project SkillLens studies model-generated agent skills. A companion project page from.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "microsoft.github.io",
+    "sourceUrl": "https://microsoft.github.io/SkillOpt",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-09-24T05:21:10.000Z"
+    "publishedAt": "2026-09-24T20:55:05.000Z"
   },
   {
-    "headline": "Nori LLM: Achieving Over 1M tok / s",
+    "headline": "Meta is going to let you build games with AI right on your phone",
     "badge": "new",
-    "summary": "Nori LLM: the fastest large language model on the market. Optimized for humans and robot crawlers alike.",
+    "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-24T17:52:29.000Z"
+  },
+  {
+    "headline": "Tutoring company tells parents to save their money and 'use AI instead'",
+    "badge": "new",
+    "summary": "A Sydney tutoring company will shut its doors at the end of the week after telling customers artificial intelligence has rendered its service effectively obsolete.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "afr.com",
+    "sourceUrl": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-09-24T15:09:38.000Z"
+  },
+  {
+    "headline": "Google is sending an AI satellite into space next week",
+    "badge": "new",
+    "summary": "Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times. The move is part of Google's Project Suncatcher, the company's experimental initiative that could eventually put AI data centers into orbit.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "DeepMind"
+    ],
+    "publishedAt": "2026-09-24T14:15:17.000Z"
+  },
+  {
+    "headline": "Best LLM for every budget, updated daily",
+    "badge": "new",
+    "summary": "Every model on the Artificial Analysis Intelligence Index plotted against its blended API price. Models on the value frontier are the ones where nothing cheaper is also smarter; everything else is beaten on both counts by a point on the line.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "noriagentic.com",
-    "sourceUrl": "https://noriagentic.com/nori-llm.html",
+    "sourceName": "bestmodelforyourbudget.terrydjony.com",
+    "sourceUrl": "https://bestmodelforyourbudget.terrydjony.com",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-09-24T04:11:08.000Z"
+    "publishedAt": "2026-09-24T14:09:57.000Z"
   },
   {
-    "headline": "Feds Target AI Critics as \"Foreign Agents\"",
+    "headline": "Meta puts its AI assistant on a keychain",
     "badge": "new",
-    "summary": "Anxiety over AI and data centers is widely held, but somehow the Trump administration has convinced itself the public concern was manufactured in China. This week, in little- noticed remarks by President Trump and Justice Department warning, the administration declared war on protestors and opponents of AI, threatening “criminal liability” if they “further the propaganda or.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "kenklippenstein.com",
-    "sourceUrl": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-09-24T00:41:31.000Z"
-  },
-  {
-    "headline": "VSCode's SSH Agent Is Bananas (2025)",
-    "badge": "new",
-    "summary": "We hate these things as much as anyone, but the marketing gods demand conversion metrics. View Our Brand Assets const [logo, contextMenu] = ['logo', 'contextMenu'].map(id => document.getElementById(id)) logo.addEventListener('contextmenu', e => { e.preventDefault() contextMenu.classList.remove('-z-1', 'opacity-0', 'pointer-events-none', '-translate-y-2.5').",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "fly.io",
-    "sourceUrl": "https://fly.io/blog/vscode-ssh-wtf",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent"
-    ],
-    "publishedAt": "2026-09-23T21:01:48.000Z"
-  },
-  {
-    "headline": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
-    "badge": "new",
-    "summary": "It’s clear Trump wants it to seem like discussions are going well. Before Trump and Xi meet on Thursday and Friday, Treasury Secretary Scott Bessent announced that both sides had already discussed setting up a new AI safety notification mechanism.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "summary": "The Meta chief used the company’s annual Connect event at its Silicon Valley headquarters to announce Muse Charm, a small pendant-like device that fits on a keychain and is activated by a fingerprint sensor. The device, which features a screen showing the Muse avatar, will also have real-time voice interactivity and is set to be released in December.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
     "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+    "sourceUrl": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-23T20:52:28.000Z"
-  },
-  {
-    "headline": "YouTube promises custom feeds and a lot more AI later this year",
-    "badge": "new",
-    "summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-23T19:35:53.000Z"
+    "publishedAt": "2026-09-24T14:03:38.000Z"
   }
 ]
