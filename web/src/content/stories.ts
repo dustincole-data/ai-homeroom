@@ -10,82 +10,88 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-09-25T09:15:57.927Z'
+export const generatedAt = '2026-10-12T09:15:45.539Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "SkillOpt: Training Loop for Agent Skills",
+    "headline": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
     "badge": "new",
-    "summary": "Executive Strategy for Self-Evolving Agent Skills. SkillOpt treats a compact natural-language skill document as the trainable state of a frozen language agent, then learns that document through rollouts, reflection, bounded edits, and held-out validation gates. Code Repo Paper Video Related project SkillLens studies model-generated agent skills. A companion project page from.",
+    "summary": "In recent years, AI has made it much easier to create new websites and tools. That also applies to pirate sites, including TorrentClaw, a torrent search engine that’s largely built with AI.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "torrentfreak.com",
+    "sourceUrl": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-12T06:43:01.000Z"
+  },
+  {
+    "headline": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+    "badge": "new",
+    "summary": "Anthropic reportedly plans to list on the Nasdaq before Thanksgiving, and one bearish advisory firm suggests that investors sit this one out.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-10-12T05:03:47.000Z"
+  },
+  {
+    "headline": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+    "badge": "new",
+    "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries.",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "microsoft.github.io",
-    "sourceUrl": "https://microsoft.github.io/SkillOpt",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/SaarthurR/atticus-mac",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Anthropic",
+      "Chatbot",
+      "Model",
+      "Speech-to-Text"
     ],
-    "publishedAt": "2026-09-24T20:55:05.000Z"
+    "publishedAt": "2026-10-12T00:15:12.000Z"
   },
   {
-    "headline": "Meta is going to let you build games with AI right on your phone",
+    "headline": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
     "badge": "new",
-    "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-09-24T17:52:29.000Z"
+    "publishedAt": "2026-10-11T18:33:56.000Z"
   },
   {
-    "headline": "Tutoring company tells parents to save their money and 'use AI instead'",
+    "headline": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
     "badge": "new",
-    "summary": "A Sydney tutoring company will shut its doors at the end of the week after telling customers artificial intelligence has rendered its service effectively obsolete.",
+    "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "afr.com",
-    "sourceUrl": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-24T15:09:38.000Z"
-  },
-  {
-    "headline": "Google is sending an AI satellite into space next week",
-    "badge": "new",
-    "summary": "Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times. The move is part of Google's Project Suncatcher, the company's experimental initiative that could eventually put AI data centers into orbit.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "DeepMind"
+      "Training Data"
     ],
-    "publishedAt": "2026-09-24T14:15:17.000Z"
+    "publishedAt": "2026-10-11T16:52:33.000Z"
   },
   {
-    "headline": "Best LLM for every budget, updated daily",
+    "headline": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
     "badge": "new",
-    "summary": "Every model on the Artificial Analysis Intelligence Index plotted against its blended API price. Models on the value frontier are the ones where nothing cheaper is also smarter; everything else is beaten on both counts by a point on the line.",
+    "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "bestmodelforyourbudget.terrydjony.com",
-    "sourceUrl": "https://bestmodelforyourbudget.terrydjony.com",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Model"
+      "Chatbot",
+      "Model",
+      "Speech-to-Text"
     ],
-    "publishedAt": "2026-09-24T14:09:57.000Z"
-  },
-  {
-    "headline": "Meta puts its AI assistant on a keychain",
-    "badge": "new",
-    "summary": "The Meta chief used the company’s annual Connect event at its Silicon Valley headquarters to announce Muse Charm, a small pendant-like device that fits on a keychain and is activated by a fingerprint sensor. The device, which features a screen showing the Muse avatar, will also have real-time voice interactivity and is set to be released in December.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-09-24T14:03:38.000Z"
+    "publishedAt": "2026-10-11T14:00:00.000Z"
   }
 ]
