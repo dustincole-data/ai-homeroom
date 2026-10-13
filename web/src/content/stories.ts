@@ -10,88 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-12T09:15:45.539Z'
+export const generatedAt = '2026-10-13T09:15:38.854Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "AI-Built Torrent Site Looks Inside Downloads to Catch Fakes and Malware",
+    "headline": "AI models can provably hide arbitrary capabilities",
     "badge": "new",
-    "summary": "In recent years, AI has made it much easier to create new websites and tools. That also applies to pirate sites, including TorrentClaw, a torrent search engine that’s largely built with AI.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "torrentfreak.com",
-    "sourceUrl": "https://torrentfreak.com/ai-built-torrent-site-looks-inside-downloads-to-catch-fakes-and-malware",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-12T06:43:01.000Z"
-  },
-  {
-    "headline": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
-    "badge": "new",
-    "summary": "Anthropic reportedly plans to list on the Nasdaq before Thanksgiving, and one bearish advisory firm suggests that investors sit this one out.",
-    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
-    "sourceName": "cnbc.com",
-    "sourceUrl": "https://www.cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html",
+    "summary": "Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends on the assumption that hidden capabilities can be elicited. We show this assumption does not hold under adversarial conditions by constructing backdoor attacks that embed encrypted neural networks within host model weights, decrypting and executing them only upon.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "arxiv.org",
+    "sourceUrl": "https://arxiv.org/abs/2610.13928",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic"
+      "Model"
     ],
-    "publishedAt": "2026-10-12T05:03:47.000Z"
+    "publishedAt": "2026-10-13T02:07:08.000Z"
   },
   {
-    "headline": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+    "headline": "AI Company Lets Cops Pinpoint Specific Houses Based on a Single Interior Photo",
     "badge": "new",
-    "summary": "Hi HN! I'm Saarth. I'm in 9th grade, and I built Atticus. Atticus is an incredibly fast and cheap Mac assistant that can do tasks for you. You hold down Control-Option-Space, speak or type your task, be it complex or a simple browser search, and Atticus will get on it. The interesting part is that simple tasks, like opening apps, playing a Spotify playlist, or web queries.",
+    "summary": "The tool, called Raven, shows the increasing power of AI capabilities available to local law enforcement agencies. 404 Media previously reported that both the Los Angeles Police Department and Miami-Dade Sheriff’s Office (MDSO) have bought access to Raven, which was previously called GeoSpy .",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "github.com",
-    "sourceUrl": "https://github.com/SaarthurR/atticus-mac",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model",
-      "Speech-to-Text"
-    ],
-    "publishedAt": "2026-10-12T00:15:12.000Z"
-  },
-  {
-    "headline": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
-    "badge": "new",
-    "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+    "sourceName": "404media.co",
+    "sourceUrl": "https://www.404media.co/ai-company-lets-cops-pinpoint-specific-houses-based-on-a-single-interior-photo",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-11T18:33:56.000Z"
+    "publishedAt": "2026-10-13T00:38:48.000Z"
   },
   {
-    "headline": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+    "headline": "AI is a tool and using it well takes skill",
     "badge": "new",
-    "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+    "summary": "A response to Rich Hickey's \"'AI' is Not a Tool\": automation and tool use can coexist, and wielding an LLM well requires skill, feedback, and judgment.",
     "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+    "sourceName": "yyhh.org",
+    "sourceUrl": "https://yyhh.org/blog/2026/10/ai-is-a-tool",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Training Data"
+      "Tool"
     ],
-    "publishedAt": "2026-10-11T16:52:33.000Z"
+    "publishedAt": "2026-10-12T21:40:18.000Z"
   },
   {
-    "headline": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+    "headline": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
     "badge": "new",
-    "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+    "summary": "Intel GPU D270 is an inference-optimized data center GPU built for agentic AI, long contexts, and high-concurrency serving at practical power and cost.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "intel.com",
+    "sourceUrl": "https://www.intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model",
-      "Speech-to-Text"
+      "GPU"
     ],
-    "publishedAt": "2026-10-11T14:00:00.000Z"
+    "publishedAt": "2026-10-12T21:35:35.000Z"
+  },
+  {
+    "headline": "Epic Games reportedly pivoting to \"AI first\" game development model",
+    "badge": "new",
+    "summary": "Human developers will be tasked with managing and guiding code and art assets generated by models such as Anthropic’s Claude, according to internal Epic employee messages viewed by Bloomberg. That means “no more hand-written code” and art assets “generated with full AI workflows,” according to the report.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-10-12T20:59:50.000Z"
+  },
+  {
+    "headline": "'AI' Is Not a Tool by Rich Hickey",
+    "badge": "new",
+    "summary": "First order of business - is ' tool ' going to have an interesting, distinguishing and thus illuminative meaning or be a mere platitudinous stand-in for \"anything useful\"? We'll save tool as \"anyone/thing that can be exploited\" for the AI titans, for whom VCs, politicians, wannabe-titan-CEOs, software devs, rural towns etc are all 'tools'.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "linkedin.com",
+    "sourceUrl": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-10-12T18:00:25.000Z"
   }
 ]
