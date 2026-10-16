@@ -2459,6 +2459,42 @@
       "context": "The San Francisco Standard Sign in Latest News Politics Business Opinion Culture Food & Drink Sports Games Podcasts News Visit $ News The Boom Loop Crisis in the Streets The School Wars Criminal Justice Transportation Investigations Close menu Close menu Sign out Search query Search (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab). This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
       "sourceUrl": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
       "publishedAt": "2026-10-13T20:23:55.000Z"
+    },
+    {
+      "headline": "Sergey Brin says Google's AI models are reaching recursive self-improvement",
+      "context": "The Google cofounder said Gemini models were increasingly helping to build their successors as the industry races toward RSI. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
+      "publishedAt": "2026-10-16T03:49:35.000Z"
+    },
+    {
+      "headline": "MuscleMemory: Open-source procedural memory for AI agents",
+      "context": "Open-source procedural memory for AI agents. Learns from what worked and what failed. - TheWariend/MuscleMemory This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://github.com/TheWariend/MuscleMemory",
+      "publishedAt": "2026-10-16T03:06:23.000Z"
+    },
+    {
+      "headline": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+      "context": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off",
+      "publishedAt": "2026-10-15T23:44:56.000Z"
+    },
+    {
+      "headline": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+      "context": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps",
+      "publishedAt": "2026-10-15T19:55:25.000Z"
+    },
+    {
+      "headline": "More on Anthropic's Scion ripping off Mononoke",
+      "context": "(function(){var e=document.querySelector(\".reading-progress\");window.addEventListener(\"scroll\",function(){var t=document.documentElement.scrollHeight-document.documentElement.clientHeight;t>0&&(e.style.width=window.scrollY/t*100+\"%\")},{passive:!0})})() More on Anthropic&rsquo;s Scion ripping off Mononoke 2026-10-15 · 6 min read vcs shorts Update: Nick G. from Anthropic has. This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+      "sourceUrl": "https://sunshowers.io/posts/anthropic-mononoke-2",
+      "publishedAt": "2026-10-15T17:05:19.000Z"
+    },
+    {
+      "headline": "Frontier Pre-Training at Microsoft AI",
+      "context": "Models Latest models Discover the latest MAI models, designed for real-world intelligence MAI-Voice-2.1 MAI-Transcribe-2 MAI-Thinking-1 MAI-Image-2.6 All models MAI-Code-1.1-Flash Helps your engineering team write better code faster, with a lightweight, agentic model built into GitHub Copilot and VS Code. Delivers expressive, low-latency speech that holds up across long. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai",
+      "publishedAt": "2026-10-15T16:12:13.000Z"
     }
   ]
 }

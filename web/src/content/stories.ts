@@ -10,83 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-14T09:15:56.502Z'
+export const generatedAt = '2026-10-16T09:15:32.182Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "NetBSD may have found a new role: The AI-free FOSS OS",
+    "headline": "Sergey Brin says Google's AI models are reaching recursive self-improvement",
     "badge": "new",
-    "summary": "NetBSD seems to be thriving of late: as the Linux world goes pro-AI, some of the AI-averse are turning to this explicitly AI-free project. The NetBSD project’s Mastodon feed reports that it received a record 120 donations last month, and it has far exceeded its target: “We received $120,282 USD in total.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "theregister.com",
-    "sourceUrl": "https://www.theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-14T06:06:22.000Z"
-  },
-  {
-    "headline": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-    "badge": "new",
-    "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-13T23:05:34.000Z"
-  },
-  {
-    "headline": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
-    "badge": "new",
-    "summary": "Role Overview In this role, you will develop the agentic research vertical at PostEra, using agentic systems to automate the development of mechanistic models for biochemical and physiological processes, and analyse biological data for target validation. You will interact closely with chemists and biologists to use these models to drive drug discovery decisions.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "jobs.lever.co",
-    "sourceUrl": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-13T21:01:12.000Z"
-  },
-  {
-    "headline": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-    "badge": "new",
-    "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+    "summary": "The Google cofounder said Gemini models were increasingly helping to build their successors as the industry races toward RSI.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "businessinsider.com",
+    "sourceUrl": "https://www.businessinsider.com/sergey-brin-google-gemini-ai-argon-recursive-self-improvement-rsi-2026-10",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "DeepMind",
+      "Model"
     ],
-    "publishedAt": "2026-10-13T20:45:25.000Z"
+    "publishedAt": "2026-10-16T03:49:35.000Z"
   },
   {
-    "headline": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+    "headline": "MuscleMemory: Open-source procedural memory for AI agents",
     "badge": "new",
-    "summary": "Disrupt 2026 has officially begun. Grab your pass now to be at the center of the startup epicenter. REGISTER NOW Disrupt doors open Oct. 13. Get your pass and bring someone with you at 50% off. REGISTER NOW. Judge orders OpenAI to turn over hiring records in Apple trade secrets case Sarah Perez 1:36 PM PDT · October 13, 2026 A judge has ruled that Apple will gain expedited.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case",
+    "summary": "Open-source procedural memory for AI agents. Learns from what worked and what failed. - TheWariend/MuscleMemory",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "github.com",
+    "sourceUrl": "https://github.com/TheWariend/MuscleMemory",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-10-16T03:06:23.000Z"
+  },
+  {
+    "headline": "When it came to Cal AI’s viral success, a small army of influencers paid off",
+    "badge": "new",
+    "summary": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-15T23:44:56.000Z"
+  },
+  {
+    "headline": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
+    "badge": "new",
+    "summary": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps",
+    "termNames": [
+      "Artificial Intelligence (AI)",
       "Tool"
     ],
-    "publishedAt": "2026-10-13T20:36:44.000Z"
+    "publishedAt": "2026-10-15T19:55:25.000Z"
   },
   {
-    "headline": "OpenAI engineer arrested in bugging of executive conference room",
+    "headline": "More on Anthropic's Scion ripping off Mononoke",
     "badge": "new",
-    "summary": "The San Francisco Standard Sign in Latest News Politics Business Opinion Culture Food & Drink Sports Games Podcasts News Visit $ News The Boom Loop Crisis in the Streets The School Wars Criminal Justice Transportation Investigations Close menu Close menu Sign out Search query Search (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab) (opens in new tab).",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "sfstandard.com",
-    "sourceUrl": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+    "summary": "(function(){var e=document.querySelector(\".reading-progress\");window.addEventListener(\"scroll\",function(){var t=document.documentElement.scrollHeight-document.documentElement.clientHeight;t>0&&(e.style.width=window.scrollY/t*100+\"%\")},{passive:!0})})() More on Anthropic&rsquo;s Scion ripping off Mononoke 2026-10-15 · 6 min read vcs shorts Update: Nick G. from Anthropic has.",
+    "whyItMatters": "This shows OpenAI preparing for a much more grown-up phase.  For normal people, that can affect how the company handles regulation, pricing, enterprise customers, and the tools millions of people already use.",
+    "sourceName": "sunshowers.io",
+    "sourceUrl": "https://sunshowers.io/posts/anthropic-mononoke-2",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Anthropic"
     ],
-    "publishedAt": "2026-10-13T20:23:55.000Z"
+    "publishedAt": "2026-10-15T17:05:19.000Z"
+  },
+  {
+    "headline": "Frontier Pre-Training at Microsoft AI",
+    "badge": "new",
+    "summary": "Models Latest models Discover the latest MAI models, designed for real-world intelligence MAI-Voice-2.1 MAI-Transcribe-2 MAI-Thinking-1 MAI-Image-2.6 All models MAI-Code-1.1-Flash Helps your engineering team write better code faster, with a lightweight, agentic model built into GitHub Copilot and VS Code. Delivers expressive, low-latency speech that holds up across long.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "microsoft.ai",
+    "sourceUrl": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-15T16:12:13.000Z"
   }
 ]
