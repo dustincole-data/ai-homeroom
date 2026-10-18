@@ -2531,6 +2531,18 @@
       "context": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […] For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
       "sourceUrl": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
       "publishedAt": "2026-10-16T16:30:00.000Z"
+    },
+    {
+      "headline": "The math that OpenAI keeps for itself",
+      "context": "The internet commentariat quickly noticed that nothing touched modern cryptography, and some suspected this was no accident: Ben Podgursky @ bpodgursky Lucky coincidence the labs are only successfully cracking esoteric math problems and not the problems where a solution would give the winner an asymmetric commerical advantage. 5:46 AM · Oct 7, 2026 · 588K Views 60 Replies · 225. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+      "publishedAt": "2026-10-17T19:22:52.000Z"
+    },
+    {
+      "headline": "Websites are closing their doors to AI agents",
+      "context": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "publishedAt": "2026-10-17T13:00:00.000Z"
     }
   ]
 }
