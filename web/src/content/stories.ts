@@ -10,33 +10,85 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-18T09:15:32.781Z'
+export const generatedAt = '2026-10-20T09:15:52.354Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "The math that OpenAI keeps for itself",
+    "headline": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
     "badge": "new",
-    "summary": "The internet commentariat quickly noticed that nothing touched modern cryptography, and some suspected this was no accident: Ben Podgursky @ bpodgursky Lucky coincidence the labs are only successfully cracking esoteric math problems and not the problems where a solution would give the winner an asymmetric commerical advantage. 5:46 AM · Oct 7, 2026 · 588K Views 60 Replies · 225.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "newsletter.danielpaleka.com",
-    "sourceUrl": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+    "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-20T01:27:03.000Z"
+  },
+  {
+    "headline": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+    "badge": "new",
+    "summary": "WhatsApp removed hidden notes telling AI not to recommend a regulator, and not to cite GDPR or CCPA once a lawyer came up.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "redact.dev",
+    "sourceUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model",
+      "Tool"
+    ],
+    "publishedAt": "2026-10-19T23:22:18.000Z"
+  },
+  {
+    "headline": "CoreWeave’s debt is becoming the whole AI industry’s problem",
+    "badge": "new",
+    "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-19T21:28:20.000Z"
+  },
+  {
+    "headline": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+    "badge": "new",
+    "summary": "In a court filing Sunday, US attorney Craig Missakian argued that Abdulrahman Alfozan must continue to be detained while the US makes its case that Alfozan brazenly spied on OpenAI, either for his own personal business gain or to benefit the Kingdom of Saudi Arabia. Evidence showed that Alfozan had been chatting with a member of the KSA royal family on WhatsApp, while pursuing.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-10-17T19:22:52.000Z"
+    "publishedAt": "2026-10-19T20:21:53.000Z"
   },
   {
-    "headline": "Websites are closing their doors to AI agents",
+    "headline": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
     "badge": "new",
-    "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+    "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "AI Agent",
+      "Coding Agent",
+      "Tool"
     ],
-    "publishedAt": "2026-10-17T13:00:00.000Z"
+    "publishedAt": "2026-10-19T19:28:34.000Z"
+  },
+  {
+    "headline": "Tolan snags $30M for its AI companion that helps users navigate life",
+    "badge": "new",
+    "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-19T19:00:12.000Z"
   }
 ]
