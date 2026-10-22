@@ -10,85 +10,88 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-20T09:15:52.354Z'
+export const generatedAt = '2026-10-22T09:15:47.559Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+    "headline": "Show HN: The fastest browser for AI agents to run browser automation",
     "badge": "new",
-    "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-20T01:27:03.000Z"
-  },
-  {
-    "headline": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
-    "badge": "new",
-    "summary": "WhatsApp removed hidden notes telling AI not to recommend a regulator, and not to cite GDPR or CCPA once a lawyer came up.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "redact.dev",
-    "sourceUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model",
-      "Tool"
-    ],
-    "publishedAt": "2026-10-19T23:22:18.000Z"
-  },
-  {
-    "headline": "CoreWeave’s debt is becoming the whole AI industry’s problem",
-    "badge": "new",
-    "summary": "CoreWeave had a bad week last week. Its bonds slipped into distressed territory by a common definition - when investors demand 1,000 basis points more in yield than they'd get from government bonds.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-19T21:28:20.000Z"
-  },
-  {
-    "headline": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
-    "badge": "new",
-    "summary": "In a court filing Sunday, US attorney Craig Missakian argued that Abdulrahman Alfozan must continue to be detained while the US makes its case that Alfozan brazenly spied on OpenAI, either for his own personal business gain or to benefit the Kingdom of Saudi Arabia. Evidence showed that Alfozan had been chatting with a member of the KSA royal family on WhatsApp, while pursuing.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
-    ],
-    "publishedAt": "2026-10-19T20:21:53.000Z"
-  },
-  {
-    "headline": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-    "badge": "new",
-    "summary": "OpenCode is an open source AI coding agent that's become a popular alternative to Claude Code and Cursor. But hackers got into part of its online platform and stole some users’ API keys, and the AI tools it turned to for help kept refusing to look at the malicious code.",
+    "summary": "Run browser automation in parallel while you continue browsing. Zero cost, zero config. Your agents work in their own Spaces without disturbing your tabs. Complex tasks finish up to 2.5× faster with higher success rates and fewer tool calls. Agents write JavaScript functions directly instead of getting stuck in command loops. Each agent gets its own fully isolated workspace.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts",
+    "sourceName": "ego-lite.apposters.com",
+    "sourceUrl": "https://ego-lite.apposters.com",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-10-22T08:09:22.000Z"
+  },
+  {
+    "headline": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+    "badge": "new",
+    "summary": "2026-10-21 / Simon Edwardsson / Follow @SimEdw / Discuss on HN ↗ TL;DR: I fine-tuned a 360M-parameter language model to act as a terminal. There's no shell or filesystem behind it: every keypress goes in, and the model predicts how the screen changes.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "simedw.com",
+    "sourceUrl": "https://simedw.com/2026/10/21/world-model-terminal",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-10-22T02:18:41.000Z"
+  },
+  {
+    "headline": "Claude Now Works with Google Docs, Sheets, and Slides",
+    "badge": "new",
+    "summary": "Product Products Claude Claude Code Claude Cowork Claude Duet Claude Tag Specialized Claude Security Claude Science Capabilities Artifacts Design Connectors Plugins Skills Extensions Claude in Chrome Claude for Google Workspace Claude for Microsoft 365 Models Mythos (including Fable) Opus Sonnet Haiku Import to Claude Download apps Login (opens in new tab) Developers Build with.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "claude.com",
+    "sourceUrl": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic",
+      "Chatbot",
+      "DeepMind",
+      "Model"
+    ],
+    "publishedAt": "2026-10-22T02:17:58.000Z"
+  },
+  {
+    "headline": "LLM agents play Pokemon showdown",
+    "badge": "new",
+    "summary": "The future is in LLM collaborations, and it is important to be able to understand how good agents are at working together, communicating and negotiating actions. Most multi-agent research is about workflows, where agents pass tasks down a pipeline ( Hong et al., 2024 ; Qian et al., 2024 ). To test this, I built a multi-agent environment on Pokémon Showdown's 2v2 format to.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "olivergrabner.com",
+    "sourceUrl": "https://olivergrabner.com/research/pokemon",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent",
-      "Coding Agent",
-      "Tool"
+      "Model"
     ],
-    "publishedAt": "2026-10-19T19:28:34.000Z"
+    "publishedAt": "2026-10-22T02:13:48.000Z"
   },
   {
-    "headline": "Tolan snags $30M for its AI companion that helps users navigate life",
+    "headline": "Meta to create a new class of shares to fund AI push",
     "badge": "new",
-    "summary": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
+    "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-19T19:00:12.000Z"
+    "publishedAt": "2026-10-21T21:30:02.000Z"
+  },
+  {
+    "headline": "The new human-crafted Apple Music brand matters in an AI world",
+    "badge": "new",
+    "summary": "It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on.",
+    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Tool"
+    ],
+    "publishedAt": "2026-10-21T19:44:40.000Z"
   }
 ]

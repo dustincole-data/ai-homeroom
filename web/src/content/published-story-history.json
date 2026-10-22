@@ -2579,6 +2579,42 @@
       "context": "AI companion app Tolan has raised another $30 million after attracting more than 250,000 active users. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
       "sourceUrl": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life",
       "publishedAt": "2026-10-19T19:00:12.000Z"
+    },
+    {
+      "headline": "Show HN: The fastest browser for AI agents to run browser automation",
+      "context": "Run browser automation in parallel while you continue browsing. Zero cost, zero config. Your agents work in their own Spaces without disturbing your tabs. Complex tasks finish up to 2.5× faster with higher success rates and fewer tool calls. Agents write JavaScript functions directly instead of getting stuck in command loops. Each agent gets its own fully isolated workspace. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://ego-lite.apposters.com",
+      "publishedAt": "2026-10-22T08:09:22.000Z"
+    },
+    {
+      "headline": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "context": "2026-10-21 / Simon Edwardsson / Follow @SimEdw / Discuss on HN ↗ TL;DR: I fine-tuned a 360M-parameter language model to act as a terminal. There's no shell or filesystem behind it: every keypress goes in, and the model predicts how the screen changes. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://simedw.com/2026/10/21/world-model-terminal",
+      "publishedAt": "2026-10-22T02:18:41.000Z"
+    },
+    {
+      "headline": "Claude Now Works with Google Docs, Sheets, and Slides",
+      "context": "Product Products Claude Claude Code Claude Cowork Claude Duet Claude Tag Specialized Claude Security Claude Science Capabilities Artifacts Design Connectors Plugins Skills Extensions Claude in Chrome Claude for Google Workspace Claude for Microsoft 365 Models Mythos (including Fable) Opus Sonnet Haiku Import to Claude Download apps Login (opens in new tab) Developers Build with. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "publishedAt": "2026-10-22T02:17:58.000Z"
+    },
+    {
+      "headline": "LLM agents play Pokemon showdown",
+      "context": "The future is in LLM collaborations, and it is important to be able to understand how good agents are at working together, communicating and negotiating actions. Most multi-agent research is about workflows, where agents pass tasks down a pipeline ( Hong et al., 2024 ; Qian et al., 2024 ). To test this, I built a multi-agent environment on Pokémon Showdown's 2v2 format to. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://olivergrabner.com/research/pokemon",
+      "publishedAt": "2026-10-22T02:13:48.000Z"
+    },
+    {
+      "headline": "Meta to create a new class of shares to fund AI push",
+      "context": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+      "publishedAt": "2026-10-21T21:30:02.000Z"
+    },
+    {
+      "headline": "The new human-crafted Apple Music brand matters in an AI world",
+      "context": "It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+      "publishedAt": "2026-10-21T19:44:40.000Z"
     }
   ]
 }
