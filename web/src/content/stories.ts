@@ -10,88 +10,83 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-22T09:15:47.559Z'
+export const generatedAt = '2026-10-24T09:16:09.374Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Show HN: The fastest browser for AI agents to run browser automation",
+    "headline": "Advertisers Pull Meta Ads That Had Unwanted AI Glow-Ups",
     "badge": "new",
-    "summary": "Run browser automation in parallel while you continue browsing. Zero cost, zero config. Your agents work in their own Spaces without disturbing your tabs. Complex tasks finish up to 2.5× faster with higher success rates and fewer tool calls. Agents write JavaScript functions directly instead of getting stuck in command loops. Each agent gets its own fully isolated workspace.",
+    "summary": "Under Meta’s new terms coming into play Oct 30, advertisers are “solely responsible” for whatever its AI creates",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "adweek.com",
+    "sourceUrl": "https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-24T05:27:03.000Z"
+  },
+  {
+    "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+    "badge": "new",
+    "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
     "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "ego-lite.apposters.com",
-    "sourceUrl": "https://ego-lite.apposters.com",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Model"
+    ],
+    "publishedAt": "2026-10-23T23:05:49.000Z"
+  },
+  {
+    "headline": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+    "badge": "new",
+    "summary": "Hey everyone, Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity.",
+    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+    "sourceName": "corgi.computer",
+    "sourceUrl": "https://corgi.computer",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-10-22T08:09:22.000Z"
+    "publishedAt": "2026-10-23T19:46:38.000Z"
   },
   {
-    "headline": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+    "headline": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
     "badge": "new",
-    "summary": "2026-10-21 / Simon Edwardsson / Follow @SimEdw / Discuss on HN ↗ TL;DR: I fine-tuned a 360M-parameter language model to act as a terminal. There's no shell or filesystem behind it: every keypress goes in, and the model predicts how the screen changes.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "simedw.com",
-    "sourceUrl": "https://simedw.com/2026/10/21/world-model-terminal",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-10-22T02:18:41.000Z"
-  },
-  {
-    "headline": "Claude Now Works with Google Docs, Sheets, and Slides",
-    "badge": "new",
-    "summary": "Product Products Claude Claude Code Claude Cowork Claude Duet Claude Tag Specialized Claude Security Claude Science Capabilities Artifacts Design Connectors Plugins Skills Extensions Claude in Chrome Claude for Google Workspace Claude for Microsoft 365 Models Mythos (including Fable) Opus Sonnet Haiku Import to Claude Download apps Login (opens in new tab) Developers Build with.",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "claude.com",
-    "sourceUrl": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "DeepMind",
-      "Model"
-    ],
-    "publishedAt": "2026-10-22T02:17:58.000Z"
-  },
-  {
-    "headline": "LLM agents play Pokemon showdown",
-    "badge": "new",
-    "summary": "The future is in LLM collaborations, and it is important to be able to understand how good agents are at working together, communicating and negotiating actions. Most multi-agent research is about workflows, where agents pass tasks down a pipeline ( Hong et al., 2024 ; Qian et al., 2024 ). To test this, I built a multi-agent environment on Pokémon Showdown's 2v2 format to.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "olivergrabner.com",
-    "sourceUrl": "https://olivergrabner.com/research/pokemon",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "AI Agent",
-      "Model"
-    ],
-    "publishedAt": "2026-10-22T02:13:48.000Z"
-  },
-  {
-    "headline": "Meta to create a new class of shares to fund AI push",
-    "badge": "new",
-    "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-10-23T19:32:39.000Z"
+  },
+  {
+    "headline": "Meta delays new business terms after publisher pushback on AI scraping",
+    "badge": "new",
+    "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-21T21:30:02.000Z"
+    "publishedAt": "2026-10-23T14:47:41.000Z"
   },
   {
-    "headline": "The new human-crafted Apple Music brand matters in an AI world",
+    "headline": "Retro gaming is being overrun with AI",
     "badge": "new",
-    "summary": "It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on.",
+    "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Tool"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-21T19:44:40.000Z"
+    "publishedAt": "2026-10-23T12:00:00.000Z"
   }
 ]

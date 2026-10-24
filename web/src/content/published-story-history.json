@@ -2615,6 +2615,42 @@
       "context": "It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on. AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
       "sourceUrl": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
       "publishedAt": "2026-10-21T19:44:40.000Z"
+    },
+    {
+      "headline": "Advertisers Pull Meta Ads That Had Unwanted AI Glow-Ups",
+      "context": "Under Meta’s new terms coming into play Oct 30, advertisers are “solely responsible” for whatever its AI creates The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups",
+      "publishedAt": "2026-10-24T05:27:03.000Z"
+    },
+    {
+      "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "context": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+      "publishedAt": "2026-10-23T23:05:49.000Z"
+    },
+    {
+      "headline": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "context": "Hey everyone, Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity. Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
+      "sourceUrl": "https://corgi.computer",
+      "publishedAt": "2026-10-23T19:46:38.000Z"
+    },
+    {
+      "headline": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "context": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "publishedAt": "2026-10-23T19:32:39.000Z"
+    },
+    {
+      "headline": "Meta delays new business terms after publisher pushback on AI scraping",
+      "context": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […] The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "publishedAt": "2026-10-23T14:47:41.000Z"
+    },
+    {
+      "headline": "Retro gaming is being overrun with AI",
+      "context": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […] AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "publishedAt": "2026-10-23T12:00:00.000Z"
     }
   ]
 }
