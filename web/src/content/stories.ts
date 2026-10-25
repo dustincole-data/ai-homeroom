@@ -10,83 +10,81 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-24T09:16:09.374Z'
+export const generatedAt = '2026-10-25T09:16:10.106Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Advertisers Pull Meta Ads That Had Unwanted AI Glow-Ups",
+    "headline": "Cerebras Deploys Trillion-Parameter AI Models",
     "badge": "new",
-    "summary": "Under Meta’s new terms coming into play Oct 30, advertisers are “solely responsible” for whatever its AI creates",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "adweek.com",
-    "sourceUrl": "https://www.adweek.com/media/advertisers-pull-meta-ads-that-had-unwanted-ai-glow-ups",
+    "summary": "One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large frontier model across multiple WSE-3T wafers, to run multi-trillion parameter.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "cerebras.ai",
+    "sourceUrl": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Model"
+    ],
+    "publishedAt": "2026-10-25T01:33:49.000Z"
+  },
+  {
+    "headline": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+    "badge": "new",
+    "summary": "America is Losing Hundreds of Thousands of Jobs in Media, Film & the Arts. How Much is AI to Blame?",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "apricitas.io",
+    "sourceUrl": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-24T05:27:03.000Z"
+    "publishedAt": "2026-10-24T23:11:54.000Z"
   },
   {
-    "headline": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+    "headline": "Blue Planet III is keeping the rough edges in the age of AI",
     "badge": "new",
-    "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+    "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Model"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-23T23:05:49.000Z"
+    "publishedAt": "2026-10-24T21:29:12.000Z"
   },
   {
-    "headline": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+    "headline": "Making My Blog Readable by AI Agents",
     "badge": "new",
-    "summary": "Hey everyone, Inspired by Herdr, I've built an agent multiplexer that I've been using as my daily driver for a few weeks now. I think I improved on the concept in a few ways, focusing on the ergonomics I always wished I had: I show you what the agents are up to, along with a running feed of their activity.",
-    "whyItMatters": "Inference is the expensive part of AI that happens every time someone uses a model.  Big money flowing into companies like Baseten affects whether AI apps get faster, cheaper, or more expensive for everyone else.",
-    "sourceName": "corgi.computer",
-    "sourceUrl": "https://corgi.computer",
+    "summary": "A lot of the people reading this blog now aren’t people. They’re agents: Claude, ChatGPT, Perplexity and friends, fetching a page because somebody asked them a question.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "deallocatedobjects.com",
+    "sourceUrl": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-10-23T19:46:38.000Z"
+    "publishedAt": "2026-10-24T21:21:33.000Z"
   },
   {
-    "headline": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+    "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
     "badge": "new",
-    "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam.",
+    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-10-23T19:32:39.000Z"
-  },
-  {
-    "headline": "Meta delays new business terms after publisher pushback on AI scraping",
-    "badge": "new",
-    "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-23T14:47:41.000Z"
+    "publishedAt": "2026-10-24T19:00:00.000Z"
   },
   {
-    "headline": "Retro gaming is being overrun with AI",
+    "headline": "Pennsylvania will require labels on AI-generated ads",
     "badge": "new",
-    "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
+    "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as […]",
     "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
     "termNames": [
       "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-10-23T12:00:00.000Z"
+    "publishedAt": "2026-10-24T18:32:21.000Z"
   }
 ]
