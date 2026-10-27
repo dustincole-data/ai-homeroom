@@ -10,81 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-25T09:16:10.106Z'
+export const generatedAt = '2026-10-27T09:15:44.531Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Cerebras Deploys Trillion-Parameter AI Models",
+    "headline": "“AI Skills” are worthless in 2026",
     "badge": "new",
-    "summary": "One of the most frequently asked questions we get is how we deploy large models on Cerebras wafer-scale chips. A single Cerebras WSE-3T wafer has 44 GB of on-chip memory, and trillion-parameter frontier models need terabytes for their weights alone. In this post, we’ll explain how we split a large frontier model across multiple WSE-3T wafers, to run multi-trillion parameter.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "cerebras.ai",
-    "sourceUrl": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+    "summary": "And yet, in five years, I’m sure there will be old heads doggedly adding “you are an experienced software developer, make no mistakes” to their custom instructions.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "fishbowl.pastiche.org",
+    "sourceUrl": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-27T06:33:34.000Z"
+  },
+  {
+    "headline": "The Mythical Man-Month in the Age of AI",
+    "badge": "new",
+    "summary": "') no-repeat center; mask: url('data:image/svg+xml;utf8, ') no-repeat center; -webkit-mask-size: contain; mask-size: contain; } /* Hover state for RSS icon */ nav a[href$=\"/feed/\"]:hover { background-color: var(--accent-hover); color: #ffffff; } /* Orange underline for links in running text */ main p a, main li a { text-decoration: underline; text-decoration-color.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "j11g.com",
+    "sourceUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-27T06:25:37.000Z"
+  },
+  {
+    "headline": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+    "badge": "new",
+    "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "AI Agent",
+      "Coding Agent",
+      "Tool"
+    ],
+    "publishedAt": "2026-10-27T02:00:00.000Z"
+  },
+  {
+    "headline": "OpenAI announces three big science discoveries and a new way to work with academics",
+    "badge": "new",
+    "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot"
+    ],
+    "publishedAt": "2026-10-26T23:34:58.000Z"
+  },
+  {
+    "headline": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "badge": "new",
+    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
+    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
+    "sourceName": "blog.cloudflare.com",
+    "sourceUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-10-25T01:33:49.000Z"
+    "publishedAt": "2026-10-26T22:41:48.000Z"
   },
   {
-    "headline": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+    "headline": "Anthropic is burning gas to feed the AI boom",
     "badge": "new",
-    "summary": "America is Losing Hundreds of Thousands of Jobs in Media, Film & the Arts. How Much is AI to Blame?",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "apricitas.io",
-    "sourceUrl": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-24T23:11:54.000Z"
-  },
-  {
-    "headline": "Blue Planet III is keeping the rough edges in the age of AI",
-    "badge": "new",
-    "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-24T21:29:12.000Z"
-  },
-  {
-    "headline": "Making My Blog Readable by AI Agents",
-    "badge": "new",
-    "summary": "A lot of the people reading this blog now aren’t people. They’re agents: Claude, ChatGPT, Perplexity and friends, fetching a page because somebody asked them a question.",
+    "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "deallocatedobjects.com",
-    "sourceUrl": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
+    "sourceName": "The Verge AI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "AI Agent"
+      "Anthropic"
     ],
-    "publishedAt": "2026-10-24T21:21:33.000Z"
-  },
-  {
-    "headline": "The AI graveyard: a running list of projects and startups that didn’t make it",
-    "badge": "new",
-    "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-24T19:00:00.000Z"
-  },
-  {
-    "headline": "Pennsylvania will require labels on AI-generated ads",
-    "badge": "new",
-    "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as […]",
-    "whyItMatters": "AI video is expensive enough that even large consumer apps are reorganizing around the cost.  That matters for users because the flashiest AI features may become separate products, paid tools, or experiments that disappear if the math does not work.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-24T18:32:21.000Z"
+    "publishedAt": "2026-10-26T21:45:31.000Z"
   }
 ]
