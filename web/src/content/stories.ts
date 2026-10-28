@@ -10,86 +10,86 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-27T09:15:44.531Z'
+export const generatedAt = '2026-10-28T09:15:46.887Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "“AI Skills” are worthless in 2026",
+    "headline": "Expanding our partnership with GSA to bring Claude to all levels of government",
     "badge": "new",
-    "summary": "And yet, in five years, I’m sure there will be old heads doggedly adding “you are an experienced software developer, make no mistakes” to their custom instructions.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "fishbowl.pastiche.org",
-    "sourceUrl": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-27T06:33:34.000Z"
-  },
-  {
-    "headline": "The Mythical Man-Month in the Age of AI",
-    "badge": "new",
-    "summary": "') no-repeat center; mask: url('data:image/svg+xml;utf8, ') no-repeat center; -webkit-mask-size: contain; mask-size: contain; } /* Hover state for RSS icon */ nav a[href$=\"/feed/\"]:hover { background-color: var(--accent-hover); color: #ffffff; } /* Orange underline for links in running text */ main p a, main li a { text-decoration: underline; text-decoration-color.",
-    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
-    "sourceName": "j11g.com",
-    "sourceUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-27T06:25:37.000Z"
-  },
-  {
-    "headline": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
-    "badge": "new",
-    "summary": "Alexander Embiricos, the OpenAI executive responsible for dots, never wants to have a meeting with someone else's AI agent.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant",
+    "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "anthropic.com",
+    "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
     "termNames": [
       "Artificial Intelligence (AI)",
+      "Anthropic",
       "Chatbot",
-      "AI Agent",
-      "Coding Agent",
-      "Tool"
+      "Model"
     ],
-    "publishedAt": "2026-10-27T02:00:00.000Z"
+    "publishedAt": "2026-10-27T22:23:37.000Z"
   },
   {
-    "headline": "OpenAI announces three big science discoveries and a new way to work with academics",
+    "headline": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
     "badge": "new",
-    "summary": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math, computer science, and physics. What's different this time is the choice to have external experts that OpenAI describes as \"shepherds\" guiding the results in […]",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "summary": "Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee “seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be known as an Artificial Intelligence Company (AIC).” Comer said the proposal is ripe for abuse. “We are concerned that Delaware’s AIC.",
+    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+    "sourceName": "Ars Technica AI",
+    "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "AI Agent"
+    ],
+    "publishedAt": "2026-10-27T21:50:04.000Z"
+  },
+  {
+    "headline": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+    "badge": "new",
+    "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-10-27T21:44:34.000Z"
+  },
+  {
+    "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+    "badge": "new",
+    "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-10-26T23:34:58.000Z"
+    "publishedAt": "2026-10-27T20:48:58.000Z"
   },
   {
-    "headline": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+    "headline": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
     "badge": "new",
-    "summary": "A configuration mismatch in GLM 5.3 on Workers AI triggered an SGLang bug that exposed KV cache pages across requests. Here is how we addressed the issue.",
-    "whyItMatters": "This is a practical shift, not hype.  If AI tools are finding real bugs in Linux, normal people benefit through more stable phones, servers, apps, and devices they never think about.",
-    "sourceName": "blog.cloudflare.com",
-    "sourceUrl": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+    "summary": "Device tree files point to a Raspberry Pi Zero 3 W with the Pi 4’s BCM2711 chip and a cut-down Pi 4 Model A.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "bret.dk",
+    "sourceUrl": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Model"
     ],
-    "publishedAt": "2026-10-26T22:41:48.000Z"
+    "publishedAt": "2026-10-27T20:48:49.000Z"
   },
   {
-    "headline": "Anthropic is burning gas to feed the AI boom",
+    "headline": "Survival LLM: AI assistant and emergency library that runs on your own computer",
     "badge": "new",
-    "summary": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+    "summary": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "brangus.io",
+    "sourceUrl": "https://www.brangus.io/survival-llm",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic"
+      "Model"
     ],
-    "publishedAt": "2026-10-26T21:45:31.000Z"
+    "publishedAt": "2026-10-27T19:55:06.000Z"
   }
 ]

@@ -2723,6 +2723,42 @@
       "context": "As it prepares to go public, Anthropic's S-1 filing makes generative AI's methane dependency glaringly obvious. \"Competition for access to electrical supply and data center locations with adequate power availability is intense.\" In documents filed with the US Securities and Exchange Commission Monday, Anthropic acknowledges that data centers are becoming increasingly reliant on. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
       "publishedAt": "2026-10-26T21:45:31.000Z"
+    },
+    {
+      "headline": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "context": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "publishedAt": "2026-10-27T22:23:37.000Z"
+    },
+    {
+      "headline": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "context": "Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee “seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be known as an Artificial Intelligence Company (AIC).” Comer said the proposal is ripe for abuse. “We are concerned that Delaware’s AIC. For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+      "publishedAt": "2026-10-27T21:50:04.000Z"
+    },
+    {
+      "headline": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "context": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
+      "publishedAt": "2026-10-27T21:44:34.000Z"
+    },
+    {
+      "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "context": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "publishedAt": "2026-10-27T20:48:58.000Z"
+    },
+    {
+      "headline": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "context": "Device tree files point to a Raspberry Pi Zero 3 W with the Pi 4’s BCM2711 chip and a cut-down Pi 4 Model A. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a",
+      "publishedAt": "2026-10-27T20:48:49.000Z"
+    },
+    {
+      "headline": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "context": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.brangus.io/survival-llm",
+      "publishedAt": "2026-10-27T19:55:06.000Z"
     }
   ]
 }
