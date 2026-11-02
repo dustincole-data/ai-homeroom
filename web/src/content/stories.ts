@@ -10,86 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-10-28T09:15:46.887Z'
+export const generatedAt = '2026-11-02T10:16:31.091Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Expanding our partnership with GSA to bring Claude to all levels of government",
+    "headline": "Proton's AI manifesto for software engineering",
     "badge": "new",
-    "summary": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "anthropic.com",
-    "sourceUrl": "https://www.anthropic.com/news/expanding-partnership-gsa",
+    "summary": "How will Proton navigate the AI transition? Read the internal memo by Proton CTO Bart Butler.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "proton.me",
+    "sourceUrl": "https://proton.me/blog/ai-manifesto",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Anthropic",
-      "Chatbot",
-      "Model"
+      "Coding Agent"
     ],
-    "publishedAt": "2026-10-27T22:23:37.000Z"
+    "publishedAt": "2026-11-02T08:10:45.000Z"
   },
   {
-    "headline": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+    "headline": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
     "badge": "new",
-    "summary": "Comer, chairman of the House Committee on Oversight and Government Reform, told Meyer that the committee “seeks assistance obtaining documents related to your state administration’s efforts to establish a new form of corporate entity to be known as an Artificial Intelligence Company (AIC).” Comer said the proposal is ripe for abuse. “We are concerned that Delaware’s AIC.",
-    "whyItMatters": "For normal people, this is the boring part that matters most: whether AI systems can be trusted when money, data, laws, or public safety are involved.",
-    "sourceName": "Ars Technica AI",
-    "sourceUrl": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses",
+    "summary": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 Key Takeaways On October 16, 2026, China’s Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MO…",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "labs.cloudsecurityalliance.org",
+    "sourceUrl": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-11-02T07:27:28.000Z"
+  },
+  {
+    "headline": "AI fan wikis riddled with errors are muddying the waters of games culture",
+    "badge": "new",
+    "summary": "Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides If you click on a link and make a purchase we may receive a small commission. Home Features AI fan wikis riddled with errors are muddying the waters of an already contested part of games culture \"These tools have made it very easy for bad actors to crowd out good.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "eurogamer.net",
+    "sourceUrl": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+    "termNames": [
+      "Artificial Intelligence (AI)"
+    ],
+    "publishedAt": "2026-11-02T01:47:07.000Z"
+  },
+  {
+    "headline": "Show HN: Better Together – AI agents team up against spam calls and texts",
+    "badge": "new",
+    "summary": "Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "better-together.fun",
+    "sourceUrl": "https://better-together.fun",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-10-27T21:50:04.000Z"
+    "publishedAt": "2026-11-02T00:19:11.000Z"
   },
   {
-    "headline": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+    "headline": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
     "badge": "new",
-    "summary": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-10-27T21:44:34.000Z"
-  },
-  {
-    "headline": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-    "badge": "new",
-    "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics.",
+    "summary": "Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Data centers are deeply unpopular . But what if we called them something else? Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too .",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "The Verge AI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Chatbot",
+      "Training Data"
+    ],
+    "publishedAt": "2026-11-01T21:55:23.000Z"
+  },
+  {
+    "headline": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+    "badge": "new",
+    "summary": "How I built custom MCP integrations and used multiple ChatGPT conversations for software development.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "chaosmanage.github.io",
+    "sourceUrl": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
     "termNames": [
       "Artificial Intelligence (AI)",
       "Chatbot"
     ],
-    "publishedAt": "2026-10-27T20:48:58.000Z"
-  },
-  {
-    "headline": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
-    "badge": "new",
-    "summary": "Device tree files point to a Raspberry Pi Zero 3 W with the Pi 4’s BCM2711 chip and a cut-down Pi 4 Model A.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "bret.dk",
-    "sourceUrl": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-10-27T20:48:49.000Z"
-  },
-  {
-    "headline": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-    "badge": "new",
-    "summary": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "brangus.io",
-    "sourceUrl": "https://www.brangus.io/survival-llm",
-    "termNames": [
-      "Artificial Intelligence (AI)",
-      "Model"
-    ],
-    "publishedAt": "2026-10-27T19:55:06.000Z"
+    "publishedAt": "2026-11-01T17:01:34.000Z"
   }
 ]

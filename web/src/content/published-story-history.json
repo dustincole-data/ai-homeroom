@@ -2759,6 +2759,42 @@
       "context": "A free AI assistant and survival library (1.5 million offline articles) that runs on your own computer, with no internet. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
       "sourceUrl": "https://www.brangus.io/survival-llm",
       "publishedAt": "2026-10-27T19:55:06.000Z"
+    },
+    {
+      "headline": "Proton's AI manifesto for software engineering",
+      "context": "How will Proton navigate the AI transition? Read the internal memo by Proton CTO Bart Butler. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://proton.me/blog/ai-manifesto",
+      "publishedAt": "2026-11-02T08:10:45.000Z"
+    },
+    {
+      "headline": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "context": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 Key Takeaways On October 16, 2026, China’s Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MO… The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+      "publishedAt": "2026-11-02T07:27:28.000Z"
+    },
+    {
+      "headline": "AI fan wikis riddled with errors are muddying the waters of games culture",
+      "context": "Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides If you click on a link and make a purchase we may receive a small commission. Home Features AI fan wikis riddled with errors are muddying the waters of an already contested part of games culture \"These tools have made it very easy for bad actors to crowd out good. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+      "publishedAt": "2026-11-02T01:47:07.000Z"
+    },
+    {
+      "headline": "Show HN: Better Together – AI agents team up against spam calls and texts",
+      "context": "Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://better-together.fun",
+      "publishedAt": "2026-11-02T00:19:11.000Z"
+    },
+    {
+      "headline": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "context": "Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Data centers are deeply unpopular . But what if we called them something else? Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "publishedAt": "2026-11-01T21:55:23.000Z"
+    },
+    {
+      "headline": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+      "context": "How I built custom MCP integrations and used multiple ChatGPT conversations for software development. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
+      "publishedAt": "2026-11-01T17:01:34.000Z"
     }
   ]
 }
