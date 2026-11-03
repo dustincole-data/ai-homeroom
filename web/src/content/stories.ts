@@ -10,84 +10,84 @@ export type StorySeed = {
   publishedAt: string
 }
 
-export const generatedAt = '2026-11-02T10:16:31.091Z'
+export const generatedAt = '2026-11-03T10:16:11.072Z'
 
 export const storySeeds: StorySeed[] = [
   {
-    "headline": "Proton's AI manifesto for software engineering",
+    "headline": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
     "badge": "new",
-    "summary": "How will Proton navigate the AI transition? Read the internal memo by Proton CTO Bart Butler.",
-    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
-    "sourceName": "proton.me",
-    "sourceUrl": "https://proton.me/blog/ai-manifesto",
+    "summary": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Coding Agent"
+      "Tool"
     ],
-    "publishedAt": "2026-11-02T08:10:45.000Z"
+    "publishedAt": "2026-11-03T07:20:00.000Z"
   },
   {
-    "headline": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+    "headline": "Apple may try to increase revenue by doing…something with third-party AI apps",
     "badge": "new",
-    "summary": "China’s First Frontier AI Export Controls: MOFCOM Announcement No. 48 Key Takeaways On October 16, 2026, China’s Ministry of Commerce (MOFCOM) and Ministry of Science and Technology (MO…",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "labs.cloudsecurityalliance.org",
-    "sourceUrl": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+    "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call.",
+    "whyItMatters": "This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
     "termNames": [
-      "Artificial Intelligence (AI)"
+      "Artificial Intelligence (AI)",
+      "Tool"
     ],
-    "publishedAt": "2026-11-02T07:27:28.000Z"
+    "publishedAt": "2026-11-03T01:49:52.000Z"
   },
   {
-    "headline": "AI fan wikis riddled with errors are muddying the waters of games culture",
+    "headline": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
     "badge": "new",
-    "summary": "Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides If you click on a link and make a purchase we may receive a small commission. Home Features AI fan wikis riddled with errors are muddying the waters of an already contested part of games culture \"These tools have made it very easy for bad actors to crowd out good.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "eurogamer.net",
-    "sourceUrl": "https://www.eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
-    "termNames": [
-      "Artificial Intelligence (AI)"
-    ],
-    "publishedAt": "2026-11-02T01:47:07.000Z"
-  },
-  {
-    "headline": "Show HN: Better Together – AI agents team up against spam calls and texts",
-    "badge": "new",
-    "summary": "Launched https://better-together.fun this weekend to allow our personal AI agents to collaborate on problems that are tough to solve solo. First up is dealing with spam texts and calls.",
-    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
-    "sourceName": "better-together.fun",
-    "sourceUrl": "https://better-together.fun",
+    "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion.",
+    "whyItMatters": "This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+    "sourceName": "TechCrunch AI",
+    "sourceUrl": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
     "termNames": [
       "Artificial Intelligence (AI)",
       "AI Agent"
     ],
-    "publishedAt": "2026-11-02T00:19:11.000Z"
+    "publishedAt": "2026-11-03T00:35:52.000Z"
   },
   {
-    "headline": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+    "headline": "Anthropic's growth just flattened",
     "badge": "new",
-    "summary": "Founder Summit begins Nov. 4, 9:00 a.m. ET. Get your pass savings & deals before it starts. REGISTER HERE. Data centers are deeply unpopular . But what if we called them something else? Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too .",
+    "summary": "At first glance, this number seems astonishing. It’s another jaw-dropping sequential gain for what is likely the fastest-growing company in history.",
+    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+    "sourceName": "regenerator1.com",
+    "sourceUrl": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+    "termNames": [
+      "Artificial Intelligence (AI)",
+      "Anthropic"
+    ],
+    "publishedAt": "2026-11-02T22:33:20.000Z"
+  },
+  {
+    "headline": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+    "badge": "new",
+    "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
     "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
     "sourceName": "TechCrunch AI",
-    "sourceUrl": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+    "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
     "termNames": [
       "Artificial Intelligence (AI)",
-      "Chatbot",
-      "Training Data"
+      "Anthropic"
     ],
-    "publishedAt": "2026-11-01T21:55:23.000Z"
+    "publishedAt": "2026-11-02T22:14:50.000Z"
   },
   {
-    "headline": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+    "headline": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
     "badge": "new",
-    "summary": "How I built custom MCP integrations and used multiple ChatGPT conversations for software development.",
-    "whyItMatters": "Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
-    "sourceName": "chaosmanage.github.io",
-    "sourceUrl": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
+    "summary": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout.",
+    "whyItMatters": "The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+    "sourceName": "cnbc.com",
+    "sourceUrl": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
     "termNames": [
-      "Artificial Intelligence (AI)",
-      "Chatbot"
+      "Artificial Intelligence (AI)"
     ],
-    "publishedAt": "2026-11-01T17:01:34.000Z"
+    "publishedAt": "2026-11-02T19:27:37.000Z"
   }
 ]

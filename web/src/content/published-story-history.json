@@ -2795,6 +2795,42 @@
       "context": "How I built custom MCP integrations and used multiple ChatGPT conversations for software development. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
       "sourceUrl": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
       "publishedAt": "2026-11-01T17:01:34.000Z"
+    },
+    {
+      "headline": "Apple Watch’s AI features for rewinding and recapping conversations begin beta testing",
+      "context": "Now in beta: Apple's new Audio Intelligence features can help you remember what someone said or take notes on conversations. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing",
+      "publishedAt": "2026-11-03T07:20:00.000Z"
+    },
+    {
+      "headline": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "context": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call. This matters because AI is getting built into normal devices and apps.  People will not always choose to use AI; sometimes it will just be part of the product.",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps",
+      "publishedAt": "2026-11-03T01:49:52.000Z"
+    },
+    {
+      "headline": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "context": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion. This matters because it changes the shape of work, not just software.  People may spend less time doing routine tasks and more time checking, directing, and fixing AI output.",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
+      "publishedAt": "2026-11-03T00:35:52.000Z"
+    },
+    {
+      "headline": "Anthropic's growth just flattened",
+      "context": "At first glance, this number seems astonishing. It’s another jaw-dropping sequential gain for what is likely the fastest-growing company in history. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
+      "publishedAt": "2026-11-02T22:33:20.000Z"
+    },
+    {
+      "headline": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "context": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return. Model changes show up in the tools people already use for writing, coding, studying, and research.  Small changes upstream can change what feels easy or risky downstream.",
+      "sourceUrl": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai",
+      "publishedAt": "2026-11-02T22:14:50.000Z"
+    },
+    {
+      "headline": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "context": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout. The useful question is not whether this sounds futuristic.  It is whether it changes a real decision for workers, customers, developers, schools, governments, or families.",
+      "sourceUrl": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "publishedAt": "2026-11-02T19:27:37.000Z"
     }
   ]
 }
